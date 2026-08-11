@@ -5,7 +5,7 @@
   import speciesData from '$lib/data/species.json';
   import { getVisibleTier } from '$lib/utils/cookies';
 
-  let activeTab = $state('feliformia');
+  let activeTab = $state('caniformia');
   let visibleTier = $state(1);
 
   onMount(() => {

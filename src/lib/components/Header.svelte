@@ -3,7 +3,7 @@
   import speciesData from '$lib/data/species.json';
   import XIcon from '$lib/components/XIcon.svelte';
 
-  let { activeTab = $bindable("feliformia"), visibleTier = 1, onTabChange } = $props<{
+  let { activeTab = $bindable("caniformia"), visibleTier = 1, onTabChange } = $props<{
     activeTab?: string;
     visibleTier?: number;
     onTabChange?: (tab: string) => void;

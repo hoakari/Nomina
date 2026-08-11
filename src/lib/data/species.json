@@ -1,463 +1,6 @@
 {
   "categories": [
     {
-      "id": "feliformia",
-      "name_short": "ネコ",
-      "name_kids": "ネコのなかま",
-      "name_ja": "食肉目ネコ型亜目",
-      "name_en": "Feliformia (Cat-like Carnivorans)",
-      "families": [
-        {
-          "id": "felidae",
-          "name_ja": "ネコ科",
-          "name_en": "Felidae",
-          "species": [
-            {
-              "id": "cat",
-              "tier": 1,
-              "name_common": "ネコ",
-              "name_standard_ja": "イエネコ（三毛猫）",
-              "name_en": "Cat",
-              "image": "/images/animals/cat.png",
-              "description_note": "にゃーんと鳴く身近で大人気のペット",
-              "bg_color": "from-rose-100 to-pink-100",
-              "accent_color": "border-pink-300",
-              "name_zh_cn": "猫",
-              "name_zh_tw": "貓",
-              "name_es_es": "Gato",
-              "name_es_mx": "Gato"
-            },
-            {
-              "id": "lion",
-              "tier": 1,
-              "name_common": "ライオン",
-              "name_standard_ja": "ライオン",
-              "name_en": "Lion",
-              "image": "/images/animals/lion.png",
-              "description_note": "ガオー！「百獣の王」と呼ばれる大きなネコ",
-              "bg_color": "from-yellow-100 to-amber-200",
-              "accent_color": "border-yellow-500",
-              "name_zh_cn": "狮子",
-              "name_zh_tw": "獅子",
-              "name_es_es": "León",
-              "name_es_mx": "León"
-            },
-            {
-              "id": "tiger",
-              "tier": 1,
-              "name_common": "トラ",
-              "name_standard_ja": "トラ",
-              "name_en": "Tiger",
-              "image": "/images/animals/tiger.png",
-              "description_note": "かっこいい黄色と黒のしま模様を持つネコ",
-              "bg_color": "from-amber-100 to-orange-200",
-              "accent_color": "border-orange-500",
-              "name_zh_cn": "老虎",
-              "name_zh_tw": "老虎",
-              "name_es_es": "Tigre",
-              "name_es_mx": "Tigre"
-            },
-            {
-              "id": "leopard",
-              "tier": 1,
-              "name_common": "ヒョウ",
-              "name_standard_ja": "ヒョウ",
-              "name_en": "Leopard",
-              "image": "/images/animals/leopard.png",
-              "description_note": "木登りが得意でおしゃれなヒョウ柄模様",
-              "bg_color": "from-yellow-100 to-orange-100",
-              "accent_color": "border-amber-400",
-              "name_zh_cn": "豹",
-              "name_zh_tw": "花豹",
-              "name_es_es": "Leopardo",
-              "name_es_mx": "Leopardo"
-            },
-            {
-              "id": "cheetah",
-              "tier": 1,
-              "name_common": "チーター",
-              "name_standard_ja": "チーター",
-              "name_en": "Cheetah",
-              "image": "/images/animals/cheetah.webp",
-              "description_note": "走るのが世界一速いスピードの王者！",
-              "bg_color": "from-amber-100 to-yellow-100",
-              "accent_color": "border-yellow-400",
-              "name_zh_cn": "猎豹",
-              "name_zh_tw": "獵豹",
-              "name_es_es": "Guepardo",
-              "name_es_mx": "Chita"
-            },
-            {
-              "id": "fishing-cat",
-              "tier": 2,
-              "name_common": "スナドリネコ",
-              "name_standard_ja": "スナドリネコ",
-              "name_en": "Fishing Cat",
-              "image": "/images/animals/fishing-cat.webp",
-              "description_note": "水に入って魚を捕まえる泳ぎが得意な珍しい野生ネコ！",
-              "bg_color": "from-slate-100 to-stone-200",
-              "accent_color": "border-slate-400",
-              "name_zh_cn": "渔猫",
-              "name_zh_tw": "漁貓",
-              "name_es_es": "Gato Pescador",
-              "name_es_mx": "Gato Pescador"
-            },
-            {
-              "id": "serval",
-              "tier": 2,
-              "name_common": "サーバル",
-              "name_standard_ja": "サーバル",
-              "name_en": "Serval",
-              "image": "/images/animals/serval.webp",
-              "description_note": "大きな耳と長い足がとてもスタイリッシュ",
-              "bg_color": "from-indigo-100 to-purple-100",
-              "accent_color": "border-indigo-300",
-              "name_zh_cn": "薮猫",
-              "name_zh_tw": "藪貓",
-              "name_es_es": "Serval",
-              "name_es_mx": "Serval"
-            },
-            {
-              "id": "sand-cat",
-              "tier": 2,
-              "name_common": "スナネコ",
-              "name_standard_ja": "スナネコ",
-              "name_en": "Sand Cat",
-              "image": "/images/animals/sand-cat.webp",
-              "description_note": "「砂漠の天使」と呼ばれる小さくて可愛いネコ",
-              "bg_color": "from-teal-100 to-cyan-100",
-              "accent_color": "border-teal-400",
-              "name_zh_cn": "沙漠猫",
-              "name_zh_tw": "沙漠貓",
-              "name_es_es": "Gato del Desierto",
-              "name_es_mx": "Gato del Desierto"
-            },
-            {
-              "id": "black-footed-cat",
-              "tier": 2,
-              "name_common": "クロアシネコ",
-              "name_standard_ja": "クロアシネコ",
-              "name_en": "Black-footed Cat",
-              "image": "/images/animals/black-footed-cat.webp",
-              "description_note": "世界最小級の可愛さ！だけど狩りの成功率は世界一高い最強ハンター！",
-              "bg_color": "from-amber-100 to-yellow-100",
-              "accent_color": "border-amber-400",
-              "name_zh_cn": "黑足猫",
-              "name_zh_tw": "黑足貓",
-              "name_es_es": "Gato de Pies Negros",
-              "name_es_mx": "Gato de Pies Negros"
-            },
-            {
-              "id": "pallass-cat",
-              "tier": 2,
-              "name_common": "マヌルネコ",
-              "name_standard_ja": "マヌルネコ",
-              "name_en": "Pallas's Cat",
-              "image": "/images/animals/pallass-cat.webp",
-              "description_note": "ふわふわモコモコの毛とユニークなお顔",
-              "bg_color": "from-orange-100 to-amber-100",
-              "accent_color": "border-orange-400",
-              "name_zh_cn": "兔狲",
-              "name_zh_tw": "兔猻",
-              "name_es_es": "Manul",
-              "name_es_mx": "Manul"
-            },
-            {
-              "id": "iriomote-cat",
-              "tier": 2,
-              "name_common": "イリオモテヤマネコ",
-              "name_standard_ja": "イリオモテヤマネコ",
-              "name_en": "Iriomote Cat",
-              "image": "/images/animals/iriomote-cat.webp",
-              "description_note": "沖縄の西表島だけにすむ特別なヤマネコ",
-              "bg_color": "from-rose-100 to-pink-100",
-              "accent_color": "border-pink-300",
-              "name_zh_cn": "西表山猫",
-              "name_zh_tw": "西表山貓",
-              "name_es_es": "Gato de Iriomote",
-              "name_es_mx": "Gato de Iriomote"
-            },
-            {
-              "id": "jaguar",
-              "tier": 2,
-              "name_common": "ジャガー",
-              "name_standard_ja": "ジャガー",
-              "name_en": "Jaguar",
-              "image": "/images/animals/jaguar.webp",
-              "description_note": "水泳が得意な南アメリカで一番大きいネコ",
-              "bg_color": "from-emerald-50 to-teal-100",
-              "accent_color": "border-emerald-300",
-              "name_zh_cn": "美洲豹",
-              "name_zh_tw": "美洲豹",
-              "name_es_es": "Yaguar",
-              "name_es_mx": "Jaguar"
-            },
-            {
-              "id": "snow-leopard",
-              "tier": 2,
-              "name_common": "ユキヒョウ",
-              "name_standard_ja": "ユキヒョウ",
-              "name_en": "Snow Leopard",
-              "image": "/images/animals/snow-leopard.webp",
-              "description_note": "高い山にすむ ふわふわな長いシッポのヒョウ",
-              "bg_color": "from-sky-100 to-blue-100",
-              "accent_color": "border-sky-300",
-              "name_zh_cn": "雪豹",
-              "name_zh_tw": "雪豹",
-              "name_es_es": "Leopardo de las Nieves",
-              "name_es_mx": "Leopardo de las Nieves"
-            },
-            {
-              "id": "clouded-leopard",
-              "tier": 2,
-              "name_common": "ウンピョウ",
-              "name_standard_ja": "ウンピョウ",
-              "name_en": "Clouded Leopard",
-              "image": "/images/animals/clouded-leopard.webp",
-              "description_note": "まるで雲のような美しいもようがあるよ",
-              "bg_color": "from-slate-100 to-stone-200",
-              "accent_color": "border-slate-400",
-              "name_zh_cn": "云豹",
-              "name_zh_tw": "雲豹",
-              "name_es_es": "Pantera Nebulosa",
-              "name_es_mx": "Pantera Nebulosa"
-            },
-            {
-              "id": "caracal",
-              "tier": 2,
-              "name_common": "カラカル",
-              "name_standard_ja": "カラカル",
-              "name_en": "Caracal",
-              "image": "/images/animals/caracal.webp",
-              "description_note": "耳の先からぴょんと黒い毛がはえているよ",
-              "bg_color": "from-indigo-100 to-purple-100",
-              "accent_color": "border-indigo-300",
-              "name_zh_cn": "狞猫",
-              "name_zh_tw": "檸貓",
-              "name_es_es": "Caracal",
-              "name_es_mx": "Caracal"
-            },
-            {
-              "id": "puma",
-              "tier": 2,
-              "name_common": "ピューマ",
-              "name_standard_ja": "ピューマ",
-              "name_en": "Puma",
-              "image": "/images/animals/puma.webp",
-              "description_note": "山の中をジャンプしてしなやかに走るハンター",
-              "bg_color": "from-teal-100 to-cyan-100",
-              "accent_color": "border-teal-400",
-              "name_zh_cn": "美洲狮",
-              "name_zh_tw": "美洲獅",
-              "name_es_es": "Puma",
-              "name_es_mx": "Puma",
-              "name_en_gb": "Cougar"
-            },
-            {
-              "id": "jaguarundi",
-              "tier": 2,
-              "name_common": "ジャガランディ",
-              "name_standard_ja": "ジャガランディ",
-              "name_en": "Jaguarundi",
-              "image": "/images/animals/jaguarundi.webp",
-              "description_note": "イタチやカワウソそっくり！昼間に活発に動く珍しいネコ",
-              "bg_color": "from-amber-100 to-yellow-100",
-              "accent_color": "border-amber-400",
-              "name_zh_cn": "细腰猫",
-              "name_zh_tw": "細腰貓",
-              "name_es_es": "Yaguarundí",
-              "name_es_mx": "Yaguarundí"
-            },
-            {
-              "id": "ocelot",
-              "tier": 2,
-              "name_common": "オセロット",
-              "name_standard_ja": "オセロット",
-              "name_en": "Ocelot",
-              "image": "/images/animals/ocelot.webp",
-              "description_note": "芸術的なきれいな模様を持ったかっこいいネコ",
-              "bg_color": "from-orange-100 to-amber-100",
-              "accent_color": "border-orange-400",
-              "name_zh_cn": "豹猫",
-              "name_zh_tw": "美洲豹貓",
-              "name_es_es": "Ocelote",
-              "name_es_mx": "Ocelote"
-            },
-            {
-              "id": "african-wildcat",
-              "tier": 3,
-              "name_common": "リビアヤマネコ",
-              "name_standard_ja": "リビアヤマネコ",
-              "name_en": "African Wildcat",
-              "image": "/images/animals/african-wildcat.webp",
-              "description_note": "いまのイエネコたちのご先祖様",
-              "bg_color": "from-rose-100 to-pink-100",
-              "accent_color": "border-pink-300",
-              "name_zh_cn": "野猫",
-              "name_zh_tw": "野貓",
-              "name_es_es": "Gato Montés Africano",
-              "name_es_mx": "Gato Montés"
-            }
-          ]
-        },
-        {
-          "id": "hyaenidae",
-          "name_ja": "ハイエナ科",
-          "name_en": "Hyaenidae",
-          "species": [
-            {
-              "id": "spotted-hyena",
-              "tier": 2,
-              "name_common": "ハイエナ",
-              "name_standard_ja": "ブチハイエナ",
-              "name_en": "Spotted Hyena",
-              "image": "/images/animals/spotted-hyena.webp",
-              "description_note": "とっても強いアゴを持ったサバンナのハンター",
-              "bg_color": "from-emerald-50 to-teal-100",
-              "accent_color": "border-emerald-300",
-              "name_zh_cn": "鬣狗",
-              "name_zh_tw": "鬣狗",
-              "name_es_es": "Hiena",
-              "name_es_mx": "Hiena"
-            },
-            {
-              "id": "aardwolf",
-              "tier": 2,
-              "name_common": "アードウルフ",
-              "name_standard_ja": "アードウルフ",
-              "name_en": "Aardwolf",
-              "image": "/images/animals/aardwolf.webp",
-              "description_note": "ハイエナの仲間なのに肉を食べずシロアリだけを食べる大人しい仲間！",
-              "bg_color": "from-sky-100 to-blue-100",
-              "accent_color": "border-sky-300",
-              "name_zh_cn": "土狼",
-              "name_zh_tw": "土狼",
-              "name_es_es": "Lobo de Tierra",
-              "name_es_mx": "Lobo de Tierra"
-            }
-          ]
-        },
-        {
-          "id": "viverridae",
-          "name_ja": "ジャコウネコ科",
-          "name_en": "Viverridae",
-          "species": [
-            {
-              "id": "asian-palm-civet",
-              "tier": 2,
-              "name_common": "パームシベット",
-              "name_standard_ja": "マレーパームシベット",
-              "name_en": "Asian Palm Civet",
-              "image": "/images/animals/asian-palm-civet.webp",
-              "description_note": "完熟したコーヒーの実が大好物！世界一高級なコーヒー「コピ・ルアク」の生みの親！",
-              "bg_color": "from-slate-100 to-stone-200",
-              "accent_color": "border-slate-400",
-              "name_zh_cn": "椰子猫",
-              "name_zh_tw": "椰子貓",
-              "name_es_es": "Civeta de las Palmeras",
-              "name_es_mx": "Civeta de las Palmeras"
-            },
-            {
-              "id": "masked-palm-civet",
-              "tier": 2,
-              "name_common": "ハクビシン",
-              "name_standard_ja": "ハクビシン",
-              "name_en": "Masked Palm Civet",
-              "image": "/images/animals/masked-palm-civet.webp",
-              "description_note": "おでこから鼻にかけて白い一本線があるよ",
-              "bg_color": "from-indigo-100 to-purple-100",
-              "accent_color": "border-indigo-300",
-              "name_zh_cn": "果子狸",
-              "name_zh_tw": "果子狸",
-              "name_es_es": "Paguma",
-              "name_es_mx": "Paguma"
-            },
-            {
-              "id": "binturong",
-              "tier": 2,
-              "name_common": "ビントロング",
-              "name_standard_ja": "ビントロング",
-              "name_en": "Binturong",
-              "image": "/images/animals/binturong.webp",
-              "description_note": "「クマジャコウネコ」と呼ばれる黒いふさふさ巨体！体がポップコーンの香りがするよ",
-              "bg_color": "from-teal-100 to-cyan-100",
-              "accent_color": "border-teal-400",
-              "name_zh_cn": "熊狸",
-              "name_zh_tw": "熊狸",
-              "name_es_es": "Binturong",
-              "name_es_mx": "Binturong"
-            }
-          ]
-        },
-        {
-          "id": "herpestidae",
-          "name_ja": "マングース科",
-          "name_en": "Herpestidae",
-          "species": [
-            {
-              "id": "mongoose",
-              "tier": 1,
-              "name_common": "マングース",
-              "name_standard_ja": "エジプトマングース",
-              "name_en": "Mongoose",
-              "image": "/images/animals/mongoose.webp",
-              "description_note": "どくへびにも負けないすばしっこいハンター",
-              "bg_color": "from-amber-100 to-yellow-100",
-              "accent_color": "border-amber-400",
-              "name_zh_cn": "埃及獴",
-              "name_zh_tw": "埃及獴",
-              "name_es_es": "Mangosta Egipcia",
-              "name_es_mx": "Mangosta Egipcia"
-            }
-          ]
-        },
-        {
-          "id": "eupleridae",
-          "name_ja": "マダガスカルマングース科",
-          "name_en": "Eupleridae",
-          "species": [
-            {
-              "id": "fossa",
-              "tier": 2,
-              "name_common": "フォッサ",
-              "name_standard_ja": "フォッサ",
-              "name_en": "Fossa",
-              "image": "/images/animals/fossa.webp",
-              "description_note": "マダガスカル島最大の肉食獣！木登りが大得意なトップハンター",
-              "bg_color": "from-orange-100 to-amber-100",
-              "accent_color": "border-orange-400",
-              "name_zh_cn": "马岛獴",
-              "name_zh_tw": "馬島獴",
-              "name_es_es": "Fossa",
-              "name_es_mx": "Fossa"
-            }
-          ]
-        },
-        {
-          "id": "prionodontidae",
-          "name_ja": "オビリンサン科",
-          "name_en": "Prionodontidae",
-          "species": [
-            {
-              "id": "banded-linsang",
-              "tier": 2,
-              "name_common": "オビリンサン",
-              "name_standard_ja": "オビリンサン",
-              "name_en": "Banded Linsang",
-              "image": "/images/animals/banded-linsang.webp",
-              "description_note": "しましま模様のしなやかな体の珍しい仲間",
-              "bg_color": "from-rose-100 to-pink-100",
-              "accent_color": "border-pink-300",
-              "name_zh_cn": "斑林狸",
-              "name_zh_tw": "斑林狸",
-              "name_es_es": "Linsang Rayado",
-              "name_es_mx": "Linsang Rayado"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "caniformia",
       "name_short": "イヌ",
       "name_kids": "イヌのなかま",
@@ -1132,555 +675,457 @@
       ]
     },
     {
-      "id": "rodentia",
-      "name_short": "ネズミ・リス",
-      "name_kids": "ネズミとリスのなかま",
-      "name_ja": "齧歯目",
-      "name_en": "Rodentia (Rodents)",
+      "id": "feliformia",
+      "name_short": "ネコ",
+      "name_kids": "ネコのなかま",
+      "name_ja": "食肉目ネコ型亜目",
+      "name_en": "Feliformia (Cat-like Carnivorans)",
       "families": [
         {
-          "id": "aplodontiidae",
-          "name_ja": "ヤマビーバー科",
-          "name_en": "Aplodontiidae",
+          "id": "felidae",
+          "name_ja": "ネコ科",
+          "name_en": "Felidae",
           "species": [
             {
-              "id": "mountain-beaver",
-              "tier": 2,
-              "name_common": "ヤマビーバー",
-              "name_standard_ja": "ヤマビーバー",
-              "name_en": "Mountain Beaver",
-              "image": "/images/animals/mountain-beaver.webp",
-              "description_note": "現生するネズミの仲間で最も原始的！「生きている化石」",
-              "bg_color": "from-slate-100 to-stone-200",
-              "accent_color": "border-slate-400",
-              "name_zh_cn": "山海狸",
-              "name_zh_tw": "山海狸",
-              "name_es_es": "Castor de Montaña",
-              "name_es_mx": "Castor de Montaña"
-            }
-          ]
-        },
-        {
-          "id": "sciuridae",
-          "name_ja": "リス科",
-          "name_en": "Sciuridae",
-          "species": [
-            {
-              "id": "chipmunk",
+              "id": "cat",
               "tier": 1,
-              "name_common": "シマリス",
-              "name_standard_ja": "ニホンシマリス",
-              "name_en": "Chipmunk",
-              "image": "/images/animals/chipmunk.webp",
-              "description_note": "どんぐりをほっぺたにいっぱい詰める！背中にしま模様があるよ",
-              "bg_color": "from-amber-100 to-yellow-100",
-              "accent_color": "border-amber-400",
-              "name_zh_cn": "花鼠",
-              "name_zh_tw": "花鼠",
-              "name_es_es": "Ardilla Listada",
-              "name_es_mx": "Ardilla Listada"
-            },
-            {
-              "id": "momonga",
-              "tier": 1,
-              "name_common": "モモンガ",
-              "name_standard_ja": "ニホンモモンガ",
-              "name_en": "Flying Squirrel",
-              "image": "/images/animals/momonga.webp",
-              "description_note": "手足を広げて木から木へ滑空するくりくりお目の人気者！",
-              "bg_color": "from-emerald-50 to-teal-100",
-              "accent_color": "border-emerald-300",
-              "name_zh_cn": "飞鼠",
-              "name_zh_tw": "飛鼠",
-              "name_es_es": "Ardilla Voladora",
-              "name_es_mx": "Ardilla Voladora"
-            },
-            {
-              "id": "musasabi",
-              "tier": 1,
-              "name_common": "ムササビ",
-              "name_standard_ja": "ムササビ",
-              "name_en": "Japanese Giant Flying Squirrel",
-              "image": "/images/animals/musasabi.webp",
-              "description_note": "モモンガよりずっと巨大！夜の空を飛ぶ「空飛ぶ座布団」",
-              "bg_color": "from-stone-200 to-amber-100",
-              "accent_color": "border-stone-400",
-              "name_zh_cn": "鼯鼠",
-              "name_zh_tw": "鼯鼠",
-              "name_es_es": "Ardilla Voladora Gigante",
-              "name_es_mx": "Ardilla Voladora Gigante"
-            },
-            {
-              "id": "japanese-squirrel",
-              "tier": 2,
-              "name_common": "ニホンリス",
-              "name_standard_ja": "ニホンリス",
-              "name_en": "Japanese Squirrel",
-              "image": "/images/animals/japanese-squirrel.webp",
-              "description_note": "日本の森にすむシッポがふさふさの可愛いリス",
-              "bg_color": "from-orange-100 to-amber-100",
-              "accent_color": "border-orange-400",
-              "name_zh_cn": "日本松鼠",
-              "name_zh_tw": "日本松鼠",
-              "name_es_es": "Ardilla Japonesa",
-              "name_es_mx": "Ardilla Japonesa"
-            },
-            {
-              "id": "formosan-squirrel",
-              "tier": 2,
-              "name_common": "タイリクリス",
-              "name_standard_ja": "タイワンリス（クリハラリス）",
-              "name_en": "Formosan Squirrel",
-              "image": "/images/animals/formosan-squirrel.webp",
-              "description_note": "公園や森で元気いっぱいに走る大きなリス",
+              "name_common": "ネコ",
+              "name_standard_ja": "イエネコ（三毛猫）",
+              "name_en": "Cat",
+              "image": "/images/animals/cat.png",
+              "description_note": "にゃーんと鳴く身近で大人気のペット",
               "bg_color": "from-rose-100 to-pink-100",
               "accent_color": "border-pink-300",
-              "name_zh_cn": "赤腹松鼠",
-              "name_zh_tw": "赤腹松鼠",
-              "name_es_es": "Ardilla de Vientre Rojo",
-              "name_es_mx": "Ardilla de Vientre Rojo"
+              "name_zh_cn": "猫",
+              "name_zh_tw": "貓",
+              "name_es_es": "Gato",
+              "name_es_mx": "Gato"
             },
             {
-              "id": "black-tailed-prairie-dog",
-              "tier": 2,
-              "name_common": "プレーリードッグ",
-              "name_standard_ja": "オグロプレーリードッグ",
-              "name_en": "Black-tailed Prairie Dog",
-              "image": "/images/animals/black-tailed-prairie-dog.webp",
-              "description_note": "二本足でピンと立って「キャン！」と大声で警戒音を出すよ",
-              "bg_color": "from-emerald-50 to-teal-100",
-              "accent_color": "border-emerald-300",
-              "name_zh_cn": "黑尾土拨鼠",
-              "name_zh_tw": "黑尾土撥鼠",
-              "name_es_es": "Perrito de la Pradera",
-              "name_es_mx": "Perrito de la Pradera"
-            }
-          ]
-        },
-        {
-          "id": "gliridae",
-          "name_ja": "ヤマネ科",
-          "name_en": "Gliridae",
-          "species": [
-            {
-              "id": "japanese-dormouse",
-              "tier": 2,
-              "name_common": "ヤマネ",
-              "name_standard_ja": "ニホンヤマネ",
-              "name_en": "Japanese Dormouse",
-              "image": "/images/animals/japanese-dormouse.webp",
-              "description_note": "日本だけにすむ特別天然記念物！丸くなって冬眠するよ",
-              "bg_color": "from-sky-100 to-blue-100",
-              "accent_color": "border-sky-300",
-              "name_zh_cn": "睡鼠",
-              "name_zh_tw": "睡鼠",
-              "name_es_es": "Lirón",
-              "name_es_mx": "Lirón"
-            }
-          ]
-        },
-        {
-          "id": "castoridae",
-          "name_ja": "ビーバー科",
-          "name_en": "Castoridae",
-          "species": [
-            {
-              "id": "beaver",
+              "id": "lion",
               "tier": 1,
-              "name_common": "ビーバー",
-              "name_standard_ja": "アメリカビーバー",
-              "name_en": "Beaver",
-              "image": "/images/animals/beaver.webp",
-              "description_note": "平らなシッポと強い歯！川に木のダムを造る建築の天才！",
-              "bg_color": "from-amber-100 to-orange-100",
+              "name_common": "ライオン",
+              "name_standard_ja": "ライオン",
+              "name_en": "Lion",
+              "image": "/images/animals/lion.png",
+              "description_note": "ガオー！「百獣の王」と呼ばれる大きなネコ",
+              "bg_color": "from-yellow-100 to-amber-200",
+              "accent_color": "border-yellow-500",
+              "name_zh_cn": "狮子",
+              "name_zh_tw": "獅子",
+              "name_es_es": "León",
+              "name_es_mx": "León"
+            },
+            {
+              "id": "tiger",
+              "tier": 1,
+              "name_common": "トラ",
+              "name_standard_ja": "トラ",
+              "name_en": "Tiger",
+              "image": "/images/animals/tiger.png",
+              "description_note": "かっこいい黄色と黒のしま模様を持つネコ",
+              "bg_color": "from-amber-100 to-orange-200",
+              "accent_color": "border-orange-500",
+              "name_zh_cn": "老虎",
+              "name_zh_tw": "老虎",
+              "name_es_es": "Tigre",
+              "name_es_mx": "Tigre"
+            },
+            {
+              "id": "leopard",
+              "tier": 1,
+              "name_common": "ヒョウ",
+              "name_standard_ja": "ヒョウ",
+              "name_en": "Leopard",
+              "image": "/images/animals/leopard.png",
+              "description_note": "木登りが得意でおしゃれなヒョウ柄模様",
+              "bg_color": "from-yellow-100 to-orange-100",
               "accent_color": "border-amber-400",
-              "name_zh_cn": "海狸",
-              "name_zh_tw": "海狸",
-              "name_es_es": "Castor",
-              "name_es_mx": "Castor"
-            }
-          ]
-        },
-        {
-          "id": "geomyidae",
-          "name_ja": "ホリネズミ科",
-          "name_en": "Geomyidae",
-          "species": [
-            {
-              "id": "pocket-gopher",
-              "tier": 2,
-              "name_common": "ホリネズミ",
-              "name_standard_ja": "キタホリネズミ",
-              "name_en": "Pocket Gopher",
-              "image": "/images/animals/pocket-gopher.webp",
-              "description_note": "ほっぺの外側にポケット袋がある地下の穴掘り名人！",
-              "bg_color": "from-indigo-100 to-purple-100",
-              "accent_color": "border-indigo-300",
-              "name_zh_cn": "囊鼠",
-              "name_zh_tw": "囊鼠",
-              "name_es_es": "Tuzo",
-              "name_es_mx": "Tuzo"
-            }
-          ]
-        },
-        {
-          "id": "heteromyidae",
-          "name_ja": "カンガルーネズミ科",
-          "name_en": "Heteromyidae",
-          "species": [
-            {
-              "id": "kangaroo-mouse",
-              "tier": 2,
-              "name_common": "カンガルーハムスター",
-              "name_standard_ja": "カンガルーハムスター",
-              "name_en": "Kangaroo Mouse",
-              "image": "/images/animals/kangaroo-mouse.webp",
-              "description_note": "砂漠を二本足でカンガルーみたいにぴょんぴょん跳ぶよ",
-              "bg_color": "from-teal-100 to-cyan-100",
-              "accent_color": "border-teal-400",
-              "name_zh_cn": "袋鼠鼠",
-              "name_zh_tw": "袋鼠鼠",
-              "name_es_es": "Ratón Canguro",
-              "name_es_mx": "Ratón Canguro"
-            }
-          ]
-        },
-        {
-          "id": "caviidae",
-          "name_ja": "テンジクネズミ科",
-          "name_en": "Caviidae",
-          "species": [
-            {
-              "id": "capybara",
-              "tier": 1,
-              "name_common": "カピバラ",
-              "name_standard_ja": "カピバラ",
-              "name_en": "Capybara",
-              "image": "/images/animals/capybara.webp",
-              "description_note": "世界で一番大きいネズミ！お湯につかる温泉が大好物",
-              "bg_color": "from-emerald-50 to-teal-100",
-              "accent_color": "border-emerald-300",
-              "name_zh_cn": "水豚",
-              "name_zh_tw": "水豚",
-              "name_es_es": "Capibara",
-              "name_es_mx": "Capibara"
+              "name_zh_cn": "豹",
+              "name_zh_tw": "花豹",
+              "name_es_es": "Leopardo",
+              "name_es_mx": "Leopardo"
             },
             {
-              "id": "guinea-pig",
+              "id": "cheetah",
               "tier": 1,
-              "name_common": "モルモット",
-              "name_standard_ja": "モルモット",
-              "name_en": "Guinea Pig",
-              "image": "/images/animals/guinea_pig.webp",
-              "description_note": "ぷくぷく丸い体！ふれあい動物園でおなじみの人気者",
-              "bg_color": "from-pink-100 to-rose-100",
-              "accent_color": "border-pink-300",
-              "name_zh_cn": "荷兰猪",
-              "name_zh_tw": "天竺鼠",
-              "name_es_es": "Cobaya",
-              "name_es_mx": "Cuy"
-            },
-            {
-              "id": "patagonian-mara",
-              "tier": 2,
-              "name_common": "マーラ",
-              "name_standard_ja": "パタゴニアマーラ",
-              "name_en": "Patagonian Mara",
-              "image": "/images/animals/patagonian-mara.webp",
-              "description_note": "ウサギみたいな長い脚で走る珍しいテンジクネズミ",
-              "bg_color": "from-rose-100 to-pink-100",
-              "accent_color": "border-pink-300",
-              "name_zh_cn": "巴塔哥尼亚玛拉",
-              "name_zh_tw": "巴塔哥尼亞瑪拉",
-              "name_es_es": "Mara Patagónica",
-              "name_es_mx": "Mara Patagónica"
-            }
-          ]
-        },
-        {
-          "id": "hystricidae",
-          "name_ja": "ヤマアラシ科",
-          "name_en": "Hystricidae",
-          "species": [
-            {
-              "id": "porcupine",
-              "tier": 1,
-              "name_common": "ヤマアラシ",
-              "name_standard_ja": "アフリカタテガミヤマアラシ",
-              "name_en": "Porcupine",
-              "image": "/images/animals/porcupine.webp",
-              "description_note": "背中に白黒の鋭い針と白いタテガミを持つ旧世界最大のヤマアラシ！",
-              "bg_color": "from-stone-200 to-zinc-300",
-              "accent_color": "border-stone-400",
-              "name_zh_cn": "豪猪",
-              "name_zh_tw": "豪豬",
-              "name_es_es": "Puercoespín",
-              "name_es_mx": "Puercoespín"
-            }
-          ]
-        },
-        {
-          "id": "erethizontidae",
-          "name_ja": "アメリカヤマアラシ科",
-          "name_en": "Erethizontidae",
-          "species": [
-            {
-              "id": "north-american-porcupine",
-              "tier": 2,
-              "name_common": "カナダヤマアラシ",
-              "name_standard_ja": "カナダヤマアラシ",
-              "name_en": "North American Porcupine",
-              "image": "/images/animals/north-american-porcupine.webp",
-              "description_note": "木登りが得意で木の上で生活するヤマアラシ",
-              "bg_color": "from-sky-100 to-blue-100",
-              "accent_color": "border-sky-300",
-              "name_zh_cn": "北美豪猪",
-              "name_zh_tw": "北美豪豬",
-              "name_es_es": "Puercoespín Norteamericano",
-              "name_es_mx": "Puercoespín Norteamericano"
-            }
-          ]
-        },
-        {
-          "id": "chinchillidae",
-          "name_ja": "チンチラ科",
-          "name_en": "Chinchillidae",
-          "species": [
-            {
-              "id": "chinchilla",
-              "tier": 2,
-              "name_common": "チンチラ",
-              "name_standard_ja": "チンチラ",
-              "name_en": "Chinchilla",
-              "image": "/images/animals/chinchilla.webp",
-              "description_note": "世界一毛が密集したふわふわ極上の毛並みを持つ人気者！",
-              "bg_color": "from-slate-100 to-stone-200",
-              "accent_color": "border-slate-400",
-              "name_zh_cn": "栗鼠",
-              "name_zh_tw": "絨鼠",
-              "name_es_es": "Chinchilla",
-              "name_es_mx": "Chinchilla"
-            }
-          ]
-        },
-        {
-          "id": "octodontidae",
-          "name_ja": "デグー科",
-          "name_en": "Octodontidae",
-          "species": [
-            {
-              "id": "degu",
-              "tier": 2,
-              "name_common": "デグー",
-              "name_standard_ja": "デグー",
-              "name_en": "Degu",
-              "image": "/images/animals/degu.webp",
-              "description_note": "とても賢くて歌うようにピヨピヨ鳴いて会話するアンデスの仲間",
-              "bg_color": "from-indigo-100 to-purple-100",
-              "accent_color": "border-indigo-300",
-              "name_zh_cn": "八齿鼠",
-              "name_zh_tw": "八齒鼠",
-              "name_es_es": "Degú",
-              "name_es_mx": "Degú"
-            }
-          ]
-        },
-        {
-          "id": "echimyidae",
-          "name_ja": "ヌートリア科",
-          "name_en": "Echimyidae",
-          "species": [
-            {
-              "id": "nutria",
-              "tier": 2,
-              "name_common": "ヌートリア",
-              "name_standard_ja": "ヌートリア",
-              "name_en": "Nutria",
-              "image": "/images/animals/nutria.webp",
-              "description_note": "大きなオレンジ色の歯を持つ水辺にすむ巨大なネズミ",
-              "bg_color": "from-teal-100 to-cyan-100",
-              "accent_color": "border-teal-400",
-              "name_zh_cn": "海狸鼠",
-              "name_zh_tw": "海狸鼠",
-              "name_es_es": "Coipú",
-              "name_es_mx": "Coipú"
-            }
-          ]
-        },
-        {
-          "id": "dipodidae",
-          "name_ja": "トビネズミ科",
-          "name_en": "Dipodidae",
-          "species": [
-            {
-              "id": "pygmy-jerboa",
-              "tier": 3,
-              "name_common": "ピグミージェルボア",
-              "name_standard_ja": "バルチスタンピグミージェルボア",
-              "name_en": "Pygmy Jerboa",
-              "image": "/images/animals/pygmy-jerboa.webp",
-              "description_note": "世界最小級の哺乳類！ピンポン玉サイズの球体にカンガルー脚でぴょんぴょん跳ぶよ",
-              "bg_color": "from-amber-100 to-yellow-100",
-              "accent_color": "border-amber-400",
-              "name_zh_cn": "侏儒跳鼠",
-              "name_zh_tw": "侏儒跳鼠",
-              "name_es_es": "Jerbo Pigmeo",
-              "name_es_mx": "Jerbo Pigmeo"
-            }
-          ]
-        },
-        {
-          "id": "cricetidae",
-          "name_ja": "キヌゲネズミ科",
-          "name_en": "Cricetidae",
-          "species": [
-            {
-              "id": "hamster",
-              "tier": 1,
-              "name_common": "ハムスター",
-              "name_standard_ja": "ゴールデンハムスター",
-              "name_en": "Hamster",
-              "image": "/images/animals/hamster.webp",
-              "description_note": "手のひらサイズ！回し車で一生懸命走る大人気のペット",
+              "name_common": "チーター",
+              "name_standard_ja": "チーター",
+              "name_en": "Cheetah",
+              "image": "/images/animals/cheetah.webp",
+              "description_note": "走るのが世界一速いスピードの王者！",
               "bg_color": "from-amber-100 to-yellow-100",
               "accent_color": "border-yellow-400",
-              "name_zh_cn": "仓鼠",
-              "name_zh_tw": "倉鼠",
-              "name_es_es": "Hámster",
-              "name_es_mx": "Hámster"
+              "name_zh_cn": "猎豹",
+              "name_zh_tw": "獵豹",
+              "name_es_es": "Guepardo",
+              "name_es_mx": "Chita"
             },
             {
-              "id": "norway-lemming",
+              "id": "fishing-cat",
               "tier": 2,
-              "name_common": "レミング",
-              "name_standard_ja": "ノルウェーレミング（タビネズミ）",
-              "name_en": "Lemming",
-              "image": "/images/animals/norway-lemming.webp",
-              "description_note": "集団で大移動する伝説を持った北極のネズミ",
-              "bg_color": "from-rose-100 to-pink-100",
-              "accent_color": "border-pink-300",
-              "name_zh_cn": "旅鼠",
-              "name_zh_tw": "旅鼠",
-              "name_es_es": "Lemming",
-              "name_es_mx": "Lemming"
-            }
-          ]
-        },
-        {
-          "id": "lophiomyidae",
-          "name_ja": "タテガミネズミ科",
-          "name_en": "Lophiomyidae",
-          "species": [
-            {
-              "id": "maned-rat",
-              "tier": 3,
-              "name_common": "タテガミネズミ",
-              "name_standard_ja": "タテガミネズミ",
-              "name_en": "Maned Rat",
-              "image": "/images/animals/maned-rat.webp",
-              "description_note": "毒木の毒を自分で背中のスポンジ毛に塗りたくる「毒塗りバリア」を持つ脅威の有毒ネズミ！",
-              "bg_color": "from-emerald-50 to-teal-100",
-              "accent_color": "border-emerald-300",
-              "name_zh_cn": "冠鼠",
-              "name_zh_tw": "冠鼠",
-              "name_es_es": "Rata de Melena",
-              "name_es_mx": "Rata de Melena"
-            }
-          ]
-        },
-        {
-          "id": "muridae",
-          "name_ja": "ネズミ科",
-          "name_en": "Muridae",
-          "species": [
-            {
-              "id": "house-mouse",
-              "tier": 1,
-              "name_common": "ハツカネズミ",
-              "name_standard_ja": "ハツカネズミ",
-              "name_en": "Mouse",
-              "image": "/images/animals/mouse.webp",
-              "description_note": "小さくてすばしっこい身近なネズミ",
-              "bg_color": "from-slate-100 to-zinc-200",
-              "accent_color": "border-slate-400",
-              "name_zh_cn": "小家鼠",
-              "name_zh_tw": "小家鼠",
-              "name_es_es": "Ratón",
-              "name_es_mx": "Ratón"
-            },
-            {
-              "id": "brown-rat",
-              "tier": 2,
-              "name_common": "ドブネズミ",
-              "name_standard_ja": "ドブネズミ",
-              "name_en": "Brown Rat",
-              "image": "/images/animals/brown-rat.webp",
-              "description_note": "カラスにも負けない力強い大きなネズミ",
+              "name_common": "スナドリネコ",
+              "name_standard_ja": "スナドリネコ",
+              "name_en": "Fishing Cat",
+              "image": "/images/animals/fishing-cat.webp",
+              "description_note": "水に入って魚を捕まえる泳ぎが得意な珍しい野生ネコ！",
               "bg_color": "from-slate-100 to-stone-200",
               "accent_color": "border-slate-400",
-              "name_zh_cn": "褐家鼠",
-              "name_zh_tw": "溝鼠",
-              "name_es_es": "Rata Parda",
-              "name_es_mx": "Rata Alcantarilla"
+              "name_zh_cn": "渔猫",
+              "name_zh_tw": "漁貓",
+              "name_es_es": "Gato Pescador",
+              "name_es_mx": "Gato Pescador"
             },
             {
-              "id": "amami-spiny-rat",
+              "id": "serval",
               "tier": 2,
-              "name_common": "アマミトゲネズミ",
-              "name_standard_ja": "アマミトゲネズミ",
-              "name_en": "Amami Spiny Rat",
-              "image": "/images/animals/amami-spiny-rat.webp",
-              "description_note": "奄美大島だけにすむ背中に針を持つ日本の特別天然記念物",
+              "name_common": "サーバル",
+              "name_standard_ja": "サーバル",
+              "name_en": "Serval",
+              "image": "/images/animals/serval.webp",
+              "description_note": "大きな耳と長い足がとてもスタイリッシュ",
               "bg_color": "from-indigo-100 to-purple-100",
               "accent_color": "border-indigo-300",
-              "name_zh_cn": "奄美刺鼠",
-              "name_zh_tw": "奄美刺鼠",
-              "name_es_es": "Rata Espinosa de Amami",
-              "name_es_mx": "Rata Espinosa de Amami"
-            }
-          ]
-        },
-        {
-          "id": "spalacidae",
-          "name_ja": "メクラネズミ科",
-          "name_en": "Spalacidae",
-          "species": [
+              "name_zh_cn": "薮猫",
+              "name_zh_tw": "藪貓",
+              "name_es_es": "Serval",
+              "name_es_mx": "Serval"
+            },
             {
-              "id": "middle-east-blind-mole-rat",
+              "id": "sand-cat",
               "tier": 2,
-              "name_common": "メクラネズミ",
-              "name_standard_ja": "パレスチナメクラネズミ",
-              "name_en": "Blind Mole-rat",
-              "image": "/images/animals/middle-east-blind-mole-rat.webp",
-              "description_note": "目が皮膚でおおわれている！地下で暮らすネズミの仲間！",
+              "name_common": "スナネコ",
+              "name_standard_ja": "スナネコ",
+              "name_en": "Sand Cat",
+              "image": "/images/animals/sand-cat.webp",
+              "description_note": "「砂漠の天使」と呼ばれる小さくて可愛いネコ",
               "bg_color": "from-teal-100 to-cyan-100",
               "accent_color": "border-teal-400",
-              "name_zh_cn": "盲鼠",
-              "name_zh_tw": "盲鼠",
-              "name_es_es": "Rata Topo Ciega",
-              "name_es_mx": "Rata Topo Ciega"
+              "name_zh_cn": "沙漠猫",
+              "name_zh_tw": "沙漠貓",
+              "name_es_es": "Gato del Desierto",
+              "name_es_mx": "Gato del Desierto"
+            },
+            {
+              "id": "black-footed-cat",
+              "tier": 2,
+              "name_common": "クロアシネコ",
+              "name_standard_ja": "クロアシネコ",
+              "name_en": "Black-footed Cat",
+              "image": "/images/animals/black-footed-cat.webp",
+              "description_note": "世界最小級の可愛さ！だけど狩りの成功率は世界一高い最強ハンター！",
+              "bg_color": "from-amber-100 to-yellow-100",
+              "accent_color": "border-amber-400",
+              "name_zh_cn": "黑足猫",
+              "name_zh_tw": "黑足貓",
+              "name_es_es": "Gato de Pies Negros",
+              "name_es_mx": "Gato de Pies Negros"
+            },
+            {
+              "id": "pallass-cat",
+              "tier": 2,
+              "name_common": "マヌルネコ",
+              "name_standard_ja": "マヌルネコ",
+              "name_en": "Pallas's Cat",
+              "image": "/images/animals/pallass-cat.webp",
+              "description_note": "ふわふわモコモコの毛とユニークなお顔",
+              "bg_color": "from-orange-100 to-amber-100",
+              "accent_color": "border-orange-400",
+              "name_zh_cn": "兔狲",
+              "name_zh_tw": "兔猻",
+              "name_es_es": "Manul",
+              "name_es_mx": "Manul"
+            },
+            {
+              "id": "iriomote-cat",
+              "tier": 2,
+              "name_common": "イリオモテヤマネコ",
+              "name_standard_ja": "イリオモテヤマネコ",
+              "name_en": "Iriomote Cat",
+              "image": "/images/animals/iriomote-cat.webp",
+              "description_note": "沖縄の西表島だけにすむ特別なヤマネコ",
+              "bg_color": "from-rose-100 to-pink-100",
+              "accent_color": "border-pink-300",
+              "name_zh_cn": "西表山猫",
+              "name_zh_tw": "西表山貓",
+              "name_es_es": "Gato de Iriomote",
+              "name_es_mx": "Gato de Iriomote"
+            },
+            {
+              "id": "jaguar",
+              "tier": 2,
+              "name_common": "ジャガー",
+              "name_standard_ja": "ジャガー",
+              "name_en": "Jaguar",
+              "image": "/images/animals/jaguar.webp",
+              "description_note": "水泳が得意な南アメリカで一番大きいネコ",
+              "bg_color": "from-emerald-50 to-teal-100",
+              "accent_color": "border-emerald-300",
+              "name_zh_cn": "美洲豹",
+              "name_zh_tw": "美洲豹",
+              "name_es_es": "Yaguar",
+              "name_es_mx": "Jaguar"
+            },
+            {
+              "id": "snow-leopard",
+              "tier": 2,
+              "name_common": "ユキヒョウ",
+              "name_standard_ja": "ユキヒョウ",
+              "name_en": "Snow Leopard",
+              "image": "/images/animals/snow-leopard.webp",
+              "description_note": "高い山にすむ ふわふわな長いシッポのヒョウ",
+              "bg_color": "from-sky-100 to-blue-100",
+              "accent_color": "border-sky-300",
+              "name_zh_cn": "雪豹",
+              "name_zh_tw": "雪豹",
+              "name_es_es": "Leopardo de las Nieves",
+              "name_es_mx": "Leopardo de las Nieves"
+            },
+            {
+              "id": "clouded-leopard",
+              "tier": 2,
+              "name_common": "ウンピョウ",
+              "name_standard_ja": "ウンピョウ",
+              "name_en": "Clouded Leopard",
+              "image": "/images/animals/clouded-leopard.webp",
+              "description_note": "まるで雲のような美しいもようがあるよ",
+              "bg_color": "from-slate-100 to-stone-200",
+              "accent_color": "border-slate-400",
+              "name_zh_cn": "云豹",
+              "name_zh_tw": "雲豹",
+              "name_es_es": "Pantera Nebulosa",
+              "name_es_mx": "Pantera Nebulosa"
+            },
+            {
+              "id": "caracal",
+              "tier": 2,
+              "name_common": "カラカル",
+              "name_standard_ja": "カラカル",
+              "name_en": "Caracal",
+              "image": "/images/animals/caracal.webp",
+              "description_note": "耳の先からぴょんと黒い毛がはえているよ",
+              "bg_color": "from-indigo-100 to-purple-100",
+              "accent_color": "border-indigo-300",
+              "name_zh_cn": "狞猫",
+              "name_zh_tw": "檸貓",
+              "name_es_es": "Caracal",
+              "name_es_mx": "Caracal"
+            },
+            {
+              "id": "puma",
+              "tier": 2,
+              "name_common": "ピューマ",
+              "name_standard_ja": "ピューマ",
+              "name_en": "Puma",
+              "image": "/images/animals/puma.webp",
+              "description_note": "山の中をジャンプしてしなやかに走るハンター",
+              "bg_color": "from-teal-100 to-cyan-100",
+              "accent_color": "border-teal-400",
+              "name_zh_cn": "美洲狮",
+              "name_zh_tw": "美洲獅",
+              "name_es_es": "Puma",
+              "name_es_mx": "Puma",
+              "name_en_gb": "Cougar"
+            },
+            {
+              "id": "jaguarundi",
+              "tier": 2,
+              "name_common": "ジャガランディ",
+              "name_standard_ja": "ジャガランディ",
+              "name_en": "Jaguarundi",
+              "image": "/images/animals/jaguarundi.webp",
+              "description_note": "イタチやカワウソそっくり！昼間に活発に動く珍しいネコ",
+              "bg_color": "from-amber-100 to-yellow-100",
+              "accent_color": "border-amber-400",
+              "name_zh_cn": "细腰猫",
+              "name_zh_tw": "細腰貓",
+              "name_es_es": "Yaguarundí",
+              "name_es_mx": "Yaguarundí"
+            },
+            {
+              "id": "ocelot",
+              "tier": 2,
+              "name_common": "オセロット",
+              "name_standard_ja": "オセロット",
+              "name_en": "Ocelot",
+              "image": "/images/animals/ocelot.webp",
+              "description_note": "芸術的なきれいな模様を持ったかっこいいネコ",
+              "bg_color": "from-orange-100 to-amber-100",
+              "accent_color": "border-orange-400",
+              "name_zh_cn": "豹猫",
+              "name_zh_tw": "美洲豹貓",
+              "name_es_es": "Ocelote",
+              "name_es_mx": "Ocelote"
+            },
+            {
+              "id": "african-wildcat",
+              "tier": 3,
+              "name_common": "リビアヤマネコ",
+              "name_standard_ja": "リビアヤマネコ",
+              "name_en": "African Wildcat",
+              "image": "/images/animals/african-wildcat.webp",
+              "description_note": "いまのイエネコたちのご先祖様",
+              "bg_color": "from-rose-100 to-pink-100",
+              "accent_color": "border-pink-300",
+              "name_zh_cn": "野猫",
+              "name_zh_tw": "野貓",
+              "name_es_es": "Gato Montés Africano",
+              "name_es_mx": "Gato Montés"
             }
           ]
         },
         {
-          "id": "heterocephalidae",
-          "name_ja": "ハダカデバネズミ科",
-          "name_en": "Heterocephalidae",
+          "id": "hyaenidae",
+          "name_ja": "ハイエナ科",
+          "name_en": "Hyaenidae",
           "species": [
             {
-              "id": "naked-mole-rat",
+              "id": "spotted-hyena",
               "tier": 2,
-              "name_common": "ハダカデバネズミ",
-              "name_standard_ja": "ハダカデバネズミ",
-              "name_en": "Naked Mole-rat",
-              "image": "/images/animals/naked-mole-rat.webp",
-              "description_note": "毛がなくて女王を中心に暮らす！がんにならない生物学的一大珍獣",
+              "name_common": "ハイエナ",
+              "name_standard_ja": "ブチハイエナ",
+              "name_en": "Spotted Hyena",
+              "image": "/images/animals/spotted-hyena.webp",
+              "description_note": "とっても強いアゴを持ったサバンナのハンター",
+              "bg_color": "from-emerald-50 to-teal-100",
+              "accent_color": "border-emerald-300",
+              "name_zh_cn": "鬣狗",
+              "name_zh_tw": "鬣狗",
+              "name_es_es": "Hiena",
+              "name_es_mx": "Hiena"
+            },
+            {
+              "id": "aardwolf",
+              "tier": 2,
+              "name_common": "アードウルフ",
+              "name_standard_ja": "アードウルフ",
+              "name_en": "Aardwolf",
+              "image": "/images/animals/aardwolf.webp",
+              "description_note": "ハイエナの仲間なのに肉を食べずシロアリだけを食べる大人しい仲間！",
+              "bg_color": "from-sky-100 to-blue-100",
+              "accent_color": "border-sky-300",
+              "name_zh_cn": "土狼",
+              "name_zh_tw": "土狼",
+              "name_es_es": "Lobo de Tierra",
+              "name_es_mx": "Lobo de Tierra"
+            }
+          ]
+        },
+        {
+          "id": "viverridae",
+          "name_ja": "ジャコウネコ科",
+          "name_en": "Viverridae",
+          "species": [
+            {
+              "id": "asian-palm-civet",
+              "tier": 2,
+              "name_common": "パームシベット",
+              "name_standard_ja": "マレーパームシベット",
+              "name_en": "Asian Palm Civet",
+              "image": "/images/animals/asian-palm-civet.webp",
+              "description_note": "完熟したコーヒーの実が大好物！世界一高級なコーヒー「コピ・ルアク」の生みの親！",
+              "bg_color": "from-slate-100 to-stone-200",
+              "accent_color": "border-slate-400",
+              "name_zh_cn": "椰子猫",
+              "name_zh_tw": "椰子貓",
+              "name_es_es": "Civeta de las Palmeras",
+              "name_es_mx": "Civeta de las Palmeras"
+            },
+            {
+              "id": "masked-palm-civet",
+              "tier": 2,
+              "name_common": "ハクビシン",
+              "name_standard_ja": "ハクビシン",
+              "name_en": "Masked Palm Civet",
+              "image": "/images/animals/masked-palm-civet.webp",
+              "description_note": "おでこから鼻にかけて白い一本線があるよ",
+              "bg_color": "from-indigo-100 to-purple-100",
+              "accent_color": "border-indigo-300",
+              "name_zh_cn": "果子狸",
+              "name_zh_tw": "果子狸",
+              "name_es_es": "Paguma",
+              "name_es_mx": "Paguma"
+            },
+            {
+              "id": "binturong",
+              "tier": 2,
+              "name_common": "ビントロング",
+              "name_standard_ja": "ビントロング",
+              "name_en": "Binturong",
+              "image": "/images/animals/binturong.webp",
+              "description_note": "「クマジャコウネコ」と呼ばれる黒いふさふさ巨体！体がポップコーンの香りがするよ",
+              "bg_color": "from-teal-100 to-cyan-100",
+              "accent_color": "border-teal-400",
+              "name_zh_cn": "熊狸",
+              "name_zh_tw": "熊狸",
+              "name_es_es": "Binturong",
+              "name_es_mx": "Binturong"
+            }
+          ]
+        },
+        {
+          "id": "herpestidae",
+          "name_ja": "マングース科",
+          "name_en": "Herpestidae",
+          "species": [
+            {
+              "id": "mongoose",
+              "tier": 1,
+              "name_common": "マングース",
+              "name_standard_ja": "エジプトマングース",
+              "name_en": "Mongoose",
+              "image": "/images/animals/mongoose.webp",
+              "description_note": "どくへびにも負けないすばしっこいハンター",
               "bg_color": "from-amber-100 to-yellow-100",
               "accent_color": "border-amber-400",
-              "name_zh_cn": "裸疣鼠",
-              "name_zh_tw": "裸鼴鼠",
-              "name_es_es": "Rata Topo Desnuda",
-              "name_es_mx": "Rata Topo Desnuda"
+              "name_zh_cn": "埃及獴",
+              "name_zh_tw": "埃及獴",
+              "name_es_es": "Mangosta Egipcia",
+              "name_es_mx": "Mangosta Egipcia"
+            }
+          ]
+        },
+        {
+          "id": "eupleridae",
+          "name_ja": "マダガスカルマングース科",
+          "name_en": "Eupleridae",
+          "species": [
+            {
+              "id": "fossa",
+              "tier": 2,
+              "name_common": "フォッサ",
+              "name_standard_ja": "フォッサ",
+              "name_en": "Fossa",
+              "image": "/images/animals/fossa.webp",
+              "description_note": "マダガスカル島最大の肉食獣！木登りが大得意なトップハンター",
+              "bg_color": "from-orange-100 to-amber-100",
+              "accent_color": "border-orange-400",
+              "name_zh_cn": "马岛獴",
+              "name_zh_tw": "馬島獴",
+              "name_es_es": "Fossa",
+              "name_es_mx": "Fossa"
+            }
+          ]
+        },
+        {
+          "id": "prionodontidae",
+          "name_ja": "オビリンサン科",
+          "name_en": "Prionodontidae",
+          "species": [
+            {
+              "id": "banded-linsang",
+              "tier": 2,
+              "name_common": "オビリンサン",
+              "name_standard_ja": "オビリンサン",
+              "name_en": "Banded Linsang",
+              "image": "/images/animals/banded-linsang.webp",
+              "description_note": "しましま模様のしなやかな体の珍しい仲間",
+              "bg_color": "from-rose-100 to-pink-100",
+              "accent_color": "border-pink-300",
+              "name_zh_cn": "斑林狸",
+              "name_zh_tw": "斑林狸",
+              "name_es_es": "Linsang Rayado",
+              "name_es_mx": "Linsang Rayado"
             }
           ]
         }
@@ -2053,6 +1498,52 @@
               "name_zh_tw": "人類",
               "name_es_es": "Humano",
               "name_es_mx": "Humano"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proboscidea",
+      "name_short": "ゾウ",
+      "name_kids": "ゾウのなかま",
+      "name_ja": "長鼻目",
+      "name_en": "Proboscidea (Elephants)",
+      "families": [
+        {
+          "id": "elephantidae",
+          "name_ja": "ゾウ科",
+          "name_en": "Elephantidae",
+          "species": [
+            {
+              "id": "asian-elephant",
+              "tier": 1,
+              "name_common": "アジアゾウ",
+              "name_standard_ja": "アジアゾウ",
+              "name_en": "Asian Elephant",
+              "image": "/images/animals/elephant.webp",
+              "description_note": "お耳が小ぶりで人となかよし！日本の動物園でおなじみのゾウ",
+              "bg_color": "from-amber-100 to-orange-100",
+              "accent_color": "border-amber-400",
+              "name_zh_cn": "亚洲象",
+              "name_zh_tw": "亞洲象",
+              "name_es_es": "Elefante Asiático",
+              "name_es_mx": "Elefante Asiático"
+            },
+            {
+              "id": "african-elephant",
+              "tier": 1,
+              "name_common": "アフリカゾウ",
+              "name_standard_ja": "アフリカゾウ",
+              "name_en": "African Elephant",
+              "image": "/images/animals/african_elephant.webp",
+              "description_note": "大きなお耳と立派なキバ！陸の上で世界一大きい動物",
+              "bg_color": "from-stone-100 to-amber-200",
+              "accent_color": "border-amber-500",
+              "name_zh_cn": "非洲象",
+              "name_zh_tw": "非洲象",
+              "name_es_es": "Elefante Africano",
+              "name_es_mx": "Elefante Africano"
             }
           ]
         }
@@ -2886,6 +2377,140 @@
       ]
     },
     {
+      "id": "diprotodontia",
+      "name_short": "カンガルー・コアラ",
+      "name_kids": "カンガルーとコアラのなかま",
+      "name_ja": "双前歯目",
+      "name_en": "Diprotodontia (Kangaroos & Relatives)",
+      "families": [
+        {
+          "id": "macropodidae",
+          "name_ja": "カンガルー科",
+          "name_en": "Macropodidae",
+          "species": [
+            {
+              "id": "red-kangaroo",
+              "tier": 1,
+              "name_common": "カンガルー",
+              "name_standard_ja": "アカカンガルー",
+              "name_en": "Kangaroo",
+              "image": "/images/animals/kangaroo.webp",
+              "description_note": "ぴょんぴょん跳ねる！お腹のポケット（袋）で赤ちゃんを育てるよ",
+              "bg_color": "from-orange-100 to-amber-100",
+              "accent_color": "border-orange-400",
+              "name_zh_cn": "袋鼠",
+              "name_zh_tw": "袋鼠",
+              "name_es_es": "Canguro",
+              "name_es_mx": "Canguro"
+            },
+            {
+              "id": "quokka",
+              "tier": 2,
+              "name_common": "クアッカワラビー",
+              "name_standard_ja": "クアッカワラビー",
+              "name_en": "Quokka",
+              "image": "/images/animals/quokka.png",
+              "description_note": "いつもニッコリ笑っているみたい！「世界一幸せな動物」と呼ばれる大人気珍獣",
+              "bg_color": "from-sky-100 to-blue-100",
+              "accent_color": "border-sky-300",
+              "name_zh_cn": "短尾矮袋鼠",
+              "name_zh_tw": "短尾矮袋鼠",
+              "name_es_es": "Quokka",
+              "name_es_mx": "Quokka"
+            }
+          ]
+        },
+        {
+          "id": "phascolarctidae",
+          "name_ja": "コアラ科",
+          "name_en": "Phascolarctidae",
+          "species": [
+            {
+              "id": "koala",
+              "tier": 1,
+              "name_common": "コアラ",
+              "name_standard_ja": "コアラ",
+              "name_en": "Koala",
+              "image": "/images/animals/koala.webp",
+              "description_note": "ユーカリの葉っぱが大好物！木の上でのんびり過ごすよ",
+              "bg_color": "from-emerald-50 to-teal-100",
+              "accent_color": "border-emerald-300",
+              "name_zh_cn": "考拉",
+              "name_zh_tw": "無尾熊",
+              "name_es_es": "Coala",
+              "name_es_mx": "Koala"
+            }
+          ]
+        },
+        {
+          "id": "vombatidae",
+          "name_ja": "ウォンバット科",
+          "name_en": "Vombatidae",
+          "species": [
+            {
+              "id": "wombat",
+              "tier": 2,
+              "name_common": "ウォンバット",
+              "name_standard_ja": "ヒメウォンバット",
+              "name_en": "Wombat",
+              "image": "/images/animals/wombat.webp",
+              "description_note": "ずんぐり丸い体がキュート！四角いサイコロ型のうんちをするよ",
+              "bg_color": "from-slate-100 to-stone-200",
+              "accent_color": "border-slate-400",
+              "name_zh_cn": "袋熊",
+              "name_zh_tw": "袋熊",
+              "name_es_es": "Wombat",
+              "name_es_mx": "Wombat"
+            }
+          ]
+        },
+        {
+          "id": "petauridae",
+          "name_ja": "フクロモモンガ科",
+          "name_en": "Petauridae",
+          "species": [
+            {
+              "id": "sugar-glider",
+              "tier": 2,
+              "name_common": "フクロモモンガ",
+              "name_standard_ja": "フクロモモンガ",
+              "name_en": "Sugar Glider",
+              "image": "/images/animals/sugar-glider.webp",
+              "description_note": "手足を広げて風に乗る！木から木へ滑空する可愛い仲間",
+              "bg_color": "from-indigo-100 to-purple-100",
+              "accent_color": "border-indigo-300",
+              "name_zh_cn": "蜜袋鼯",
+              "name_zh_tw": "蜜袋鼯",
+              "name_es_es": "Petauro del Azúcar",
+              "name_es_mx": "Petauro del Azúcar"
+            }
+          ]
+        },
+        {
+          "id": "phalangeridae",
+          "name_ja": "クスクス科",
+          "name_en": "Phalangeridae",
+          "species": [
+            {
+              "id": "spotted-cuscus",
+              "tier": 2,
+              "name_common": "クスクス",
+              "name_standard_ja": "ブチクスクス",
+              "name_en": "Spotted Cuscus",
+              "image": "/images/animals/spotted-cuscus.webp",
+              "description_note": "くりくりの大きな目と長いシッポで木登りが得意な仲間",
+              "bg_color": "from-teal-100 to-cyan-100",
+              "accent_color": "border-teal-400",
+              "name_zh_cn": "斑袋貂",
+              "name_zh_tw": "斑袋貂",
+              "name_es_es": "Cuscus Moteado",
+              "name_es_mx": "Cuscús Moteado"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "perissodactyla",
       "name_short": "ウマ・サイ",
       "name_kids": "ウマとサイのなかま",
@@ -3021,273 +2646,653 @@
       ]
     },
     {
-      "id": "proboscidea",
-      "name_short": "ゾウ",
-      "name_kids": "ゾウのなかま",
-      "name_ja": "長鼻目",
-      "name_en": "Proboscidea (Elephants)",
+      "id": "lagomorpha",
+      "name_short": "ウサギ",
+      "name_kids": "ウサギのなかま",
+      "name_ja": "兎形目",
+      "name_en": "Lagomorpha (Rabbits & Hares)",
       "families": [
         {
-          "id": "elephantidae",
-          "name_ja": "ゾウ科",
-          "name_en": "Elephantidae",
+          "id": "leporidae",
+          "name_ja": "ウサギ科",
+          "name_en": "Leporidae",
           "species": [
             {
-              "id": "asian-elephant",
+              "id": "rabbit",
               "tier": 1,
-              "name_common": "アジアゾウ",
-              "name_standard_ja": "アジアゾウ",
-              "name_en": "Asian Elephant",
-              "image": "/images/animals/elephant.webp",
-              "description_note": "お耳が小ぶりで人となかよし！日本の動物園でおなじみのゾウ",
+              "name_common": "ウサギ",
+              "name_standard_ja": "カイウサギ（アナウサギ）",
+              "name_en": "Rabbit",
+              "image": "/images/animals/rabbit.webp",
+              "description_note": "ピョンピョン跳ねる！長い耳が大人気の身近なペット",
+              "bg_color": "from-pink-100 to-rose-100",
+              "accent_color": "border-pink-300",
+              "name_zh_cn": "兔子",
+              "name_zh_tw": "兔子",
+              "name_es_es": "Conejo",
+              "name_es_mx": "Conejo"
+            },
+            {
+              "id": "hare",
+              "tier": 1,
+              "name_common": "ノウサギ",
+              "name_standard_ja": "ニホンノウサギ",
+              "name_en": "Hare",
+              "image": "/images/animals/hare.webp",
+              "description_note": "脚がとても長くて走るのが速い日本の野生ウサギ",
               "bg_color": "from-amber-100 to-orange-100",
               "accent_color": "border-amber-400",
-              "name_zh_cn": "亚洲象",
-              "name_zh_tw": "亞洲象",
-              "name_es_es": "Elefante Asiático",
-              "name_es_mx": "Elefante Asiático"
+              "name_zh_cn": "野兔",
+              "name_zh_tw": "野兔",
+              "name_es_es": "Liebre",
+              "name_es_mx": "Liebre"
             },
             {
-              "id": "african-elephant",
-              "tier": 1,
-              "name_common": "アフリカゾウ",
-              "name_standard_ja": "アフリカゾウ",
-              "name_en": "African Elephant",
-              "image": "/images/animals/african_elephant.webp",
-              "description_note": "大きなお耳と立派なキバ！陸の上で世界一大きい動物",
-              "bg_color": "from-stone-100 to-amber-200",
-              "accent_color": "border-amber-500",
-              "name_zh_cn": "非洲象",
-              "name_zh_tw": "非洲象",
-              "name_es_es": "Elefante Africano",
-              "name_es_mx": "Elefante Africano"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sirenia",
-      "name_short": "ジュゴン",
-      "name_kids": "ジュゴンとマナティー",
-      "name_ja": "海牛目",
-      "name_en": "Sirenia (Sea Cows)",
-      "families": [
-        {
-          "id": "dugongidae",
-          "name_ja": "ジュゴン科",
-          "name_en": "Dugongidae",
-          "species": [
-            {
-              "id": "dugong",
-              "tier": 1,
-              "name_common": "ジュゴン",
-              "name_standard_ja": "ジュゴン",
-              "name_en": "Dugong",
-              "image": "/images/animals/dugong.webp",
-              "description_note": "三角形のシッポ！浅い海でのんびりアマモ（海草）を食べる人魚のモデル",
-              "bg_color": "from-teal-100 to-cyan-100",
-              "accent_color": "border-teal-400",
-              "name_zh_cn": "儒艮",
-              "name_zh_tw": "儒艮",
-              "name_es_es": "Dugongo",
-              "name_es_mx": "Dugongo"
-            }
-          ]
-        },
-        {
-          "id": "trichechidae",
-          "name_ja": "マナティー科",
-          "name_en": "Trichechidae",
-          "species": [
-            {
-              "id": "manatee",
-              "tier": 1,
-              "name_common": "マナティー",
-              "name_standard_ja": "アメリカマナティー",
-              "name_en": "Manatee",
-              "image": "/images/animals/manatee.webp",
-              "description_note": "川や浅い海でのんびり暮らす丸くて可愛い海獣でのんびり過ごすよ",
-              "bg_color": "from-cyan-100 to-blue-100",
-              "accent_color": "border-cyan-400",
-              "name_zh_cn": "海牛",
-              "name_zh_tw": "海牛",
-              "name_es_es": "Manatí",
-              "name_es_mx": "Manatí"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "cingulata",
-      "name_short": "アルマジロ",
-      "name_kids": "アルマジロのなかま",
-      "name_ja": "被甲目",
-      "name_en": "Cingulata (Armadillos)",
-      "families": [
-        {
-          "id": "dasypodidae",
-          "name_ja": "アルマジロ科",
-          "name_en": "Dasypodidae",
-          "species": [
-            {
-              "id": "armadillo",
-              "tier": 1,
-              "name_common": "アルマジロ",
-              "name_standard_ja": "マタコミツオビアルマジロ",
-              "name_en": "Armadillo",
-              "image": "/images/animals/armadillo.webp",
-              "description_note": "びっくりするとコロンと完全なボールみたいに丸まるよ！",
-              "bg_color": "from-amber-100 to-yellow-100",
-              "accent_color": "border-amber-400",
-              "name_zh_cn": "犰狳",
-              "name_zh_tw": "犰狳",
-              "name_es_es": "Armadillo",
-              "name_es_mx": "Armadillo"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "pilosa",
-      "name_short": "ナマケモノ",
-      "name_kids": "ナマケモノとアリクイ",
-      "name_ja": "有毛目",
-      "name_en": "Pilosa (Sloths & Anteaters)",
-      "families": [
-        {
-          "id": "bradypodidae",
-          "name_ja": "ミユビナマケモノ科",
-          "name_en": "Bradypodidae",
-          "species": [
-            {
-              "id": "sloth",
-              "tier": 1,
-              "name_common": "ナマケモノ",
-              "name_standard_ja": "ノドチャミユビナマケモノ",
-              "name_en": "Sloth",
-              "image": "/images/animals/sloth.webp",
-              "description_note": "木の上にぶら下がって1日中ずーっとのんびり過ごすよ",
+              "id": "mountain-hare",
+              "tier": 2,
+              "name_common": "ユキウサギ",
+              "name_standard_ja": "エゾユキウサギ",
+              "name_en": "Mountain Hare",
+              "image": "/images/animals/mountain-hare.webp",
+              "description_note": "冬になると全身の毛が真っ白に変身するよ！",
               "bg_color": "from-emerald-50 to-teal-100",
               "accent_color": "border-emerald-300",
-              "name_zh_cn": "树懒",
-              "name_zh_tw": "樹懶",
-              "name_es_es": "Perezoso",
-              "name_es_mx": "Perezoso"
+              "name_zh_cn": "雪兔",
+              "name_zh_tw": "雪兔",
+              "name_es_es": "Liebre Variable",
+              "name_es_mx": "Liebre Ártica"
+            },
+            {
+              "id": "amami-rabbit",
+              "tier": 2,
+              "name_common": "アマミノクロウサギ",
+              "name_standard_ja": "アマミノクロウサギ",
+              "name_en": "Amami Rabbit",
+              "image": "/images/animals/amami-rabbit.webp",
+              "description_note": "奄美大島だけにすむ黒くて耳が短い「生きている化石」",
+              "bg_color": "from-sky-100 to-blue-100",
+              "accent_color": "border-sky-300",
+              "name_zh_cn": "奄美短耳兔",
+              "name_zh_tw": "奄美短耳兔",
+              "name_es_es": "Conejo de Amami",
+              "name_es_mx": "Conejo de Amami"
             }
           ]
         },
         {
-          "id": "myrmecophagidae",
-          "name_ja": "アリクイ科",
-          "name_en": "Myrmecophagidae",
+          "id": "ochotonidae",
+          "name_ja": "ナキウサギ科",
+          "name_en": "Ochotonidae",
           "species": [
             {
-              "id": "giant-anteater",
+              "id": "northern-pika",
+              "tier": 2,
+              "name_common": "ナキウサギ",
+              "name_standard_ja": "エゾナキウサギ",
+              "name_en": "Northern Pika",
+              "image": "/images/animals/northern-pika.webp",
+              "description_note": "ピピッ！と高い声で鳴くよ！冬のために干し草を作る人気者",
+              "bg_color": "from-slate-100 to-stone-200",
+              "accent_color": "border-slate-400",
+              "name_zh_cn": "鼠兔",
+              "name_zh_tw": "鼠兔",
+              "name_es_es": "Pica",
+              "name_es_mx": "Pica"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rodentia",
+      "name_short": "ネズミ・リス",
+      "name_kids": "ネズミとリスのなかま",
+      "name_ja": "齧歯目",
+      "name_en": "Rodentia (Rodents)",
+      "families": [
+        {
+          "id": "aplodontiidae",
+          "name_ja": "ヤマビーバー科",
+          "name_en": "Aplodontiidae",
+          "species": [
+            {
+              "id": "mountain-beaver",
+              "tier": 2,
+              "name_common": "ヤマビーバー",
+              "name_standard_ja": "ヤマビーバー",
+              "name_en": "Mountain Beaver",
+              "image": "/images/animals/mountain-beaver.webp",
+              "description_note": "現生するネズミの仲間で最も原始的！「生きている化石」",
+              "bg_color": "from-slate-100 to-stone-200",
+              "accent_color": "border-slate-400",
+              "name_zh_cn": "山海狸",
+              "name_zh_tw": "山海狸",
+              "name_es_es": "Castor de Montaña",
+              "name_es_mx": "Castor de Montaña"
+            }
+          ]
+        },
+        {
+          "id": "sciuridae",
+          "name_ja": "リス科",
+          "name_en": "Sciuridae",
+          "species": [
+            {
+              "id": "chipmunk",
               "tier": 1,
-              "name_common": "オオアリクイ",
-              "name_standard_ja": "オオアリクイ",
-              "name_en": "Anteater",
-              "image": "/images/animals/anteater.webp",
-              "description_note": "体の半分くらいある大きくて大きなふさふさシッポと長ーい舌！",
-              "bg_color": "from-amber-100 to-stone-200",
-              "accent_color": "border-amber-500",
-              "name_zh_cn": "大食蚁兽",
-              "name_zh_tw": "大食蟻獸",
-              "name_es_es": "Oso Hormiguero",
-              "name_es_mx": "Oso Hormiguero"
+              "name_common": "シマリス",
+              "name_standard_ja": "ニホンシマリス",
+              "name_en": "Chipmunk",
+              "image": "/images/animals/chipmunk.webp",
+              "description_note": "どんぐりをほっぺたにいっぱい詰める！背中にしま模様があるよ",
+              "bg_color": "from-amber-100 to-yellow-100",
+              "accent_color": "border-amber-400",
+              "name_zh_cn": "花鼠",
+              "name_zh_tw": "花鼠",
+              "name_es_es": "Ardilla Listada",
+              "name_es_mx": "Ardilla Listada"
             },
             {
-              "id": "southern-tamandua",
+              "id": "momonga",
+              "tier": 1,
+              "name_common": "モモンガ",
+              "name_standard_ja": "ニホンモモンガ",
+              "name_en": "Flying Squirrel",
+              "image": "/images/animals/momonga.webp",
+              "description_note": "手足を広げて木から木へ滑空するくりくりお目の人気者！",
+              "bg_color": "from-emerald-50 to-teal-100",
+              "accent_color": "border-emerald-300",
+              "name_zh_cn": "飞鼠",
+              "name_zh_tw": "飛鼠",
+              "name_es_es": "Ardilla Voladora",
+              "name_es_mx": "Ardilla Voladora"
+            },
+            {
+              "id": "musasabi",
+              "tier": 1,
+              "name_common": "ムササビ",
+              "name_standard_ja": "ムササビ",
+              "name_en": "Japanese Giant Flying Squirrel",
+              "image": "/images/animals/musasabi.webp",
+              "description_note": "モモンガよりずっと巨大！夜の空を飛ぶ「空飛ぶ座布団」",
+              "bg_color": "from-stone-200 to-amber-100",
+              "accent_color": "border-stone-400",
+              "name_zh_cn": "鼯鼠",
+              "name_zh_tw": "鼯鼠",
+              "name_es_es": "Ardilla Voladora Gigante",
+              "name_es_mx": "Ardilla Voladora Gigante"
+            },
+            {
+              "id": "japanese-squirrel",
               "tier": 2,
-              "name_common": "ミナミコアリクイ",
-              "name_standard_ja": "ミナミコアリクイ",
-              "name_en": "Southern Tamandua",
-              "image": "/images/animals/southern-tamandua.webp",
-              "description_note": "両手を広げる「威嚇ポーズ」が可愛くて大人気！",
+              "name_common": "ニホンリス",
+              "name_standard_ja": "ニホンリス",
+              "name_en": "Japanese Squirrel",
+              "image": "/images/animals/japanese-squirrel.webp",
+              "description_note": "日本の森にすむシッポがふさふさの可愛いリス",
+              "bg_color": "from-orange-100 to-amber-100",
+              "accent_color": "border-orange-400",
+              "name_zh_cn": "日本松鼠",
+              "name_zh_tw": "日本松鼠",
+              "name_es_es": "Ardilla Japonesa",
+              "name_es_mx": "Ardilla Japonesa"
+            },
+            {
+              "id": "formosan-squirrel",
+              "tier": 2,
+              "name_common": "タイリクリス",
+              "name_standard_ja": "タイワンリス（クリハラリス）",
+              "name_en": "Formosan Squirrel",
+              "image": "/images/animals/formosan-squirrel.webp",
+              "description_note": "公園や森で元気いっぱいに走る大きなリス",
               "bg_color": "from-rose-100 to-pink-100",
               "accent_color": "border-pink-300",
-              "name_zh_cn": "小食蚁兽",
-              "name_zh_tw": "小食蟻獸",
-              "name_es_es": "Oso Hormiguero Pequeño",
-              "name_es_mx": "Oso Hormiguero Pequeño"
-            }
-          ]
-        },
-        {
-          "id": "cyclopedidae",
-          "name_ja": "ヒメアリクイ科",
-          "name_en": "Cyclopedidae",
-          "species": [
+              "name_zh_cn": "赤腹松鼠",
+              "name_zh_tw": "赤腹松鼠",
+              "name_es_es": "Ardilla de Vientre Rojo",
+              "name_es_mx": "Ardilla de Vientre Rojo"
+            },
             {
-              "id": "silky-anteater",
+              "id": "black-tailed-prairie-dog",
               "tier": 2,
-              "name_common": "ヒメアリクイ",
-              "name_standard_ja": "ヒメアリクイ",
-              "name_en": "Silky Anteater",
-              "image": "/images/animals/silky-anteater.webp",
-              "description_note": "手のひらサイズの世界最小のアリクイ！全身ふわふわ",
+              "name_common": "プレーリードッグ",
+              "name_standard_ja": "オグロプレーリードッグ",
+              "name_en": "Black-tailed Prairie Dog",
+              "image": "/images/animals/black-tailed-prairie-dog.webp",
+              "description_note": "二本足でピンと立って「キャン！」と大声で警戒音を出すよ",
               "bg_color": "from-emerald-50 to-teal-100",
               "accent_color": "border-emerald-300",
-              "name_zh_cn": "侏食蚁兽",
-              "name_zh_tw": "侏食蟻獸",
-              "name_es_es": "Oso Hormiguero Sedoso",
-              "name_es_mx": "Oso Hormiguero Sedoso"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "chiroptera",
-      "name_short": "コウモリ",
-      "name_kids": "コウモリのなかま",
-      "name_ja": "翼手目",
-      "name_en": "Chiroptera (Bats)",
-      "families": [
-        {
-          "id": "vespertilionidae",
-          "name_ja": "ヒナコウモリ科",
-          "name_en": "Vespertilionidae",
-          "species": [
-            {
-              "id": "bat",
-              "tier": 1,
-              "name_common": "コウモリ",
-              "name_standard_ja": "アブラコウモリ",
-              "name_en": "Bat",
-              "image": "/images/animals/bat.webp",
-              "description_note": "パタパタ空を飛ぶ！夕方のお空でおなじみの仲間",
-              "bg_color": "from-indigo-100 to-purple-100",
-              "accent_color": "border-indigo-400",
-              "name_zh_cn": "蝙蝠",
-              "name_zh_tw": "蝙蝠",
-              "name_es_es": "Murciélago",
-              "name_es_mx": "Murciélago"
+              "name_zh_cn": "黑尾土拨鼠",
+              "name_zh_tw": "黑尾土撥鼠",
+              "name_es_es": "Perrito de la Pradera",
+              "name_es_mx": "Perrito de la Pradera"
             }
           ]
         },
         {
-          "id": "phyllostomidae",
-          "name_ja": "ヘラコウモリ科",
-          "name_en": "Phyllostomidae",
+          "id": "gliridae",
+          "name_ja": "ヤマネ科",
+          "name_en": "Gliridae",
           "species": [
             {
-              "id": "honduran-white-bat",
+              "id": "japanese-dormouse",
               "tier": 2,
-              "name_common": "シロヘラコウモリ",
-              "name_standard_ja": "シロヘラコウモリ",
-              "name_en": "Honduran White Bat",
-              "image": "/images/animals/honduran-white-bat.webp",
-              "description_note": "全身真っ白で黄色いお耳とお鼻！葉っぱを折ってテントを作る綿あめコウモリ！",
+              "name_common": "ヤマネ",
+              "name_standard_ja": "ニホンヤマネ",
+              "name_en": "Japanese Dormouse",
+              "image": "/images/animals/japanese-dormouse.webp",
+              "description_note": "日本だけにすむ特別天然記念物！丸くなって冬眠するよ",
+              "bg_color": "from-sky-100 to-blue-100",
+              "accent_color": "border-sky-300",
+              "name_zh_cn": "睡鼠",
+              "name_zh_tw": "睡鼠",
+              "name_es_es": "Lirón",
+              "name_es_mx": "Lirón"
+            }
+          ]
+        },
+        {
+          "id": "castoridae",
+          "name_ja": "ビーバー科",
+          "name_en": "Castoridae",
+          "species": [
+            {
+              "id": "beaver",
+              "tier": 1,
+              "name_common": "ビーバー",
+              "name_standard_ja": "アメリカビーバー",
+              "name_en": "Beaver",
+              "image": "/images/animals/beaver.webp",
+              "description_note": "平らなシッポと強い歯！川に木のダムを造る建築の天才！",
+              "bg_color": "from-amber-100 to-orange-100",
+              "accent_color": "border-amber-400",
+              "name_zh_cn": "海狸",
+              "name_zh_tw": "海狸",
+              "name_es_es": "Castor",
+              "name_es_mx": "Castor"
+            }
+          ]
+        },
+        {
+          "id": "geomyidae",
+          "name_ja": "ホリネズミ科",
+          "name_en": "Geomyidae",
+          "species": [
+            {
+              "id": "pocket-gopher",
+              "tier": 2,
+              "name_common": "ホリネズミ",
+              "name_standard_ja": "キタホリネズミ",
+              "name_en": "Pocket Gopher",
+              "image": "/images/animals/pocket-gopher.webp",
+              "description_note": "ほっぺの外側にポケット袋がある地下の穴掘り名人！",
+              "bg_color": "from-indigo-100 to-purple-100",
+              "accent_color": "border-indigo-300",
+              "name_zh_cn": "囊鼠",
+              "name_zh_tw": "囊鼠",
+              "name_es_es": "Tuzo",
+              "name_es_mx": "Tuzo"
+            }
+          ]
+        },
+        {
+          "id": "heteromyidae",
+          "name_ja": "カンガルーネズミ科",
+          "name_en": "Heteromyidae",
+          "species": [
+            {
+              "id": "kangaroo-mouse",
+              "tier": 2,
+              "name_common": "カンガルーハムスター",
+              "name_standard_ja": "カンガルーハムスター",
+              "name_en": "Kangaroo Mouse",
+              "image": "/images/animals/kangaroo-mouse.webp",
+              "description_note": "砂漠を二本足でカンガルーみたいにぴょんぴょん跳ぶよ",
+              "bg_color": "from-teal-100 to-cyan-100",
+              "accent_color": "border-teal-400",
+              "name_zh_cn": "袋鼠鼠",
+              "name_zh_tw": "袋鼠鼠",
+              "name_es_es": "Ratón Canguro",
+              "name_es_mx": "Ratón Canguro"
+            }
+          ]
+        },
+        {
+          "id": "caviidae",
+          "name_ja": "テンジクネズミ科",
+          "name_en": "Caviidae",
+          "species": [
+            {
+              "id": "capybara",
+              "tier": 1,
+              "name_common": "カピバラ",
+              "name_standard_ja": "カピバラ",
+              "name_en": "Capybara",
+              "image": "/images/animals/capybara.webp",
+              "description_note": "世界で一番大きいネズミ！お湯につかる温泉が大好物",
+              "bg_color": "from-emerald-50 to-teal-100",
+              "accent_color": "border-emerald-300",
+              "name_zh_cn": "水豚",
+              "name_zh_tw": "水豚",
+              "name_es_es": "Capibara",
+              "name_es_mx": "Capibara"
+            },
+            {
+              "id": "guinea-pig",
+              "tier": 1,
+              "name_common": "モルモット",
+              "name_standard_ja": "モルモット",
+              "name_en": "Guinea Pig",
+              "image": "/images/animals/guinea_pig.webp",
+              "description_note": "ぷくぷく丸い体！ふれあい動物園でおなじみの人気者",
+              "bg_color": "from-pink-100 to-rose-100",
+              "accent_color": "border-pink-300",
+              "name_zh_cn": "荷兰猪",
+              "name_zh_tw": "天竺鼠",
+              "name_es_es": "Cobaya",
+              "name_es_mx": "Cuy"
+            },
+            {
+              "id": "patagonian-mara",
+              "tier": 2,
+              "name_common": "マーラ",
+              "name_standard_ja": "パタゴニアマーラ",
+              "name_en": "Patagonian Mara",
+              "image": "/images/animals/patagonian-mara.webp",
+              "description_note": "ウサギみたいな長い脚で走る珍しいテンジクネズミ",
+              "bg_color": "from-rose-100 to-pink-100",
+              "accent_color": "border-pink-300",
+              "name_zh_cn": "巴塔哥尼亚玛拉",
+              "name_zh_tw": "巴塔哥尼亞瑪拉",
+              "name_es_es": "Mara Patagónica",
+              "name_es_mx": "Mara Patagónica"
+            }
+          ]
+        },
+        {
+          "id": "hystricidae",
+          "name_ja": "ヤマアラシ科",
+          "name_en": "Hystricidae",
+          "species": [
+            {
+              "id": "porcupine",
+              "tier": 1,
+              "name_common": "ヤマアラシ",
+              "name_standard_ja": "アフリカタテガミヤマアラシ",
+              "name_en": "Porcupine",
+              "image": "/images/animals/porcupine.webp",
+              "description_note": "背中に白黒の鋭い針と白いタテガミを持つ旧世界最大のヤマアラシ！",
+              "bg_color": "from-stone-200 to-zinc-300",
+              "accent_color": "border-stone-400",
+              "name_zh_cn": "豪猪",
+              "name_zh_tw": "豪豬",
+              "name_es_es": "Puercoespín",
+              "name_es_mx": "Puercoespín"
+            }
+          ]
+        },
+        {
+          "id": "erethizontidae",
+          "name_ja": "アメリカヤマアラシ科",
+          "name_en": "Erethizontidae",
+          "species": [
+            {
+              "id": "north-american-porcupine",
+              "tier": 2,
+              "name_common": "カナダヤマアラシ",
+              "name_standard_ja": "カナダヤマアラシ",
+              "name_en": "North American Porcupine",
+              "image": "/images/animals/north-american-porcupine.webp",
+              "description_note": "木登りが得意で木の上で生活するヤマアラシ",
+              "bg_color": "from-sky-100 to-blue-100",
+              "accent_color": "border-sky-300",
+              "name_zh_cn": "北美豪猪",
+              "name_zh_tw": "北美豪豬",
+              "name_es_es": "Puercoespín Norteamericano",
+              "name_es_mx": "Puercoespín Norteamericano"
+            }
+          ]
+        },
+        {
+          "id": "chinchillidae",
+          "name_ja": "チンチラ科",
+          "name_en": "Chinchillidae",
+          "species": [
+            {
+              "id": "chinchilla",
+              "tier": 2,
+              "name_common": "チンチラ",
+              "name_standard_ja": "チンチラ",
+              "name_en": "Chinchilla",
+              "image": "/images/animals/chinchilla.webp",
+              "description_note": "世界一毛が密集したふわふわ極上の毛並みを持つ人気者！",
+              "bg_color": "from-slate-100 to-stone-200",
+              "accent_color": "border-slate-400",
+              "name_zh_cn": "栗鼠",
+              "name_zh_tw": "絨鼠",
+              "name_es_es": "Chinchilla",
+              "name_es_mx": "Chinchilla"
+            }
+          ]
+        },
+        {
+          "id": "octodontidae",
+          "name_ja": "デグー科",
+          "name_en": "Octodontidae",
+          "species": [
+            {
+              "id": "degu",
+              "tier": 2,
+              "name_common": "デグー",
+              "name_standard_ja": "デグー",
+              "name_en": "Degu",
+              "image": "/images/animals/degu.webp",
+              "description_note": "とても賢くて歌うようにピヨピヨ鳴いて会話するアンデスの仲間",
+              "bg_color": "from-indigo-100 to-purple-100",
+              "accent_color": "border-indigo-300",
+              "name_zh_cn": "八齿鼠",
+              "name_zh_tw": "八齒鼠",
+              "name_es_es": "Degú",
+              "name_es_mx": "Degú"
+            }
+          ]
+        },
+        {
+          "id": "echimyidae",
+          "name_ja": "ヌートリア科",
+          "name_en": "Echimyidae",
+          "species": [
+            {
+              "id": "nutria",
+              "tier": 2,
+              "name_common": "ヌートリア",
+              "name_standard_ja": "ヌートリア",
+              "name_en": "Nutria",
+              "image": "/images/animals/nutria.webp",
+              "description_note": "大きなオレンジ色の歯を持つ水辺にすむ巨大なネズミ",
+              "bg_color": "from-teal-100 to-cyan-100",
+              "accent_color": "border-teal-400",
+              "name_zh_cn": "海狸鼠",
+              "name_zh_tw": "海狸鼠",
+              "name_es_es": "Coipú",
+              "name_es_mx": "Coipú"
+            }
+          ]
+        },
+        {
+          "id": "dipodidae",
+          "name_ja": "トビネズミ科",
+          "name_en": "Dipodidae",
+          "species": [
+            {
+              "id": "pygmy-jerboa",
+              "tier": 3,
+              "name_common": "ピグミージェルボア",
+              "name_standard_ja": "バルチスタンピグミージェルボア",
+              "name_en": "Pygmy Jerboa",
+              "image": "/images/animals/pygmy-jerboa.webp",
+              "description_note": "世界最小級の哺乳類！ピンポン玉サイズの球体にカンガルー脚でぴょんぴょん跳ぶよ",
               "bg_color": "from-amber-100 to-yellow-100",
               "accent_color": "border-amber-400",
-              "name_zh_cn": "白蝙蝠",
-              "name_zh_tw": "白蝙蝠",
-              "name_es_es": "Murciélago Blanco",
-              "name_es_mx": "Murciélago Blanco Hondureño"
+              "name_zh_cn": "侏儒跳鼠",
+              "name_zh_tw": "侏儒跳鼠",
+              "name_es_es": "Jerbo Pigmeo",
+              "name_es_mx": "Jerbo Pigmeo"
+            }
+          ]
+        },
+        {
+          "id": "cricetidae",
+          "name_ja": "キヌゲネズミ科",
+          "name_en": "Cricetidae",
+          "species": [
+            {
+              "id": "hamster",
+              "tier": 1,
+              "name_common": "ハムスター",
+              "name_standard_ja": "ゴールデンハムスター",
+              "name_en": "Hamster",
+              "image": "/images/animals/hamster.webp",
+              "description_note": "手のひらサイズ！回し車で一生懸命走る大人気のペット",
+              "bg_color": "from-amber-100 to-yellow-100",
+              "accent_color": "border-yellow-400",
+              "name_zh_cn": "仓鼠",
+              "name_zh_tw": "倉鼠",
+              "name_es_es": "Hámster",
+              "name_es_mx": "Hámster"
+            },
+            {
+              "id": "norway-lemming",
+              "tier": 2,
+              "name_common": "レミング",
+              "name_standard_ja": "ノルウェーレミング（タビネズミ）",
+              "name_en": "Lemming",
+              "image": "/images/animals/norway-lemming.webp",
+              "description_note": "集団で大移動する伝説を持った北極のネズミ",
+              "bg_color": "from-rose-100 to-pink-100",
+              "accent_color": "border-pink-300",
+              "name_zh_cn": "旅鼠",
+              "name_zh_tw": "旅鼠",
+              "name_es_es": "Lemming",
+              "name_es_mx": "Lemming"
+            }
+          ]
+        },
+        {
+          "id": "lophiomyidae",
+          "name_ja": "タテガミネズミ科",
+          "name_en": "Lophiomyidae",
+          "species": [
+            {
+              "id": "maned-rat",
+              "tier": 3,
+              "name_common": "タテガミネズミ",
+              "name_standard_ja": "タテガミネズミ",
+              "name_en": "Maned Rat",
+              "image": "/images/animals/maned-rat.webp",
+              "description_note": "毒木の毒を自分で背中のスポンジ毛に塗りたくる「毒塗りバリア」を持つ脅威の有毒ネズミ！",
+              "bg_color": "from-emerald-50 to-teal-100",
+              "accent_color": "border-emerald-300",
+              "name_zh_cn": "冠鼠",
+              "name_zh_tw": "冠鼠",
+              "name_es_es": "Rata de Melena",
+              "name_es_mx": "Rata de Melena"
+            }
+          ]
+        },
+        {
+          "id": "muridae",
+          "name_ja": "ネズミ科",
+          "name_en": "Muridae",
+          "species": [
+            {
+              "id": "house-mouse",
+              "tier": 1,
+              "name_common": "ハツカネズミ",
+              "name_standard_ja": "ハツカネズミ",
+              "name_en": "Mouse",
+              "image": "/images/animals/mouse.webp",
+              "description_note": "小さくてすばしっこい身近なネズミ",
+              "bg_color": "from-slate-100 to-zinc-200",
+              "accent_color": "border-slate-400",
+              "name_zh_cn": "小家鼠",
+              "name_zh_tw": "小家鼠",
+              "name_es_es": "Ratón",
+              "name_es_mx": "Ratón"
+            },
+            {
+              "id": "brown-rat",
+              "tier": 2,
+              "name_common": "ドブネズミ",
+              "name_standard_ja": "ドブネズミ",
+              "name_en": "Brown Rat",
+              "image": "/images/animals/brown-rat.webp",
+              "description_note": "カラスにも負けない力強い大きなネズミ",
+              "bg_color": "from-slate-100 to-stone-200",
+              "accent_color": "border-slate-400",
+              "name_zh_cn": "褐家鼠",
+              "name_zh_tw": "溝鼠",
+              "name_es_es": "Rata Parda",
+              "name_es_mx": "Rata Alcantarilla"
+            },
+            {
+              "id": "amami-spiny-rat",
+              "tier": 2,
+              "name_common": "アマミトゲネズミ",
+              "name_standard_ja": "アマミトゲネズミ",
+              "name_en": "Amami Spiny Rat",
+              "image": "/images/animals/amami-spiny-rat.webp",
+              "description_note": "奄美大島だけにすむ背中に針を持つ日本の特別天然記念物",
+              "bg_color": "from-indigo-100 to-purple-100",
+              "accent_color": "border-indigo-300",
+              "name_zh_cn": "奄美刺鼠",
+              "name_zh_tw": "奄美刺鼠",
+              "name_es_es": "Rata Espinosa de Amami",
+              "name_es_mx": "Rata Espinosa de Amami"
+            }
+          ]
+        },
+        {
+          "id": "spalacidae",
+          "name_ja": "メクラネズミ科",
+          "name_en": "Spalacidae",
+          "species": [
+            {
+              "id": "middle-east-blind-mole-rat",
+              "tier": 2,
+              "name_common": "メクラネズミ",
+              "name_standard_ja": "パレスチナメクラネズミ",
+              "name_en": "Blind Mole-rat",
+              "image": "/images/animals/middle-east-blind-mole-rat.webp",
+              "description_note": "目が皮膚でおおわれている！地下で暮らすネズミの仲間！",
+              "bg_color": "from-teal-100 to-cyan-100",
+              "accent_color": "border-teal-400",
+              "name_zh_cn": "盲鼠",
+              "name_zh_tw": "盲鼠",
+              "name_es_es": "Rata Topo Ciega",
+              "name_es_mx": "Rata Topo Ciega"
+            }
+          ]
+        },
+        {
+          "id": "heterocephalidae",
+          "name_ja": "ハダカデバネズミ科",
+          "name_en": "Heterocephalidae",
+          "species": [
+            {
+              "id": "naked-mole-rat",
+              "tier": 2,
+              "name_common": "ハダカデバネズミ",
+              "name_standard_ja": "ハダカデバネズミ",
+              "name_en": "Naked Mole-rat",
+              "image": "/images/animals/naked-mole-rat.webp",
+              "description_note": "毛がなくて女王を中心に暮らす！がんにならない生物学的一大珍獣",
+              "bg_color": "from-amber-100 to-yellow-100",
+              "accent_color": "border-amber-400",
+              "name_zh_cn": "裸疣鼠",
+              "name_zh_tw": "裸鼴鼠",
+              "name_es_es": "Rata Topo Desnuda",
+              "name_es_mx": "Rata Topo Desnuda"
             }
           ]
         }
@@ -3436,98 +3441,90 @@
       ]
     },
     {
-      "id": "lagomorpha",
-      "name_short": "ウサギ",
-      "name_kids": "ウサギのなかま",
-      "name_ja": "兎形目",
-      "name_en": "Lagomorpha (Rabbits & Hares)",
+      "id": "pilosa",
+      "name_short": "ナマケモノ",
+      "name_kids": "ナマケモノとアリクイ",
+      "name_ja": "有毛目",
+      "name_en": "Pilosa (Sloths & Anteaters)",
       "families": [
         {
-          "id": "leporidae",
-          "name_ja": "ウサギ科",
-          "name_en": "Leporidae",
+          "id": "bradypodidae",
+          "name_ja": "ミユビナマケモノ科",
+          "name_en": "Bradypodidae",
           "species": [
             {
-              "id": "rabbit",
+              "id": "sloth",
               "tier": 1,
-              "name_common": "ウサギ",
-              "name_standard_ja": "カイウサギ（アナウサギ）",
-              "name_en": "Rabbit",
-              "image": "/images/animals/rabbit.webp",
-              "description_note": "ピョンピョン跳ねる！長い耳が大人気の身近なペット",
-              "bg_color": "from-pink-100 to-rose-100",
-              "accent_color": "border-pink-300",
-              "name_zh_cn": "兔子",
-              "name_zh_tw": "兔子",
-              "name_es_es": "Conejo",
-              "name_es_mx": "Conejo"
-            },
-            {
-              "id": "hare",
-              "tier": 1,
-              "name_common": "ノウサギ",
-              "name_standard_ja": "ニホンノウサギ",
-              "name_en": "Hare",
-              "image": "/images/animals/hare.webp",
-              "description_note": "脚がとても長くて走るのが速い日本の野生ウサギ",
-              "bg_color": "from-amber-100 to-orange-100",
-              "accent_color": "border-amber-400",
-              "name_zh_cn": "野兔",
-              "name_zh_tw": "野兔",
-              "name_es_es": "Liebre",
-              "name_es_mx": "Liebre"
-            },
-            {
-              "id": "mountain-hare",
-              "tier": 2,
-              "name_common": "ユキウサギ",
-              "name_standard_ja": "エゾユキウサギ",
-              "name_en": "Mountain Hare",
-              "image": "/images/animals/mountain-hare.webp",
-              "description_note": "冬になると全身の毛が真っ白に変身するよ！",
+              "name_common": "ナマケモノ",
+              "name_standard_ja": "ノドチャミユビナマケモノ",
+              "name_en": "Sloth",
+              "image": "/images/animals/sloth.webp",
+              "description_note": "木の上にぶら下がって1日中ずーっとのんびり過ごすよ",
               "bg_color": "from-emerald-50 to-teal-100",
               "accent_color": "border-emerald-300",
-              "name_zh_cn": "雪兔",
-              "name_zh_tw": "雪兔",
-              "name_es_es": "Liebre Variable",
-              "name_es_mx": "Liebre Ártica"
-            },
-            {
-              "id": "amami-rabbit",
-              "tier": 2,
-              "name_common": "アマミノクロウサギ",
-              "name_standard_ja": "アマミノクロウサギ",
-              "name_en": "Amami Rabbit",
-              "image": "/images/animals/amami-rabbit.webp",
-              "description_note": "奄美大島だけにすむ黒くて耳が短い「生きている化石」",
-              "bg_color": "from-sky-100 to-blue-100",
-              "accent_color": "border-sky-300",
-              "name_zh_cn": "奄美短耳兔",
-              "name_zh_tw": "奄美短耳兔",
-              "name_es_es": "Conejo de Amami",
-              "name_es_mx": "Conejo de Amami"
+              "name_zh_cn": "树懒",
+              "name_zh_tw": "樹懶",
+              "name_es_es": "Perezoso",
+              "name_es_mx": "Perezoso"
             }
           ]
         },
         {
-          "id": "ochotonidae",
-          "name_ja": "ナキウサギ科",
-          "name_en": "Ochotonidae",
+          "id": "myrmecophagidae",
+          "name_ja": "アリクイ科",
+          "name_en": "Myrmecophagidae",
           "species": [
             {
-              "id": "northern-pika",
+              "id": "giant-anteater",
+              "tier": 1,
+              "name_common": "オオアリクイ",
+              "name_standard_ja": "オオアリクイ",
+              "name_en": "Anteater",
+              "image": "/images/animals/anteater.webp",
+              "description_note": "体の半分くらいある大きくて大きなふさふさシッポと長ーい舌！",
+              "bg_color": "from-amber-100 to-stone-200",
+              "accent_color": "border-amber-500",
+              "name_zh_cn": "大食蚁兽",
+              "name_zh_tw": "大食蟻獸",
+              "name_es_es": "Oso Hormiguero",
+              "name_es_mx": "Oso Hormiguero"
+            },
+            {
+              "id": "southern-tamandua",
               "tier": 2,
-              "name_common": "ナキウサギ",
-              "name_standard_ja": "エゾナキウサギ",
-              "name_en": "Northern Pika",
-              "image": "/images/animals/northern-pika.webp",
-              "description_note": "ピピッ！と高い声で鳴くよ！冬のために干し草を作る人気者",
-              "bg_color": "from-slate-100 to-stone-200",
-              "accent_color": "border-slate-400",
-              "name_zh_cn": "鼠兔",
-              "name_zh_tw": "鼠兔",
-              "name_es_es": "Pica",
-              "name_es_mx": "Pica"
+              "name_common": "ミナミコアリクイ",
+              "name_standard_ja": "ミナミコアリクイ",
+              "name_en": "Southern Tamandua",
+              "image": "/images/animals/southern-tamandua.webp",
+              "description_note": "両手を広げる「威嚇ポーズ」が可愛くて大人気！",
+              "bg_color": "from-rose-100 to-pink-100",
+              "accent_color": "border-pink-300",
+              "name_zh_cn": "小食蚁兽",
+              "name_zh_tw": "小食蟻獸",
+              "name_es_es": "Oso Hormiguero Pequeño",
+              "name_es_mx": "Oso Hormiguero Pequeño"
+            }
+          ]
+        },
+        {
+          "id": "cyclopedidae",
+          "name_ja": "ヒメアリクイ科",
+          "name_en": "Cyclopedidae",
+          "species": [
+            {
+              "id": "silky-anteater",
+              "tier": 2,
+              "name_common": "ヒメアリクイ",
+              "name_standard_ja": "ヒメアリクイ",
+              "name_en": "Silky Anteater",
+              "image": "/images/animals/silky-anteater.webp",
+              "description_note": "手のひらサイズの世界最小のアリクイ！全身ふわふわ",
+              "bg_color": "from-emerald-50 to-teal-100",
+              "accent_color": "border-emerald-300",
+              "name_zh_cn": "侏食蚁兽",
+              "name_zh_tw": "侏食蟻獸",
+              "name_es_es": "Oso Hormiguero Sedoso",
+              "name_es_mx": "Oso Hormiguero Sedoso"
             }
           ]
         }
@@ -3587,134 +3584,137 @@
       ]
     },
     {
-      "id": "diprotodontia",
-      "name_short": "カンガルー・コアラ",
-      "name_kids": "カンガルーとコアラのなかま",
-      "name_ja": "双前歯目",
-      "name_en": "Diprotodontia (Kangaroos & Relatives)",
+      "id": "chiroptera",
+      "name_short": "コウモリ",
+      "name_kids": "コウモリのなかま",
+      "name_ja": "翼手目",
+      "name_en": "Chiroptera (Bats)",
       "families": [
         {
-          "id": "macropodidae",
-          "name_ja": "カンガルー科",
-          "name_en": "Macropodidae",
+          "id": "vespertilionidae",
+          "name_ja": "ヒナコウモリ科",
+          "name_en": "Vespertilionidae",
           "species": [
             {
-              "id": "red-kangaroo",
+              "id": "bat",
               "tier": 1,
-              "name_common": "カンガルー",
-              "name_standard_ja": "アカカンガルー",
-              "name_en": "Kangaroo",
-              "image": "/images/animals/kangaroo.webp",
-              "description_note": "ぴょんぴょん跳ねる！お腹のポケット（袋）で赤ちゃんを育てるよ",
-              "bg_color": "from-orange-100 to-amber-100",
-              "accent_color": "border-orange-400",
-              "name_zh_cn": "袋鼠",
-              "name_zh_tw": "袋鼠",
-              "name_es_es": "Canguro",
-              "name_es_mx": "Canguro"
-            },
-            {
-              "id": "quokka",
-              "tier": 2,
-              "name_common": "クアッカワラビー",
-              "name_standard_ja": "クアッカワラビー",
-              "name_en": "Quokka",
-              "image": "/images/animals/quokka.png",
-              "description_note": "いつもニッコリ笑っているみたい！「世界一幸せな動物」と呼ばれる大人気珍獣",
-              "bg_color": "from-sky-100 to-blue-100",
-              "accent_color": "border-sky-300",
-              "name_zh_cn": "短尾矮袋鼠",
-              "name_zh_tw": "短尾矮袋鼠",
-              "name_es_es": "Quokka",
-              "name_es_mx": "Quokka"
-            }
-          ]
-        },
-        {
-          "id": "phascolarctidae",
-          "name_ja": "コアラ科",
-          "name_en": "Phascolarctidae",
-          "species": [
-            {
-              "id": "koala",
-              "tier": 1,
-              "name_common": "コアラ",
-              "name_standard_ja": "コアラ",
-              "name_en": "Koala",
-              "image": "/images/animals/koala.webp",
-              "description_note": "ユーカリの葉っぱが大好物！木の上でのんびり過ごすよ",
-              "bg_color": "from-emerald-50 to-teal-100",
-              "accent_color": "border-emerald-300",
-              "name_zh_cn": "考拉",
-              "name_zh_tw": "無尾熊",
-              "name_es_es": "Coala",
-              "name_es_mx": "Koala"
-            }
-          ]
-        },
-        {
-          "id": "vombatidae",
-          "name_ja": "ウォンバット科",
-          "name_en": "Vombatidae",
-          "species": [
-            {
-              "id": "wombat",
-              "tier": 2,
-              "name_common": "ウォンバット",
-              "name_standard_ja": "ヒメウォンバット",
-              "name_en": "Wombat",
-              "image": "/images/animals/wombat.webp",
-              "description_note": "ずんぐり丸い体がキュート！四角いサイコロ型のうんちをするよ",
-              "bg_color": "from-slate-100 to-stone-200",
-              "accent_color": "border-slate-400",
-              "name_zh_cn": "袋熊",
-              "name_zh_tw": "袋熊",
-              "name_es_es": "Wombat",
-              "name_es_mx": "Wombat"
-            }
-          ]
-        },
-        {
-          "id": "petauridae",
-          "name_ja": "フクロモモンガ科",
-          "name_en": "Petauridae",
-          "species": [
-            {
-              "id": "sugar-glider",
-              "tier": 2,
-              "name_common": "フクロモモンガ",
-              "name_standard_ja": "フクロモモンガ",
-              "name_en": "Sugar Glider",
-              "image": "/images/animals/sugar-glider.webp",
-              "description_note": "手足を広げて風に乗る！木から木へ滑空する可愛い仲間",
+              "name_common": "コウモリ",
+              "name_standard_ja": "アブラコウモリ",
+              "name_en": "Bat",
+              "image": "/images/animals/bat.webp",
+              "description_note": "パタパタ空を飛ぶ！夕方のお空でおなじみの仲間",
               "bg_color": "from-indigo-100 to-purple-100",
-              "accent_color": "border-indigo-300",
-              "name_zh_cn": "蜜袋鼯",
-              "name_zh_tw": "蜜袋鼯",
-              "name_es_es": "Petauro del Azúcar",
-              "name_es_mx": "Petauro del Azúcar"
+              "accent_color": "border-indigo-400",
+              "name_zh_cn": "蝙蝠",
+              "name_zh_tw": "蝙蝠",
+              "name_es_es": "Murciélago",
+              "name_es_mx": "Murciélago"
             }
           ]
         },
         {
-          "id": "phalangeridae",
-          "name_ja": "クスクス科",
-          "name_en": "Phalangeridae",
+          "id": "phyllostomidae",
+          "name_ja": "ヘラコウモリ科",
+          "name_en": "Phyllostomidae",
           "species": [
             {
-              "id": "spotted-cuscus",
+              "id": "honduran-white-bat",
               "tier": 2,
-              "name_common": "クスクス",
-              "name_standard_ja": "ブチクスクス",
-              "name_en": "Spotted Cuscus",
-              "image": "/images/animals/spotted-cuscus.webp",
-              "description_note": "くりくりの大きな目と長いシッポで木登りが得意な仲間",
+              "name_common": "シロヘラコウモリ",
+              "name_standard_ja": "シロヘラコウモリ",
+              "name_en": "Honduran White Bat",
+              "image": "/images/animals/honduran-white-bat.webp",
+              "description_note": "全身真っ白で黄色いお耳とお鼻！葉っぱを折ってテントを作る綿あめコウモリ！",
+              "bg_color": "from-amber-100 to-yellow-100",
+              "accent_color": "border-amber-400",
+              "name_zh_cn": "白蝙蝠",
+              "name_zh_tw": "白蝙蝠",
+              "name_es_es": "Murciélago Blanco",
+              "name_es_mx": "Murciélago Blanco Hondureño"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sirenia",
+      "name_short": "ジュゴン",
+      "name_kids": "ジュゴンとマナティー",
+      "name_ja": "海牛目",
+      "name_en": "Sirenia (Sea Cows)",
+      "families": [
+        {
+          "id": "dugongidae",
+          "name_ja": "ジュゴン科",
+          "name_en": "Dugongidae",
+          "species": [
+            {
+              "id": "dugong",
+              "tier": 1,
+              "name_common": "ジュゴン",
+              "name_standard_ja": "ジュゴン",
+              "name_en": "Dugong",
+              "image": "/images/animals/dugong.webp",
+              "description_note": "三角形のシッポ！浅い海でのんびりアマモ（海草）を食べる人魚のモデル",
               "bg_color": "from-teal-100 to-cyan-100",
               "accent_color": "border-teal-400",
-              "name_zh_cn": "斑袋貂",
-              "name_zh_tw": "斑袋貂",
-              "name_es_es": "Cuscus Moteado",
-              "name_es_mx": "Cuscús Moteado"
+              "name_zh_cn": "儒艮",
+              "name_zh_tw": "儒艮",
+              "name_es_es": "Dugongo",
+              "name_es_mx": "Dugongo"
+            }
+          ]
+        },
+        {
+          "id": "trichechidae",
+          "name_ja": "マナティー科",
+          "name_en": "Trichechidae",
+          "species": [
+            {
+              "id": "manatee",
+              "tier": 1,
+              "name_common": "マナティー",
+              "name_standard_ja": "アメリカマナティー",
+              "name_en": "Manatee",
+              "image": "/images/animals/manatee.webp",
+              "description_note": "川や浅い海でのんびり暮らす丸くて可愛い海獣でのんびり過ごすよ",
+              "bg_color": "from-cyan-100 to-blue-100",
+              "accent_color": "border-cyan-400",
+              "name_zh_cn": "海牛",
+              "name_zh_tw": "海牛",
+              "name_es_es": "Manatí",
+              "name_es_mx": "Manatí"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cingulata",
+      "name_short": "アルマジロ",
+      "name_kids": "アルマジロのなかま",
+      "name_ja": "被甲目",
+      "name_en": "Cingulata (Armadillos)",
+      "families": [
+        {
+          "id": "dasypodidae",
+          "name_ja": "アルマジロ科",
+          "name_en": "Dasypodidae",
+          "species": [
+            {
+              "id": "armadillo",
+              "tier": 1,
+              "name_common": "アルマジロ",
+              "name_standard_ja": "マタコミツオビアルマジロ",
+              "name_en": "Armadillo",
+              "image": "/images/animals/armadillo.webp",
+              "description_note": "びっくりするとコロンと完全なボールみたいに丸まるよ！",
+              "bg_color": "from-amber-100 to-yellow-100",
+              "accent_color": "border-amber-400",
+              "name_zh_cn": "犰狳",
+              "name_zh_tw": "犰狳",
+              "name_es_es": "Armadillo",
+              "name_es_mx": "Armadillo"
             }
           ]
         }
@@ -3789,6 +3789,37 @@
       ]
     },
     {
+      "id": "pholidota",
+      "name_short": "センザンコウ",
+      "name_kids": "センザンコウのなかま",
+      "name_ja": "鱗甲目",
+      "name_en": "Pholidota",
+      "families": [
+        {
+          "id": "manidae",
+          "name_ja": "センザンコウ科",
+          "name_en": "Manidae",
+          "species": [
+            {
+              "id": "pangolin",
+              "tier": 2,
+              "name_common": "センザンコウ",
+              "name_standard_ja": "サバンナセンザンコウ",
+              "name_en": "Pangolin",
+              "image": "/images/animals/pangolin.webp",
+              "description_note": "哺乳類で唯一全身が硬いウロコで覆われているよ",
+              "bg_color": "from-teal-100 to-cyan-100",
+              "accent_color": "border-teal-400",
+              "name_zh_cn": "穿山甲",
+              "name_zh_tw": "穿山甲",
+              "name_es_es": "Pangolín",
+              "name_es_mx": "Pangolín"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "didelphimorphia",
       "name_short": "オポッサム",
       "name_kids": "オポッサムのなかま",
@@ -3835,6 +3866,68 @@
       ]
     },
     {
+      "id": "hyracoidea",
+      "name_short": "ハイラックス",
+      "name_kids": "ハイラックスのなかま",
+      "name_ja": "イワダヌキ目",
+      "name_en": "Hyracoidea",
+      "families": [
+        {
+          "id": "procaviidae",
+          "name_ja": "ハイラックス科",
+          "name_en": "Procaviidae",
+          "species": [
+            {
+              "id": "rock-hyrax",
+              "tier": 2,
+              "name_common": "ハイラックス",
+              "name_standard_ja": "ケープハイラックス",
+              "name_en": "Rock Hyrax",
+              "image": "/images/animals/rock-hyrax.webp",
+              "description_note": "見た目はネズミやタヌキに似ているけれど、実はゾウの遠い親戚！",
+              "bg_color": "from-slate-100 to-stone-200",
+              "accent_color": "border-slate-400",
+              "name_zh_cn": "蹄兔",
+              "name_zh_tw": "蹄兔",
+              "name_es_es": "Damán",
+              "name_es_mx": "Damán"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tubulidentata",
+      "name_short": "ツチブタ",
+      "name_kids": "ツチブタのなかま",
+      "name_ja": "管歯目",
+      "name_en": "Tubulidentata",
+      "families": [
+        {
+          "id": "orycteropodidae",
+          "name_ja": "ツチブタ科",
+          "name_en": "Orycteropodidae",
+          "species": [
+            {
+              "id": "aardvark",
+              "tier": 2,
+              "name_common": "ツチブタ",
+              "name_standard_ja": "ツチブタ",
+              "name_en": "Aardvark",
+              "image": "/images/animals/aardvark.webp",
+              "description_note": "たった1種しかいない珍しい穴掘り名人",
+              "bg_color": "from-indigo-100 to-purple-100",
+              "accent_color": "border-indigo-300",
+              "name_zh_cn": "土豚",
+              "name_zh_tw": "土豚",
+              "name_es_es": "Oricteropo",
+              "name_es_mx": "Cerdo Hormiguero"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "peramelemorphia",
       "name_short": "ビルビー",
       "name_kids": "ビルビーとバンディクート",
@@ -3860,6 +3953,152 @@
               "name_zh_tw": "兔耳袋狸",
               "name_es_es": "Bilby",
               "name_es_mx": "Bilby"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dermoptera",
+      "name_short": "ヒヨケザル",
+      "name_kids": "ヒヨケザルのなかま",
+      "name_ja": "皮翼目",
+      "name_en": "Dermoptera",
+      "families": [
+        {
+          "id": "cynocephalidae",
+          "name_ja": "ヒヨケザル科",
+          "name_en": "Cynocephalidae",
+          "species": [
+            {
+              "id": "sunda-flying-lemur",
+              "tier": 2,
+              "name_common": "ヒヨケザル",
+              "name_standard_ja": "マレーヒヨケザル",
+              "name_en": "Sunda Flying Lemur",
+              "image": "/images/animals/sunda-flying-lemur.webp",
+              "description_note": "全身が大きなマント（飛膜）で覆われた「滑空の王者」！",
+              "bg_color": "from-sky-100 to-blue-100",
+              "accent_color": "border-sky-300",
+              "name_zh_cn": "鼯猴",
+              "name_zh_tw": "鼯猴",
+              "name_es_es": "Lémur Volador",
+              "name_es_mx": "Lémur Volador"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scandentia",
+      "name_short": "ツパイ",
+      "name_kids": "ツパイのなかま",
+      "name_ja": "登木目",
+      "name_en": "Scandentia",
+      "families": [
+        {
+          "id": "tupaiidae",
+          "name_ja": "ツパイ科",
+          "name_en": "Tupaiidae",
+          "species": [
+            {
+              "id": "common-treeshrew",
+              "tier": 2,
+              "name_common": "ツパイ",
+              "name_standard_ja": "コモンツパイ",
+              "name_en": "Treeshrew",
+              "image": "/images/animals/common-treeshrew.webp",
+              "description_note": "見た目はリスにそっくり！だけど実はサルや人間の遠い親戚",
+              "bg_color": "from-slate-100 to-stone-200",
+              "accent_color": "border-slate-400",
+              "name_zh_cn": "树鼩",
+              "name_zh_tw": "樹鼩",
+              "name_es_es": "Tupaia",
+              "name_es_mx": "Tupaia"
+            }
+          ]
+        },
+        {
+          "id": "ptilocercidae",
+          "name_ja": "ハネオツパイ科",
+          "name_en": "Ptilocercidae",
+          "species": [
+            {
+              "id": "pen-tailed-treeshrew",
+              "tier": 2,
+              "name_common": "ハネオツパイ",
+              "name_standard_ja": "ハネオツパイ",
+              "name_en": "Pen-tailed Treeshrew",
+              "image": "/images/animals/pen-tailed-treeshrew.webp",
+              "description_note": "鳥の羽みたいなシッポ！お酒（アルコール）を飲んでも酔わない特異体質",
+              "bg_color": "from-indigo-100 to-purple-100",
+              "accent_color": "border-indigo-300",
+              "name_zh_cn": "羽尾树鼩",
+              "name_zh_tw": "羽尾樹鼩",
+              "name_es_es": "Tupaia Plumosa",
+              "name_es_mx": "Tupaia Plumosa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "afrosoricida",
+      "name_short": "テンレック",
+      "name_kids": "テンレックのなかま",
+      "name_ja": "アフリカトガリネズミ目",
+      "name_en": "Afrosoricida",
+      "families": [
+        {
+          "id": "tenrecidae",
+          "name_ja": "テンレック科",
+          "name_en": "Tenrecidae",
+          "species": [
+            {
+              "id": "lowland-streaked-tenrec",
+              "tier": 2,
+              "name_common": "テンレック",
+              "name_standard_ja": "シマテンレック",
+              "name_en": "Tenrec",
+              "image": "/images/animals/lowland-streaked-tenrec.webp",
+              "description_note": "黄色と黒の針がかっこいい！背中の針をすり合わせて音を出すよ",
+              "bg_color": "from-indigo-100 to-purple-100",
+              "accent_color": "border-indigo-300",
+              "name_zh_cn": "马岛刺猬",
+              "name_zh_tw": "馬島刺蝟",
+              "name_es_es": "Tenrec",
+              "name_es_mx": "Tenrec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "macroscelidea",
+      "name_short": "ハネジネズミ",
+      "name_kids": "ハネジネズミのなかま",
+      "name_ja": "長脚目",
+      "name_en": "Macroscelidea",
+      "families": [
+        {
+          "id": "macroscelididae",
+          "name_ja": "ハネジネズミ科",
+          "name_en": "Macroscelididae",
+          "species": [
+            {
+              "id": "elephant-shrew",
+              "tier": 2,
+              "name_common": "ハネジネズミ",
+              "name_standard_ja": "アカハネジネズミ",
+              "name_en": "Elephant Shrew",
+              "image": "/images/animals/elephant-shrew.webp",
+              "description_note": "小さなゾウみたいな長いお鼻！ピョンピョンすばしっこく跳ねるよ",
+              "bg_color": "from-teal-100 to-cyan-100",
+              "accent_color": "border-teal-400",
+              "name_zh_cn": "象鼩",
+              "name_zh_tw": "象鼩",
+              "name_es_es": "Musaraña Elefante",
+              "name_es_mx": "Musaraña Elefante"
             }
           ]
         }
@@ -3953,245 +4192,6 @@
               "name_zh_tw": "袋鼹",
               "name_es_es": "Topo Marsupial",
               "name_es_mx": "Topo Marsupial"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "hyracoidea",
-      "name_short": "ハイラックス",
-      "name_kids": "ハイラックスのなかま",
-      "name_ja": "イワダヌキ目",
-      "name_en": "Hyracoidea",
-      "families": [
-        {
-          "id": "procaviidae",
-          "name_ja": "ハイラックス科",
-          "name_en": "Procaviidae",
-          "species": [
-            {
-              "id": "rock-hyrax",
-              "tier": 2,
-              "name_common": "ハイラックス",
-              "name_standard_ja": "ケープハイラックス",
-              "name_en": "Rock Hyrax",
-              "image": "/images/animals/rock-hyrax.webp",
-              "description_note": "見た目はネズミやタヌキに似ているけれど、実はゾウの遠い親戚！",
-              "bg_color": "from-slate-100 to-stone-200",
-              "accent_color": "border-slate-400",
-              "name_zh_cn": "蹄兔",
-              "name_zh_tw": "蹄兔",
-              "name_es_es": "Damán",
-              "name_es_mx": "Damán"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "tubulidentata",
-      "name_short": "ツチブタ",
-      "name_kids": "ツチブタのなかま",
-      "name_ja": "管歯目",
-      "name_en": "Tubulidentata",
-      "families": [
-        {
-          "id": "orycteropodidae",
-          "name_ja": "ツチブタ科",
-          "name_en": "Orycteropodidae",
-          "species": [
-            {
-              "id": "aardvark",
-              "tier": 2,
-              "name_common": "ツチブタ",
-              "name_standard_ja": "ツチブタ",
-              "name_en": "Aardvark",
-              "image": "/images/animals/aardvark.webp",
-              "description_note": "たった1種しかいない珍しい穴掘り名人",
-              "bg_color": "from-indigo-100 to-purple-100",
-              "accent_color": "border-indigo-300",
-              "name_zh_cn": "土豚",
-              "name_zh_tw": "土豚",
-              "name_es_es": "Oricteropo",
-              "name_es_mx": "Cerdo Hormiguero"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "pholidota",
-      "name_short": "センザンコウ",
-      "name_kids": "センザンコウのなかま",
-      "name_ja": "鱗甲目",
-      "name_en": "Pholidota",
-      "families": [
-        {
-          "id": "manidae",
-          "name_ja": "センザンコウ科",
-          "name_en": "Manidae",
-          "species": [
-            {
-              "id": "pangolin",
-              "tier": 2,
-              "name_common": "センザンコウ",
-              "name_standard_ja": "サバンナセンザンコウ",
-              "name_en": "Pangolin",
-              "image": "/images/animals/pangolin.webp",
-              "description_note": "哺乳類で唯一全身が硬いウロコで覆われているよ",
-              "bg_color": "from-teal-100 to-cyan-100",
-              "accent_color": "border-teal-400",
-              "name_zh_cn": "穿山甲",
-              "name_zh_tw": "穿山甲",
-              "name_es_es": "Pangolín",
-              "name_es_mx": "Pangolín"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "afrosoricida",
-      "name_short": "テンレック",
-      "name_kids": "テンレックのなかま",
-      "name_ja": "アフリカトガリネズミ目",
-      "name_en": "Afrosoricida",
-      "families": [
-        {
-          "id": "tenrecidae",
-          "name_ja": "テンレック科",
-          "name_en": "Tenrecidae",
-          "species": [
-            {
-              "id": "lowland-streaked-tenrec",
-              "tier": 2,
-              "name_common": "テンレック",
-              "name_standard_ja": "シマテンレック",
-              "name_en": "Tenrec",
-              "image": "/images/animals/lowland-streaked-tenrec.webp",
-              "description_note": "黄色と黒の針がかっこいい！背中の針をすり合わせて音を出すよ",
-              "bg_color": "from-indigo-100 to-purple-100",
-              "accent_color": "border-indigo-300",
-              "name_zh_cn": "马岛刺猬",
-              "name_zh_tw": "馬島刺蝟",
-              "name_es_es": "Tenrec",
-              "name_es_mx": "Tenrec"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "macroscelidea",
-      "name_short": "ハネジネズミ",
-      "name_kids": "ハネジネズミのなかま",
-      "name_ja": "長脚目",
-      "name_en": "Macroscelidea",
-      "families": [
-        {
-          "id": "macroscelididae",
-          "name_ja": "ハネジネズミ科",
-          "name_en": "Macroscelididae",
-          "species": [
-            {
-              "id": "elephant-shrew",
-              "tier": 2,
-              "name_common": "ハネジネズミ",
-              "name_standard_ja": "アカハネジネズミ",
-              "name_en": "Elephant Shrew",
-              "image": "/images/animals/elephant-shrew.webp",
-              "description_note": "小さなゾウみたいな長いお鼻！ピョンピョンすばしっこく跳ねるよ",
-              "bg_color": "from-teal-100 to-cyan-100",
-              "accent_color": "border-teal-400",
-              "name_zh_cn": "象鼩",
-              "name_zh_tw": "象鼩",
-              "name_es_es": "Musaraña Elefante",
-              "name_es_mx": "Musaraña Elefante"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "dermoptera",
-      "name_short": "ヒヨケザル",
-      "name_kids": "ヒヨケザルのなかま",
-      "name_ja": "皮翼目",
-      "name_en": "Dermoptera",
-      "families": [
-        {
-          "id": "cynocephalidae",
-          "name_ja": "ヒヨケザル科",
-          "name_en": "Cynocephalidae",
-          "species": [
-            {
-              "id": "sunda-flying-lemur",
-              "tier": 2,
-              "name_common": "ヒヨケザル",
-              "name_standard_ja": "マレーヒヨケザル",
-              "name_en": "Sunda Flying Lemur",
-              "image": "/images/animals/sunda-flying-lemur.webp",
-              "description_note": "全身が大きなマント（飛膜）で覆われた「滑空の王者」！",
-              "bg_color": "from-sky-100 to-blue-100",
-              "accent_color": "border-sky-300",
-              "name_zh_cn": "鼯猴",
-              "name_zh_tw": "鼯猴",
-              "name_es_es": "Lémur Volador",
-              "name_es_mx": "Lémur Volador"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "scandentia",
-      "name_short": "ツパイ",
-      "name_kids": "ツパイのなかま",
-      "name_ja": "登木目",
-      "name_en": "Scandentia",
-      "families": [
-        {
-          "id": "tupaiidae",
-          "name_ja": "ツパイ科",
-          "name_en": "Tupaiidae",
-          "species": [
-            {
-              "id": "common-treeshrew",
-              "tier": 2,
-              "name_common": "ツパイ",
-              "name_standard_ja": "コモンツパイ",
-              "name_en": "Treeshrew",
-              "image": "/images/animals/common-treeshrew.webp",
-              "description_note": "見た目はリスにそっくり！だけど実はサルや人間の遠い親戚",
-              "bg_color": "from-slate-100 to-stone-200",
-              "accent_color": "border-slate-400",
-              "name_zh_cn": "树鼩",
-              "name_zh_tw": "樹鼩",
-              "name_es_es": "Tupaia",
-              "name_es_mx": "Tupaia"
-            }
-          ]
-        },
-        {
-          "id": "ptilocercidae",
-          "name_ja": "ハネオツパイ科",
-          "name_en": "Ptilocercidae",
-          "species": [
-            {
-              "id": "pen-tailed-treeshrew",
-              "tier": 2,
-              "name_common": "ハネオツパイ",
-              "name_standard_ja": "ハネオツパイ",
-              "name_en": "Pen-tailed Treeshrew",
-              "image": "/images/animals/pen-tailed-treeshrew.webp",
-              "description_note": "鳥の羽みたいなシッポ！お酒（アルコール）を飲んでも酔わない特異体質",
-              "bg_color": "from-indigo-100 to-purple-100",
-              "accent_color": "border-indigo-300",
-              "name_zh_cn": "羽尾树鼩",
-              "name_zh_tw": "羽尾樹鼩",
-              "name_es_es": "Tupaia Plumosa",
-              "name_es_mx": "Tupaia Plumosa"
             }
           ]
         }

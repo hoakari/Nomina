@@ -1,42 +1,83 @@
-# sv
+# 🐾 Nomina! (ノミーナ！) - 子ども多言語動物名前図鑑
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+> **子どもたちが直感的に楽しく学べる、多言語対応のデジタル動物図鑑 Web アプリケーション**
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🌟 主な機能と特徴
 
-```sh
-# create a new project
-npx sv create my-app
+### 1. 🌍 4言語（7種類のアクセント・表記対応）の音声読み上げ
+* **対応言語・アクセント**:
+  * 🇯🇵 **日本語** (標準語)
+  * 🇺🇸 **英語 (アメリカ)** / 🇬🇧 **英語 (イギリス)**
+  * 🇪🇸 **スペイン語 (スペイン)** / 🇲🇽 **スペイン語 (メキシコ)**
+  * 🇨🇳 **中国語 (簡体字)** / 🇹🇼 **中国語 (繁体字)**
+* 動物カードをタップすると、選択した言語でネイティブな音声読み上げが行われます。
+
+### 2. 🎙️ 自分の声で録音＆お手本ボイス機能
+* お手本を聞いた後、子ども自身がマイクに向かって声を録音・保存できます。
+* 録音した声はカード上に保存され、いつでも自分の声でお手本発音を再生できます。
+
+### 3. ✂️ 高速無音自動カット（スマートトリミング）
+* Web Audio API を活用し、録音データの前後に含まれる小音量・環境雑音部分をミリ秒単位で自動トリミング保存します。
+* 再生時のレスポンスが非常に軽快で、無駄な待ち時間がありません。
+
+### 4. 🎨 温かみのある高品質イラスト
+* 既存の絵本や図鑑になじみやすい、高精細で愛くるしいリアル動物イラストを採用しています。
+* サバンナ、ジャングル、里山、日本の庭など、生態に合わせたロケーション背景が描かれています。
+
+### 5. ⚙️ 年齢に合わせた「掲載数カスタマイズ（Tier設定）」
+* **Tier 1 (みんなが知ってる動物)**: イヌ、ネコ、ライオン、パンダなど代表的な人気動物（約77種）
+* **Tier 2 (動物園にいる動物)**: 動物園や水族館でおなじみの動物を追加
+* **Tier 3 (世界中のすべての動物)**: マニアックな種まで全217種を表示
+
+### 🔒 6. サーバー不要・安心安全のローカル完結型
+* 読み上げ（Web Speech API）、録音・編集（Web Audio API）、データ保存（IndexedDB / Cookie）のすべてがブラウザ内で完結します。
+* 外部サーバーへの音声送信を行わないため、お子様のプライバシーも安全です。
+
+---
+
+## 🛠️ 技術スタック (Tech Stack)
+
+* **フレームワーク**: SvelteKit (Svelte 5 Runes)
+* **言語**: TypeScript
+* **スタイリング**: TailwindCSS v4
+* **音声・メディア処理**: Web Speech API, Web Audio API, MediaRecorder API
+* **ストレージ**: IndexedDB, Cookies, LocalStorage
+* **ビルドツール**: Vite, Rolldown
+
+---
+
+## 🚀 ローカルでの開発手順
+
+### 前提条件
+* Node.js v18 以上
+
+### 1. リポジトリのクローン
+```bash
+git clone https://github.com/hoakari/Nomina.git
+cd Nomina
 ```
 
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.17.0 create --template minimal --types ts --add tailwindcss="plugins:none" --install npm frontend
+### 2. 依存パッケージのインストール
+```bash
+npm install
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
+### 3. 開発サーバーの起動
+```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
+ブラウザで `http://localhost:5173` を開いて動作を確認します。
 
-## Building
-
-To create a production version of your app:
-
-```sh
+### 4. 静的プロダクションビルド
+```bash
 npm run build
 ```
+ビルド成果物は `build/` ディレクトリ（または静的アセット）に出力され、Netlify や Vercel 等でそのまま一発デプロイ可能です。
 
-You can preview the production build with `npm run preview`.
+---
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## 📄 ライセンス
+
+© 2026 Nomina! - All rights reserved.

@@ -16,6 +16,8 @@
     name_zh_tw?: string;
     name_es_es?: string;
     name_es_mx?: string;
+    name_fr_fr?: string;
+    name_id_id?: string;
     image: string;
     audio?: string;
     description_note?: string;
@@ -166,6 +168,8 @@
     if (accent === 'zh-TW') return species.name_zh_tw || species.name_en;
     if (accent === 'es-ES') return species.name_es_es || species.name_en;
     if (accent === 'es-MX') return species.name_es_mx || species.name_en;
+    if (accent === 'fr-FR') return species.name_fr_fr || species.name_en;
+    if (accent === 'id-ID') return species.name_id_id || species.name_en;
     return species.name_en;
   }
 
@@ -226,6 +230,18 @@
           }) || voices.find(v => v.lang.toLowerCase().startsWith('es')) ||
           voices.find(v => v.lang.toLowerCase().startsWith('en')) ||
           voices.find(v => !v.lang.toLowerCase().startsWith('ja'));
+        } else if (lang === 'fr-FR') {
+          targetVoice = voices.find(v => 
+            v.lang.replace('_', '-').toLowerCase() === 'fr-fr' || 
+            (v.lang.toLowerCase().startsWith('fr') && (v.name.includes('French') || v.name.includes('France') || v.name.includes('Hortense') || v.name.includes('Julie') || v.name.includes('Paul')))
+          ) || voices.find(v => v.lang.toLowerCase().startsWith('fr')) ||
+          voices.find(v => v.lang.toLowerCase().startsWith('en'));
+        } else if (lang === 'id-ID') {
+          targetVoice = voices.find(v => 
+            v.lang.replace('_', '-').toLowerCase() === 'id-id' || 
+            (v.lang.toLowerCase().startsWith('id') && (v.name.includes('Indonesian') || v.name.includes('Indonesia') || v.name.includes('Andika') || v.name.includes('Gadis')))
+          ) || voices.find(v => v.lang.toLowerCase().startsWith('id')) ||
+          voices.find(v => v.lang.toLowerCase().startsWith('en'));
         }
 
         if (targetVoice) {

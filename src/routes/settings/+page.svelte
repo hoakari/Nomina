@@ -202,6 +202,24 @@
       bgClass: 'from-emerald-50 to-green-50',
       borderClass: 'border-emerald-500',
       badgeClass: 'bg-emerald-600'
+    },
+    {
+      code: 'fr-FR',
+      name: 'フランス語',
+      subtitle: 'Français (France)',
+      desc: 'エレガントで美しいフランス本国の標準フランス語発音と表記',
+      bgClass: 'from-blue-50 to-sky-50',
+      borderClass: 'border-blue-500',
+      badgeClass: 'bg-blue-500'
+    },
+    {
+      code: 'id-ID',
+      name: 'インドネシア語',
+      subtitle: 'Bahasa Indonesia',
+      desc: '東南アジアで広く話されている親しみやすいインドネシア語発音',
+      bgClass: 'from-red-50 to-rose-50',
+      borderClass: 'border-red-600',
+      badgeClass: 'bg-red-600'
     }
   ];
 </script>

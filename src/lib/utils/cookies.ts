@@ -33,8 +33,11 @@ export function setVisibleTier(tier: number, days = 365): void {
   document.cookie = `visible_tier=${validTier};${expires};path=/;SameSite=Lax`;
 }
 
-export type LangAccent = 'en-US' | 'en-GB' | 'zh-CN' | 'zh-TW' | 'es-ES' | 'es-MX';
+export type LangAccent = 'en-US' | 'en-GB' | 'zh-CN' | 'zh-TW' | 'es-ES' | 'es-MX' | 'fr-FR' | 'id-ID';
 
+/**
+ * 言語・アクセント設定 (lang_accent) の取得
+ */
 export function getLangAccent(): LangAccent {
   if (typeof document === 'undefined') return 'en-US';
 
@@ -46,7 +49,7 @@ export function getLangAccent(): LangAccent {
     let c = ca[i].trim();
     if (c.indexOf(name) === 0) {
       const val = c.substring(name.length, c.length) as LangAccent;
-      if (['en-US', 'en-GB', 'zh-CN', 'zh-TW', 'es-ES', 'es-MX'].includes(val)) {
+      if (['en-US', 'en-GB', 'zh-CN', 'zh-TW', 'es-ES', 'es-MX', 'fr-FR', 'id-ID'].includes(val)) {
         return val;
       }
     }

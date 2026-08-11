@@ -1,6 +1,6 @@
 <script lang="ts">
   let { code = 'en-US', size = 'md' } = $props<{
-    code?: 'en-US' | 'en-GB' | 'zh-CN' | 'zh-TW' | 'es-ES' | 'es-MX' | 'US' | 'GB' | 'CN' | 'TW' | 'ES' | 'MX';
+    code?: 'en-US' | 'en-GB' | 'zh-CN' | 'zh-TW' | 'es-ES' | 'es-MX' | 'fr-FR' | 'id-ID' | 'US' | 'GB' | 'CN' | 'TW' | 'ES' | 'MX' | 'FR' | 'ID';
     size?: 'sm' | 'md' | 'lg';
   }>();
 
@@ -16,7 +16,9 @@
     code === 'CN' ? 'zh-CN' :
     code === 'TW' ? 'zh-TW' :
     code === 'ES' ? 'es-ES' :
-    code === 'MX' ? 'es-MX' : code
+    code === 'MX' ? 'es-MX' :
+    code === 'FR' ? 'fr-FR' :
+    code === 'ID' ? 'id-ID' : code
   );
 </script>
 
@@ -132,5 +134,18 @@
       <path d="M-20,-10 C-10,-30 10,-30 20,-10 C10,20 -10,20 -20,-10 Z" fill="#006847"/>
       <circle cx="0" cy="-15" r="8" fill="#ce1126"/>
     </g>
+  </svg>
+{:else if normCode === 'fr-FR'}
+  <!-- フランス国旗 (トリコロール 🇫🇷) SVG -->
+  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClasses[size]}" viewBox="0 0 900 600">
+    <rect width="300" height="600" fill="#002395"/>
+    <rect x="300" width="300" height="600" fill="#fff"/>
+    <rect x="600" width="300" height="600" fill="#ed2939"/>
+  </svg>
+{:else if normCode === 'id-ID'}
+  <!-- インドネシア国旗 (メラ・プティ 🇮🇩) SVG -->
+  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClasses[size]}" viewBox="0 0 900 600">
+    <rect width="900" height="300" fill="#ce1126"/>
+    <rect y="300" width="900" height="300" fill="#fff"/>
   </svg>
 {/if}

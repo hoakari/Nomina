@@ -25,7 +25,9 @@
               "name_zh_cn": "狗",
               "name_zh_tw": "狗",
               "name_es_es": "Perro",
-              "name_es_mx": "Perro"
+              "name_es_mx": "Perro",
+              "name_fr_fr": "Chien (Shiba Inu)",
+              "name_id_id": "Anjing (Shiba Inu)"
             },
             {
               "id": "gray-wolf",
@@ -40,7 +42,9 @@
               "name_zh_cn": "灰狼",
               "name_zh_tw": "灰狼",
               "name_es_es": "Lobo Gris",
-              "name_es_mx": "Lobo Gris"
+              "name_es_mx": "Lobo Gris",
+              "name_fr_fr": "Wolf",
+              "name_id_id": "Wolf"
             },
             {
               "id": "coyote",
@@ -55,7 +59,9 @@
               "name_zh_cn": "郊狼",
               "name_zh_tw": "郊狼",
               "name_es_es": "Coyote",
-              "name_es_mx": "Coyote"
+              "name_es_mx": "Coyote",
+              "name_fr_fr": "Coyote",
+              "name_id_id": "Koyote"
             },
             {
               "id": "black-backed-jackal",
@@ -70,7 +76,9 @@
               "name_zh_cn": "金胡狼",
               "name_zh_tw": "金胡狼",
               "name_es_es": "Chacal",
-              "name_es_mx": "Chacal"
+              "name_es_mx": "Chacal",
+              "name_fr_fr": "Chacal à chabraque",
+              "name_id_id": "Jakal Punggung Hitam"
             },
             {
               "id": "dhole",
@@ -85,7 +93,9 @@
               "name_zh_cn": "豺",
               "name_zh_tw": "豺",
               "name_es_es": "Cuón",
-              "name_es_mx": "Perro Salvaje Asiático"
+              "name_es_mx": "Perro Salvaje Asiático",
+              "name_fr_fr": "Dhole",
+              "name_id_id": "Dhole"
             },
             {
               "id": "african-wild-dog",
@@ -100,7 +110,9 @@
               "name_zh_cn": "三色犬",
               "name_zh_tw": "三色犬",
               "name_es_es": "Licaón",
-              "name_es_mx": "Licaón"
+              "name_es_mx": "Licaón",
+              "name_fr_fr": "Lycaon",
+              "name_id_id": "Anjing Liar Afrika"
             },
             {
               "id": "maned-wolf",
@@ -115,7 +127,9 @@
               "name_zh_cn": "鬃狼",
               "name_zh_tw": "鬃狼",
               "name_es_es": "Lobo de Crin",
-              "name_es_mx": "Lobo de Crin"
+              "name_es_mx": "Lobo de Crin",
+              "name_fr_fr": "Loup à crinière",
+              "name_id_id": "Serigala Berperai"
             },
             {
               "id": "bush-dog",
@@ -130,7 +144,9 @@
               "name_zh_cn": "薮犬",
               "name_zh_tw": "藪犬",
               "name_es_es": "Perro de Vinagre",
-              "name_es_mx": "Perro de Monte"
+              "name_es_mx": "Perro de Monte",
+              "name_fr_fr": "Chien des buissons",
+              "name_id_id": "Anjing Semak"
             },
             {
               "id": "tanuki",
@@ -145,7 +161,9 @@
               "name_zh_cn": "貉",
               "name_zh_tw": "狸貓",
               "name_es_es": "Tanuki",
-              "name_es_mx": "Tanuki"
+              "name_es_mx": "Tanuki",
+              "name_fr_fr": "Chien viverrin",
+              "name_id_id": "Tanuki"
             },
             {
               "id": "red-fox",
@@ -160,7 +178,9 @@
               "name_zh_cn": "赤狐",
               "name_zh_tw": "赤狐",
               "name_es_es": "Zorro Rojo",
-              "name_es_mx": "Zorro Rojo"
+              "name_es_mx": "Zorro Rojo",
+              "name_fr_fr": "Renard roux",
+              "name_id_id": "Rubah Merah"
             },
             {
               "id": "hondo-fox",
@@ -175,7 +195,9 @@
               "name_zh_cn": "赤狐",
               "name_zh_tw": "赤狐",
               "name_es_es": "Zorro",
-              "name_es_mx": "Zorro"
+              "name_es_mx": "Zorro",
+              "name_fr_fr": "Renard du Japon",
+              "name_id_id": "Rubah Hondo"
             },
             {
               "id": "arctic-fox",
@@ -190,7 +212,9 @@
               "name_zh_cn": "北极狐",
               "name_zh_tw": "北極狐",
               "name_es_es": "Zorro Ártico",
-              "name_es_mx": "Zorro Ártico"
+              "name_es_mx": "Zorro Ártico",
+              "name_fr_fr": "Renard polaire",
+              "name_id_id": "Rubah Kutub"
             },
             {
               "id": "fennec-fox",
@@ -205,7 +229,9 @@
               "name_zh_cn": "耳廓狐",
               "name_zh_tw": "耳廓狐",
               "name_es_es": "Fénec",
-              "name_es_mx": "Fénec"
+              "name_es_mx": "Fénec",
+              "name_fr_fr": "Fennec",
+              "name_id_id": "Fennec"
             },
             {
               "id": "tibetan-sand-fox",
@@ -220,7 +246,9 @@
               "name_zh_cn": "藏狐",
               "name_zh_tw": "藏狐",
               "name_es_es": "Zorro Tibetano",
-              "name_es_mx": "Zorro del Tíbet"
+              "name_es_mx": "Zorro del Tíbet",
+              "name_fr_fr": "Renard du Tibet",
+              "name_id_id": "Rubah Pasir Tibet"
             }
           ]
         },
@@ -242,7 +270,9 @@
               "name_zh_cn": "大熊猫",
               "name_zh_tw": "大貓熊",
               "name_es_es": "Panda Gigante",
-              "name_es_mx": "Panda Gigante"
+              "name_es_mx": "Panda Gigante",
+              "name_fr_fr": "Panda géant",
+              "name_id_id": "Panda Raksasa"
             },
             {
               "id": "brown-bear",
@@ -258,7 +288,9 @@
               "name_zh_tw": "棕熊",
               "name_es_es": "Oso Pardo",
               "name_es_mx": "Oso Grizzly",
-              "name_en_gb": "Brown Bear"
+              "name_en_gb": "Brown Bear",
+              "name_fr_fr": "Ours brun",
+              "name_id_id": "Beruang Cokelat"
             },
             {
               "id": "asian-black-bear",
@@ -273,7 +305,9 @@
               "name_zh_cn": "亚洲黑熊",
               "name_zh_tw": "亞洲黑熊",
               "name_es_es": "Oso Negro Asiático",
-              "name_es_mx": "Oso Negro Asiático"
+              "name_es_mx": "Oso Negro Asiático",
+              "name_fr_fr": "Ours noir d'Asie",
+              "name_id_id": "Beruang Hitam Asia"
             },
             {
               "id": "polar-bear",
@@ -288,7 +322,9 @@
               "name_zh_cn": "北极熊",
               "name_zh_tw": "北極熊",
               "name_es_es": "Oso Polar",
-              "name_es_mx": "Oso Polar"
+              "name_es_mx": "Oso Polar",
+              "name_fr_fr": "Ours polaire",
+              "name_id_id": "Beruang Kutub"
             },
             {
               "id": "american-black-bear",
@@ -303,7 +339,9 @@
               "name_zh_cn": "美洲黑熊",
               "name_zh_tw": "美洲黑熊",
               "name_es_es": "Oso Negro Americano",
-              "name_es_mx": "Oso Negro Americano"
+              "name_es_mx": "Oso Negro Americano",
+              "name_fr_fr": "Ours noir d'Amérique",
+              "name_id_id": "Beruang Hitam Amerika"
             },
             {
               "id": "sloth-bear",
@@ -318,7 +356,9 @@
               "name_zh_cn": "懒熊",
               "name_zh_tw": "懶熊",
               "name_es_es": "Oso Perezoso",
-              "name_es_mx": "Oso Perezoso"
+              "name_es_mx": "Oso Perezoso",
+              "name_fr_fr": "Ours lippu",
+              "name_id_id": "Beruang Pemalas"
             },
             {
               "id": "sun-bear",
@@ -333,7 +373,9 @@
               "name_zh_cn": "马来熊",
               "name_zh_tw": "馬來熊",
               "name_es_es": "Oso Malayo",
-              "name_es_mx": "Oso Malayo"
+              "name_es_mx": "Oso Malayo",
+              "name_fr_fr": "Ours des cocotiers",
+              "name_id_id": "Beruang Madu"
             },
             {
               "id": "spectacled-bear",
@@ -348,7 +390,9 @@
               "name_zh_cn": "眼镜熊",
               "name_zh_tw": "眼鏡熊",
               "name_es_es": "Oso de Anteojos",
-              "name_es_mx": "Oso de Anteojos"
+              "name_es_mx": "Oso de Anteojos",
+              "name_fr_fr": "Ours à lunettes",
+              "name_id_id": "Beruang Kacamata"
             }
           ]
         },
@@ -370,7 +414,9 @@
               "name_zh_cn": "小熊猫",
               "name_zh_tw": "小貓熊",
               "name_es_es": "Panda Rojo",
-              "name_es_mx": "Panda Rojo"
+              "name_es_mx": "Panda Rojo",
+              "name_fr_fr": "Panda roux",
+              "name_id_id": "Panda Merah"
             }
           ]
         },
@@ -392,7 +438,9 @@
               "name_zh_cn": "浣熊",
               "name_zh_tw": "浣熊",
               "name_es_es": "Mapache",
-              "name_es_mx": "Mapache"
+              "name_es_mx": "Mapache",
+              "name_fr_fr": "Raton laveur",
+              "name_id_id": "Raccoon"
             },
             {
               "id": "kinkajou",
@@ -407,7 +455,9 @@
               "name_zh_cn": "蜜熊",
               "name_zh_tw": "蜜熊",
               "name_es_es": "Kinkajú",
-              "name_es_mx": "Martucha"
+              "name_es_mx": "Martucha",
+              "name_fr_fr": "Kinkajou",
+              "name_id_id": "Kinkajou"
             }
           ]
         },
@@ -429,7 +479,9 @@
               "name_zh_cn": "臭鼬",
               "name_zh_tw": "臭鼬",
               "name_es_es": "Mofeta",
-              "name_es_mx": "Zorrillo"
+              "name_es_mx": "Zorrillo",
+              "name_fr_fr": "Mofette",
+              "name_id_id": "Skunk"
             }
           ]
         },
@@ -451,7 +503,9 @@
               "name_zh_cn": "海獭",
               "name_zh_tw": "海獺",
               "name_es_es": "Nutria Marina",
-              "name_es_mx": "Nutria Marina"
+              "name_es_mx": "Nutria Marina",
+              "name_fr_fr": "Loutre de mer",
+              "name_id_id": "Berang-berang Laut"
             },
             {
               "id": "stoat",
@@ -467,7 +521,9 @@
               "name_zh_tw": "白鼬",
               "name_es_es": "Armiño",
               "name_es_mx": "Armiño",
-              "name_en_gb": "Stoat"
+              "name_en_gb": "Stoat",
+              "name_fr_fr": "Hermine",
+              "name_id_id": "Stoat"
             },
             {
               "id": "least-weasel",
@@ -482,7 +538,9 @@
               "name_zh_cn": "伶鼬",
               "name_zh_tw": "伶鼬",
               "name_es_es": "Comadreja Común",
-              "name_es_mx": "Comadreja"
+              "name_es_mx": "Comadreja",
+              "name_fr_fr": "Belette d'Europe",
+              "name_id_id": "Musang Kecil"
             },
             {
               "id": "honey-badger",
@@ -497,7 +555,9 @@
               "name_zh_cn": "蜜獾",
               "name_zh_tw": "蜜獾",
               "name_es_es": "Ratel",
-              "name_es_mx": "Tejón Melero"
+              "name_es_mx": "Tejón Melero",
+              "name_fr_fr": "Ratel",
+              "name_id_id": "Honey Badger"
             },
             {
               "id": "otter",
@@ -512,7 +572,9 @@
               "name_zh_cn": "水獭",
               "name_zh_tw": "水獺",
               "name_es_es": "Nutria",
-              "name_es_mx": "Nutria"
+              "name_es_mx": "Nutria",
+              "name_fr_fr": "Loutre",
+              "name_id_id": "Berang-berang"
             },
             {
               "id": "wolverine",
@@ -527,7 +589,9 @@
               "name_zh_cn": "狼獾",
               "name_zh_tw": "狼獾",
               "name_es_es": "Glotón",
-              "name_es_mx": "Glotón"
+              "name_es_mx": "Glotón",
+              "name_fr_fr": "Glouton",
+              "name_id_id": "Wolverine"
             },
             {
               "id": "eurasian-badger",
@@ -542,7 +606,9 @@
               "name_zh_cn": "獾",
               "name_zh_tw": "獾",
               "name_es_es": "Tejón",
-              "name_es_mx": "Tejón"
+              "name_es_mx": "Tejón",
+              "name_fr_fr": "Blaireau européen",
+              "name_id_id": "Luwak Eropa"
             },
             {
               "id": "japanese-marten",
@@ -557,7 +623,9 @@
               "name_zh_cn": "紫貂",
               "name_zh_tw": "紫貂",
               "name_es_es": "Marta Cibelina",
-              "name_es_mx": "Marta Cibelina"
+              "name_es_mx": "Marta Cibelina",
+              "name_fr_fr": "Martre du Japon",
+              "name_id_id": "Marten Jepang"
             },
             {
               "id": "weasel",
@@ -572,7 +640,9 @@
               "name_zh_cn": "黄鼬",
               "name_zh_tw": "黃鼬",
               "name_es_es": "Comadreja",
-              "name_es_mx": "Comadreja"
+              "name_es_mx": "Comadreja",
+              "name_fr_fr": "Belette",
+              "name_id_id": "Musang"
             }
           ]
         },
@@ -594,7 +664,9 @@
               "name_zh_cn": "海豹",
               "name_zh_tw": "海豹",
               "name_es_es": "Foca",
-              "name_es_mx": "Foca"
+              "name_es_mx": "Foca",
+              "name_fr_fr": "Phoque tacheté",
+              "name_id_id": "Anjing Laut Bintik"
             }
           ]
         },
@@ -616,7 +688,9 @@
               "name_zh_cn": "海狮",
               "name_zh_tw": "海獅",
               "name_es_es": "León Marino",
-              "name_es_mx": "León Marino"
+              "name_es_mx": "León Marino",
+              "name_fr_fr": "Otarie",
+              "name_id_id": "Singa Laut"
             },
             {
               "id": "todo",
@@ -631,7 +705,9 @@
               "name_zh_cn": "北海狮",
               "name_zh_tw": "北海獅",
               "name_es_es": "León Marino de Steller",
-              "name_es_mx": "León Marino de Steller"
+              "name_es_mx": "León Marino de Steller",
+              "name_fr_fr": "Lion de mer de Steller",
+              "name_id_id": "Singa Laut Steller"
             },
             {
               "id": "fur-seal",
@@ -646,7 +722,9 @@
               "name_zh_cn": "海狗",
               "name_zh_tw": "海狗",
               "name_es_es": "Oso Marino",
-              "name_es_mx": "Lobo Marino"
+              "name_es_mx": "Lobo Marino",
+              "name_fr_fr": "Otarie à fourrure",
+              "name_id_id": "Anjing Laut Berbulu"
             }
           ]
         },
@@ -668,7 +746,9 @@
               "name_zh_cn": "海象",
               "name_zh_tw": "海象",
               "name_es_es": "Morsa",
-              "name_es_mx": "Morsa"
+              "name_es_mx": "Morsa",
+              "name_fr_fr": "Morse",
+              "name_id_id": "Walrus"
             }
           ]
         }
@@ -699,7 +779,9 @@
               "name_zh_cn": "猫",
               "name_zh_tw": "貓",
               "name_es_es": "Gato",
-              "name_es_mx": "Gato"
+              "name_es_mx": "Gato",
+              "name_fr_fr": "Chat",
+              "name_id_id": "Kucing"
             },
             {
               "id": "lion",
@@ -714,7 +796,9 @@
               "name_zh_cn": "狮子",
               "name_zh_tw": "獅子",
               "name_es_es": "León",
-              "name_es_mx": "León"
+              "name_es_mx": "León",
+              "name_fr_fr": "Lion",
+              "name_id_id": "Singa"
             },
             {
               "id": "tiger",
@@ -729,7 +813,9 @@
               "name_zh_cn": "老虎",
               "name_zh_tw": "老虎",
               "name_es_es": "Tigre",
-              "name_es_mx": "Tigre"
+              "name_es_mx": "Tigre",
+              "name_fr_fr": "Tigre",
+              "name_id_id": "Harimau"
             },
             {
               "id": "leopard",
@@ -744,7 +830,9 @@
               "name_zh_cn": "豹",
               "name_zh_tw": "花豹",
               "name_es_es": "Leopardo",
-              "name_es_mx": "Leopardo"
+              "name_es_mx": "Leopardo",
+              "name_fr_fr": "Léopard",
+              "name_id_id": "Macan Tutul"
             },
             {
               "id": "cheetah",
@@ -759,7 +847,9 @@
               "name_zh_cn": "猎豹",
               "name_zh_tw": "獵豹",
               "name_es_es": "Guepardo",
-              "name_es_mx": "Chita"
+              "name_es_mx": "Chita",
+              "name_fr_fr": "Guépard",
+              "name_id_id": "Cheetah"
             },
             {
               "id": "fishing-cat",
@@ -774,7 +864,9 @@
               "name_zh_cn": "渔猫",
               "name_zh_tw": "漁貓",
               "name_es_es": "Gato Pescador",
-              "name_es_mx": "Gato Pescador"
+              "name_es_mx": "Gato Pescador",
+              "name_fr_fr": "Chat pêcheur",
+              "name_id_id": "Kucing Bakau"
             },
             {
               "id": "serval",
@@ -789,7 +881,9 @@
               "name_zh_cn": "薮猫",
               "name_zh_tw": "藪貓",
               "name_es_es": "Serval",
-              "name_es_mx": "Serval"
+              "name_es_mx": "Serval",
+              "name_fr_fr": "Serval",
+              "name_id_id": "Serval"
             },
             {
               "id": "sand-cat",
@@ -804,7 +898,9 @@
               "name_zh_cn": "沙漠猫",
               "name_zh_tw": "沙漠貓",
               "name_es_es": "Gato del Desierto",
-              "name_es_mx": "Gato del Desierto"
+              "name_es_mx": "Gato del Desierto",
+              "name_fr_fr": "Chat des sables",
+              "name_id_id": "Kucing Pasir"
             },
             {
               "id": "black-footed-cat",
@@ -819,7 +915,9 @@
               "name_zh_cn": "黑足猫",
               "name_zh_tw": "黑足貓",
               "name_es_es": "Gato de Pies Negros",
-              "name_es_mx": "Gato de Pies Negros"
+              "name_es_mx": "Gato de Pies Negros",
+              "name_fr_fr": "Chat à pieds noirs",
+              "name_id_id": "Kucing Berkaki Hitam"
             },
             {
               "id": "pallass-cat",
@@ -834,7 +932,9 @@
               "name_zh_cn": "兔狲",
               "name_zh_tw": "兔猻",
               "name_es_es": "Manul",
-              "name_es_mx": "Manul"
+              "name_es_mx": "Manul",
+              "name_fr_fr": "Manul",
+              "name_id_id": "Kucing Pallas"
             },
             {
               "id": "iriomote-cat",
@@ -849,7 +949,9 @@
               "name_zh_cn": "西表山猫",
               "name_zh_tw": "西表山貓",
               "name_es_es": "Gato de Iriomote",
-              "name_es_mx": "Gato de Iriomote"
+              "name_es_mx": "Gato de Iriomote",
+              "name_fr_fr": "Chat d'Iriomote",
+              "name_id_id": "Kucing Iriomote"
             },
             {
               "id": "jaguar",
@@ -864,7 +966,9 @@
               "name_zh_cn": "美洲豹",
               "name_zh_tw": "美洲豹",
               "name_es_es": "Yaguar",
-              "name_es_mx": "Jaguar"
+              "name_es_mx": "Jaguar",
+              "name_fr_fr": "Jaguar",
+              "name_id_id": "Jaguar"
             },
             {
               "id": "snow-leopard",
@@ -879,7 +983,9 @@
               "name_zh_cn": "雪豹",
               "name_zh_tw": "雪豹",
               "name_es_es": "Leopardo de las Nieves",
-              "name_es_mx": "Leopardo de las Nieves"
+              "name_es_mx": "Leopardo de las Nieves",
+              "name_fr_fr": "Léopard des neiges",
+              "name_id_id": "Macan Tutul Salju"
             },
             {
               "id": "clouded-leopard",
@@ -894,7 +1000,9 @@
               "name_zh_cn": "云豹",
               "name_zh_tw": "雲豹",
               "name_es_es": "Pantera Nebulosa",
-              "name_es_mx": "Pantera Nebulosa"
+              "name_es_mx": "Pantera Nebulosa",
+              "name_fr_fr": "Panthère nébuleuse",
+              "name_id_id": "Macan Dahan"
             },
             {
               "id": "caracal",
@@ -909,7 +1017,9 @@
               "name_zh_cn": "狞猫",
               "name_zh_tw": "檸貓",
               "name_es_es": "Caracal",
-              "name_es_mx": "Caracal"
+              "name_es_mx": "Caracal",
+              "name_fr_fr": "Caracal",
+              "name_id_id": "Caracal"
             },
             {
               "id": "puma",
@@ -925,7 +1035,9 @@
               "name_zh_tw": "美洲獅",
               "name_es_es": "Puma",
               "name_es_mx": "Puma",
-              "name_en_gb": "Cougar"
+              "name_en_gb": "Cougar",
+              "name_fr_fr": "Puma",
+              "name_id_id": "Puma"
             },
             {
               "id": "jaguarundi",
@@ -940,7 +1052,9 @@
               "name_zh_cn": "细腰猫",
               "name_zh_tw": "細腰貓",
               "name_es_es": "Yaguarundí",
-              "name_es_mx": "Yaguarundí"
+              "name_es_mx": "Yaguarundí",
+              "name_fr_fr": "Jaguarondi",
+              "name_id_id": "Jaguarundi"
             },
             {
               "id": "ocelot",
@@ -955,7 +1069,9 @@
               "name_zh_cn": "豹猫",
               "name_zh_tw": "美洲豹貓",
               "name_es_es": "Ocelote",
-              "name_es_mx": "Ocelote"
+              "name_es_mx": "Ocelote",
+              "name_fr_fr": "Ocelot",
+              "name_id_id": "Ocelot"
             },
             {
               "id": "african-wildcat",
@@ -970,7 +1086,9 @@
               "name_zh_cn": "野猫",
               "name_zh_tw": "野貓",
               "name_es_es": "Gato Montés Africano",
-              "name_es_mx": "Gato Montés"
+              "name_es_mx": "Gato Montés",
+              "name_fr_fr": "Chat sauvage d'Afrique",
+              "name_id_id": "Kucing Liar Afrika"
             }
           ]
         },
@@ -992,7 +1110,9 @@
               "name_zh_cn": "鬣狗",
               "name_zh_tw": "鬣狗",
               "name_es_es": "Hiena",
-              "name_es_mx": "Hiena"
+              "name_es_mx": "Hiena",
+              "name_fr_fr": "Hyène tachetée",
+              "name_id_id": "Hiena Bintik"
             },
             {
               "id": "aardwolf",
@@ -1007,7 +1127,9 @@
               "name_zh_cn": "土狼",
               "name_zh_tw": "土狼",
               "name_es_es": "Lobo de Tierra",
-              "name_es_mx": "Lobo de Tierra"
+              "name_es_mx": "Lobo de Tierra",
+              "name_fr_fr": "Loup peint",
+              "name_id_id": "Aardwolf"
             }
           ]
         },
@@ -1029,7 +1151,9 @@
               "name_zh_cn": "椰子猫",
               "name_zh_tw": "椰子貓",
               "name_es_es": "Civeta de las Palmeras",
-              "name_es_mx": "Civeta de las Palmeras"
+              "name_es_mx": "Civeta de las Palmeras",
+              "name_fr_fr": "Civette palmiste hermaphrodite",
+              "name_id_id": "Musang Luwak"
             },
             {
               "id": "masked-palm-civet",
@@ -1044,7 +1168,9 @@
               "name_zh_cn": "果子狸",
               "name_zh_tw": "果子狸",
               "name_es_es": "Paguma",
-              "name_es_mx": "Paguma"
+              "name_es_mx": "Paguma",
+              "name_fr_fr": "Civette palmiste à masque",
+              "name_id_id": "Musang Musang"
             },
             {
               "id": "binturong",
@@ -1059,7 +1185,9 @@
               "name_zh_cn": "熊狸",
               "name_zh_tw": "熊狸",
               "name_es_es": "Binturong",
-              "name_es_mx": "Binturong"
+              "name_es_mx": "Binturong",
+              "name_fr_fr": "Binturong",
+              "name_id_id": "Binturong"
             }
           ]
         },
@@ -1081,7 +1209,9 @@
               "name_zh_cn": "埃及獴",
               "name_zh_tw": "埃及獴",
               "name_es_es": "Mangosta Egipcia",
-              "name_es_mx": "Mangosta Egipcia"
+              "name_es_mx": "Mangosta Egipcia",
+              "name_fr_fr": "Mangouste",
+              "name_id_id": "Garangan"
             }
           ]
         },
@@ -1103,7 +1233,9 @@
               "name_zh_cn": "马岛獴",
               "name_zh_tw": "馬島獴",
               "name_es_es": "Fossa",
-              "name_es_mx": "Fossa"
+              "name_es_mx": "Fossa",
+              "name_fr_fr": "Fossa",
+              "name_id_id": "Fossa"
             }
           ]
         },
@@ -1125,7 +1257,9 @@
               "name_zh_cn": "斑林狸",
               "name_zh_tw": "斑林狸",
               "name_es_es": "Linsang Rayado",
-              "name_es_mx": "Linsang Rayado"
+              "name_es_mx": "Linsang Rayado",
+              "name_fr_fr": "Linsang rayé",
+              "name_id_id": "Linsang"
             }
           ]
         }
@@ -1156,7 +1290,9 @@
               "name_zh_cn": "环尾狐猴",
               "name_zh_tw": "環尾狐猴",
               "name_es_es": "Lémur de Cola Anillada",
-              "name_es_mx": "Lémur de Cola Anillada"
+              "name_es_mx": "Lémur de Cola Anillada",
+              "name_fr_fr": "Maki catta",
+              "name_id_id": "Lemur Ekor Cincin"
             }
           ]
         },
@@ -1178,7 +1314,9 @@
               "name_zh_cn": "懒猴",
               "name_zh_tw": "懶猴",
               "name_es_es": "Loris Lento",
-              "name_es_mx": "Loris Lento"
+              "name_es_mx": "Loris Lento",
+              "name_fr_fr": "Loris lent",
+              "name_id_id": "Kukang"
             }
           ]
         },
@@ -1200,7 +1338,9 @@
               "name_zh_cn": "指猴",
               "name_zh_tw": "指猴",
               "name_es_es": "Aye-aye",
-              "name_es_mx": "Aye-aye"
+              "name_es_mx": "Aye-aye",
+              "name_fr_fr": "Aye-aye",
+              "name_id_id": "Aye-aye"
             }
           ]
         },
@@ -1222,7 +1362,9 @@
               "name_zh_cn": "眼镜猴",
               "name_zh_tw": "眼鏡猴",
               "name_es_es": "Tarsio",
-              "name_es_mx": "Tarsio"
+              "name_es_mx": "Tarsio",
+              "name_fr_fr": "Tarsier des Philippines",
+              "name_id_id": "Tarsius Filipina"
             }
           ]
         },
@@ -1244,7 +1386,9 @@
               "name_zh_cn": "金狮面狨",
               "name_zh_tw": "金獅面狨",
               "name_es_es": "Tamarino León Dorado",
-              "name_es_mx": "Tamarino León Dorado"
+              "name_es_mx": "Tamarino León Dorado",
+              "name_fr_fr": "Tamarin lion doré",
+              "name_id_id": "Tamarin Singa Emas"
             },
             {
               "id": "pygmy-marmoset",
@@ -1259,7 +1403,9 @@
               "name_zh_cn": "侏狨",
               "name_zh_tw": "侏狨",
               "name_es_es": "Tití Pigmeo",
-              "name_es_mx": "Tití Pigmeo"
+              "name_es_mx": "Tití Pigmeo",
+              "name_fr_fr": "Ouistiti pygmée",
+              "name_id_id": "Marmoset Kerdil"
             }
           ]
         },
@@ -1281,7 +1427,9 @@
               "name_zh_cn": "松鼠猴",
               "name_zh_tw": "松鼠猴",
               "name_es_es": "Mono Ardilla",
-              "name_es_mx": "Mono Ardilla"
+              "name_es_mx": "Mono Ardilla",
+              "name_fr_fr": "Saïmiri",
+              "name_id_id": "Monyet Tupai"
             }
           ]
         },
@@ -1303,7 +1451,9 @@
               "name_zh_cn": "日本猕猴",
               "name_zh_tw": "日本獼猴",
               "name_es_es": "Macaco Japonés",
-              "name_es_mx": "Mono Japonés"
+              "name_es_mx": "Mono Japonés",
+              "name_fr_fr": "Macaque japonais",
+              "name_id_id": "Monyet Jepang"
             },
             {
               "id": "golden-snub-nosed-monkey",
@@ -1318,7 +1468,9 @@
               "name_zh_cn": "川金丝猴",
               "name_zh_tw": "川金絲猴",
               "name_es_es": "Mono Dorado",
-              "name_es_mx": "Mono Dorado"
+              "name_es_mx": "Mono Dorado",
+              "name_fr_fr": "Rhinopithèque de Roxellana",
+              "name_id_id": "Monyet Hidung Pesek Emas"
             },
             {
               "id": "hamadryas-baboon",
@@ -1333,7 +1485,9 @@
               "name_zh_cn": "阿拉伯狒狒",
               "name_zh_tw": "阿拉伯狒狒",
               "name_es_es": "Papión",
-              "name_es_mx": "Papión"
+              "name_es_mx": "Papión",
+              "name_fr_fr": "Babouin hamadryas",
+              "name_id_id": "Babun Hamadryas"
             },
             {
               "id": "vervet-monkey",
@@ -1348,7 +1502,9 @@
               "name_zh_cn": "萨凡纳猴",
               "name_zh_tw": "黑臉猴",
               "name_es_es": "Mono Vervet",
-              "name_es_mx": "Mono Vervet"
+              "name_es_mx": "Mono Vervet",
+              "name_fr_fr": "Vervet",
+              "name_id_id": "Monyet Vervet"
             },
             {
               "id": "proboscis-monkey",
@@ -1363,7 +1519,9 @@
               "name_zh_cn": "长鼻猴",
               "name_zh_tw": "長鼻猴",
               "name_es_es": "Mono Narigudo",
-              "name_es_mx": "Mono Narigudo"
+              "name_es_mx": "Mono Narigudo",
+              "name_fr_fr": "Nasique",
+              "name_id_id": "Bekantan"
             },
             {
               "id": "mandrill",
@@ -1378,7 +1536,9 @@
               "name_zh_cn": "山魈",
               "name_zh_tw": "山魈",
               "name_es_es": "Mandril",
-              "name_es_mx": "Mandril"
+              "name_es_mx": "Mandril",
+              "name_fr_fr": "Mandrill",
+              "name_id_id": "Mandrill"
             },
             {
               "id": "patas-monkey",
@@ -1393,7 +1553,9 @@
               "name_zh_cn": "赤猴",
               "name_zh_tw": "赤猴",
               "name_es_es": "Mono Patas",
-              "name_es_mx": "Mono Patas"
+              "name_es_mx": "Mono Patas",
+              "name_fr_fr": "Patas",
+              "name_id_id": "Monyet Patas"
             }
           ]
         },
@@ -1415,7 +1577,9 @@
               "name_zh_cn": "长臂猿",
               "name_zh_tw": "長臂猿",
               "name_es_es": "Gibón",
-              "name_es_mx": "Gibón"
+              "name_es_mx": "Gibón",
+              "name_fr_fr": "Gibbon lar",
+              "name_id_id": "Owa Serangga"
             }
           ]
         },
@@ -1437,7 +1601,9 @@
               "name_zh_cn": "黑猩猩",
               "name_zh_tw": "黑猩猩",
               "name_es_es": "Chimpancé",
-              "name_es_mx": "Chimpancé"
+              "name_es_mx": "Chimpancé",
+              "name_fr_fr": "Chimpanzé",
+              "name_id_id": "Simpanse"
             },
             {
               "id": "gorilla",
@@ -1452,7 +1618,9 @@
               "name_zh_cn": "大猩猩",
               "name_zh_tw": "大猩猩",
               "name_es_es": "Gorila",
-              "name_es_mx": "Gorila"
+              "name_es_mx": "Gorila",
+              "name_fr_fr": "Gorille",
+              "name_id_id": "Gorila"
             },
             {
               "id": "orangutan",
@@ -1467,7 +1635,9 @@
               "name_zh_cn": "猩猩",
               "name_zh_tw": "紅毛猩猩",
               "name_es_es": "Orangután",
-              "name_es_mx": "Orangután"
+              "name_es_mx": "Orangután",
+              "name_fr_fr": "Orang-outan",
+              "name_id_id": "Orangutan"
             },
             {
               "id": "bonobo",
@@ -1482,7 +1652,9 @@
               "name_zh_cn": "倭黑猩猩",
               "name_zh_tw": "倭黑猩猩",
               "name_es_es": "Bonobo",
-              "name_es_mx": "Bonobo"
+              "name_es_mx": "Bonobo",
+              "name_fr_fr": "Bonobo",
+              "name_id_id": "Bonobo"
             },
             {
               "id": "human",
@@ -1497,7 +1669,9 @@
               "name_zh_cn": "人类",
               "name_zh_tw": "人類",
               "name_es_es": "Humano",
-              "name_es_mx": "Humano"
+              "name_es_mx": "Humano",
+              "name_fr_fr": "Être humain",
+              "name_id_id": "Manusia"
             }
           ]
         }
@@ -1528,7 +1702,9 @@
               "name_zh_cn": "亚洲象",
               "name_zh_tw": "亞洲象",
               "name_es_es": "Elefante Asiático",
-              "name_es_mx": "Elefante Asiático"
+              "name_es_mx": "Elefante Asiático",
+              "name_fr_fr": "Éléphant d'Asie",
+              "name_id_id": "Gajah Asia"
             },
             {
               "id": "african-elephant",
@@ -1543,7 +1719,9 @@
               "name_zh_cn": "非洲象",
               "name_zh_tw": "非洲象",
               "name_es_es": "Elefante Africano",
-              "name_es_mx": "Elefante Africano"
+              "name_es_mx": "Elefante Africano",
+              "name_fr_fr": "Éléphant d'Afrique",
+              "name_id_id": "Gajah Afrika"
             }
           ]
         }
@@ -1574,7 +1752,9 @@
               "name_zh_cn": "骆驼",
               "name_zh_tw": "駱駝",
               "name_es_es": "Camello",
-              "name_es_mx": "Camello"
+              "name_es_mx": "Camello",
+              "name_fr_fr": "Chameau de Bactriane",
+              "name_id_id": "Unta Baktria"
             },
             {
               "id": "dromedary-camel",
@@ -1589,7 +1769,9 @@
               "name_zh_cn": "单峰骆驼",
               "name_zh_tw": "單峰駱駝",
               "name_es_es": "Dromedario",
-              "name_es_mx": "Dromedario"
+              "name_es_mx": "Dromedario",
+              "name_fr_fr": "Dromadaire",
+              "name_id_id": "Unta Arab"
             },
             {
               "id": "alpaca",
@@ -1604,7 +1786,9 @@
               "name_zh_cn": "羊驼",
               "name_zh_tw": "羊駝",
               "name_es_es": "Alpaca",
-              "name_es_mx": "Alpaca"
+              "name_es_mx": "Alpaca",
+              "name_fr_fr": "Alpaga",
+              "name_id_id": "Alpaka"
             },
             {
               "id": "llama",
@@ -1619,7 +1803,9 @@
               "name_zh_cn": "大羊驼",
               "name_zh_tw": "大羊駝",
               "name_es_es": "Llama",
-              "name_es_mx": "Llama"
+              "name_es_mx": "Llama",
+              "name_fr_fr": "Lama",
+              "name_id_id": "Llama"
             }
           ]
         },
@@ -1641,7 +1827,9 @@
               "name_zh_cn": "野猪",
               "name_zh_tw": "野豬",
               "name_es_es": "Jabalí",
-              "name_es_mx": "Jabalí"
+              "name_es_mx": "Jabalí",
+              "name_fr_fr": "Sanglier",
+              "name_id_id": "Babi Hutan"
             },
             {
               "id": "pig",
@@ -1656,7 +1844,9 @@
               "name_zh_cn": "猪",
               "name_zh_tw": "豬",
               "name_es_es": "Cerdo",
-              "name_es_mx": "Cerdo"
+              "name_es_mx": "Cerdo",
+              "name_fr_fr": "Cochon",
+              "name_id_id": "Babi"
             },
             {
               "id": "warthog",
@@ -1671,7 +1861,9 @@
               "name_zh_cn": "疣猪",
               "name_zh_tw": "疣豬",
               "name_es_es": "Facóquero",
-              "name_es_mx": "Jabalí Verrugoso"
+              "name_es_mx": "Jabalí Verrugoso",
+              "name_fr_fr": "Phacochère",
+              "name_id_id": "Babi Hutan Afrika"
             },
             {
               "id": "babirusa",
@@ -1686,7 +1878,9 @@
               "name_zh_cn": "鹿猪",
               "name_zh_tw": "鹿豬",
               "name_es_es": "Babirusa",
-              "name_es_mx": "Babirusa"
+              "name_es_mx": "Babirusa",
+              "name_fr_fr": "Babiroussa",
+              "name_id_id": "Babirusa"
             }
           ]
         },
@@ -1708,7 +1902,9 @@
               "name_zh_cn": "领西貒",
               "name_zh_tw": "領西貒",
               "name_es_es": "Pecarí de Collar",
-              "name_es_mx": "Pecarí de Collar"
+              "name_es_mx": "Pecarí de Collar",
+              "name_fr_fr": "Pécari à collier",
+              "name_id_id": "Pekari Berkerah"
             }
           ]
         },
@@ -1730,7 +1926,9 @@
               "name_zh_cn": "爪哇小鼷鹿",
               "name_zh_tw": "爪哇小鼷鹿",
               "name_es_es": "Ciervo Ratón",
-              "name_es_mx": "Ciervo Ratón"
+              "name_es_mx": "Ciervo Ratón",
+              "name_fr_fr": "Javan Mouse-deer",
+              "name_id_id": "Javan Mouse-deer"
             },
             {
               "id": "water-chevrotain",
@@ -1745,7 +1943,9 @@
               "name_zh_cn": "水鼷鹿",
               "name_zh_tw": "水鼷鹿",
               "name_es_es": "Chevrotain de Agua",
-              "name_es_mx": "Chevrotain"
+              "name_es_mx": "Chevrotain",
+              "name_fr_fr": "Water Chevrotain",
+              "name_id_id": "Water Chevrotain"
             }
           ]
         },
@@ -1767,7 +1967,9 @@
               "name_zh_cn": "原麝",
               "name_zh_tw": "原麝",
               "name_es_es": "Ciervo Almizclero",
-              "name_es_mx": "Ciervo Almizclero"
+              "name_es_mx": "Ciervo Almizclero",
+              "name_fr_fr": "Siberian Musk Deer",
+              "name_id_id": "Siberian Musk Deer"
             }
           ]
         },
@@ -1789,7 +1991,9 @@
               "name_zh_cn": "鹿",
               "name_zh_tw": "鹿",
               "name_es_es": "Ciervo",
-              "name_es_mx": "Venado"
+              "name_es_mx": "Venado",
+              "name_fr_fr": "Cerf Sika",
+              "name_id_id": "Rusa Sika"
             },
             {
               "id": "reindeer",
@@ -1805,7 +2009,9 @@
               "name_zh_tw": "馴鹿",
               "name_es_es": "Reno",
               "name_es_mx": "Reno",
-              "name_en_gb": "Reindeer"
+              "name_en_gb": "Reindeer",
+              "name_fr_fr": "Renne",
+              "name_id_id": "Rusa Kutub"
             },
             {
               "id": "reevess-muntjac",
@@ -1820,7 +2026,9 @@
               "name_zh_cn": "小麂",
               "name_zh_tw": "山羌",
               "name_es_es": "Muntíac",
-              "name_es_mx": "Muntíac"
+              "name_es_mx": "Muntíac",
+              "name_fr_fr": "Reeves's Muntjac",
+              "name_id_id": "Reeves's Muntjac"
             },
             {
               "id": "moose",
@@ -1835,7 +2043,9 @@
               "name_zh_cn": "驼鹿",
               "name_zh_tw": "駝鹿",
               "name_es_es": "Alce",
-              "name_es_mx": "Alce"
+              "name_es_mx": "Alce",
+              "name_fr_fr": "Élan",
+              "name_id_id": "Rusa Besar"
             }
           ]
         },
@@ -1857,7 +2067,9 @@
               "name_zh_cn": "长颈鹿",
               "name_zh_tw": "長頸鹿",
               "name_es_es": "Jirafa",
-              "name_es_mx": "Jirafa"
+              "name_es_mx": "Jirafa",
+              "name_fr_fr": "Girafe",
+              "name_id_id": "Jerapah"
             },
             {
               "id": "okapi",
@@ -1872,7 +2084,9 @@
               "name_zh_cn": "霍加皮",
               "name_zh_tw": "霍加皮",
               "name_es_es": "Okapi",
-              "name_es_mx": "Okapi"
+              "name_es_mx": "Okapi",
+              "name_fr_fr": "Okapi",
+              "name_id_id": "Okapi"
             }
           ]
         },
@@ -1894,7 +2108,9 @@
               "name_zh_cn": "叉角羚",
               "name_zh_tw": "叉角羚",
               "name_es_es": "Berrendo",
-              "name_es_mx": "Berrendo"
+              "name_es_mx": "Berrendo",
+              "name_fr_fr": "Pronghorn",
+              "name_id_id": "Pronghorn"
             }
           ]
         },
@@ -1916,7 +2132,9 @@
               "name_zh_cn": "家牛",
               "name_zh_tw": "家牛",
               "name_es_es": "Vaca",
-              "name_es_mx": "Vaca"
+              "name_es_mx": "Vaca",
+              "name_fr_fr": "Vache",
+              "name_id_id": "Sapi"
             },
             {
               "id": "goat",
@@ -1931,7 +2149,9 @@
               "name_zh_cn": "山羊",
               "name_zh_tw": "山羊",
               "name_es_es": "Cabra",
-              "name_es_mx": "Cabra"
+              "name_es_mx": "Cabra",
+              "name_fr_fr": "Chèvre",
+              "name_id_id": "Kambing"
             },
             {
               "id": "sheep",
@@ -1946,7 +2166,9 @@
               "name_zh_cn": "绵羊",
               "name_zh_tw": "綿羊",
               "name_es_es": "Oveja",
-              "name_es_mx": "Oveja"
+              "name_es_mx": "Oveja",
+              "name_fr_fr": "Mouton",
+              "name_id_id": "Domba"
             },
             {
               "id": "water-buffalo",
@@ -1961,7 +2183,9 @@
               "name_zh_cn": "水牛",
               "name_zh_tw": "水牛",
               "name_es_es": "Búfalo de Agua",
-              "name_es_mx": "Búfalo de Agua"
+              "name_es_mx": "Búfalo de Agua",
+              "name_fr_fr": "Buffle d'eau",
+              "name_id_id": "Kerbau"
             },
             {
               "id": "american-bison",
@@ -1976,7 +2200,9 @@
               "name_zh_cn": "美洲野牛",
               "name_zh_tw": "美洲野牛",
               "name_es_es": "Bisonte Americano",
-              "name_es_mx": "Bisonte Americano"
+              "name_es_mx": "Bisonte Americano",
+              "name_fr_fr": "Bison d'Amérique",
+              "name_id_id": "Bison Amerika"
             },
             {
               "id": "thomsons-gazelle",
@@ -1991,7 +2217,9 @@
               "name_zh_cn": "汤氏瞪羚",
               "name_zh_tw": "湯氏瞪羚",
               "name_es_es": "Gacela de Thomson",
-              "name_es_mx": "Gacela de Thomson"
+              "name_es_mx": "Gacela de Thomson",
+              "name_fr_fr": "Gazelle de Thomson",
+              "name_id_id": "Gazel Thomson"
             },
             {
               "id": "impala",
@@ -2006,7 +2234,9 @@
               "name_zh_cn": "高角羚",
               "name_zh_tw": "高角羚",
               "name_es_es": "Impala",
-              "name_es_mx": "Impala"
+              "name_es_mx": "Impala",
+              "name_fr_fr": "Impala",
+              "name_id_id": "Impala"
             },
             {
               "id": "saiga",
@@ -2021,7 +2251,9 @@
               "name_zh_cn": "高鼻羚羊",
               "name_zh_tw": "高鼻羚羊",
               "name_es_es": "Saiga",
-              "name_es_mx": "Saiga"
+              "name_es_mx": "Saiga",
+              "name_fr_fr": "Saïga",
+              "name_id_id": "Saiga"
             },
             {
               "id": "gerenuk",
@@ -2036,7 +2268,9 @@
               "name_zh_cn": "长颈羚",
               "name_zh_tw": "長頸羚",
               "name_es_es": "Gerenuc",
-              "name_es_mx": "Gerenuc"
+              "name_es_mx": "Gerenuc",
+              "name_fr_fr": "Gazelle-girafle",
+              "name_id_id": "Gerenuk"
             },
             {
               "id": "wildebeest",
@@ -2051,7 +2285,9 @@
               "name_zh_cn": "角马",
               "name_zh_tw": "牛羚",
               "name_es_es": "Ñu",
-              "name_es_mx": "Ñu"
+              "name_es_mx": "Ñu",
+              "name_fr_fr": "Gnou",
+              "name_id_id": "Wildebeest"
             },
             {
               "id": "barbary-sheep",
@@ -2066,7 +2302,9 @@
               "name_zh_cn": "蛮羊",
               "name_zh_tw": "蠻羊",
               "name_es_es": "Arruí",
-              "name_es_mx": "Borrego Cimarrón Africano"
+              "name_es_mx": "Borrego Cimarrón Africano",
+              "name_fr_fr": "Mouflon à manchettes",
+              "name_id_id": "Domba Barbary"
             },
             {
               "id": "bighorn-sheep",
@@ -2081,7 +2319,9 @@
               "name_zh_cn": "大角羊",
               "name_zh_tw": "大角羊",
               "name_es_es": "Carnero de las Rocosas",
-              "name_es_mx": "Borrego Cimarrón"
+              "name_es_mx": "Borrego Cimarrón",
+              "name_fr_fr": "Mouflon d'Amérique",
+              "name_id_id": "Domba Bighorn"
             },
             {
               "id": "japanese-serow",
@@ -2096,7 +2336,9 @@
               "name_zh_cn": "日本鬣羚",
               "name_zh_tw": "日本鬣羚",
               "name_es_es": "Serao Japonés",
-              "name_es_mx": "Serao Japonés"
+              "name_es_mx": "Serao Japonés",
+              "name_fr_fr": "Sérow du Japon",
+              "name_id_id": "Serow Jepang"
             },
             {
               "id": "arabian-oryx",
@@ -2111,7 +2353,9 @@
               "name_zh_cn": "阿拉伯剑羚",
               "name_zh_tw": "阿拉伯劍羚",
               "name_es_es": "Órice de Arabia",
-              "name_es_mx": "Órice de Arabia"
+              "name_es_mx": "Órice de Arabia",
+              "name_fr_fr": "Oryx d'Arabie",
+              "name_id_id": "Oryx Arab"
             }
           ]
         },
@@ -2133,7 +2377,9 @@
               "name_zh_cn": "河马",
               "name_zh_tw": "河馬",
               "name_es_es": "Hipopótamo",
-              "name_es_mx": "Hipopótamo"
+              "name_es_mx": "Hipopótamo",
+              "name_fr_fr": "Hippopotame",
+              "name_id_id": "Kuda Nil"
             },
             {
               "id": "pygmy-hippopotamus",
@@ -2148,7 +2394,9 @@
               "name_zh_cn": "倭河马",
               "name_zh_tw": "倭河馬",
               "name_es_es": "Hipopótamo Pigmeo",
-              "name_es_mx": "Hipopótamo Pigmeo"
+              "name_es_mx": "Hipopótamo Pigmeo",
+              "name_fr_fr": "Hippopotame pygmée",
+              "name_id_id": "Kuda Nil Kerdil"
             }
           ]
         },
@@ -2170,7 +2418,9 @@
               "name_zh_cn": "蓝鲸",
               "name_zh_tw": "藍鯨",
               "name_es_es": "Ballena Azul",
-              "name_es_mx": "Ballena Azul"
+              "name_es_mx": "Ballena Azul",
+              "name_fr_fr": "Baleine bleue",
+              "name_id_id": "Paus Biru"
             },
             {
               "id": "humpback-whale",
@@ -2185,7 +2435,9 @@
               "name_zh_cn": "座头鲸",
               "name_zh_tw": "座頭鯨",
               "name_es_es": "Yubarta",
-              "name_es_mx": "Ballena Jorobada"
+              "name_es_mx": "Ballena Jorobada",
+              "name_fr_fr": "Baleine à bosse",
+              "name_id_id": "Paus Bungkuk"
             },
             {
               "id": "minke-whale",
@@ -2200,7 +2452,9 @@
               "name_zh_cn": "小鳁鲸",
               "name_zh_tw": "小鬚鯨",
               "name_es_es": "Rorcual Aliblanco",
-              "name_es_mx": "Ballena Minke"
+              "name_es_mx": "Ballena Minke",
+              "name_fr_fr": "Petit rorqual",
+              "name_id_id": "Paus Minke"
             }
           ]
         },
@@ -2222,7 +2476,9 @@
               "name_zh_cn": "海豚",
               "name_zh_tw": "海豚",
               "name_es_es": "Delfín",
-              "name_es_mx": "Delfín"
+              "name_es_mx": "Delfín",
+              "name_fr_fr": "Grand dauphin",
+              "name_id_id": "Lumba-lumba Hidung Botol"
             },
             {
               "id": "orca",
@@ -2237,7 +2493,9 @@
               "name_zh_cn": "虎鲸",
               "name_zh_tw": "殺手鯨",
               "name_es_es": "Orca",
-              "name_es_mx": "Orca"
+              "name_es_mx": "Orca",
+              "name_fr_fr": "Ogre des mers (Orque)",
+              "name_id_id": "Paus Pembunuh (Orca)"
             },
             {
               "id": "short-beaked-common-dolphin",
@@ -2252,7 +2510,9 @@
               "name_zh_cn": "真海豚",
               "name_zh_tw": "真海豚",
               "name_es_es": "Delfín Común",
-              "name_es_mx": "Delfín Común"
+              "name_es_mx": "Delfín Común",
+              "name_fr_fr": "Short-beaked Common Dolphin",
+              "name_id_id": "Short-beaked Common Dolphin"
             },
             {
               "id": "short-finned-pilot-whale",
@@ -2267,7 +2527,9 @@
               "name_zh_cn": "短肢领航鲸",
               "name_zh_tw": "短肢領航鯨",
               "name_es_es": "Calderón",
-              "name_es_mx": "Calderón"
+              "name_es_mx": "Calderón",
+              "name_fr_fr": "Short-finned Pilot Whale",
+              "name_id_id": "Short-finned Pilot Whale"
             }
           ]
         },
@@ -2289,7 +2551,9 @@
               "name_zh_cn": "白鲸",
               "name_zh_tw": "白鯨",
               "name_es_es": "Beluga",
-              "name_es_mx": "Beluga"
+              "name_es_mx": "Beluga",
+              "name_fr_fr": "Béluga",
+              "name_id_id": "Paus Beluga"
             },
             {
               "id": "narwhal",
@@ -2304,7 +2568,9 @@
               "name_zh_cn": "独角鲸",
               "name_zh_tw": "獨角鯨",
               "name_es_es": "Narval",
-              "name_es_mx": "Narval"
+              "name_es_mx": "Narval",
+              "name_fr_fr": "Narval",
+              "name_id_id": "Narwhal"
             }
           ]
         },
@@ -2326,7 +2592,9 @@
               "name_zh_cn": "抹香鲸",
               "name_zh_tw": "抹香鯨",
               "name_es_es": "Cachalote",
-              "name_es_mx": "Cachalote"
+              "name_es_mx": "Cachalote",
+              "name_fr_fr": "Cachalot",
+              "name_id_id": "Paus Sperma"
             }
           ]
         },
@@ -2348,7 +2616,9 @@
               "name_zh_cn": "亚马逊河豚",
               "name_zh_tw": "亞馬遜河豚",
               "name_es_es": "Delfín Rosado",
-              "name_es_mx": "Delfín del Amazonas"
+              "name_es_mx": "Delfín del Amazonas",
+              "name_fr_fr": "Amazon River Dolphin",
+              "name_id_id": "Amazon River Dolphin"
             }
           ]
         },
@@ -2370,7 +2640,9 @@
               "name_zh_cn": "江豚",
               "name_zh_tw": "露脊鼠海豚",
               "name_es_es": "Marsopa Sin Aleta",
-              "name_es_mx": "Marsopa Sin Aleta"
+              "name_es_mx": "Marsopa Sin Aleta",
+              "name_fr_fr": "Marsouin aptère",
+              "name_id_id": "Pesut Tanpa Sirip"
             }
           ]
         }
@@ -2401,7 +2673,9 @@
               "name_zh_cn": "袋鼠",
               "name_zh_tw": "袋鼠",
               "name_es_es": "Canguro",
-              "name_es_mx": "Canguro"
+              "name_es_mx": "Canguro",
+              "name_fr_fr": "Kangourou roux",
+              "name_id_id": "Kanguru Merah"
             },
             {
               "id": "quokka",
@@ -2416,7 +2690,9 @@
               "name_zh_cn": "短尾矮袋鼠",
               "name_zh_tw": "短尾矮袋鼠",
               "name_es_es": "Quokka",
-              "name_es_mx": "Quokka"
+              "name_es_mx": "Quokka",
+              "name_fr_fr": "Quokka",
+              "name_id_id": "Quokka"
             }
           ]
         },
@@ -2438,7 +2714,9 @@
               "name_zh_cn": "考拉",
               "name_zh_tw": "無尾熊",
               "name_es_es": "Coala",
-              "name_es_mx": "Koala"
+              "name_es_mx": "Koala",
+              "name_fr_fr": "Koala",
+              "name_id_id": "Koala"
             }
           ]
         },
@@ -2460,7 +2738,9 @@
               "name_zh_cn": "袋熊",
               "name_zh_tw": "袋熊",
               "name_es_es": "Wombat",
-              "name_es_mx": "Wombat"
+              "name_es_mx": "Wombat",
+              "name_fr_fr": "Wombat",
+              "name_id_id": "Wombat"
             }
           ]
         },
@@ -2482,7 +2762,9 @@
               "name_zh_cn": "蜜袋鼯",
               "name_zh_tw": "蜜袋鼯",
               "name_es_es": "Petauro del Azúcar",
-              "name_es_mx": "Petauro del Azúcar"
+              "name_es_mx": "Petauro del Azúcar",
+              "name_fr_fr": "Phalanger volant",
+              "name_id_id": "Sugar Glider"
             }
           ]
         },
@@ -2504,7 +2786,9 @@
               "name_zh_cn": "斑袋貂",
               "name_zh_tw": "斑袋貂",
               "name_es_es": "Cuscus Moteado",
-              "name_es_mx": "Cuscús Moteado"
+              "name_es_mx": "Cuscús Moteado",
+              "name_fr_fr": "Spotted Cuscus",
+              "name_id_id": "Spotted Cuscus"
             }
           ]
         }
@@ -2535,7 +2819,9 @@
               "name_zh_cn": "马",
               "name_zh_tw": "馬",
               "name_es_es": "Caballo",
-              "name_es_mx": "Caballo"
+              "name_es_mx": "Caballo",
+              "name_fr_fr": "Cheval",
+              "name_id_id": "Kuda"
             },
             {
               "id": "donkey",
@@ -2550,7 +2836,9 @@
               "name_zh_cn": "驴",
               "name_zh_tw": "驢子",
               "name_es_es": "Asno",
-              "name_es_mx": "Burro"
+              "name_es_mx": "Burro",
+              "name_fr_fr": "Âne",
+              "name_id_id": "Keledai"
             },
             {
               "id": "zebra",
@@ -2565,7 +2853,9 @@
               "name_zh_cn": "斑马",
               "name_zh_tw": "斑馬",
               "name_es_es": "Cebra",
-              "name_es_mx": "Cebra"
+              "name_es_mx": "Cebra",
+              "name_fr_fr": "Zèbre",
+              "name_id_id": "Zebra"
             },
             {
               "id": "przewalskis-horse",
@@ -2580,7 +2870,9 @@
               "name_zh_cn": "普氏野马",
               "name_zh_tw": "普氏野馬",
               "name_es_es": "Caballo Przewalski",
-              "name_es_mx": "Caballo Przewalski"
+              "name_es_mx": "Caballo Przewalski",
+              "name_fr_fr": "Cheval de Przewalski",
+              "name_id_id": "Kuda Przewalski"
             }
           ]
         },
@@ -2602,7 +2894,9 @@
               "name_zh_cn": "貘",
               "name_zh_tw": "貘",
               "name_es_es": "Tapir",
-              "name_es_mx": "Tapir"
+              "name_es_mx": "Tapir",
+              "name_fr_fr": "Tapir de Malaisie",
+              "name_id_id": "Tapir Saya"
             }
           ]
         },
@@ -2624,7 +2918,9 @@
               "name_zh_cn": "犀牛",
               "name_zh_tw": "犀牛",
               "name_es_es": "Rinoceronte",
-              "name_es_mx": "Rinoceronte"
+              "name_es_mx": "Rinoceronte",
+              "name_fr_fr": "Rhinocéros blanc",
+              "name_id_id": "Badak Putih"
             },
             {
               "id": "black-rhinoceros",
@@ -2639,7 +2935,9 @@
               "name_zh_cn": "黑犀牛",
               "name_zh_tw": "黑犀牛",
               "name_es_es": "Rinoceronte Negro",
-              "name_es_mx": "Rinoceronte Negro"
+              "name_es_mx": "Rinoceronte Negro",
+              "name_fr_fr": "Rhinocéros noir",
+              "name_id_id": "Badak Hitam"
             }
           ]
         }
@@ -2670,7 +2968,9 @@
               "name_zh_cn": "兔子",
               "name_zh_tw": "兔子",
               "name_es_es": "Conejo",
-              "name_es_mx": "Conejo"
+              "name_es_mx": "Conejo",
+              "name_fr_fr": "Lapin",
+              "name_id_id": "Kelinci"
             },
             {
               "id": "hare",
@@ -2685,7 +2985,9 @@
               "name_zh_cn": "野兔",
               "name_zh_tw": "野兔",
               "name_es_es": "Liebre",
-              "name_es_mx": "Liebre"
+              "name_es_mx": "Liebre",
+              "name_fr_fr": "Lièvre",
+              "name_id_id": "Kelinci Liar"
             },
             {
               "id": "mountain-hare",
@@ -2700,7 +3002,9 @@
               "name_zh_cn": "雪兔",
               "name_zh_tw": "雪兔",
               "name_es_es": "Liebre Variable",
-              "name_es_mx": "Liebre Ártica"
+              "name_es_mx": "Liebre Ártica",
+              "name_fr_fr": "Lièvre variable",
+              "name_id_id": "Kelinci Gunung"
             },
             {
               "id": "amami-rabbit",
@@ -2715,7 +3019,9 @@
               "name_zh_cn": "奄美短耳兔",
               "name_zh_tw": "奄美短耳兔",
               "name_es_es": "Conejo de Amami",
-              "name_es_mx": "Conejo de Amami"
+              "name_es_mx": "Conejo de Amami",
+              "name_fr_fr": "Lapin d'Amami",
+              "name_id_id": "Kelinci Amami"
             }
           ]
         },
@@ -2737,7 +3043,9 @@
               "name_zh_cn": "鼠兔",
               "name_zh_tw": "鼠兔",
               "name_es_es": "Pica",
-              "name_es_mx": "Pica"
+              "name_es_mx": "Pica",
+              "name_fr_fr": "Pika du Nord",
+              "name_id_id": "Pika Utara"
             }
           ]
         }
@@ -2768,7 +3076,9 @@
               "name_zh_cn": "山海狸",
               "name_zh_tw": "山海狸",
               "name_es_es": "Castor de Montaña",
-              "name_es_mx": "Castor de Montaña"
+              "name_es_mx": "Castor de Montaña",
+              "name_fr_fr": "Mountain Beaver",
+              "name_id_id": "Mountain Beaver"
             }
           ]
         },
@@ -2790,7 +3100,9 @@
               "name_zh_cn": "花鼠",
               "name_zh_tw": "花鼠",
               "name_es_es": "Ardilla Listada",
-              "name_es_mx": "Ardilla Listada"
+              "name_es_mx": "Ardilla Listada",
+              "name_fr_fr": "Tamias",
+              "name_id_id": "Tupai Tanah"
             },
             {
               "id": "momonga",
@@ -2805,7 +3117,9 @@
               "name_zh_cn": "飞鼠",
               "name_zh_tw": "飛鼠",
               "name_es_es": "Ardilla Voladora",
-              "name_es_mx": "Ardilla Voladora"
+              "name_es_mx": "Ardilla Voladora",
+              "name_fr_fr": "Polatouche de Sibérie",
+              "name_id_id": "Tupai Terbang Momonga"
             },
             {
               "id": "musasabi",
@@ -2820,7 +3134,9 @@
               "name_zh_cn": "鼯鼠",
               "name_zh_tw": "鼯鼠",
               "name_es_es": "Ardilla Voladora Gigante",
-              "name_es_mx": "Ardilla Voladora Gigante"
+              "name_es_mx": "Ardilla Voladora Gigante",
+              "name_fr_fr": "Grand polatouche du Japon",
+              "name_id_id": "Tupai Terbang Musasabi"
             },
             {
               "id": "japanese-squirrel",
@@ -2835,7 +3151,9 @@
               "name_zh_cn": "日本松鼠",
               "name_zh_tw": "日本松鼠",
               "name_es_es": "Ardilla Japonesa",
-              "name_es_mx": "Ardilla Japonesa"
+              "name_es_mx": "Ardilla Japonesa",
+              "name_fr_fr": "Écureuil du Japon",
+              "name_id_id": "Tupai Jepang"
             },
             {
               "id": "formosan-squirrel",
@@ -2850,7 +3168,9 @@
               "name_zh_cn": "赤腹松鼠",
               "name_zh_tw": "赤腹松鼠",
               "name_es_es": "Ardilla de Vientre Rojo",
-              "name_es_mx": "Ardilla de Vientre Rojo"
+              "name_es_mx": "Ardilla de Vientre Rojo",
+              "name_fr_fr": "Écureuil de Pallas",
+              "name_id_id": "Tupai Formosa"
             },
             {
               "id": "black-tailed-prairie-dog",
@@ -2865,7 +3185,9 @@
               "name_zh_cn": "黑尾土拨鼠",
               "name_zh_tw": "黑尾土撥鼠",
               "name_es_es": "Perrito de la Pradera",
-              "name_es_mx": "Perrito de la Pradera"
+              "name_es_mx": "Perrito de la Pradera",
+              "name_fr_fr": "Chien de prairie",
+              "name_id_id": "Anjing Padang Rumput"
             }
           ]
         },
@@ -2887,7 +3209,9 @@
               "name_zh_cn": "睡鼠",
               "name_zh_tw": "睡鼠",
               "name_es_es": "Lirón",
-              "name_es_mx": "Lirón"
+              "name_es_mx": "Lirón",
+              "name_fr_fr": "Loir du Japon",
+              "name_id_id": "Dormouse Jepang"
             }
           ]
         },
@@ -2909,7 +3233,9 @@
               "name_zh_cn": "海狸",
               "name_zh_tw": "海狸",
               "name_es_es": "Castor",
-              "name_es_mx": "Castor"
+              "name_es_mx": "Castor",
+              "name_fr_fr": "Castor",
+              "name_id_id": "Beaver"
             }
           ]
         },
@@ -2931,7 +3257,9 @@
               "name_zh_cn": "囊鼠",
               "name_zh_tw": "囊鼠",
               "name_es_es": "Tuzo",
-              "name_es_mx": "Tuzo"
+              "name_es_mx": "Tuzo",
+              "name_fr_fr": "Pocket Gopher",
+              "name_id_id": "Pocket Gopher"
             }
           ]
         },
@@ -2953,7 +3281,9 @@
               "name_zh_cn": "袋鼠鼠",
               "name_zh_tw": "袋鼠鼠",
               "name_es_es": "Ratón Canguro",
-              "name_es_mx": "Ratón Canguro"
+              "name_es_mx": "Ratón Canguro",
+              "name_fr_fr": "Kangaroo Mouse",
+              "name_id_id": "Kangaroo Mouse"
             }
           ]
         },
@@ -2975,7 +3305,9 @@
               "name_zh_cn": "水豚",
               "name_zh_tw": "水豚",
               "name_es_es": "Capibara",
-              "name_es_mx": "Capibara"
+              "name_es_mx": "Capibara",
+              "name_fr_fr": "Capybara",
+              "name_id_id": "Kapibara"
             },
             {
               "id": "guinea-pig",
@@ -2990,7 +3322,9 @@
               "name_zh_cn": "荷兰猪",
               "name_zh_tw": "天竺鼠",
               "name_es_es": "Cobaya",
-              "name_es_mx": "Cuy"
+              "name_es_mx": "Cuy",
+              "name_fr_fr": "Cochon d'Inde",
+              "name_id_id": "Marmut"
             },
             {
               "id": "patagonian-mara",
@@ -3005,7 +3339,9 @@
               "name_zh_cn": "巴塔哥尼亚玛拉",
               "name_zh_tw": "巴塔哥尼亞瑪拉",
               "name_es_es": "Mara Patagónica",
-              "name_es_mx": "Mara Patagónica"
+              "name_es_mx": "Mara Patagónica",
+              "name_fr_fr": "Mara de Patagonie",
+              "name_id_id": "Mara Patagonia"
             }
           ]
         },
@@ -3027,7 +3363,9 @@
               "name_zh_cn": "豪猪",
               "name_zh_tw": "豪豬",
               "name_es_es": "Puercoespín",
-              "name_es_mx": "Puercoespín"
+              "name_es_mx": "Puercoespín",
+              "name_fr_fr": "Porc-épic",
+              "name_id_id": "Landak"
             }
           ]
         },
@@ -3049,7 +3387,9 @@
               "name_zh_cn": "北美豪猪",
               "name_zh_tw": "北美豪豬",
               "name_es_es": "Puercoespín Norteamericano",
-              "name_es_mx": "Puercoespín Norteamericano"
+              "name_es_mx": "Puercoespín Norteamericano",
+              "name_fr_fr": "Porc-épic d'Amérique",
+              "name_id_id": "Landak Amerika Utara"
             }
           ]
         },
@@ -3071,7 +3411,9 @@
               "name_zh_cn": "栗鼠",
               "name_zh_tw": "絨鼠",
               "name_es_es": "Chinchilla",
-              "name_es_mx": "Chinchilla"
+              "name_es_mx": "Chinchilla",
+              "name_fr_fr": "Chinchilla",
+              "name_id_id": "Chinchilla"
             }
           ]
         },
@@ -3093,7 +3435,9 @@
               "name_zh_cn": "八齿鼠",
               "name_zh_tw": "八齒鼠",
               "name_es_es": "Degú",
-              "name_es_mx": "Degú"
+              "name_es_mx": "Degú",
+              "name_fr_fr": "Dègue du Chili",
+              "name_id_id": "Degu"
             }
           ]
         },
@@ -3115,7 +3459,9 @@
               "name_zh_cn": "海狸鼠",
               "name_zh_tw": "海狸鼠",
               "name_es_es": "Coipú",
-              "name_es_mx": "Coipú"
+              "name_es_mx": "Coipú",
+              "name_fr_fr": "Myocastor",
+              "name_id_id": "Nutria"
             }
           ]
         },
@@ -3137,7 +3483,9 @@
               "name_zh_cn": "侏儒跳鼠",
               "name_zh_tw": "侏儒跳鼠",
               "name_es_es": "Jerbo Pigmeo",
-              "name_es_mx": "Jerbo Pigmeo"
+              "name_es_mx": "Jerbo Pigmeo",
+              "name_fr_fr": "Pygmy Jerboa",
+              "name_id_id": "Pygmy Jerboa"
             }
           ]
         },
@@ -3159,7 +3507,9 @@
               "name_zh_cn": "仓鼠",
               "name_zh_tw": "倉鼠",
               "name_es_es": "Hámster",
-              "name_es_mx": "Hámster"
+              "name_es_mx": "Hámster",
+              "name_fr_fr": "Hamster",
+              "name_id_id": "Hamster"
             },
             {
               "id": "norway-lemming",
@@ -3174,7 +3524,9 @@
               "name_zh_cn": "旅鼠",
               "name_zh_tw": "旅鼠",
               "name_es_es": "Lemming",
-              "name_es_mx": "Lemming"
+              "name_es_mx": "Lemming",
+              "name_fr_fr": "Lemming",
+              "name_id_id": "Lemming"
             }
           ]
         },
@@ -3196,7 +3548,9 @@
               "name_zh_cn": "冠鼠",
               "name_zh_tw": "冠鼠",
               "name_es_es": "Rata de Melena",
-              "name_es_mx": "Rata de Melena"
+              "name_es_mx": "Rata de Melena",
+              "name_fr_fr": "Maned Rat",
+              "name_id_id": "Maned Rat"
             }
           ]
         },
@@ -3218,7 +3572,9 @@
               "name_zh_cn": "小家鼠",
               "name_zh_tw": "小家鼠",
               "name_es_es": "Ratón",
-              "name_es_mx": "Ratón"
+              "name_es_mx": "Ratón",
+              "name_fr_fr": "Souris domestique",
+              "name_id_id": "Mencit"
             },
             {
               "id": "brown-rat",
@@ -3233,7 +3589,9 @@
               "name_zh_cn": "褐家鼠",
               "name_zh_tw": "溝鼠",
               "name_es_es": "Rata Parda",
-              "name_es_mx": "Rata Alcantarilla"
+              "name_es_mx": "Rata Alcantarilla",
+              "name_fr_fr": "Surmulot",
+              "name_id_id": "Tikus Got"
             },
             {
               "id": "amami-spiny-rat",
@@ -3248,7 +3606,9 @@
               "name_zh_cn": "奄美刺鼠",
               "name_zh_tw": "奄美刺鼠",
               "name_es_es": "Rata Espinosa de Amami",
-              "name_es_mx": "Rata Espinosa de Amami"
+              "name_es_mx": "Rata Espinosa de Amami",
+              "name_fr_fr": "Amami Spiny Rat",
+              "name_id_id": "Amami Spiny Rat"
             }
           ]
         },
@@ -3270,7 +3630,9 @@
               "name_zh_cn": "盲鼠",
               "name_zh_tw": "盲鼠",
               "name_es_es": "Rata Topo Ciega",
-              "name_es_mx": "Rata Topo Ciega"
+              "name_es_mx": "Rata Topo Ciega",
+              "name_fr_fr": "Blind Mole-rat",
+              "name_id_id": "Blind Mole-rat"
             }
           ]
         },
@@ -3292,7 +3654,9 @@
               "name_zh_cn": "裸疣鼠",
               "name_zh_tw": "裸鼴鼠",
               "name_es_es": "Rata Topo Desnuda",
-              "name_es_mx": "Rata Topo Desnuda"
+              "name_es_mx": "Rata Topo Desnuda",
+              "name_fr_fr": "Rat-taupe nu",
+              "name_id_id": "Tikus Mol Telanjang"
             }
           ]
         }
@@ -3323,7 +3687,9 @@
               "name_zh_cn": "刺猬",
               "name_zh_tw": "刺蝟",
               "name_es_es": "Erizo",
-              "name_es_mx": "Erizo"
+              "name_es_mx": "Erizo",
+              "name_fr_fr": "Hérisson",
+              "name_id_id": "Landak Mini"
             }
           ]
         },
@@ -3345,7 +3711,9 @@
               "name_zh_cn": "鼹鼠",
               "name_zh_tw": "鼹鼠",
               "name_es_es": "Topo",
-              "name_es_mx": "Topo"
+              "name_es_mx": "Topo",
+              "name_fr_fr": "Taupe",
+              "name_id_id": "Tikus Mondok"
             },
             {
               "id": "star-nosed-mole",
@@ -3360,7 +3728,9 @@
               "name_zh_cn": "星鼻鼹",
               "name_zh_tw": "星鼻鼹",
               "name_es_es": "Topo Estrellado",
-              "name_es_mx": "Topo Estrellado"
+              "name_es_mx": "Topo Estrellado",
+              "name_fr_fr": "Star-nosed Mole",
+              "name_id_id": "Star-nosed Mole"
             },
             {
               "id": "japanese-shrew-mole",
@@ -3375,7 +3745,9 @@
               "name_zh_cn": "日本小鼹",
               "name_zh_tw": "日本小鼹",
               "name_es_es": "Topo Japonés",
-              "name_es_mx": "Topo Japonés"
+              "name_es_mx": "Topo Japonés",
+              "name_fr_fr": "Taupe-musaraigne du Japon",
+              "name_id_id": "Tikus Mondok Jepang"
             }
           ]
         },
@@ -3397,7 +3769,9 @@
               "name_zh_cn": "鼩鼱",
               "name_zh_tw": "鼩鼱",
               "name_es_es": "Musaraña",
-              "name_es_mx": "Musaraña"
+              "name_es_mx": "Musaraña",
+              "name_fr_fr": "Ezo Red-toothed Shrew",
+              "name_id_id": "Ezo Red-toothed Shrew"
             },
             {
               "id": "hero-shrew",
@@ -3412,7 +3786,9 @@
               "name_zh_cn": "盔鼩鼱",
               "name_zh_tw": "盔鼩鼱",
               "name_es_es": "Musaraña Acorazada",
-              "name_es_mx": "Musaraña Acorazada"
+              "name_es_mx": "Musaraña Acorazada",
+              "name_fr_fr": "Hero Shrew",
+              "name_id_id": "Hero Shrew"
             }
           ]
         },
@@ -3434,7 +3810,9 @@
               "name_zh_cn": "沟齿鼩",
               "name_zh_tw": "溝齒鼩",
               "name_es_es": "Solenodonte",
-              "name_es_mx": "Solenodonte"
+              "name_es_mx": "Solenodonte",
+              "name_fr_fr": "Hispaniolan Solenodon",
+              "name_id_id": "Hispaniolan Solenodon"
             }
           ]
         }
@@ -3465,7 +3843,9 @@
               "name_zh_cn": "树懒",
               "name_zh_tw": "樹懶",
               "name_es_es": "Perezoso",
-              "name_es_mx": "Perezoso"
+              "name_es_mx": "Perezoso",
+              "name_fr_fr": "Paresseux",
+              "name_id_id": "Kukang Sloth"
             }
           ]
         },
@@ -3487,7 +3867,9 @@
               "name_zh_cn": "大食蚁兽",
               "name_zh_tw": "大食蟻獸",
               "name_es_es": "Oso Hormiguero",
-              "name_es_mx": "Oso Hormiguero"
+              "name_es_mx": "Oso Hormiguero",
+              "name_fr_fr": "Grand tamandua",
+              "name_id_id": "Semut Raksasa"
             },
             {
               "id": "southern-tamandua",
@@ -3502,7 +3884,9 @@
               "name_zh_cn": "小食蚁兽",
               "name_zh_tw": "小食蟻獸",
               "name_es_es": "Oso Hormiguero Pequeño",
-              "name_es_mx": "Oso Hormiguero Pequeño"
+              "name_es_mx": "Oso Hormiguero Pequeño",
+              "name_fr_fr": "Tamandua du Sud",
+              "name_id_id": "Tamandua Selatan"
             }
           ]
         },
@@ -3524,7 +3908,9 @@
               "name_zh_cn": "侏食蚁兽",
               "name_zh_tw": "侏食蟻獸",
               "name_es_es": "Oso Hormiguero Sedoso",
-              "name_es_mx": "Oso Hormiguero Sedoso"
+              "name_es_mx": "Oso Hormiguero Sedoso",
+              "name_fr_fr": "Silky Anteater",
+              "name_id_id": "Silky Anteater"
             }
           ]
         }
@@ -3555,7 +3941,9 @@
               "name_zh_cn": "鸭嘴兽",
               "name_zh_tw": "鴨嘴獸",
               "name_es_es": "Ornitorrinco",
-              "name_es_mx": "Ornitorrinco"
+              "name_es_mx": "Ornitorrinco",
+              "name_fr_fr": "Ornithorynque",
+              "name_id_id": "Platipus"
             }
           ]
         },
@@ -3577,7 +3965,9 @@
               "name_zh_cn": "针鼹",
               "name_zh_tw": "針鼹",
               "name_es_es": "Equidna",
-              "name_es_mx": "Equidna"
+              "name_es_mx": "Equidna",
+              "name_fr_fr": "Échidné",
+              "name_id_id": "Ekidna"
             }
           ]
         }
@@ -3608,7 +3998,9 @@
               "name_zh_cn": "蝙蝠",
               "name_zh_tw": "蝙蝠",
               "name_es_es": "Murciélago",
-              "name_es_mx": "Murciélago"
+              "name_es_mx": "Murciélago",
+              "name_fr_fr": "Chauve-souris",
+              "name_id_id": "Kelelawar"
             }
           ]
         },
@@ -3630,7 +4022,9 @@
               "name_zh_cn": "白蝙蝠",
               "name_zh_tw": "白蝙蝠",
               "name_es_es": "Murciélago Blanco",
-              "name_es_mx": "Murciélago Blanco Hondureño"
+              "name_es_mx": "Murciélago Blanco Hondureño",
+              "name_fr_fr": "Ectophylle blanche",
+              "name_id_id": "Kelelawar Putih Honduras"
             }
           ]
         }
@@ -3661,7 +4055,9 @@
               "name_zh_cn": "儒艮",
               "name_zh_tw": "儒艮",
               "name_es_es": "Dugongo",
-              "name_es_mx": "Dugongo"
+              "name_es_mx": "Dugongo",
+              "name_fr_fr": "Dugong",
+              "name_id_id": "Duyung (Dugong)"
             }
           ]
         },
@@ -3683,7 +4079,9 @@
               "name_zh_cn": "海牛",
               "name_zh_tw": "海牛",
               "name_es_es": "Manatí",
-              "name_es_mx": "Manatí"
+              "name_es_mx": "Manatí",
+              "name_fr_fr": "Lamantin",
+              "name_id_id": "Manatee"
             }
           ]
         }
@@ -3714,7 +4112,9 @@
               "name_zh_cn": "犰狳",
               "name_zh_tw": "犰狳",
               "name_es_es": "Armadillo",
-              "name_es_mx": "Armadillo"
+              "name_es_mx": "Armadillo",
+              "name_fr_fr": "Tatou",
+              "name_id_id": "Armadilo"
             }
           ]
         }
@@ -3745,7 +4145,9 @@
               "name_zh_cn": "袋袋恶魔",
               "name_zh_tw": "袋袋惡魔",
               "name_es_es": "Demonio de Tasmania",
-              "name_es_mx": "Demonio de Tasmania"
+              "name_es_mx": "Demonio de Tasmania",
+              "name_fr_fr": "Diable de Tasmanie",
+              "name_id_id": "Iblis Tasmania"
             },
             {
               "id": "quoll",
@@ -3760,7 +4162,9 @@
               "name_zh_cn": "袋猫",
               "name_zh_tw": "袋貓",
               "name_es_es": "Quoll",
-              "name_es_mx": "Quoll"
+              "name_es_mx": "Quoll",
+              "name_fr_fr": "Chat marsupial",
+              "name_id_id": "Quoll"
             }
           ]
         },
@@ -3782,7 +4186,9 @@
               "name_zh_cn": "袋食蚁兽",
               "name_zh_tw": "袋食蟻獸",
               "name_es_es": "Numbat",
-              "name_es_mx": "Numbat"
+              "name_es_mx": "Numbat",
+              "name_fr_fr": "Engoulevent (Numbat)",
+              "name_id_id": "Numbat"
             }
           ]
         }
@@ -3813,7 +4219,9 @@
               "name_zh_cn": "穿山甲",
               "name_zh_tw": "穿山甲",
               "name_es_es": "Pangolín",
-              "name_es_mx": "Pangolín"
+              "name_es_mx": "Pangolín",
+              "name_fr_fr": "Pangolin",
+              "name_id_id": "Trenggiling"
             }
           ]
         }
@@ -3844,7 +4252,9 @@
               "name_zh_cn": "负鼠",
               "name_zh_tw": "負鼠",
               "name_es_es": "Zarigüeya",
-              "name_es_mx": "Tlacuache"
+              "name_es_mx": "Tlacuache",
+              "name_fr_fr": "Opossum",
+              "name_id_id": "Opossum"
             },
             {
               "id": "water-opossum",
@@ -3859,7 +4269,9 @@
               "name_zh_cn": "水负鼠",
               "name_zh_tw": "水負鼠",
               "name_es_es": "Zarigüeya de Agua",
-              "name_es_mx": "Tlacuache de Agua"
+              "name_es_mx": "Tlacuache de Agua",
+              "name_fr_fr": "Water Opossum",
+              "name_id_id": "Water Opossum"
             }
           ]
         }
@@ -3890,7 +4302,9 @@
               "name_zh_cn": "蹄兔",
               "name_zh_tw": "蹄兔",
               "name_es_es": "Damán",
-              "name_es_mx": "Damán"
+              "name_es_mx": "Damán",
+              "name_fr_fr": "Rock Hyrax",
+              "name_id_id": "Rock Hyrax"
             }
           ]
         }
@@ -3921,7 +4335,9 @@
               "name_zh_cn": "土豚",
               "name_zh_tw": "土豚",
               "name_es_es": "Oricteropo",
-              "name_es_mx": "Cerdo Hormiguero"
+              "name_es_mx": "Cerdo Hormiguero",
+              "name_fr_fr": "Aardvark",
+              "name_id_id": "Aardvark"
             }
           ]
         }
@@ -3952,7 +4368,9 @@
               "name_zh_cn": "兔耳袋狸",
               "name_zh_tw": "兔耳袋狸",
               "name_es_es": "Bilby",
-              "name_es_mx": "Bilby"
+              "name_es_mx": "Bilby",
+              "name_fr_fr": "Greater Bilby",
+              "name_id_id": "Greater Bilby"
             }
           ]
         }
@@ -3983,7 +4401,9 @@
               "name_zh_cn": "鼯猴",
               "name_zh_tw": "鼯猴",
               "name_es_es": "Lémur Volador",
-              "name_es_mx": "Lémur Volador"
+              "name_es_mx": "Lémur Volador",
+              "name_fr_fr": "Sunda Flying Lemur",
+              "name_id_id": "Sunda Flying Lemur"
             }
           ]
         }
@@ -4014,7 +4434,9 @@
               "name_zh_cn": "树鼩",
               "name_zh_tw": "樹鼩",
               "name_es_es": "Tupaia",
-              "name_es_mx": "Tupaia"
+              "name_es_mx": "Tupaia",
+              "name_fr_fr": "Treeshrew",
+              "name_id_id": "Treeshrew"
             }
           ]
         },
@@ -4036,7 +4458,9 @@
               "name_zh_cn": "羽尾树鼩",
               "name_zh_tw": "羽尾樹鼩",
               "name_es_es": "Tupaia Plumosa",
-              "name_es_mx": "Tupaia Plumosa"
+              "name_es_mx": "Tupaia Plumosa",
+              "name_fr_fr": "Pen-tailed Treeshrew",
+              "name_id_id": "Pen-tailed Treeshrew"
             }
           ]
         }
@@ -4067,7 +4491,9 @@
               "name_zh_cn": "马岛刺猬",
               "name_zh_tw": "馬島刺蝟",
               "name_es_es": "Tenrec",
-              "name_es_mx": "Tenrec"
+              "name_es_mx": "Tenrec",
+              "name_fr_fr": "Tenrec",
+              "name_id_id": "Tenrec"
             }
           ]
         }
@@ -4098,7 +4524,9 @@
               "name_zh_cn": "象鼩",
               "name_zh_tw": "象鼩",
               "name_es_es": "Musaraña Elefante",
-              "name_es_mx": "Musaraña Elefante"
+              "name_es_mx": "Musaraña Elefante",
+              "name_fr_fr": "Elephant Shrew",
+              "name_id_id": "Elephant Shrew"
             }
           ]
         }
@@ -4129,7 +4557,9 @@
               "name_zh_cn": "智利小负鼠",
               "name_zh_tw": "智利小負鼠",
               "name_es_es": "Monito del Monte",
-              "name_es_mx": "Monito del Monte"
+              "name_es_mx": "Monito del Monte",
+              "name_fr_fr": "Monito del Monte",
+              "name_id_id": "Monito del Monte"
             }
           ]
         }
@@ -4160,7 +4590,9 @@
               "name_zh_cn": "鼩负鼠",
               "name_zh_tw": "鼩負鼠",
               "name_es_es": "Zarigüeya Shrew",
-              "name_es_mx": "Zarigüeya Ratón"
+              "name_es_mx": "Zarigüeya Ratón",
+              "name_fr_fr": "Shrew Opossum",
+              "name_id_id": "Shrew Opossum"
             }
           ]
         }
@@ -4191,7 +4623,9 @@
               "name_zh_cn": "袋鼹",
               "name_zh_tw": "袋鼹",
               "name_es_es": "Topo Marsupial",
-              "name_es_mx": "Topo Marsupial"
+              "name_es_mx": "Topo Marsupial",
+              "name_fr_fr": "Marsupial Mole",
+              "name_id_id": "Marsupial Mole"
             }
           ]
         }

@@ -1820,7 +1820,7 @@
               "name_common": "イノシシ",
               "name_standard_ja": "ニホンイノシシ",
               "name_en": "Wild Boar",
-              "image": "/images/animals/boar.webp",
+              "image": "/images/animals/wild-boar.png",
               "description_note": "猪突猛進！突進が得意な森のパワフルファイター",
               "bg_color": "from-stone-100 to-amber-100",
               "accent_color": "border-stone-400",

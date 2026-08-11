@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;900&family=Outfit:wght@500;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: 'M PLUS Rounded 1c', 'Outfit', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8fafc;
+  color: #1e293b;
+  overflow-x: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: pan-x pan-y;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* 弾むようなタップアニメーション */
+@keyframes bounce-tap {
+  0% { transform: scale(1); }
+  40% { transform: scale(0.92); }
+  75% { transform: scale(1.06); }
+  100% { transform: scale(1); }
+}
+
+.animate-bounce-tap {
+  animation: bounce-tap 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* キラキラ浮かぶ背景パーツ */
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(3deg); }
+}
+
+.animate-float {
+  animation: float-slow 4s ease-in-out infinite;
+}

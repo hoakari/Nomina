@@ -4,7 +4,7 @@
       "id": "feliformia",
       "name_short": "ネコ",
       "name_kids": "ネコのなかま",
-      "name_ja": "ネコ亜目",
+      "name_ja": "食肉目ネコ型亜目",
       "name_en": "Feliformia (Cat-like Carnivorans)",
       "families": [
         {
@@ -461,7 +461,7 @@
       "id": "caniformia",
       "name_short": "イヌ",
       "name_kids": "イヌのなかま",
-      "name_ja": "イヌ亜目",
+      "name_ja": "食肉目イヌ型亜目",
       "name_en": "Caniformia (Dog-like Carnivorans)",
       "families": [
         {

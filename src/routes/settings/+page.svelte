@@ -127,26 +127,46 @@
     }, 2500);
   }
 
-  const tierDescriptions: Record<number, { title: string; desc: string; icon: string; countText: string }> = {
-    1: {
-      title: "みんなが知ってる動物だけ表示",
-      desc: "イヌ、ネコ、ゾウ、ライオン、パンダなど、子どもたちがよく知っている代表的な人気動物を中心に表示します。",
-      icon: "🐶",
-      countText: "（約77種）"
-    },
-    2: {
-      title: "動物園などにいる動物まで表示",
-      desc: "定番の動物に加えて、日本の動物園や水族館で見られる人気動物や珍しい仲間も表示します。",
-      icon: "🦁",
-      countText: "（約205種）"
-    },
-    3: {
-      title: "収録している動物をすべて表示",
-      desc: "図鑑に収録されているすべての哺乳類（世界中のめずらしい動物や絶滅危惧種）を表示します。",
-      icon: "🌍",
-      countText: "（全217種）"
+  // Tier別の累計表示種数を species.json から動的に集計
+  let tierDescriptions = $derived.by(() => {
+    let t1 = 0;
+    let t2 = 0;
+    let t3 = 0;
+    for (const cat of speciesData.categories) {
+      for (const fam of cat.families) {
+        for (const sp of fam.species) {
+          const tier = sp.tier || 1;
+          if (tier === 1) t1++;
+          else if (tier === 2) t2++;
+          else if (tier === 3) t3++;
+        }
+      }
     }
-  };
+    const count1 = t1;
+    const count2 = t1 + t2;
+    const count3 = t1 + t2 + t3;
+
+    return {
+      1: {
+        title: "みんなが知ってる動物だけ表示",
+        desc: "イヌ、ネコ、ゾウ、ライオン、パンダなど、子どもたちがよく知っている代表的な人気動物を中心に表示します。",
+        icon: "🐶",
+        countText: `（全${count1}種）`
+      },
+      2: {
+        title: "動物園などにいる動物まで表示",
+        desc: "定番の動物に加えて、日本の動物園や水族館で見られる人気動物や珍しい仲間も表示します。",
+        icon: "🦁",
+        countText: `（全${count2}種）`
+      },
+      3: {
+        title: "収録している動物をすべて表示",
+        desc: "図鑑に収録されているすべての哺乳類（世界中のめずらしい動物や絶滅危惧種）を表示します。",
+        icon: "🌍",
+        countText: `（全${count3}種）`
+      }
+    } as Record<number, { title: string; desc: string; icon: string; countText: string }>;
+  });
 
   const languageOptions: { code: LangAccent; name: string; subtitle: string; desc: string; bgClass: string; borderClass: string; badgeClass: string }[] = [
     {

@@ -204,6 +204,24 @@
       badgeClass: 'bg-emerald-600'
     },
     {
+      code: 'pt-PT',
+      name: '欧州ポルトガル語',
+      subtitle: 'Português (Portugal)',
+      desc: 'ポルトガル本国で使われる伝統的なポルトガル語表記と発音',
+      bgClass: 'from-teal-50 to-emerald-50',
+      borderClass: 'border-teal-500',
+      badgeClass: 'bg-teal-600'
+    },
+    {
+      code: 'pt-BR',
+      name: 'ブラジルポルトガル語',
+      subtitle: 'Português (Brasil)',
+      desc: 'ブラジルで広く話されている親しみやすく美しいポルトガル語発音',
+      bgClass: 'from-green-50 to-emerald-50',
+      borderClass: 'border-green-600',
+      badgeClass: 'bg-green-600'
+    },
+    {
       code: 'fr-FR',
       name: 'フランス語',
       subtitle: 'Français (France)',

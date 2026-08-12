@@ -1,10 +1,10 @@
 <script lang="ts">
   let { code = 'en-US', size = 'md' } = $props<{
-    code?: 'en-US' | 'en-GB' | 'zh-CN' | 'zh-TW' | 'es-ES' | 'es-MX' | 'fr-FR' | 'id-ID' | 'US' | 'GB' | 'CN' | 'TW' | 'ES' | 'MX' | 'FR' | 'ID';
+    code?: 'en-US' | 'en-GB' | 'zh-CN' | 'zh-TW' | 'es-ES' | 'es-MX' | 'pt-PT' | 'pt-BR' | 'fr-FR' | 'id-ID' | 'US' | 'GB' | 'CN' | 'TW' | 'ES' | 'MX' | 'PT' | 'BR' | 'FR' | 'ID';
     size?: 'sm' | 'md' | 'lg';
   }>();
 
-  const sizeClasses = {
+  const sizeClasses: Record<'sm' | 'md' | 'lg', string> = {
     sm: 'w-4 h-3 rounded-[2px]',
     md: 'w-7 h-5 rounded',
     lg: 'w-10 h-7 rounded-md'
@@ -17,14 +17,17 @@
     code === 'TW' ? 'zh-TW' :
     code === 'ES' ? 'es-ES' :
     code === 'MX' ? 'es-MX' :
+    code === 'PT' ? 'pt-PT' :
+    code === 'BR' ? 'pt-BR' :
     code === 'FR' ? 'fr-FR' :
     code === 'ID' ? 'id-ID' : code
   );
+  const sizeClass = $derived(sizeClasses[(size || 'md') as 'sm' | 'md' | 'lg']);
 </script>
 
 {#if normCode === 'en-US'}
   <!-- アメリカ国旗 SVG -->
-  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClasses[size]}" viewBox="0 0 741 390">
+  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClass}" viewBox="0 0 741 390">
     <rect width="741" height="390" fill="#b22234"/>
     <path d="M0,30H741M0,90H741M0,150H741M0,210H741M0,270H741M0,330H741" stroke="#fff" stroke-width="30"/>
     <rect width="296.4" height="210" fill="#3c3b6e"/>
@@ -56,7 +59,7 @@
   </svg>
 {:else if normCode === 'en-GB'}
   <!-- イギリス国旗 (ユニオンジャック) SVG -->
-  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClasses[size]}" viewBox="0 0 60 30">
+  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClass}" viewBox="0 0 60 30">
     <clipPath id="s">
       <path d="M0,0 v30 h60 v-30 z"/>
     </clipPath>
@@ -73,7 +76,7 @@
   </svg>
 {:else if normCode === 'zh-CN'}
   <!-- 中国国旗 (五星紅旗) SVG -->
-  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClasses[size]}" viewBox="0 0 900 600">
+  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClass}" viewBox="0 0 900 600">
     <rect width="900" height="600" fill="#ee1c25"/>
     <g fill="#ffde00">
       <polygon points="150,60 179,151 255,95 208,181 297,210 208,239 255,325 179,269 150,360 121,269 45,325 92,239 3,210 92,181 45,95 121,151"/>
@@ -85,7 +88,7 @@
   </svg>
 {:else if normCode === 'zh-TW'}
   <!-- 台湾国旗 (青天白日満地紅旗) SVG -->
-  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClasses[size]}" viewBox="0 0 900 600">
+  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClass}" viewBox="0 0 900 600">
     <rect width="900" height="600" fill="#fe0000"/>
     <rect width="450" height="300" fill="#000095"/>
     <g transform="translate(225,150)">
@@ -111,7 +114,7 @@
   </svg>
 {:else if normCode === 'es-ES'}
   <!-- スペイン国旗 SVG -->
-  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClasses[size]}" viewBox="0 0 750 500">
+  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClass}" viewBox="0 0 750 500">
     <rect width="750" height="500" fill="#c60b1e"/>
     <rect y="125" width="750" height="250" fill="#ffc400"/>
     <g transform="translate(200, 250) scale(0.65)">
@@ -124,7 +127,7 @@
   </svg>
 {:else if normCode === 'es-MX'}
   <!-- メキシコ国旗 SVG -->
-  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClasses[size]}" viewBox="0 0 700 400">
+  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClass}" viewBox="0 0 700 400">
     <rect width="233.3" height="400" fill="#006847"/>
     <rect x="233.3" width="233.3" height="400" fill="#fff"/>
     <rect x="466.6" width="233.3" height="400" fill="#ce1126"/>
@@ -135,16 +138,41 @@
       <circle cx="0" cy="-15" r="8" fill="#ce1126"/>
     </g>
   </svg>
+{:else if normCode === 'pt-PT'}
+  <!-- ポルトガル国旗 🇵🇹 SVG -->
+  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClass}" viewBox="0 0 600 400">
+    <rect width="240" height="400" fill="#006600"/>
+    <rect x="240" width="360" height="400" fill="#ff0000"/>
+    <g transform="translate(240, 200) scale(0.8)">
+      <circle r="65" fill="#ffcc00" stroke="#000" stroke-width="3"/>
+      <rect x="-35" y="-45" width="70" height="90" fill="#ffffff" stroke="#000" stroke-width="3" rx="10"/>
+      <rect x="-35" y="-45" width="70" height="70" fill="#ff0000"/>
+      <rect x="-25" y="-35" width="50" height="50" fill="#ffffff"/>
+      <circle cx="-12" cy="-20" r="4" fill="#003399"/>
+      <circle cx="12" cy="-20" r="4" fill="#003399"/>
+      <circle cx="0" cy="0" r="4" fill="#003399"/>
+      <circle cx="-12" cy="20" r="4" fill="#003399"/>
+      <circle cx="12" cy="20" r="4" fill="#003399"/>
+    </g>
+  </svg>
+{:else if normCode === 'pt-BR'}
+  <!-- ブラジル国旗 🇧🇷 SVG -->
+  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClass}" viewBox="0 0 700 490">
+    <rect width="700" height="490" fill="#009c3b"/>
+    <polygon points="350,58 642,245 350,432 58,245" fill="#ffdf00"/>
+    <circle cx="350" cy="245" r="122" fill="#002776"/>
+    <path d="M232,260 C270,220 410,220 468,260 C420,240 280,240 232,260 Z" fill="#ffffff"/>
+  </svg>
 {:else if normCode === 'fr-FR'}
   <!-- フランス国旗 (トリコロール 🇫🇷) SVG -->
-  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClasses[size]}" viewBox="0 0 900 600">
+  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClass}" viewBox="0 0 900 600">
     <rect width="300" height="600" fill="#002395"/>
     <rect x="300" width="300" height="600" fill="#fff"/>
     <rect x="600" width="300" height="600" fill="#ed2939"/>
   </svg>
 {:else if normCode === 'id-ID'}
   <!-- インドネシア国旗 (メラ・プティ 🇮🇩) SVG -->
-  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClasses[size]}" viewBox="0 0 900 600">
+  <svg class="inline-block shadow-sm overflow-hidden shrink-0 border border-slate-200/50 {sizeClass}" viewBox="0 0 900 600">
     <rect width="900" height="300" fill="#ce1126"/>
     <rect y="300" width="900" height="300" fill="#fff"/>
   </svg>

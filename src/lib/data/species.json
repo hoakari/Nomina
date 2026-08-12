@@ -27,7 +27,9 @@
               "name_es_es": "Perro",
               "name_es_mx": "Perro",
               "name_fr_fr": "Chien (Shiba Inu)",
-              "name_id_id": "Anjing (Shiba Inu)"
+              "name_id_id": "Anjing (Shiba Inu)",
+              "name_pt_pt": "Cão",
+              "name_pt_br": "Cachorro"
             },
             {
               "id": "gray-wolf",
@@ -44,7 +46,9 @@
               "name_es_es": "Lobo Gris",
               "name_es_mx": "Lobo Gris",
               "name_fr_fr": "Wolf",
-              "name_id_id": "Wolf"
+              "name_id_id": "Wolf",
+              "name_pt_pt": "Lobo-cinzento",
+              "name_pt_br": "Lobo-cinzento"
             },
             {
               "id": "coyote",
@@ -61,7 +65,9 @@
               "name_es_es": "Coyote",
               "name_es_mx": "Coyote",
               "name_fr_fr": "Coyote",
-              "name_id_id": "Koyote"
+              "name_id_id": "Koyote",
+              "name_pt_pt": "Coiote",
+              "name_pt_br": "Coiote"
             },
             {
               "id": "black-backed-jackal",
@@ -78,7 +84,9 @@
               "name_es_es": "Chacal",
               "name_es_mx": "Chacal",
               "name_fr_fr": "Chacal à chabraque",
-              "name_id_id": "Jakal Punggung Hitam"
+              "name_id_id": "Jakal Punggung Hitam",
+              "name_pt_pt": "Chacal-de-dorso-negro",
+              "name_pt_br": "Chacal-de-dorso-negro"
             },
             {
               "id": "dhole",
@@ -95,7 +103,9 @@
               "name_es_es": "Cuón",
               "name_es_mx": "Perro Salvaje Asiático",
               "name_fr_fr": "Dhole",
-              "name_id_id": "Dhole"
+              "name_id_id": "Dhole",
+              "name_pt_pt": "Cão-selvagem-asiático",
+              "name_pt_br": "Cão-selvagem-asiático"
             },
             {
               "id": "african-wild-dog",
@@ -112,7 +122,9 @@
               "name_es_es": "Licaón",
               "name_es_mx": "Licaón",
               "name_fr_fr": "Lycaon",
-              "name_id_id": "Anjing Liar Afrika"
+              "name_id_id": "Anjing Liar Afrika",
+              "name_pt_pt": "Licaão",
+              "name_pt_br": "Licaão"
             },
             {
               "id": "maned-wolf",
@@ -129,7 +141,9 @@
               "name_es_es": "Lobo de Crin",
               "name_es_mx": "Lobo de Crin",
               "name_fr_fr": "Loup à crinière",
-              "name_id_id": "Serigala Berperai"
+              "name_id_id": "Serigala Berperai",
+              "name_pt_pt": "Lobo-de-crina",
+              "name_pt_br": "Lobo-de-crina"
             },
             {
               "id": "bush-dog",
@@ -146,7 +160,9 @@
               "name_es_es": "Perro de Vinagre",
               "name_es_mx": "Perro de Monte",
               "name_fr_fr": "Chien des buissons",
-              "name_id_id": "Anjing Semak"
+              "name_id_id": "Anjing Semak",
+              "name_pt_pt": "Cão-do-mato",
+              "name_pt_br": "Cão-do-mato"
             },
             {
               "id": "tanuki",
@@ -163,7 +179,9 @@
               "name_es_es": "Tanuki",
               "name_es_mx": "Tanuki",
               "name_fr_fr": "Chien viverrin",
-              "name_id_id": "Tanuki"
+              "name_id_id": "Tanuki",
+              "name_pt_pt": "Tanuki",
+              "name_pt_br": "Tanuki"
             },
             {
               "id": "hondo-fox",
@@ -180,7 +198,9 @@
               "name_es_es": "Zorro",
               "name_es_mx": "Zorro",
               "name_fr_fr": "Renard du Japon",
-              "name_id_id": "Rubah Hondo"
+              "name_id_id": "Rubah Hondo",
+              "name_pt_pt": "Raposa",
+              "name_pt_br": "Raposa"
             },
             {
               "id": "arctic-fox",
@@ -197,7 +217,9 @@
               "name_es_es": "Zorro Ártico",
               "name_es_mx": "Zorro Ártico",
               "name_fr_fr": "Renard polaire",
-              "name_id_id": "Rubah Kutub"
+              "name_id_id": "Rubah Kutub",
+              "name_pt_pt": "Raposa-do-ártico",
+              "name_pt_br": "Raposa-do-ártico"
             },
             {
               "id": "fennec-fox",
@@ -214,7 +236,9 @@
               "name_es_es": "Fénec",
               "name_es_mx": "Fénec",
               "name_fr_fr": "Fennec",
-              "name_id_id": "Fennec"
+              "name_id_id": "Fennec",
+              "name_pt_pt": "Feneco",
+              "name_pt_br": "Feneco"
             },
             {
               "id": "tibetan-sand-fox",
@@ -231,9 +255,13 @@
               "name_es_es": "Zorro Tibetano",
               "name_es_mx": "Zorro del Tíbet",
               "name_fr_fr": "Renard du Tibet",
-              "name_id_id": "Rubah Pasir Tibet"
+              "name_id_id": "Rubah Pasir Tibet",
+              "name_pt_pt": "Raposa-do-tíbet",
+              "name_pt_br": "Raposa-do-tíbet"
             }
-          ]
+          ],
+          "name_pt_pt": "Canidae",
+          "name_pt_br": "Canidae"
         },
         {
           "id": "ursidae",
@@ -255,7 +283,9 @@
               "name_es_es": "Panda Gigante",
               "name_es_mx": "Panda Gigante",
               "name_fr_fr": "Panda géant",
-              "name_id_id": "Panda Raksasa"
+              "name_id_id": "Panda Raksasa",
+              "name_pt_pt": "Panda-gigante",
+              "name_pt_br": "Panda-gigante"
             },
             {
               "id": "brown-bear",
@@ -273,7 +303,9 @@
               "name_es_mx": "Oso Grizzly",
               "name_en_gb": "Brown Bear",
               "name_fr_fr": "Ours brun",
-              "name_id_id": "Beruang Cokelat"
+              "name_id_id": "Beruang Cokelat",
+              "name_pt_pt": "Urso-pardo",
+              "name_pt_br": "Urso-pardo"
             },
             {
               "id": "asian-black-bear",
@@ -290,7 +322,9 @@
               "name_es_es": "Oso Negro Asiático",
               "name_es_mx": "Oso Negro Asiático",
               "name_fr_fr": "Ours noir d'Asie",
-              "name_id_id": "Beruang Hitam Asia"
+              "name_id_id": "Beruang Hitam Asia",
+              "name_pt_pt": "Urso-negro-asiático",
+              "name_pt_br": "Urso-negro-asiático"
             },
             {
               "id": "polar-bear",
@@ -307,7 +341,9 @@
               "name_es_es": "Oso Polar",
               "name_es_mx": "Oso Polar",
               "name_fr_fr": "Ours polaire",
-              "name_id_id": "Beruang Kutub"
+              "name_id_id": "Beruang Kutub",
+              "name_pt_pt": "Urso-polar",
+              "name_pt_br": "Urso-polar"
             },
             {
               "id": "american-black-bear",
@@ -324,7 +360,9 @@
               "name_es_es": "Oso Negro Americano",
               "name_es_mx": "Oso Negro Americano",
               "name_fr_fr": "Ours noir d'Amérique",
-              "name_id_id": "Beruang Hitam Amerika"
+              "name_id_id": "Beruang Hitam Amerika",
+              "name_pt_pt": "Urso-negro-americano",
+              "name_pt_br": "Urso-negro-americano"
             },
             {
               "id": "sloth-bear",
@@ -341,7 +379,9 @@
               "name_es_es": "Oso Perezoso",
               "name_es_mx": "Oso Perezoso",
               "name_fr_fr": "Ours lippu",
-              "name_id_id": "Beruang Pemalas"
+              "name_id_id": "Beruang Pemalas",
+              "name_pt_pt": "Urso-preguiça",
+              "name_pt_br": "Urso-preguiça"
             },
             {
               "id": "sun-bear",
@@ -358,7 +398,9 @@
               "name_es_es": "Oso Malayo",
               "name_es_mx": "Oso Malayo",
               "name_fr_fr": "Ours des cocotiers",
-              "name_id_id": "Beruang Madu"
+              "name_id_id": "Beruang Madu",
+              "name_pt_pt": "Urso-malaio",
+              "name_pt_br": "Urso-malaio"
             },
             {
               "id": "spectacled-bear",
@@ -375,9 +417,13 @@
               "name_es_es": "Oso de Anteojos",
               "name_es_mx": "Oso de Anteojos",
               "name_fr_fr": "Ours à lunettes",
-              "name_id_id": "Beruang Kacamata"
+              "name_id_id": "Beruang Kacamata",
+              "name_pt_pt": "Urso-de-óculos",
+              "name_pt_br": "Urso-de-óculos"
             }
-          ]
+          ],
+          "name_pt_pt": "Ursidae",
+          "name_pt_br": "Ursidae"
         },
         {
           "id": "ailuridae",
@@ -399,9 +445,13 @@
               "name_es_es": "Panda Rojo",
               "name_es_mx": "Panda Rojo",
               "name_fr_fr": "Panda roux",
-              "name_id_id": "Panda Merah"
+              "name_id_id": "Panda Merah",
+              "name_pt_pt": "Panda-vermelho",
+              "name_pt_br": "Panda-vermelho"
             }
-          ]
+          ],
+          "name_pt_pt": "Ailuridae",
+          "name_pt_br": "Ailuridae"
         },
         {
           "id": "procyonidae",
@@ -423,7 +473,9 @@
               "name_es_es": "Mapache",
               "name_es_mx": "Mapache",
               "name_fr_fr": "Raton laveur",
-              "name_id_id": "Raccoon"
+              "name_id_id": "Raccoon",
+              "name_pt_pt": "Guaxinim",
+              "name_pt_br": "Guaxinim"
             },
             {
               "id": "kinkajou",
@@ -440,9 +492,13 @@
               "name_es_es": "Kinkajú",
               "name_es_mx": "Martucha",
               "name_fr_fr": "Kinkajou",
-              "name_id_id": "Kinkajou"
+              "name_id_id": "Kinkajou",
+              "name_pt_pt": "Jincaju",
+              "name_pt_br": "Jincaju"
             }
-          ]
+          ],
+          "name_pt_pt": "Procyonidae",
+          "name_pt_br": "Procyonidae"
         },
         {
           "id": "mephitidae",
@@ -464,9 +520,13 @@
               "name_es_es": "Mofeta",
               "name_es_mx": "Zorrillo",
               "name_fr_fr": "Mofette",
-              "name_id_id": "Skunk"
+              "name_id_id": "Skunk",
+              "name_pt_pt": "Cangambá",
+              "name_pt_br": "Gambá"
             }
-          ]
+          ],
+          "name_pt_pt": "Mephitidae",
+          "name_pt_br": "Mephitidae"
         },
         {
           "id": "mustelidae",
@@ -488,7 +548,9 @@
               "name_es_es": "Nutria Marina",
               "name_es_mx": "Nutria Marina",
               "name_fr_fr": "Loutre de mer",
-              "name_id_id": "Berang-berang Laut"
+              "name_id_id": "Berang-berang Laut",
+              "name_pt_pt": "Nutria-marinha",
+              "name_pt_br": "Lontra-marinha"
             },
             {
               "id": "stoat",
@@ -506,7 +568,9 @@
               "name_es_mx": "Armiño",
               "name_en_gb": "Stoat",
               "name_fr_fr": "Hermine",
-              "name_id_id": "Stoat"
+              "name_id_id": "Stoat",
+              "name_pt_pt": "Arminho",
+              "name_pt_br": "Arminho"
             },
             {
               "id": "least-weasel",
@@ -523,7 +587,9 @@
               "name_es_es": "Comadreja Común",
               "name_es_mx": "Comadreja",
               "name_fr_fr": "Belette d'Europe",
-              "name_id_id": "Musang Kecil"
+              "name_id_id": "Musang Kecil",
+              "name_pt_pt": "Doninha-anã",
+              "name_pt_br": "Doninha-anã"
             },
             {
               "id": "honey-badger",
@@ -540,7 +606,9 @@
               "name_es_es": "Ratel",
               "name_es_mx": "Tejón Melero",
               "name_fr_fr": "Ratel",
-              "name_id_id": "Honey Badger"
+              "name_id_id": "Honey Badger",
+              "name_pt_pt": "Ratel",
+              "name_pt_br": "Ratel"
             },
             {
               "id": "otter",
@@ -557,7 +625,9 @@
               "name_es_es": "Nutria",
               "name_es_mx": "Nutria",
               "name_fr_fr": "Loutre",
-              "name_id_id": "Berang-berang"
+              "name_id_id": "Berang-berang",
+              "name_pt_pt": "Lontra",
+              "name_pt_br": "Lontra"
             },
             {
               "id": "wolverine",
@@ -574,7 +644,9 @@
               "name_es_es": "Glotón",
               "name_es_mx": "Glotón",
               "name_fr_fr": "Glouton",
-              "name_id_id": "Wolverine"
+              "name_id_id": "Wolverine",
+              "name_pt_pt": "Glutão",
+              "name_pt_br": "Carcaju"
             },
             {
               "id": "eurasian-badger",
@@ -591,7 +663,9 @@
               "name_es_es": "Tejón",
               "name_es_mx": "Tejón",
               "name_fr_fr": "Blaireau européen",
-              "name_id_id": "Luwak Eropa"
+              "name_id_id": "Luwak Eropa",
+              "name_pt_pt": "Teixugo",
+              "name_pt_br": "Teixugo"
             },
             {
               "id": "japanese-marten",
@@ -608,7 +682,9 @@
               "name_es_es": "Marta Cibelina",
               "name_es_mx": "Marta Cibelina",
               "name_fr_fr": "Martre du Japon",
-              "name_id_id": "Marten Jepang"
+              "name_id_id": "Marten Jepang",
+              "name_pt_pt": "Marta-japonesa",
+              "name_pt_br": "Marta-japonesa"
             },
             {
               "id": "weasel",
@@ -625,9 +701,13 @@
               "name_es_es": "Comadreja",
               "name_es_mx": "Comadreja",
               "name_fr_fr": "Belette",
-              "name_id_id": "Musang"
+              "name_id_id": "Musang",
+              "name_pt_pt": "Doninha",
+              "name_pt_br": "Doninha"
             }
-          ]
+          ],
+          "name_pt_pt": "Mustelidae",
+          "name_pt_br": "Mustelidae"
         },
         {
           "id": "phocidae",
@@ -649,9 +729,13 @@
               "name_es_es": "Foca",
               "name_es_mx": "Foca",
               "name_fr_fr": "Phoque tacheté",
-              "name_id_id": "Anjing Laut Bintik"
+              "name_id_id": "Anjing Laut Bintik",
+              "name_pt_pt": "Foca-comum",
+              "name_pt_br": "Foca-comum"
             }
-          ]
+          ],
+          "name_pt_pt": "Phocidae",
+          "name_pt_br": "Phocidae"
         },
         {
           "id": "otariidae",
@@ -673,7 +757,9 @@
               "name_es_es": "León Marino",
               "name_es_mx": "León Marino",
               "name_fr_fr": "Otarie",
-              "name_id_id": "Singa Laut"
+              "name_id_id": "Singa Laut",
+              "name_pt_pt": "Leão Marino",
+              "name_pt_br": "Leão Marino"
             },
             {
               "id": "todo",
@@ -690,7 +776,9 @@
               "name_es_es": "León Marino de Steller",
               "name_es_mx": "León Marino de Steller",
               "name_fr_fr": "Lion de mer de Steller",
-              "name_id_id": "Singa Laut Steller"
+              "name_id_id": "Singa Laut Steller",
+              "name_pt_pt": "Leão-marinho-de-steller",
+              "name_pt_br": "Leão-marinho-de-steller"
             },
             {
               "id": "fur-seal",
@@ -707,7 +795,9 @@
               "name_es_es": "Oso Marino",
               "name_es_mx": "Lobo Marino",
               "name_fr_fr": "Otarie à fourrure",
-              "name_id_id": "Anjing Laut Berbulu"
+              "name_id_id": "Anjing Laut Berbulu",
+              "name_pt_pt": "Lobo-marinho",
+              "name_pt_br": "Lobo-marinho"
             },
             {
               "id": "otaria",
@@ -724,9 +814,13 @@
               "name_es_es": "Otaria",
               "name_es_mx": "Lobo Marino Sudamericano",
               "name_fr_fr": "Otarier du Sud",
-              "name_id_id": "Singa Laut Amerika Selatan"
+              "name_id_id": "Singa Laut Amerika Selatan",
+              "name_pt_pt": "Otária",
+              "name_pt_br": "Otária"
             }
-          ]
+          ],
+          "name_pt_pt": "Otariidae",
+          "name_pt_br": "Otariidae"
         },
         {
           "id": "odobenidae",
@@ -748,11 +842,17 @@
               "name_es_es": "Morsa",
               "name_es_mx": "Morsa",
               "name_fr_fr": "Morse",
-              "name_id_id": "Walrus"
+              "name_id_id": "Walrus",
+              "name_pt_pt": "Morsa",
+              "name_pt_br": "Morsa"
             }
-          ]
+          ],
+          "name_pt_pt": "Odobenidae",
+          "name_pt_br": "Odobenidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Caniformia (Dog-like Carnivorans)",
+      "name_pt_br": "Caniformia (Dog-like Carnivorans)"
     },
     {
       "id": "feliformia",
@@ -781,7 +881,9 @@
               "name_es_es": "Gato",
               "name_es_mx": "Gato",
               "name_fr_fr": "Chat",
-              "name_id_id": "Kucing"
+              "name_id_id": "Kucing",
+              "name_pt_pt": "Gato",
+              "name_pt_br": "Gato"
             },
             {
               "id": "lion",
@@ -798,7 +900,9 @@
               "name_es_es": "León",
               "name_es_mx": "León",
               "name_fr_fr": "Lion",
-              "name_id_id": "Singa"
+              "name_id_id": "Singa",
+              "name_pt_pt": "Leão",
+              "name_pt_br": "Leão"
             },
             {
               "id": "tiger",
@@ -815,7 +919,9 @@
               "name_es_es": "Tigre",
               "name_es_mx": "Tigre",
               "name_fr_fr": "Tigre",
-              "name_id_id": "Harimau"
+              "name_id_id": "Harimau",
+              "name_pt_pt": "Tigre",
+              "name_pt_br": "Tigre"
             },
             {
               "id": "leopard",
@@ -832,7 +938,9 @@
               "name_es_es": "Leopardo",
               "name_es_mx": "Leopardo",
               "name_fr_fr": "Léopard",
-              "name_id_id": "Macan Tutul"
+              "name_id_id": "Macan Tutul",
+              "name_pt_pt": "Leopardo",
+              "name_pt_br": "Leopardo"
             },
             {
               "id": "cheetah",
@@ -849,7 +957,9 @@
               "name_es_es": "Guepardo",
               "name_es_mx": "Chita",
               "name_fr_fr": "Guépard",
-              "name_id_id": "Cheetah"
+              "name_id_id": "Cheetah",
+              "name_pt_pt": "Guepardo",
+              "name_pt_br": "Guepardo"
             },
             {
               "id": "fishing-cat",
@@ -866,7 +976,9 @@
               "name_es_es": "Gato Pescador",
               "name_es_mx": "Gato Pescador",
               "name_fr_fr": "Chat pêcheur",
-              "name_id_id": "Kucing Bakau"
+              "name_id_id": "Kucing Bakau",
+              "name_pt_pt": "Gato-pescador",
+              "name_pt_br": "Gato-pescador"
             },
             {
               "id": "serval",
@@ -883,7 +995,9 @@
               "name_es_es": "Serval",
               "name_es_mx": "Serval",
               "name_fr_fr": "Serval",
-              "name_id_id": "Serval"
+              "name_id_id": "Serval",
+              "name_pt_pt": "Serval",
+              "name_pt_br": "Serval"
             },
             {
               "id": "sand-cat",
@@ -900,7 +1014,9 @@
               "name_es_es": "Gato del Desierto",
               "name_es_mx": "Gato del Desierto",
               "name_fr_fr": "Chat des sables",
-              "name_id_id": "Kucing Pasir"
+              "name_id_id": "Kucing Pasir",
+              "name_pt_pt": "Gato-do-deserto",
+              "name_pt_br": "Gato-do-deserto"
             },
             {
               "id": "black-footed-cat",
@@ -917,7 +1033,9 @@
               "name_es_es": "Gato de Pies Negros",
               "name_es_mx": "Gato de Pies Negros",
               "name_fr_fr": "Chat à pieds noirs",
-              "name_id_id": "Kucing Berkaki Hitam"
+              "name_id_id": "Kucing Berkaki Hitam",
+              "name_pt_pt": "Gato-de-pés-negros",
+              "name_pt_br": "Gato-de-patas-negras"
             },
             {
               "id": "pallass-cat",
@@ -934,7 +1052,9 @@
               "name_es_es": "Manul",
               "name_es_mx": "Manul",
               "name_fr_fr": "Manul",
-              "name_id_id": "Kucing Pallas"
+              "name_id_id": "Kucing Pallas",
+              "name_pt_pt": "Manul",
+              "name_pt_br": "Manul"
             },
             {
               "id": "iriomote-cat",
@@ -951,7 +1071,9 @@
               "name_es_es": "Gato de Iriomote",
               "name_es_mx": "Gato de Iriomote",
               "name_fr_fr": "Chat d'Iriomote",
-              "name_id_id": "Kucing Iriomote"
+              "name_id_id": "Kucing Iriomote",
+              "name_pt_pt": "Gato-de-iriomote",
+              "name_pt_br": "Gato-de-iriomote"
             },
             {
               "id": "jaguar",
@@ -968,7 +1090,9 @@
               "name_es_es": "Yaguar",
               "name_es_mx": "Jaguar",
               "name_fr_fr": "Jaguar",
-              "name_id_id": "Jaguar"
+              "name_id_id": "Jaguar",
+              "name_pt_pt": "Jaguarete",
+              "name_pt_br": "Onça-pintada"
             },
             {
               "id": "snow-leopard",
@@ -985,7 +1109,9 @@
               "name_es_es": "Leopardo de las Nieves",
               "name_es_mx": "Leopardo de las Nieves",
               "name_fr_fr": "Léopard des neiges",
-              "name_id_id": "Macan Tutul Salju"
+              "name_id_id": "Macan Tutul Salju",
+              "name_pt_pt": "Leopardo-das-neves",
+              "name_pt_br": "Leopardo-das-neves"
             },
             {
               "id": "clouded-leopard",
@@ -1002,7 +1128,9 @@
               "name_es_es": "Pantera Nebulosa",
               "name_es_mx": "Pantera Nebulosa",
               "name_fr_fr": "Panthère nébuleuse",
-              "name_id_id": "Macan Dahan"
+              "name_id_id": "Macan Dahan",
+              "name_pt_pt": "Leopardo-nebuloso",
+              "name_pt_br": "Leopardo-nebuloso"
             },
             {
               "id": "caracal",
@@ -1019,7 +1147,9 @@
               "name_es_es": "Caracal",
               "name_es_mx": "Caracal",
               "name_fr_fr": "Caracal",
-              "name_id_id": "Caracal"
+              "name_id_id": "Caracal",
+              "name_pt_pt": "Caracal",
+              "name_pt_br": "Caracal"
             },
             {
               "id": "puma",
@@ -1037,7 +1167,9 @@
               "name_es_mx": "Puma",
               "name_en_gb": "Cougar",
               "name_fr_fr": "Puma",
-              "name_id_id": "Puma"
+              "name_id_id": "Puma",
+              "name_pt_pt": "Puma",
+              "name_pt_br": "Onça-parda"
             },
             {
               "id": "jaguarundi",
@@ -1054,7 +1186,9 @@
               "name_es_es": "Yaguarundí",
               "name_es_mx": "Yaguarundí",
               "name_fr_fr": "Jaguarondi",
-              "name_id_id": "Jaguarundi"
+              "name_id_id": "Jaguarundi",
+              "name_pt_pt": "Jaguarundi",
+              "name_pt_br": "Gato-mouro"
             },
             {
               "id": "ocelot",
@@ -1071,7 +1205,9 @@
               "name_es_es": "Ocelote",
               "name_es_mx": "Ocelote",
               "name_fr_fr": "Ocelot",
-              "name_id_id": "Ocelot"
+              "name_id_id": "Ocelot",
+              "name_pt_pt": "Ocelote",
+              "name_pt_br": "Jaguatirica"
             },
             {
               "id": "african-wildcat",
@@ -1088,9 +1224,13 @@
               "name_es_es": "Gato Montés Africano",
               "name_es_mx": "Gato Montés",
               "name_fr_fr": "Chat sauvage d'Afrique",
-              "name_id_id": "Kucing Liar Afrika"
+              "name_id_id": "Kucing Liar Afrika",
+              "name_pt_pt": "Gato Montés Africano",
+              "name_pt_br": "Gato Montés Africano"
             }
-          ]
+          ],
+          "name_pt_pt": "Felidae",
+          "name_pt_br": "Felidae"
         },
         {
           "id": "hyaenidae",
@@ -1112,7 +1252,9 @@
               "name_es_es": "Hiena",
               "name_es_mx": "Hiena",
               "name_fr_fr": "Hyène tachetée",
-              "name_id_id": "Hiena Bintik"
+              "name_id_id": "Hiena Bintik",
+              "name_pt_pt": "Hiena-malhada",
+              "name_pt_br": "Hiena-malhada"
             },
             {
               "id": "aardwolf",
@@ -1129,9 +1271,13 @@
               "name_es_es": "Lobo de Tierra",
               "name_es_mx": "Lobo de Tierra",
               "name_fr_fr": "Loup peint",
-              "name_id_id": "Aardwolf"
+              "name_id_id": "Aardwolf",
+              "name_pt_pt": "Lobo-terra",
+              "name_pt_br": "Lobo-terra"
             }
-          ]
+          ],
+          "name_pt_pt": "Hyaenidae",
+          "name_pt_br": "Hyaenidae"
         },
         {
           "id": "viverridae",
@@ -1153,7 +1299,9 @@
               "name_es_es": "Civeta de las Palmeras",
               "name_es_mx": "Civeta de las Palmeras",
               "name_fr_fr": "Civette palmiste hermaphrodite",
-              "name_id_id": "Musang Luwak"
+              "name_id_id": "Musang Luwak",
+              "name_pt_pt": "Civeta-de-palmeira",
+              "name_pt_br": "Civeta-de-palmeira"
             },
             {
               "id": "masked-palm-civet",
@@ -1170,7 +1318,9 @@
               "name_es_es": "Paguma",
               "name_es_mx": "Paguma",
               "name_fr_fr": "Civette palmiste à masque",
-              "name_id_id": "Musang Musang"
+              "name_id_id": "Musang Musang",
+              "name_pt_pt": "Civeta-de-mascarilha",
+              "name_pt_br": "Civeta-de-mascarilha"
             },
             {
               "id": "binturong",
@@ -1187,9 +1337,13 @@
               "name_es_es": "Binturong",
               "name_es_mx": "Binturong",
               "name_fr_fr": "Binturong",
-              "name_id_id": "Binturong"
+              "name_id_id": "Binturong",
+              "name_pt_pt": "Binturongo",
+              "name_pt_br": "Binturongo"
             }
-          ]
+          ],
+          "name_pt_pt": "Viverridae",
+          "name_pt_br": "Viverridae"
         },
         {
           "id": "herpestidae",
@@ -1211,9 +1365,13 @@
               "name_es_es": "Mangosta Egipcia",
               "name_es_mx": "Mangosta Egipcia",
               "name_fr_fr": "Mangouste",
-              "name_id_id": "Garangan"
+              "name_id_id": "Garangan",
+              "name_pt_pt": "Mangusto",
+              "name_pt_br": "Mangusto"
             }
-          ]
+          ],
+          "name_pt_pt": "Herpestidae",
+          "name_pt_br": "Herpestidae"
         },
         {
           "id": "eupleridae",
@@ -1235,9 +1393,13 @@
               "name_es_es": "Fossa",
               "name_es_mx": "Fossa",
               "name_fr_fr": "Fossa",
-              "name_id_id": "Fossa"
+              "name_id_id": "Fossa",
+              "name_pt_pt": "Fossa",
+              "name_pt_br": "Fossa"
             }
-          ]
+          ],
+          "name_pt_pt": "Eupleridae",
+          "name_pt_br": "Eupleridae"
         },
         {
           "id": "prionodontidae",
@@ -1259,11 +1421,17 @@
               "name_es_es": "Linsang Rayado",
               "name_es_mx": "Linsang Rayado",
               "name_fr_fr": "Linsang rayé",
-              "name_id_id": "Linsang"
+              "name_id_id": "Linsang",
+              "name_pt_pt": "Linsang Rayado",
+              "name_pt_br": "Linsang Rayado"
             }
-          ]
+          ],
+          "name_pt_pt": "Prionodontidae",
+          "name_pt_br": "Prionodontidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Feliformia (Cat-like Carnivorans)",
+      "name_pt_br": "Feliformia (Cat-like Carnivorans)"
     },
     {
       "id": "primates",
@@ -1292,9 +1460,13 @@
               "name_es_es": "Lémur de Cola Anillada",
               "name_es_mx": "Lémur de Cola Anillada",
               "name_fr_fr": "Maki catta",
-              "name_id_id": "Lemur Ekor Cincin"
+              "name_id_id": "Lemur Ekor Cincin",
+              "name_pt_pt": "Lémure-de-cauda-anelada",
+              "name_pt_br": "Lêmure-de-cauda-anelada"
             }
-          ]
+          ],
+          "name_pt_pt": "Lemuridae",
+          "name_pt_br": "Lemuridae"
         },
         {
           "id": "lorisidae",
@@ -1316,9 +1488,13 @@
               "name_es_es": "Loris Lento",
               "name_es_mx": "Loris Lento",
               "name_fr_fr": "Loris lent",
-              "name_id_id": "Kukang"
+              "name_id_id": "Kukang",
+              "name_pt_pt": "Loris Lento",
+              "name_pt_br": "Loris Lento"
             }
-          ]
+          ],
+          "name_pt_pt": "Lorisidae",
+          "name_pt_br": "Lorisidae"
         },
         {
           "id": "daubentoniidae",
@@ -1340,9 +1516,13 @@
               "name_es_es": "Aye-aye",
               "name_es_mx": "Aye-aye",
               "name_fr_fr": "Aye-aye",
-              "name_id_id": "Aye-aye"
+              "name_id_id": "Aye-aye",
+              "name_pt_pt": "Aye-aye",
+              "name_pt_br": "Aye-aye"
             }
-          ]
+          ],
+          "name_pt_pt": "Daubentoniidae",
+          "name_pt_br": "Daubentoniidae"
         },
         {
           "id": "tarsiidae",
@@ -1364,9 +1544,13 @@
               "name_es_es": "Tarsio",
               "name_es_mx": "Tarsio",
               "name_fr_fr": "Tarsier des Philippines",
-              "name_id_id": "Tarsius Filipina"
+              "name_id_id": "Tarsius Filipina",
+              "name_pt_pt": "Tarsio",
+              "name_pt_br": "Tarsio"
             }
-          ]
+          ],
+          "name_pt_pt": "Tarsiidae",
+          "name_pt_br": "Tarsiidae"
         },
         {
           "id": "callitrichidae",
@@ -1388,7 +1572,9 @@
               "name_es_es": "Tamarino León Dorado",
               "name_es_mx": "Tamarino León Dorado",
               "name_fr_fr": "Tamarin lion doré",
-              "name_id_id": "Tamarin Singa Emas"
+              "name_id_id": "Tamarin Singa Emas",
+              "name_pt_pt": "Tamarino Leão Dorado",
+              "name_pt_br": "Tamarino Leão Dorado"
             },
             {
               "id": "pygmy-marmoset",
@@ -1405,9 +1591,13 @@
               "name_es_es": "Tití Pigmeo",
               "name_es_mx": "Tití Pigmeo",
               "name_fr_fr": "Ouistiti pygmée",
-              "name_id_id": "Marmoset Kerdil"
+              "name_id_id": "Marmoset Kerdil",
+              "name_pt_pt": "Tití Pigmeo",
+              "name_pt_br": "Tití Pigmeo"
             }
-          ]
+          ],
+          "name_pt_pt": "Callitrichidae",
+          "name_pt_br": "Callitrichidae"
         },
         {
           "id": "cebidae",
@@ -1429,9 +1619,13 @@
               "name_es_es": "Mono Ardilla",
               "name_es_mx": "Mono Ardilla",
               "name_fr_fr": "Saïmiri",
-              "name_id_id": "Monyet Tupai"
+              "name_id_id": "Monyet Tupai",
+              "name_pt_pt": "Mono Ardilla",
+              "name_pt_br": "Mono Ardilla"
             }
-          ]
+          ],
+          "name_pt_pt": "Cebidae",
+          "name_pt_br": "Cebidae"
         },
         {
           "id": "cercopithecidae",
@@ -1453,7 +1647,9 @@
               "name_es_es": "Macaco Japonés",
               "name_es_mx": "Mono Japonés",
               "name_fr_fr": "Macaque japonais",
-              "name_id_id": "Monyet Jepang"
+              "name_id_id": "Monyet Jepang",
+              "name_pt_pt": "Macaco Japonés",
+              "name_pt_br": "Macaco Japonés"
             },
             {
               "id": "golden-snub-nosed-monkey",
@@ -1470,7 +1666,9 @@
               "name_es_es": "Mono Dorado",
               "name_es_mx": "Mono Dorado",
               "name_fr_fr": "Rhinopithèque de Roxellana",
-              "name_id_id": "Monyet Hidung Pesek Emas"
+              "name_id_id": "Monyet Hidung Pesek Emas",
+              "name_pt_pt": "Mono Dorado",
+              "name_pt_br": "Mono Dorado"
             },
             {
               "id": "hamadryas-baboon",
@@ -1487,7 +1685,9 @@
               "name_es_es": "Papión",
               "name_es_mx": "Papión",
               "name_fr_fr": "Babouin hamadryas",
-              "name_id_id": "Babun Hamadryas"
+              "name_id_id": "Babun Hamadryas",
+              "name_pt_pt": "Papión",
+              "name_pt_br": "Papión"
             },
             {
               "id": "vervet-monkey",
@@ -1504,7 +1704,9 @@
               "name_es_es": "Mono Vervet",
               "name_es_mx": "Mono Vervet",
               "name_fr_fr": "Vervet",
-              "name_id_id": "Monyet Vervet"
+              "name_id_id": "Monyet Vervet",
+              "name_pt_pt": "Mono Vervet",
+              "name_pt_br": "Mono Vervet"
             },
             {
               "id": "proboscis-monkey",
@@ -1521,7 +1723,9 @@
               "name_es_es": "Mono Narigudo",
               "name_es_mx": "Mono Narigudo",
               "name_fr_fr": "Nasique",
-              "name_id_id": "Bekantan"
+              "name_id_id": "Bekantan",
+              "name_pt_pt": "Mono Narigudo",
+              "name_pt_br": "Mono Narigudo"
             },
             {
               "id": "mandrill",
@@ -1538,7 +1742,9 @@
               "name_es_es": "Mandril",
               "name_es_mx": "Mandril",
               "name_fr_fr": "Mandrill",
-              "name_id_id": "Mandrill"
+              "name_id_id": "Mandrill",
+              "name_pt_pt": "Mandril",
+              "name_pt_br": "Mandril"
             },
             {
               "id": "patas-monkey",
@@ -1555,9 +1761,13 @@
               "name_es_es": "Mono Patas",
               "name_es_mx": "Mono Patas",
               "name_fr_fr": "Patas",
-              "name_id_id": "Monyet Patas"
+              "name_id_id": "Monyet Patas",
+              "name_pt_pt": "Mono Patas",
+              "name_pt_br": "Mono Patas"
             }
-          ]
+          ],
+          "name_pt_pt": "Cercopithecidae",
+          "name_pt_br": "Cercopithecidae"
         },
         {
           "id": "hylobatidae",
@@ -1579,9 +1789,13 @@
               "name_es_es": "Gibón",
               "name_es_mx": "Gibón",
               "name_fr_fr": "Gibbon lar",
-              "name_id_id": "Owa Serangga"
+              "name_id_id": "Owa Serangga",
+              "name_pt_pt": "Gibón",
+              "name_pt_br": "Gibón"
             }
-          ]
+          ],
+          "name_pt_pt": "Hylobatidae",
+          "name_pt_br": "Hylobatidae"
         },
         {
           "id": "hominidae",
@@ -1603,7 +1817,9 @@
               "name_es_es": "Chimpancé",
               "name_es_mx": "Chimpancé",
               "name_fr_fr": "Chimpanzé",
-              "name_id_id": "Simpanse"
+              "name_id_id": "Simpanse",
+              "name_pt_pt": "Chimpanzé",
+              "name_pt_br": "Chimpanzé"
             },
             {
               "id": "gorilla",
@@ -1620,7 +1836,9 @@
               "name_es_es": "Gorila",
               "name_es_mx": "Gorila",
               "name_fr_fr": "Gorille",
-              "name_id_id": "Gorila"
+              "name_id_id": "Gorila",
+              "name_pt_pt": "Gorila",
+              "name_pt_br": "Gorila"
             },
             {
               "id": "orangutan",
@@ -1637,7 +1855,9 @@
               "name_es_es": "Orangután",
               "name_es_mx": "Orangután",
               "name_fr_fr": "Orang-outan",
-              "name_id_id": "Orangutan"
+              "name_id_id": "Orangutan",
+              "name_pt_pt": "Orangotango",
+              "name_pt_br": "Orangotango"
             },
             {
               "id": "bonobo",
@@ -1654,7 +1874,9 @@
               "name_es_es": "Bonobo",
               "name_es_mx": "Bonobo",
               "name_fr_fr": "Bonobo",
-              "name_id_id": "Bonobo"
+              "name_id_id": "Bonobo",
+              "name_pt_pt": "Bonobo",
+              "name_pt_br": "Bonobo"
             },
             {
               "id": "human",
@@ -1671,11 +1893,17 @@
               "name_es_es": "Humano",
               "name_es_mx": "Humano",
               "name_fr_fr": "Être humain",
-              "name_id_id": "Manusia"
+              "name_id_id": "Manusia",
+              "name_pt_pt": "Humano",
+              "name_pt_br": "Humano"
             }
-          ]
+          ],
+          "name_pt_pt": "Hominidae",
+          "name_pt_br": "Hominidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Primates (Monkeys, Apes & Humans)",
+      "name_pt_br": "Primates (Monkeys, Apes & Humans)"
     },
     {
       "id": "proboscidea",
@@ -1704,7 +1932,9 @@
               "name_es_es": "Elefante Asiático",
               "name_es_mx": "Elefante Asiático",
               "name_fr_fr": "Éléphant d'Asie",
-              "name_id_id": "Gajah Asia"
+              "name_id_id": "Gajah Asia",
+              "name_pt_pt": "Elefante Asiático",
+              "name_pt_br": "Elefante Asiático"
             },
             {
               "id": "african-elephant",
@@ -1721,11 +1951,17 @@
               "name_es_es": "Elefante Africano",
               "name_es_mx": "Elefante Africano",
               "name_fr_fr": "Éléphant d'Afrique",
-              "name_id_id": "Gajah Afrika"
+              "name_id_id": "Gajah Afrika",
+              "name_pt_pt": "Elefante Africano",
+              "name_pt_br": "Elefante Africano"
             }
-          ]
+          ],
+          "name_pt_pt": "Elephantidae",
+          "name_pt_br": "Elephantidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Proboscidea (Elephants)",
+      "name_pt_br": "Proboscidea (Elephants)"
     },
     {
       "id": "cetartiodactyla",
@@ -1754,7 +1990,9 @@
               "name_es_es": "Camello",
               "name_es_mx": "Camello",
               "name_fr_fr": "Chameau de Bactriane",
-              "name_id_id": "Unta Baktria"
+              "name_id_id": "Unta Baktria",
+              "name_pt_pt": "Camello",
+              "name_pt_br": "Camello"
             },
             {
               "id": "dromedary-camel",
@@ -1771,7 +2009,9 @@
               "name_es_es": "Dromedario",
               "name_es_mx": "Dromedario",
               "name_fr_fr": "Dromadaire",
-              "name_id_id": "Unta Arab"
+              "name_id_id": "Unta Arab",
+              "name_pt_pt": "Dromedario",
+              "name_pt_br": "Dromedario"
             },
             {
               "id": "alpaca",
@@ -1788,7 +2028,9 @@
               "name_es_es": "Alpaca",
               "name_es_mx": "Alpaca",
               "name_fr_fr": "Alpaga",
-              "name_id_id": "Alpaka"
+              "name_id_id": "Alpaka",
+              "name_pt_pt": "Alpaca",
+              "name_pt_br": "Alpaca"
             },
             {
               "id": "llama",
@@ -1805,9 +2047,13 @@
               "name_es_es": "Llama",
               "name_es_mx": "Llama",
               "name_fr_fr": "Lama",
-              "name_id_id": "Llama"
+              "name_id_id": "Llama",
+              "name_pt_pt": "Llama",
+              "name_pt_br": "Llama"
             }
-          ]
+          ],
+          "name_pt_pt": "Camelidae",
+          "name_pt_br": "Camelidae"
         },
         {
           "id": "suidae",
@@ -1829,7 +2075,9 @@
               "name_es_es": "Jabalí",
               "name_es_mx": "Jabalí",
               "name_fr_fr": "Sanglier",
-              "name_id_id": "Babi Hutan"
+              "name_id_id": "Babi Hutan",
+              "name_pt_pt": "Jabalí",
+              "name_pt_br": "Jabalí"
             },
             {
               "id": "pig",
@@ -1846,7 +2094,9 @@
               "name_es_es": "Cerdo",
               "name_es_mx": "Cerdo",
               "name_fr_fr": "Cochon",
-              "name_id_id": "Babi"
+              "name_id_id": "Babi",
+              "name_pt_pt": "Cerdo",
+              "name_pt_br": "Cerdo"
             },
             {
               "id": "warthog",
@@ -1863,7 +2113,9 @@
               "name_es_es": "Facóquero",
               "name_es_mx": "Jabalí Verrugoso",
               "name_fr_fr": "Phacochère",
-              "name_id_id": "Babi Hutan Afrika"
+              "name_id_id": "Babi Hutan Afrika",
+              "name_pt_pt": "Facóquero",
+              "name_pt_br": "Facóquero"
             },
             {
               "id": "babirusa",
@@ -1880,9 +2132,13 @@
               "name_es_es": "Babirusa",
               "name_es_mx": "Babirusa",
               "name_fr_fr": "Babiroussa",
-              "name_id_id": "Babirusa"
+              "name_id_id": "Babirusa",
+              "name_pt_pt": "Babirusa",
+              "name_pt_br": "Babirusa"
             }
-          ]
+          ],
+          "name_pt_pt": "Suidae",
+          "name_pt_br": "Suidae"
         },
         {
           "id": "tayassuidae",
@@ -1904,9 +2160,13 @@
               "name_es_es": "Pecarí de Collar",
               "name_es_mx": "Pecarí de Collar",
               "name_fr_fr": "Pécari à collier",
-              "name_id_id": "Pekari Berkerah"
+              "name_id_id": "Pekari Berkerah",
+              "name_pt_pt": "Pecarí de Collar",
+              "name_pt_br": "Pecarí de Collar"
             }
-          ]
+          ],
+          "name_pt_pt": "Tayassuidae",
+          "name_pt_br": "Tayassuidae"
         },
         {
           "id": "tragulidae",
@@ -1928,7 +2188,9 @@
               "name_es_es": "Ciervo Ratón",
               "name_es_mx": "Ciervo Ratón",
               "name_fr_fr": "Javan Mouse-deer",
-              "name_id_id": "Javan Mouse-deer"
+              "name_id_id": "Javan Mouse-deer",
+              "name_pt_pt": "Ciervo Ratón",
+              "name_pt_br": "Ciervo Ratón"
             },
             {
               "id": "water-chevrotain",
@@ -1945,9 +2207,13 @@
               "name_es_es": "Chevrotain de Agua",
               "name_es_mx": "Chevrotain",
               "name_fr_fr": "Water Chevrotain",
-              "name_id_id": "Water Chevrotain"
+              "name_id_id": "Water Chevrotain",
+              "name_pt_pt": "Chevrotain de Agua",
+              "name_pt_br": "Chevrotain de Agua"
             }
-          ]
+          ],
+          "name_pt_pt": "Tragulidae",
+          "name_pt_br": "Tragulidae"
         },
         {
           "id": "moschidae",
@@ -1969,9 +2235,13 @@
               "name_es_es": "Ciervo Almizclero",
               "name_es_mx": "Ciervo Almizclero",
               "name_fr_fr": "Siberian Musk Deer",
-              "name_id_id": "Siberian Musk Deer"
+              "name_id_id": "Siberian Musk Deer",
+              "name_pt_pt": "Ciervo Almizclero",
+              "name_pt_br": "Ciervo Almizclero"
             }
-          ]
+          ],
+          "name_pt_pt": "Moschidae",
+          "name_pt_br": "Moschidae"
         },
         {
           "id": "cervidae",
@@ -1993,7 +2263,9 @@
               "name_es_es": "Ciervo",
               "name_es_mx": "Venado",
               "name_fr_fr": "Cerf Sika",
-              "name_id_id": "Rusa Sika"
+              "name_id_id": "Rusa Sika",
+              "name_pt_pt": "Ciervo",
+              "name_pt_br": "Ciervo"
             },
             {
               "id": "reindeer",
@@ -2011,7 +2283,9 @@
               "name_es_mx": "Reno",
               "name_en_gb": "Reindeer",
               "name_fr_fr": "Renne",
-              "name_id_id": "Rusa Kutub"
+              "name_id_id": "Rusa Kutub",
+              "name_pt_pt": "Rena",
+              "name_pt_br": "Rena"
             },
             {
               "id": "reevess-muntjac",
@@ -2028,7 +2302,9 @@
               "name_es_es": "Muntíac",
               "name_es_mx": "Muntíac",
               "name_fr_fr": "Reeves's Muntjac",
-              "name_id_id": "Reeves's Muntjac"
+              "name_id_id": "Reeves's Muntjac",
+              "name_pt_pt": "Muntíac",
+              "name_pt_br": "Muntíac"
             },
             {
               "id": "moose",
@@ -2045,9 +2321,13 @@
               "name_es_es": "Alce",
               "name_es_mx": "Alce",
               "name_fr_fr": "Élan",
-              "name_id_id": "Rusa Besar"
+              "name_id_id": "Rusa Besar",
+              "name_pt_pt": "Alce",
+              "name_pt_br": "Alce"
             }
-          ]
+          ],
+          "name_pt_pt": "Cervidae",
+          "name_pt_br": "Cervidae"
         },
         {
           "id": "giraffidae",
@@ -2069,7 +2349,9 @@
               "name_es_es": "Jirafa",
               "name_es_mx": "Jirafa",
               "name_fr_fr": "Girafe",
-              "name_id_id": "Jerapah"
+              "name_id_id": "Jerapah",
+              "name_pt_pt": "Girafa",
+              "name_pt_br": "Girafa"
             },
             {
               "id": "okapi",
@@ -2086,9 +2368,13 @@
               "name_es_es": "Okapi",
               "name_es_mx": "Okapi",
               "name_fr_fr": "Okapi",
-              "name_id_id": "Okapi"
+              "name_id_id": "Okapi",
+              "name_pt_pt": "Okapi",
+              "name_pt_br": "Ocapi"
             }
-          ]
+          ],
+          "name_pt_pt": "Giraffidae",
+          "name_pt_br": "Giraffidae"
         },
         {
           "id": "pronghornidae",
@@ -2110,9 +2396,13 @@
               "name_es_es": "Berrendo",
               "name_es_mx": "Berrendo",
               "name_fr_fr": "Pronghorn",
-              "name_id_id": "Pronghorn"
+              "name_id_id": "Pronghorn",
+              "name_pt_pt": "Berrendo",
+              "name_pt_br": "Berrendo"
             }
-          ]
+          ],
+          "name_pt_pt": "Pronghornidae",
+          "name_pt_br": "Pronghornidae"
         },
         {
           "id": "bovidae",
@@ -2134,7 +2424,9 @@
               "name_es_es": "Vaca",
               "name_es_mx": "Vaca",
               "name_fr_fr": "Vache",
-              "name_id_id": "Sapi"
+              "name_id_id": "Sapi",
+              "name_pt_pt": "Vaca",
+              "name_pt_br": "Vaca"
             },
             {
               "id": "goat",
@@ -2151,7 +2443,9 @@
               "name_es_es": "Cabra",
               "name_es_mx": "Cabra",
               "name_fr_fr": "Chèvre",
-              "name_id_id": "Kambing"
+              "name_id_id": "Kambing",
+              "name_pt_pt": "Cabra",
+              "name_pt_br": "Cabra"
             },
             {
               "id": "sheep",
@@ -2168,7 +2462,9 @@
               "name_es_es": "Oveja",
               "name_es_mx": "Oveja",
               "name_fr_fr": "Mouton",
-              "name_id_id": "Domba"
+              "name_id_id": "Domba",
+              "name_pt_pt": "Ovelha",
+              "name_pt_br": "Ovelha"
             },
             {
               "id": "water-buffalo",
@@ -2185,7 +2481,9 @@
               "name_es_es": "Búfalo de Agua",
               "name_es_mx": "Búfalo de Agua",
               "name_fr_fr": "Buffle d'eau",
-              "name_id_id": "Kerbau"
+              "name_id_id": "Kerbau",
+              "name_pt_pt": "Búfalo de Agua",
+              "name_pt_br": "Búfalo de Agua"
             },
             {
               "id": "american-bison",
@@ -2202,7 +2500,9 @@
               "name_es_es": "Bisonte Americano",
               "name_es_mx": "Bisonte Americano",
               "name_fr_fr": "Bison d'Amérique",
-              "name_id_id": "Bison Amerika"
+              "name_id_id": "Bison Amerika",
+              "name_pt_pt": "Bisonte Americano",
+              "name_pt_br": "Bisonte Americano"
             },
             {
               "id": "thomsons-gazelle",
@@ -2219,7 +2519,9 @@
               "name_es_es": "Gacela de Thomson",
               "name_es_mx": "Gacela de Thomson",
               "name_fr_fr": "Gazelle de Thomson",
-              "name_id_id": "Gazel Thomson"
+              "name_id_id": "Gazel Thomson",
+              "name_pt_pt": "Gacela de Thomson",
+              "name_pt_br": "Gacela de Thomson"
             },
             {
               "id": "impala",
@@ -2236,7 +2538,9 @@
               "name_es_es": "Impala",
               "name_es_mx": "Impala",
               "name_fr_fr": "Impala",
-              "name_id_id": "Impala"
+              "name_id_id": "Impala",
+              "name_pt_pt": "Impala",
+              "name_pt_br": "Impala"
             },
             {
               "id": "saiga",
@@ -2253,7 +2557,9 @@
               "name_es_es": "Saiga",
               "name_es_mx": "Saiga",
               "name_fr_fr": "Saïga",
-              "name_id_id": "Saiga"
+              "name_id_id": "Saiga",
+              "name_pt_pt": "Saiga",
+              "name_pt_br": "Saiga"
             },
             {
               "id": "gerenuk",
@@ -2270,7 +2576,9 @@
               "name_es_es": "Gerenuc",
               "name_es_mx": "Gerenuc",
               "name_fr_fr": "Gazelle-girafle",
-              "name_id_id": "Gerenuk"
+              "name_id_id": "Gerenuk",
+              "name_pt_pt": "Gerenuc",
+              "name_pt_br": "Gerenuc"
             },
             {
               "id": "wildebeest",
@@ -2287,7 +2595,9 @@
               "name_es_es": "Ñu",
               "name_es_mx": "Ñu",
               "name_fr_fr": "Gnou",
-              "name_id_id": "Wildebeest"
+              "name_id_id": "Wildebeest",
+              "name_pt_pt": "Ñu",
+              "name_pt_br": "Ñu"
             },
             {
               "id": "barbary-sheep",
@@ -2304,7 +2614,9 @@
               "name_es_es": "Arruí",
               "name_es_mx": "Borrego Cimarrón Africano",
               "name_fr_fr": "Mouflon à manchettes",
-              "name_id_id": "Domba Barbary"
+              "name_id_id": "Domba Barbary",
+              "name_pt_pt": "Arruí",
+              "name_pt_br": "Arruí"
             },
             {
               "id": "bighorn-sheep",
@@ -2321,7 +2633,9 @@
               "name_es_es": "Carnero de las Rocosas",
               "name_es_mx": "Borrego Cimarrón",
               "name_fr_fr": "Mouflon d'Amérique",
-              "name_id_id": "Domba Bighorn"
+              "name_id_id": "Domba Bighorn",
+              "name_pt_pt": "Carnero de las Rocosas",
+              "name_pt_br": "Carnero de las Rocosas"
             },
             {
               "id": "japanese-serow",
@@ -2338,7 +2652,9 @@
               "name_es_es": "Serao Japonés",
               "name_es_mx": "Serao Japonés",
               "name_fr_fr": "Sérow du Japon",
-              "name_id_id": "Serow Jepang"
+              "name_id_id": "Serow Jepang",
+              "name_pt_pt": "Serao Japonés",
+              "name_pt_br": "Serao Japonés"
             },
             {
               "id": "arabian-oryx",
@@ -2355,9 +2671,13 @@
               "name_es_es": "Órice de Arabia",
               "name_es_mx": "Órice de Arabia",
               "name_fr_fr": "Oryx d'Arabie",
-              "name_id_id": "Oryx Arab"
+              "name_id_id": "Oryx Arab",
+              "name_pt_pt": "Órice de Arabia",
+              "name_pt_br": "Órice de Arabia"
             }
-          ]
+          ],
+          "name_pt_pt": "Bovidae",
+          "name_pt_br": "Bovidae"
         },
         {
           "id": "hippopotamidae",
@@ -2379,7 +2699,9 @@
               "name_es_es": "Hipopótamo",
               "name_es_mx": "Hipopótamo",
               "name_fr_fr": "Hippopotame",
-              "name_id_id": "Kuda Nil"
+              "name_id_id": "Kuda Nil",
+              "name_pt_pt": "Hipopótamo",
+              "name_pt_br": "Hipopótamo"
             },
             {
               "id": "pygmy-hippopotamus",
@@ -2396,9 +2718,13 @@
               "name_es_es": "Hipopótamo Pigmeo",
               "name_es_mx": "Hipopótamo Pigmeo",
               "name_fr_fr": "Hippopotame pygmée",
-              "name_id_id": "Kuda Nil Kerdil"
+              "name_id_id": "Kuda Nil Kerdil",
+              "name_pt_pt": "Hipopótamo Pigmeo",
+              "name_pt_br": "Hipopótamo Pigmeo"
             }
-          ]
+          ],
+          "name_pt_pt": "Hippopotamidae",
+          "name_pt_br": "Hippopotamidae"
         },
         {
           "id": "balaenopteridae",
@@ -2420,7 +2746,9 @@
               "name_es_es": "Ballena Azul",
               "name_es_mx": "Ballena Azul",
               "name_fr_fr": "Baleine bleue",
-              "name_id_id": "Paus Biru"
+              "name_id_id": "Paus Biru",
+              "name_pt_pt": "Ballena Azul",
+              "name_pt_br": "Ballena Azul"
             },
             {
               "id": "humpback-whale",
@@ -2437,7 +2765,9 @@
               "name_es_es": "Yubarta",
               "name_es_mx": "Ballena Jorobada",
               "name_fr_fr": "Baleine à bosse",
-              "name_id_id": "Paus Bungkuk"
+              "name_id_id": "Paus Bungkuk",
+              "name_pt_pt": "Yubarta",
+              "name_pt_br": "Yubarta"
             },
             {
               "id": "minke-whale",
@@ -2454,9 +2784,13 @@
               "name_es_es": "Rorcual Aliblanco",
               "name_es_mx": "Ballena Minke",
               "name_fr_fr": "Petit rorqual",
-              "name_id_id": "Paus Minke"
+              "name_id_id": "Paus Minke",
+              "name_pt_pt": "Rorcual Aliblanco",
+              "name_pt_br": "Rorcual Aliblanco"
             }
-          ]
+          ],
+          "name_pt_pt": "Balaenopteridae",
+          "name_pt_br": "Balaenopteridae"
         },
         {
           "id": "delphinidae",
@@ -2478,7 +2812,9 @@
               "name_es_es": "Delfín",
               "name_es_mx": "Delfín",
               "name_fr_fr": "Grand dauphin",
-              "name_id_id": "Lumba-lumba Hidung Botol"
+              "name_id_id": "Lumba-lumba Hidung Botol",
+              "name_pt_pt": "Delfín",
+              "name_pt_br": "Delfín"
             },
             {
               "id": "orca",
@@ -2495,7 +2831,9 @@
               "name_es_es": "Orca",
               "name_es_mx": "Orca",
               "name_fr_fr": "Ogre des mers (Orque)",
-              "name_id_id": "Paus Pembunuh (Orca)"
+              "name_id_id": "Paus Pembunuh (Orca)",
+              "name_pt_pt": "Orca",
+              "name_pt_br": "Orca"
             },
             {
               "id": "short-beaked-common-dolphin",
@@ -2512,7 +2850,9 @@
               "name_es_es": "Delfín Común",
               "name_es_mx": "Delfín Común",
               "name_fr_fr": "Short-beaked Common Dolphin",
-              "name_id_id": "Short-beaked Common Dolphin"
+              "name_id_id": "Short-beaked Common Dolphin",
+              "name_pt_pt": "Delfín Común",
+              "name_pt_br": "Delfín Común"
             },
             {
               "id": "short-finned-pilot-whale",
@@ -2529,9 +2869,13 @@
               "name_es_es": "Calderón",
               "name_es_mx": "Calderón",
               "name_fr_fr": "Short-finned Pilot Whale",
-              "name_id_id": "Short-finned Pilot Whale"
+              "name_id_id": "Short-finned Pilot Whale",
+              "name_pt_pt": "Calderón",
+              "name_pt_br": "Calderón"
             }
-          ]
+          ],
+          "name_pt_pt": "Delphinidae",
+          "name_pt_br": "Delphinidae"
         },
         {
           "id": "monodontidae",
@@ -2553,7 +2897,9 @@
               "name_es_es": "Beluga",
               "name_es_mx": "Beluga",
               "name_fr_fr": "Béluga",
-              "name_id_id": "Paus Beluga"
+              "name_id_id": "Paus Beluga",
+              "name_pt_pt": "Beluga",
+              "name_pt_br": "Beluga"
             },
             {
               "id": "narwhal",
@@ -2570,9 +2916,13 @@
               "name_es_es": "Narval",
               "name_es_mx": "Narval",
               "name_fr_fr": "Narval",
-              "name_id_id": "Narwhal"
+              "name_id_id": "Narwhal",
+              "name_pt_pt": "Narval",
+              "name_pt_br": "Narval"
             }
-          ]
+          ],
+          "name_pt_pt": "Monodontidae",
+          "name_pt_br": "Monodontidae"
         },
         {
           "id": "physeteridae",
@@ -2594,9 +2944,13 @@
               "name_es_es": "Cachalote",
               "name_es_mx": "Cachalote",
               "name_fr_fr": "Cachalot",
-              "name_id_id": "Paus Sperma"
+              "name_id_id": "Paus Sperma",
+              "name_pt_pt": "Cachalote",
+              "name_pt_br": "Cachalote"
             }
-          ]
+          ],
+          "name_pt_pt": "Physeteridae",
+          "name_pt_br": "Physeteridae"
         },
         {
           "id": "iniidae",
@@ -2618,9 +2972,13 @@
               "name_es_es": "Delfín Rosado",
               "name_es_mx": "Delfín del Amazonas",
               "name_fr_fr": "Amazon River Dolphin",
-              "name_id_id": "Amazon River Dolphin"
+              "name_id_id": "Amazon River Dolphin",
+              "name_pt_pt": "Delfín Rosado",
+              "name_pt_br": "Delfín Rosado"
             }
-          ]
+          ],
+          "name_pt_pt": "Iniidae",
+          "name_pt_br": "Iniidae"
         },
         {
           "id": "phocoenidae",
@@ -2642,11 +3000,17 @@
               "name_es_es": "Marsopa Sin Aleta",
               "name_es_mx": "Marsopa Sin Aleta",
               "name_fr_fr": "Marsouin aptère",
-              "name_id_id": "Pesut Tanpa Sirip"
+              "name_id_id": "Pesut Tanpa Sirip",
+              "name_pt_pt": "Marsopa Sin Aleta",
+              "name_pt_br": "Marsopa Sin Aleta"
             }
-          ]
+          ],
+          "name_pt_pt": "Phocoenidae",
+          "name_pt_br": "Phocoenidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Cetartiodactyla (Whales & Ungulates)",
+      "name_pt_br": "Cetartiodactyla (Whales & Ungulates)"
     },
     {
       "id": "diprotodontia",
@@ -2675,7 +3039,9 @@
               "name_es_es": "Canguro",
               "name_es_mx": "Canguro",
               "name_fr_fr": "Kangourou roux",
-              "name_id_id": "Kanguru Merah"
+              "name_id_id": "Kanguru Merah",
+              "name_pt_pt": "Canguro",
+              "name_pt_br": "Canguro"
             },
             {
               "id": "quokka",
@@ -2692,9 +3058,13 @@
               "name_es_es": "Quokka",
               "name_es_mx": "Quokka",
               "name_fr_fr": "Quokka",
-              "name_id_id": "Quokka"
+              "name_id_id": "Quokka",
+              "name_pt_pt": "Quokka",
+              "name_pt_br": "Quokka"
             }
-          ]
+          ],
+          "name_pt_pt": "Macropodidae",
+          "name_pt_br": "Macropodidae"
         },
         {
           "id": "phascolarctidae",
@@ -2716,9 +3086,13 @@
               "name_es_es": "Coala",
               "name_es_mx": "Koala",
               "name_fr_fr": "Koala",
-              "name_id_id": "Koala"
+              "name_id_id": "Koala",
+              "name_pt_pt": "Coala",
+              "name_pt_br": "Coala"
             }
-          ]
+          ],
+          "name_pt_pt": "Phascolarctidae",
+          "name_pt_br": "Phascolarctidae"
         },
         {
           "id": "vombatidae",
@@ -2740,9 +3114,13 @@
               "name_es_es": "Wombat",
               "name_es_mx": "Wombat",
               "name_fr_fr": "Wombat",
-              "name_id_id": "Wombat"
+              "name_id_id": "Wombat",
+              "name_pt_pt": "Wombat",
+              "name_pt_br": "Vombate"
             }
-          ]
+          ],
+          "name_pt_pt": "Vombatidae",
+          "name_pt_br": "Vombatidae"
         },
         {
           "id": "petauridae",
@@ -2764,9 +3142,13 @@
               "name_es_es": "Petauro del Azúcar",
               "name_es_mx": "Petauro del Azúcar",
               "name_fr_fr": "Phalanger volant",
-              "name_id_id": "Sugar Glider"
+              "name_id_id": "Sugar Glider",
+              "name_pt_pt": "Petauro del Azúcar",
+              "name_pt_br": "Petauro del Azúcar"
             }
-          ]
+          ],
+          "name_pt_pt": "Petauridae",
+          "name_pt_br": "Petauridae"
         },
         {
           "id": "phalangeridae",
@@ -2788,11 +3170,17 @@
               "name_es_es": "Cuscus Moteado",
               "name_es_mx": "Cuscús Moteado",
               "name_fr_fr": "Spotted Cuscus",
-              "name_id_id": "Spotted Cuscus"
+              "name_id_id": "Spotted Cuscus",
+              "name_pt_pt": "Cuscus Moteado",
+              "name_pt_br": "Cuscus Moteado"
             }
-          ]
+          ],
+          "name_pt_pt": "Phalangeridae",
+          "name_pt_br": "Phalangeridae"
         }
-      ]
+      ],
+      "name_pt_pt": "Diprotodontia (Kangaroos & Relatives)",
+      "name_pt_br": "Diprotodontia (Kangaroos & Relatives)"
     },
     {
       "id": "perissodactyla",
@@ -2821,7 +3209,9 @@
               "name_es_es": "Caballo",
               "name_es_mx": "Caballo",
               "name_fr_fr": "Cheval",
-              "name_id_id": "Kuda"
+              "name_id_id": "Kuda",
+              "name_pt_pt": "Cavalo",
+              "name_pt_br": "Cavalo"
             },
             {
               "id": "donkey",
@@ -2838,7 +3228,9 @@
               "name_es_es": "Asno",
               "name_es_mx": "Burro",
               "name_fr_fr": "Âne",
-              "name_id_id": "Keledai"
+              "name_id_id": "Keledai",
+              "name_pt_pt": "Burro",
+              "name_pt_br": "Jumento"
             },
             {
               "id": "zebra",
@@ -2855,7 +3247,9 @@
               "name_es_es": "Cebra",
               "name_es_mx": "Cebra",
               "name_fr_fr": "Zèbre",
-              "name_id_id": "Zebra"
+              "name_id_id": "Zebra",
+              "name_pt_pt": "Zebra",
+              "name_pt_br": "Zebra"
             },
             {
               "id": "przewalskis-horse",
@@ -2872,9 +3266,13 @@
               "name_es_es": "Caballo Przewalski",
               "name_es_mx": "Caballo Przewalski",
               "name_fr_fr": "Cheval de Przewalski",
-              "name_id_id": "Kuda Przewalski"
+              "name_id_id": "Kuda Przewalski",
+              "name_pt_pt": "Caballo Przewalski",
+              "name_pt_br": "Caballo Przewalski"
             }
-          ]
+          ],
+          "name_pt_pt": "Equidae",
+          "name_pt_br": "Equidae"
         },
         {
           "id": "tapiridae",
@@ -2896,9 +3294,13 @@
               "name_es_es": "Tapir",
               "name_es_mx": "Tapir",
               "name_fr_fr": "Tapir de Malaisie",
-              "name_id_id": "Tapir Saya"
+              "name_id_id": "Tapir Saya",
+              "name_pt_pt": "Tapir",
+              "name_pt_br": "Tapir"
             }
-          ]
+          ],
+          "name_pt_pt": "Tapiridae",
+          "name_pt_br": "Tapiridae"
         },
         {
           "id": "rhinocerotidae",
@@ -2920,7 +3322,9 @@
               "name_es_es": "Rinoceronte",
               "name_es_mx": "Rinoceronte",
               "name_fr_fr": "Rhinocéros blanc",
-              "name_id_id": "Badak Putih"
+              "name_id_id": "Badak Putih",
+              "name_pt_pt": "Rinoceronte",
+              "name_pt_br": "Rinoceronte"
             },
             {
               "id": "black-rhinoceros",
@@ -2937,11 +3341,17 @@
               "name_es_es": "Rinoceronte Negro",
               "name_es_mx": "Rinoceronte Negro",
               "name_fr_fr": "Rhinocéros noir",
-              "name_id_id": "Badak Hitam"
+              "name_id_id": "Badak Hitam",
+              "name_pt_pt": "Rinoceronte Negro",
+              "name_pt_br": "Rinoceronte Negro"
             }
-          ]
+          ],
+          "name_pt_pt": "Rhinocerotidae",
+          "name_pt_br": "Rhinocerotidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Perissodactyla (Odd-toed Ungulates)",
+      "name_pt_br": "Perissodactyla (Odd-toed Ungulates)"
     },
     {
       "id": "lagomorpha",
@@ -2970,7 +3380,9 @@
               "name_es_es": "Conejo",
               "name_es_mx": "Conejo",
               "name_fr_fr": "Lapin",
-              "name_id_id": "Kelinci"
+              "name_id_id": "Kelinci",
+              "name_pt_pt": "Coelho",
+              "name_pt_br": "Coelho"
             },
             {
               "id": "hare",
@@ -2987,7 +3399,9 @@
               "name_es_es": "Liebre",
               "name_es_mx": "Liebre",
               "name_fr_fr": "Lièvre",
-              "name_id_id": "Kelinci Liar"
+              "name_id_id": "Kelinci Liar",
+              "name_pt_pt": "Lebre",
+              "name_pt_br": "Lebre"
             },
             {
               "id": "mountain-hare",
@@ -3004,7 +3418,9 @@
               "name_es_es": "Liebre Variable",
               "name_es_mx": "Liebre Ártica",
               "name_fr_fr": "Lièvre variable",
-              "name_id_id": "Kelinci Gunung"
+              "name_id_id": "Kelinci Gunung",
+              "name_pt_pt": "Liebre Variable",
+              "name_pt_br": "Liebre Variable"
             },
             {
               "id": "amami-rabbit",
@@ -3021,9 +3437,13 @@
               "name_es_es": "Conejo de Amami",
               "name_es_mx": "Conejo de Amami",
               "name_fr_fr": "Lapin d'Amami",
-              "name_id_id": "Kelinci Amami"
+              "name_id_id": "Kelinci Amami",
+              "name_pt_pt": "Conejo de Amami",
+              "name_pt_br": "Conejo de Amami"
             }
-          ]
+          ],
+          "name_pt_pt": "Leporidae",
+          "name_pt_br": "Leporidae"
         },
         {
           "id": "ochotonidae",
@@ -3045,11 +3465,17 @@
               "name_es_es": "Pica",
               "name_es_mx": "Pica",
               "name_fr_fr": "Pika du Nord",
-              "name_id_id": "Pika Utara"
+              "name_id_id": "Pika Utara",
+              "name_pt_pt": "Pica",
+              "name_pt_br": "Pica"
             }
-          ]
+          ],
+          "name_pt_pt": "Ochotonidae",
+          "name_pt_br": "Ochotonidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Lagomorpha (Rabbits & Hares)",
+      "name_pt_br": "Lagomorpha (Rabbits & Hares)"
     },
     {
       "id": "rodentia",
@@ -3078,9 +3504,13 @@
               "name_es_es": "Castor de Montaña",
               "name_es_mx": "Castor de Montaña",
               "name_fr_fr": "Mountain Beaver",
-              "name_id_id": "Mountain Beaver"
+              "name_id_id": "Mountain Beaver",
+              "name_pt_pt": "Castor de Montaña",
+              "name_pt_br": "Castor de Montaña"
             }
-          ]
+          ],
+          "name_pt_pt": "Aplodontiidae",
+          "name_pt_br": "Aplodontiidae"
         },
         {
           "id": "sciuridae",
@@ -3102,7 +3532,9 @@
               "name_es_es": "Ardilla Listada",
               "name_es_mx": "Ardilla Listada",
               "name_fr_fr": "Tamias",
-              "name_id_id": "Tupai Tanah"
+              "name_id_id": "Tupai Tanah",
+              "name_pt_pt": "Tamia",
+              "name_pt_br": "Esquilo-terrestre"
             },
             {
               "id": "momonga",
@@ -3119,7 +3551,9 @@
               "name_es_es": "Ardilla Voladora",
               "name_es_mx": "Ardilla Voladora",
               "name_fr_fr": "Polatouche de Sibérie",
-              "name_id_id": "Tupai Terbang Momonga"
+              "name_id_id": "Tupai Terbang Momonga",
+              "name_pt_pt": "Esquilo-voador",
+              "name_pt_br": "Esquilo-voador"
             },
             {
               "id": "musasabi",
@@ -3136,7 +3570,9 @@
               "name_es_es": "Ardilla Voladora Gigante",
               "name_es_mx": "Ardilla Voladora Gigante",
               "name_fr_fr": "Grand polatouche du Japon",
-              "name_id_id": "Tupai Terbang Musasabi"
+              "name_id_id": "Tupai Terbang Musasabi",
+              "name_pt_pt": "Esquilo-voador-gigante",
+              "name_pt_br": "Esquilo-voador-gigante"
             },
             {
               "id": "japanese-squirrel",
@@ -3153,7 +3589,9 @@
               "name_es_es": "Ardilla Japonesa",
               "name_es_mx": "Ardilla Japonesa",
               "name_fr_fr": "Écureuil du Japon",
-              "name_id_id": "Tupai Jepang"
+              "name_id_id": "Tupai Jepang",
+              "name_pt_pt": "Ardilla Japonesa",
+              "name_pt_br": "Ardilla Japonesa"
             },
             {
               "id": "formosan-squirrel",
@@ -3170,7 +3608,9 @@
               "name_es_es": "Ardilla de Vientre Rojo",
               "name_es_mx": "Ardilla de Vientre Rojo",
               "name_fr_fr": "Écureuil de Pallas",
-              "name_id_id": "Tupai Formosa"
+              "name_id_id": "Tupai Formosa",
+              "name_pt_pt": "Ardilla de Vientre Rojo",
+              "name_pt_br": "Ardilla de Vientre Rojo"
             },
             {
               "id": "black-tailed-prairie-dog",
@@ -3187,9 +3627,13 @@
               "name_es_es": "Perrito de la Pradera",
               "name_es_mx": "Perrito de la Pradera",
               "name_fr_fr": "Chien de prairie",
-              "name_id_id": "Anjing Padang Rumput"
+              "name_id_id": "Anjing Padang Rumput",
+              "name_pt_pt": "Perrito de la Pradera",
+              "name_pt_br": "Perrito de la Pradera"
             }
-          ]
+          ],
+          "name_pt_pt": "Sciuridae",
+          "name_pt_br": "Sciuridae"
         },
         {
           "id": "gliridae",
@@ -3211,9 +3655,13 @@
               "name_es_es": "Lirón",
               "name_es_mx": "Lirón",
               "name_fr_fr": "Loir du Japon",
-              "name_id_id": "Dormouse Jepang"
+              "name_id_id": "Dormouse Jepang",
+              "name_pt_pt": "Lirón",
+              "name_pt_br": "Lirón"
             }
-          ]
+          ],
+          "name_pt_pt": "Gliridae",
+          "name_pt_br": "Gliridae"
         },
         {
           "id": "castoridae",
@@ -3235,9 +3683,13 @@
               "name_es_es": "Castor",
               "name_es_mx": "Castor",
               "name_fr_fr": "Castor",
-              "name_id_id": "Beaver"
+              "name_id_id": "Beaver",
+              "name_pt_pt": "Castor",
+              "name_pt_br": "Castor"
             }
-          ]
+          ],
+          "name_pt_pt": "Castoridae",
+          "name_pt_br": "Castoridae"
         },
         {
           "id": "geomyidae",
@@ -3259,9 +3711,13 @@
               "name_es_es": "Tuzo",
               "name_es_mx": "Tuzo",
               "name_fr_fr": "Pocket Gopher",
-              "name_id_id": "Pocket Gopher"
+              "name_id_id": "Pocket Gopher",
+              "name_pt_pt": "Tuzo",
+              "name_pt_br": "Tuzo"
             }
-          ]
+          ],
+          "name_pt_pt": "Geomyidae",
+          "name_pt_br": "Geomyidae"
         },
         {
           "id": "heteromyidae",
@@ -3283,9 +3739,13 @@
               "name_es_es": "Ratón Canguro",
               "name_es_mx": "Ratón Canguro",
               "name_fr_fr": "Kangaroo Mouse",
-              "name_id_id": "Kangaroo Mouse"
+              "name_id_id": "Kangaroo Mouse",
+              "name_pt_pt": "Ratón Canguro",
+              "name_pt_br": "Ratón Canguro"
             }
-          ]
+          ],
+          "name_pt_pt": "Heteromyidae",
+          "name_pt_br": "Heteromyidae"
         },
         {
           "id": "caviidae",
@@ -3307,7 +3767,9 @@
               "name_es_es": "Capibara",
               "name_es_mx": "Capibara",
               "name_fr_fr": "Capybara",
-              "name_id_id": "Kapibara"
+              "name_id_id": "Kapibara",
+              "name_pt_pt": "Capivara",
+              "name_pt_br": "Capivara"
             },
             {
               "id": "guinea-pig",
@@ -3324,7 +3786,9 @@
               "name_es_es": "Cobaya",
               "name_es_mx": "Cuy",
               "name_fr_fr": "Cochon d'Inde",
-              "name_id_id": "Marmut"
+              "name_id_id": "Marmut",
+              "name_pt_pt": "Cobaias",
+              "name_pt_br": "Porquinho-da-índia"
             },
             {
               "id": "patagonian-mara",
@@ -3341,9 +3805,13 @@
               "name_es_es": "Mara Patagónica",
               "name_es_mx": "Mara Patagónica",
               "name_fr_fr": "Mara de Patagonie",
-              "name_id_id": "Mara Patagonia"
+              "name_id_id": "Mara Patagonia",
+              "name_pt_pt": "Mara Patagónica",
+              "name_pt_br": "Mara Patagónica"
             }
-          ]
+          ],
+          "name_pt_pt": "Caviidae",
+          "name_pt_br": "Caviidae"
         },
         {
           "id": "hystricidae",
@@ -3365,9 +3833,13 @@
               "name_es_es": "Puercoespín",
               "name_es_mx": "Puercoespín",
               "name_fr_fr": "Porc-épic",
-              "name_id_id": "Landak"
+              "name_id_id": "Landak",
+              "name_pt_pt": "Porco-espinho",
+              "name_pt_br": "Porco-espinho"
             }
-          ]
+          ],
+          "name_pt_pt": "Hystricidae",
+          "name_pt_br": "Hystricidae"
         },
         {
           "id": "erethizontidae",
@@ -3389,9 +3861,13 @@
               "name_es_es": "Puercoespín Norteamericano",
               "name_es_mx": "Puercoespín Norteamericano",
               "name_fr_fr": "Porc-épic d'Amérique",
-              "name_id_id": "Landak Amerika Utara"
+              "name_id_id": "Landak Amerika Utara",
+              "name_pt_pt": "Puercoespín Norteamericano",
+              "name_pt_br": "Puercoespín Norteamericano"
             }
-          ]
+          ],
+          "name_pt_pt": "Erethizontidae",
+          "name_pt_br": "Erethizontidae"
         },
         {
           "id": "chinchillidae",
@@ -3413,9 +3889,13 @@
               "name_es_es": "Chinchilla",
               "name_es_mx": "Chinchilla",
               "name_fr_fr": "Chinchilla",
-              "name_id_id": "Chinchilla"
+              "name_id_id": "Chinchilla",
+              "name_pt_pt": "Chinchilla",
+              "name_pt_br": "Chinchilla"
             }
-          ]
+          ],
+          "name_pt_pt": "Chinchillidae",
+          "name_pt_br": "Chinchillidae"
         },
         {
           "id": "octodontidae",
@@ -3437,9 +3917,13 @@
               "name_es_es": "Degú",
               "name_es_mx": "Degú",
               "name_fr_fr": "Dègue du Chili",
-              "name_id_id": "Degu"
+              "name_id_id": "Degu",
+              "name_pt_pt": "Degú",
+              "name_pt_br": "Degú"
             }
-          ]
+          ],
+          "name_pt_pt": "Octodontidae",
+          "name_pt_br": "Octodontidae"
         },
         {
           "id": "echimyidae",
@@ -3461,9 +3945,13 @@
               "name_es_es": "Coipú",
               "name_es_mx": "Coipú",
               "name_fr_fr": "Myocastor",
-              "name_id_id": "Nutria"
+              "name_id_id": "Nutria",
+              "name_pt_pt": "Coipú",
+              "name_pt_br": "Coipú"
             }
-          ]
+          ],
+          "name_pt_pt": "Echimyidae",
+          "name_pt_br": "Echimyidae"
         },
         {
           "id": "dipodidae",
@@ -3485,9 +3973,13 @@
               "name_es_es": "Jerbo Pigmeo",
               "name_es_mx": "Jerbo Pigmeo",
               "name_fr_fr": "Pygmy Jerboa",
-              "name_id_id": "Pygmy Jerboa"
+              "name_id_id": "Pygmy Jerboa",
+              "name_pt_pt": "Jerbo Pigmeo",
+              "name_pt_br": "Jerbo Pigmeo"
             }
-          ]
+          ],
+          "name_pt_pt": "Dipodidae",
+          "name_pt_br": "Dipodidae"
         },
         {
           "id": "cricetidae",
@@ -3509,7 +4001,9 @@
               "name_es_es": "Hámster",
               "name_es_mx": "Hámster",
               "name_fr_fr": "Hamster",
-              "name_id_id": "Hamster"
+              "name_id_id": "Hamster",
+              "name_pt_pt": "Hamster",
+              "name_pt_br": "Hâmster"
             },
             {
               "id": "norway-lemming",
@@ -3526,9 +4020,13 @@
               "name_es_es": "Lemming",
               "name_es_mx": "Lemming",
               "name_fr_fr": "Lemming",
-              "name_id_id": "Lemming"
+              "name_id_id": "Lemming",
+              "name_pt_pt": "Lemming",
+              "name_pt_br": "Lemming"
             }
-          ]
+          ],
+          "name_pt_pt": "Cricetidae",
+          "name_pt_br": "Cricetidae"
         },
         {
           "id": "lophiomyidae",
@@ -3550,9 +4048,13 @@
               "name_es_es": "Rata de Melena",
               "name_es_mx": "Rata de Melena",
               "name_fr_fr": "Maned Rat",
-              "name_id_id": "Maned Rat"
+              "name_id_id": "Maned Rat",
+              "name_pt_pt": "Rata de Melena",
+              "name_pt_br": "Rata de Melena"
             }
-          ]
+          ],
+          "name_pt_pt": "Lophiomyidae",
+          "name_pt_br": "Lophiomyidae"
         },
         {
           "id": "muridae",
@@ -3574,7 +4076,9 @@
               "name_es_es": "Ratón",
               "name_es_mx": "Ratón",
               "name_fr_fr": "Souris domestique",
-              "name_id_id": "Mencit"
+              "name_id_id": "Mencit",
+              "name_pt_pt": "Ratón",
+              "name_pt_br": "Ratón"
             },
             {
               "id": "brown-rat",
@@ -3591,7 +4095,9 @@
               "name_es_es": "Rata Parda",
               "name_es_mx": "Rata Alcantarilla",
               "name_fr_fr": "Surmulot",
-              "name_id_id": "Tikus Got"
+              "name_id_id": "Tikus Got",
+              "name_pt_pt": "Rata Parda",
+              "name_pt_br": "Rata Parda"
             },
             {
               "id": "amami-spiny-rat",
@@ -3608,9 +4114,13 @@
               "name_es_es": "Rata Espinosa de Amami",
               "name_es_mx": "Rata Espinosa de Amami",
               "name_fr_fr": "Amami Spiny Rat",
-              "name_id_id": "Amami Spiny Rat"
+              "name_id_id": "Amami Spiny Rat",
+              "name_pt_pt": "Rata Espinosa de Amami",
+              "name_pt_br": "Rata Espinosa de Amami"
             }
-          ]
+          ],
+          "name_pt_pt": "Muridae",
+          "name_pt_br": "Muridae"
         },
         {
           "id": "spalacidae",
@@ -3632,9 +4142,13 @@
               "name_es_es": "Rata Topo Ciega",
               "name_es_mx": "Rata Topo Ciega",
               "name_fr_fr": "Blind Mole-rat",
-              "name_id_id": "Blind Mole-rat"
+              "name_id_id": "Blind Mole-rat",
+              "name_pt_pt": "Rata Topo Ciega",
+              "name_pt_br": "Rata Topo Ciega"
             }
-          ]
+          ],
+          "name_pt_pt": "Spalacidae",
+          "name_pt_br": "Spalacidae"
         },
         {
           "id": "heterocephalidae",
@@ -3656,11 +4170,17 @@
               "name_es_es": "Rata Topo Desnuda",
               "name_es_mx": "Rata Topo Desnuda",
               "name_fr_fr": "Rat-taupe nu",
-              "name_id_id": "Tikus Mol Telanjang"
+              "name_id_id": "Tikus Mol Telanjang",
+              "name_pt_pt": "Rata Topo Desnuda",
+              "name_pt_br": "Rata Topo Desnuda"
             }
-          ]
+          ],
+          "name_pt_pt": "Heterocephalidae",
+          "name_pt_br": "Heterocephalidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Rodentia (Rodents)",
+      "name_pt_br": "Rodentia (Rodents)"
     },
     {
       "id": "eulipotyphla",
@@ -3689,9 +4209,13 @@
               "name_es_es": "Erizo",
               "name_es_mx": "Erizo",
               "name_fr_fr": "Hérisson",
-              "name_id_id": "Landak Mini"
+              "name_id_id": "Landak Mini",
+              "name_pt_pt": "Ouriço",
+              "name_pt_br": "Ouriço"
             }
-          ]
+          ],
+          "name_pt_pt": "Erinaceidae",
+          "name_pt_br": "Erinaceidae"
         },
         {
           "id": "talpidae",
@@ -3713,7 +4237,9 @@
               "name_es_es": "Topo",
               "name_es_mx": "Topo",
               "name_fr_fr": "Taupe",
-              "name_id_id": "Tikus Mondok"
+              "name_id_id": "Tikus Mondok",
+              "name_pt_pt": "Toupeira",
+              "name_pt_br": "Toupeira"
             },
             {
               "id": "star-nosed-mole",
@@ -3730,7 +4256,9 @@
               "name_es_es": "Topo Estrellado",
               "name_es_mx": "Topo Estrellado",
               "name_fr_fr": "Star-nosed Mole",
-              "name_id_id": "Star-nosed Mole"
+              "name_id_id": "Star-nosed Mole",
+              "name_pt_pt": "Topo Estrellado",
+              "name_pt_br": "Topo Estrellado"
             },
             {
               "id": "japanese-shrew-mole",
@@ -3747,9 +4275,13 @@
               "name_es_es": "Topo Japonés",
               "name_es_mx": "Topo Japonés",
               "name_fr_fr": "Taupe-musaraigne du Japon",
-              "name_id_id": "Tikus Mondok Jepang"
+              "name_id_id": "Tikus Mondok Jepang",
+              "name_pt_pt": "Topo Japonés",
+              "name_pt_br": "Topo Japonés"
             }
-          ]
+          ],
+          "name_pt_pt": "Talpidae",
+          "name_pt_br": "Talpidae"
         },
         {
           "id": "soricidae",
@@ -3771,7 +4303,9 @@
               "name_es_es": "Musaraña",
               "name_es_mx": "Musaraña",
               "name_fr_fr": "Ezo Red-toothed Shrew",
-              "name_id_id": "Ezo Red-toothed Shrew"
+              "name_id_id": "Ezo Red-toothed Shrew",
+              "name_pt_pt": "Musaraña",
+              "name_pt_br": "Musaraña"
             },
             {
               "id": "hero-shrew",
@@ -3788,9 +4322,13 @@
               "name_es_es": "Musaraña Acorazada",
               "name_es_mx": "Musaraña Acorazada",
               "name_fr_fr": "Hero Shrew",
-              "name_id_id": "Hero Shrew"
+              "name_id_id": "Hero Shrew",
+              "name_pt_pt": "Musaraña Acorazada",
+              "name_pt_br": "Musaraña Acorazada"
             }
-          ]
+          ],
+          "name_pt_pt": "Soricidae",
+          "name_pt_br": "Soricidae"
         },
         {
           "id": "solenodontidae",
@@ -3812,11 +4350,17 @@
               "name_es_es": "Solenodonte",
               "name_es_mx": "Solenodonte",
               "name_fr_fr": "Hispaniolan Solenodon",
-              "name_id_id": "Hispaniolan Solenodon"
+              "name_id_id": "Hispaniolan Solenodon",
+              "name_pt_pt": "Solenodonte",
+              "name_pt_br": "Solenodonte"
             }
-          ]
+          ],
+          "name_pt_pt": "Solenodontidae",
+          "name_pt_br": "Solenodontidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Eulipotyphla (Hedgehogs & Moles)",
+      "name_pt_br": "Eulipotyphla (Hedgehogs & Moles)"
     },
     {
       "id": "pilosa",
@@ -3845,9 +4389,13 @@
               "name_es_es": "Perezoso",
               "name_es_mx": "Perezoso",
               "name_fr_fr": "Paresseux",
-              "name_id_id": "Kukang Sloth"
+              "name_id_id": "Kukang Sloth",
+              "name_pt_pt": "Preguiça",
+              "name_pt_br": "Bicho-preguiça"
             }
-          ]
+          ],
+          "name_pt_pt": "Bradypodidae",
+          "name_pt_br": "Bradypodidae"
         },
         {
           "id": "myrmecophagidae",
@@ -3869,7 +4417,9 @@
               "name_es_es": "Oso Hormiguero",
               "name_es_mx": "Oso Hormiguero",
               "name_fr_fr": "Grand tamandua",
-              "name_id_id": "Semut Raksasa"
+              "name_id_id": "Semut Raksasa",
+              "name_pt_pt": "Urso Hormiguero",
+              "name_pt_br": "Urso Hormiguero"
             },
             {
               "id": "southern-tamandua",
@@ -3886,9 +4436,13 @@
               "name_es_es": "Oso Hormiguero Pequeño",
               "name_es_mx": "Oso Hormiguero Pequeño",
               "name_fr_fr": "Tamandua du Sud",
-              "name_id_id": "Tamandua Selatan"
+              "name_id_id": "Tamandua Selatan",
+              "name_pt_pt": "Urso Hormiguero Pequeño",
+              "name_pt_br": "Urso Hormiguero Pequeño"
             }
-          ]
+          ],
+          "name_pt_pt": "Myrmecophagidae",
+          "name_pt_br": "Myrmecophagidae"
         },
         {
           "id": "cyclopedidae",
@@ -3910,11 +4464,17 @@
               "name_es_es": "Oso Hormiguero Sedoso",
               "name_es_mx": "Oso Hormiguero Sedoso",
               "name_fr_fr": "Silky Anteater",
-              "name_id_id": "Silky Anteater"
+              "name_id_id": "Silky Anteater",
+              "name_pt_pt": "Urso Hormiguero Sedoso",
+              "name_pt_br": "Urso Hormiguero Sedoso"
             }
-          ]
+          ],
+          "name_pt_pt": "Cyclopedidae",
+          "name_pt_br": "Cyclopedidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Pilosa (Sloths & Anteaters)",
+      "name_pt_br": "Pilosa (Sloths & Anteaters)"
     },
     {
       "id": "monotremata",
@@ -3943,9 +4503,13 @@
               "name_es_es": "Ornitorrinco",
               "name_es_mx": "Ornitorrinco",
               "name_fr_fr": "Ornithorynque",
-              "name_id_id": "Platipus"
+              "name_id_id": "Platipus",
+              "name_pt_pt": "Ornitorrinco",
+              "name_pt_br": "Ornitorrinco"
             }
-          ]
+          ],
+          "name_pt_pt": "Ornithorhynchidae",
+          "name_pt_br": "Ornithorhynchidae"
         },
         {
           "id": "tachyglossidae",
@@ -3967,11 +4531,17 @@
               "name_es_es": "Equidna",
               "name_es_mx": "Equidna",
               "name_fr_fr": "Échidné",
-              "name_id_id": "Ekidna"
+              "name_id_id": "Ekidna",
+              "name_pt_pt": "Equidna",
+              "name_pt_br": "Equidna"
             }
-          ]
+          ],
+          "name_pt_pt": "Tachyglossidae",
+          "name_pt_br": "Tachyglossidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Monotremata (Egg-laying Mammals)",
+      "name_pt_br": "Monotremata (Egg-laying Mammals)"
     },
     {
       "id": "chiroptera",
@@ -4000,9 +4570,13 @@
               "name_es_es": "Murciélago",
               "name_es_mx": "Murciélago",
               "name_fr_fr": "Chauve-souris",
-              "name_id_id": "Kelelawar"
+              "name_id_id": "Kelelawar",
+              "name_pt_pt": "Morcego",
+              "name_pt_br": "Morcego"
             }
-          ]
+          ],
+          "name_pt_pt": "Vespertilionidae",
+          "name_pt_br": "Vespertilionidae"
         },
         {
           "id": "phyllostomidae",
@@ -4024,11 +4598,17 @@
               "name_es_es": "Murciélago Blanco",
               "name_es_mx": "Murciélago Blanco Hondureño",
               "name_fr_fr": "Ectophylle blanche",
-              "name_id_id": "Kelelawar Putih Honduras"
+              "name_id_id": "Kelelawar Putih Honduras",
+              "name_pt_pt": "Murciélago Blanco",
+              "name_pt_br": "Murciélago Blanco"
             }
-          ]
+          ],
+          "name_pt_pt": "Phyllostomidae",
+          "name_pt_br": "Phyllostomidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Chiroptera (Bats)",
+      "name_pt_br": "Chiroptera (Bats)"
     },
     {
       "id": "sirenia",
@@ -4057,9 +4637,13 @@
               "name_es_es": "Dugongo",
               "name_es_mx": "Dugongo",
               "name_fr_fr": "Dugong",
-              "name_id_id": "Duyung (Dugong)"
+              "name_id_id": "Duyung (Dugong)",
+              "name_pt_pt": "Dugongo",
+              "name_pt_br": "Dugongo"
             }
-          ]
+          ],
+          "name_pt_pt": "Dugongidae",
+          "name_pt_br": "Dugongidae"
         },
         {
           "id": "trichechidae",
@@ -4081,11 +4665,17 @@
               "name_es_es": "Manatí",
               "name_es_mx": "Manatí",
               "name_fr_fr": "Lamantin",
-              "name_id_id": "Manatee"
+              "name_id_id": "Manatee",
+              "name_pt_pt": "Peixe-boi",
+              "name_pt_br": "Peixe-boi"
             }
-          ]
+          ],
+          "name_pt_pt": "Trichechidae",
+          "name_pt_br": "Trichechidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Sirenia (Sea Cows)",
+      "name_pt_br": "Sirenia (Sea Cows)"
     },
     {
       "id": "cingulata",
@@ -4114,11 +4704,17 @@
               "name_es_es": "Armadillo",
               "name_es_mx": "Armadillo",
               "name_fr_fr": "Tatou",
-              "name_id_id": "Armadilo"
+              "name_id_id": "Armadilo",
+              "name_pt_pt": "Tatu",
+              "name_pt_br": "Tatu"
             }
-          ]
+          ],
+          "name_pt_pt": "Dasypodidae",
+          "name_pt_br": "Dasypodidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Cingulata (Armadillos)",
+      "name_pt_br": "Cingulata (Armadillos)"
     },
     {
       "id": "dasyuromorphia",
@@ -4147,7 +4743,9 @@
               "name_es_es": "Demonio de Tasmania",
               "name_es_mx": "Demonio de Tasmania",
               "name_fr_fr": "Diable de Tasmanie",
-              "name_id_id": "Iblis Tasmania"
+              "name_id_id": "Iblis Tasmania",
+              "name_pt_pt": "Demonio de Tasmania",
+              "name_pt_br": "Demonio de Tasmania"
             },
             {
               "id": "quoll",
@@ -4164,9 +4762,13 @@
               "name_es_es": "Quoll",
               "name_es_mx": "Quoll",
               "name_fr_fr": "Chat marsupial",
-              "name_id_id": "Quoll"
+              "name_id_id": "Quoll",
+              "name_pt_pt": "Quoll",
+              "name_pt_br": "Quoll"
             }
-          ]
+          ],
+          "name_pt_pt": "Dasyuridae",
+          "name_pt_br": "Dasyuridae"
         },
         {
           "id": "myrmecobiidae",
@@ -4188,11 +4790,17 @@
               "name_es_es": "Numbat",
               "name_es_mx": "Numbat",
               "name_fr_fr": "Engoulevent (Numbat)",
-              "name_id_id": "Numbat"
+              "name_id_id": "Numbat",
+              "name_pt_pt": "Numbat",
+              "name_pt_br": "Numbat"
             }
-          ]
+          ],
+          "name_pt_pt": "Myrmecobiidae",
+          "name_pt_br": "Myrmecobiidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Dasyuromorphia (Carnivorous Marsupials)",
+      "name_pt_br": "Dasyuromorphia (Carnivorous Marsupials)"
     },
     {
       "id": "pholidota",
@@ -4221,11 +4829,17 @@
               "name_es_es": "Pangolín",
               "name_es_mx": "Pangolín",
               "name_fr_fr": "Pangolin",
-              "name_id_id": "Trenggiling"
+              "name_id_id": "Trenggiling",
+              "name_pt_pt": "Pangolim",
+              "name_pt_br": "Pangolim"
             }
-          ]
+          ],
+          "name_pt_pt": "Manidae",
+          "name_pt_br": "Manidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Pholidota",
+      "name_pt_br": "Pholidota"
     },
     {
       "id": "didelphimorphia",
@@ -4254,7 +4868,9 @@
               "name_es_es": "Zarigüeya",
               "name_es_mx": "Tlacuache",
               "name_fr_fr": "Opossum",
-              "name_id_id": "Opossum"
+              "name_id_id": "Opossum",
+              "name_pt_pt": "Zarigüeya",
+              "name_pt_br": "Zarigüeya"
             },
             {
               "id": "water-opossum",
@@ -4271,11 +4887,17 @@
               "name_es_es": "Zarigüeya de Agua",
               "name_es_mx": "Tlacuache de Agua",
               "name_fr_fr": "Water Opossum",
-              "name_id_id": "Water Opossum"
+              "name_id_id": "Water Opossum",
+              "name_pt_pt": "Zarigüeya de Agua",
+              "name_pt_br": "Zarigüeya de Agua"
             }
-          ]
+          ],
+          "name_pt_pt": "Didelphidae",
+          "name_pt_br": "Didelphidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Didelphimorphia (Opossums)",
+      "name_pt_br": "Didelphimorphia (Opossums)"
     },
     {
       "id": "hyracoidea",
@@ -4304,11 +4926,17 @@
               "name_es_es": "Damán",
               "name_es_mx": "Damán",
               "name_fr_fr": "Rock Hyrax",
-              "name_id_id": "Rock Hyrax"
+              "name_id_id": "Rock Hyrax",
+              "name_pt_pt": "Damán",
+              "name_pt_br": "Damán"
             }
-          ]
+          ],
+          "name_pt_pt": "Procaviidae",
+          "name_pt_br": "Procaviidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Hyracoidea",
+      "name_pt_br": "Hyracoidea"
     },
     {
       "id": "tubulidentata",
@@ -4337,11 +4965,17 @@
               "name_es_es": "Oricteropo",
               "name_es_mx": "Cerdo Hormiguero",
               "name_fr_fr": "Aardvark",
-              "name_id_id": "Aardvark"
+              "name_id_id": "Aardvark",
+              "name_pt_pt": "Oricteropo",
+              "name_pt_br": "Oricteropo"
             }
-          ]
+          ],
+          "name_pt_pt": "Orycteropodidae",
+          "name_pt_br": "Orycteropodidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Tubulidentata",
+      "name_pt_br": "Tubulidentata"
     },
     {
       "id": "peramelemorphia",
@@ -4370,11 +5004,17 @@
               "name_es_es": "Bilby",
               "name_es_mx": "Bilby",
               "name_fr_fr": "Greater Bilby",
-              "name_id_id": "Greater Bilby"
+              "name_id_id": "Greater Bilby",
+              "name_pt_pt": "Bilby",
+              "name_pt_br": "Bilby"
             }
-          ]
+          ],
+          "name_pt_pt": "Thylacomyidae",
+          "name_pt_br": "Thylacomyidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Peramelemorphia (Bandicoots & Bilbies)",
+      "name_pt_br": "Peramelemorphia (Bandicoots & Bilbies)"
     },
     {
       "id": "dermoptera",
@@ -4403,11 +5043,17 @@
               "name_es_es": "Lémur Volador",
               "name_es_mx": "Lémur Volador",
               "name_fr_fr": "Sunda Flying Lemur",
-              "name_id_id": "Sunda Flying Lemur"
+              "name_id_id": "Sunda Flying Lemur",
+              "name_pt_pt": "Lémur Volador",
+              "name_pt_br": "Lémur Volador"
             }
-          ]
+          ],
+          "name_pt_pt": "Cynocephalidae",
+          "name_pt_br": "Cynocephalidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Dermoptera",
+      "name_pt_br": "Dermoptera"
     },
     {
       "id": "scandentia",
@@ -4436,9 +5082,13 @@
               "name_es_es": "Tupaia",
               "name_es_mx": "Tupaia",
               "name_fr_fr": "Treeshrew",
-              "name_id_id": "Treeshrew"
+              "name_id_id": "Treeshrew",
+              "name_pt_pt": "Tupaia",
+              "name_pt_br": "Tupaia"
             }
-          ]
+          ],
+          "name_pt_pt": "Tupaiidae",
+          "name_pt_br": "Tupaiidae"
         },
         {
           "id": "ptilocercidae",
@@ -4460,11 +5110,17 @@
               "name_es_es": "Tupaia Plumosa",
               "name_es_mx": "Tupaia Plumosa",
               "name_fr_fr": "Pen-tailed Treeshrew",
-              "name_id_id": "Pen-tailed Treeshrew"
+              "name_id_id": "Pen-tailed Treeshrew",
+              "name_pt_pt": "Tupaia Plumosa",
+              "name_pt_br": "Tupaia Plumosa"
             }
-          ]
+          ],
+          "name_pt_pt": "Ptilocercidae",
+          "name_pt_br": "Ptilocercidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Scandentia",
+      "name_pt_br": "Scandentia"
     },
     {
       "id": "afrosoricida",
@@ -4493,11 +5149,17 @@
               "name_es_es": "Tenrec",
               "name_es_mx": "Tenrec",
               "name_fr_fr": "Tenrec",
-              "name_id_id": "Tenrec"
+              "name_id_id": "Tenrec",
+              "name_pt_pt": "Tenrec",
+              "name_pt_br": "Tenrec"
             }
-          ]
+          ],
+          "name_pt_pt": "Tenrecidae",
+          "name_pt_br": "Tenrecidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Afrosoricida",
+      "name_pt_br": "Afrosoricida"
     },
     {
       "id": "macroscelidea",
@@ -4526,11 +5188,17 @@
               "name_es_es": "Musaraña Elefante",
               "name_es_mx": "Musaraña Elefante",
               "name_fr_fr": "Elephant Shrew",
-              "name_id_id": "Elephant Shrew"
+              "name_id_id": "Elephant Shrew",
+              "name_pt_pt": "Musaraña Elefante",
+              "name_pt_br": "Musaraña Elefante"
             }
-          ]
+          ],
+          "name_pt_pt": "Macroscelididae",
+          "name_pt_br": "Macroscelididae"
         }
-      ]
+      ],
+      "name_pt_pt": "Macroscelidea",
+      "name_pt_br": "Macroscelidea"
     },
     {
       "id": "microbiotheria",
@@ -4559,11 +5227,17 @@
               "name_es_es": "Monito del Monte",
               "name_es_mx": "Monito del Monte",
               "name_fr_fr": "Monito del Monte",
-              "name_id_id": "Monito del Monte"
+              "name_id_id": "Monito del Monte",
+              "name_pt_pt": "Monito del Monte",
+              "name_pt_br": "Monito del Monte"
             }
-          ]
+          ],
+          "name_pt_pt": "Microbiotheriidae",
+          "name_pt_br": "Microbiotheriidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Microbiotheria",
+      "name_pt_br": "Microbiotheria"
     },
     {
       "id": "paucituberculata",
@@ -4592,11 +5266,17 @@
               "name_es_es": "Zarigüeya Shrew",
               "name_es_mx": "Zarigüeya Ratón",
               "name_fr_fr": "Shrew Opossum",
-              "name_id_id": "Shrew Opossum"
+              "name_id_id": "Shrew Opossum",
+              "name_pt_pt": "Zarigüeya Shrew",
+              "name_pt_br": "Zarigüeya Shrew"
             }
-          ]
+          ],
+          "name_pt_pt": "Caenolestidae",
+          "name_pt_br": "Caenolestidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Paucituberculata",
+      "name_pt_br": "Paucituberculata"
     },
     {
       "id": "notoryctemorphia",
@@ -4625,11 +5305,17 @@
               "name_es_es": "Topo Marsupial",
               "name_es_mx": "Topo Marsupial",
               "name_fr_fr": "Marsupial Mole",
-              "name_id_id": "Marsupial Mole"
+              "name_id_id": "Marsupial Mole",
+              "name_pt_pt": "Topo Marsupial",
+              "name_pt_br": "Topo Marsupial"
             }
-          ]
+          ],
+          "name_pt_pt": "Notoryctidae",
+          "name_pt_br": "Notoryctidae"
         }
-      ]
+      ],
+      "name_pt_pt": "Notoryctemorphia",
+      "name_pt_br": "Notoryctemorphia"
     }
   ]
 }

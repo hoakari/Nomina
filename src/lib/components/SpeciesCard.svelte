@@ -16,6 +16,8 @@
     name_zh_tw?: string;
     name_es_es?: string;
     name_es_mx?: string;
+    name_pt_pt?: string;
+    name_pt_br?: string;
     name_fr_fr?: string;
     name_id_id?: string;
     image: string;
@@ -168,6 +170,8 @@
     if (accent === 'zh-TW') return species.name_zh_tw || species.name_en;
     if (accent === 'es-ES') return species.name_es_es || species.name_en;
     if (accent === 'es-MX') return species.name_es_mx || species.name_en;
+    if (accent === 'pt-PT') return species.name_pt_pt || species.name_en;
+    if (accent === 'pt-BR') return species.name_pt_br || species.name_en;
     if (accent === 'fr-FR') return species.name_fr_fr || species.name_en;
     if (accent === 'id-ID') return species.name_id_id || species.name_en;
     return species.name_en;
@@ -230,6 +234,18 @@
           }) || voices.find(v => v.lang.toLowerCase().startsWith('es')) ||
           voices.find(v => v.lang.toLowerCase().startsWith('en')) ||
           voices.find(v => !v.lang.toLowerCase().startsWith('ja'));
+        } else if (lang === 'pt-PT') {
+          targetVoice = voices.find(v => 
+            v.lang.replace('_', '-').toLowerCase() === 'pt-pt' || 
+            (v.lang.toLowerCase().startsWith('pt') && (v.name.includes('Portugal') || v.name.includes('European') || v.name.includes('Joana') || v.name.includes('Helia')))
+          ) || voices.find(v => v.lang.toLowerCase().startsWith('pt')) ||
+          voices.find(v => v.lang.toLowerCase().startsWith('en'));
+        } else if (lang === 'pt-BR') {
+          targetVoice = voices.find(v => 
+            v.lang.replace('_', '-').toLowerCase() === 'pt-br' || 
+            (v.lang.toLowerCase().startsWith('pt') && (v.name.includes('Brazil') || v.name.includes('Brazilian') || v.name.includes('Luciana') || v.name.includes('Felipe')))
+          ) || voices.find(v => v.lang.toLowerCase().startsWith('pt')) ||
+          voices.find(v => v.lang.toLowerCase().startsWith('en'));
         } else if (lang === 'fr-FR') {
           targetVoice = voices.find(v => 
             v.lang.replace('_', '-').toLowerCase() === 'fr-fr' || 
@@ -418,6 +434,8 @@
     currentAccent === 'zh-TW' ? 'bg-blue-500/10 hover:bg-blue-500/20 text-blue-700 border-blue-200' :
     currentAccent === 'es-ES' ? 'bg-amber-500/10 hover:bg-amber-500/20 text-amber-700 border-amber-200' :
     currentAccent === 'es-MX' ? 'bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-700 border-emerald-200' :
+    currentAccent === 'pt-PT' ? 'bg-teal-500/10 hover:bg-teal-500/20 text-teal-700 border-teal-200' :
+    currentAccent === 'pt-BR' ? 'bg-green-500/10 hover:bg-green-500/20 text-green-700 border-green-200' :
     'bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-700 border-indigo-200'
   );
 
@@ -427,6 +445,8 @@
     currentAccent === 'zh-TW' ? 'bg-blue-600' :
     currentAccent === 'es-ES' ? 'bg-amber-600' :
     currentAccent === 'es-MX' ? 'bg-emerald-600' :
+    currentAccent === 'pt-PT' ? 'bg-teal-600' :
+    currentAccent === 'pt-BR' ? 'bg-green-600' :
     'bg-indigo-500'
   );
 </script>

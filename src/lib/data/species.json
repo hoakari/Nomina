@@ -3805,7 +3805,7 @@
               "tier": 2,
               "name_common": "ホリネズミ",
               "name_standard_ja": "キタホリネズミ",
-              "name_en": "Pocket Gopher",
+              "name_en": "Gopher",
               "image": "/images/animals/pocket-gopher.webp",
               "description_note": "ほっぺの外側にポケット袋がある地下の穴掘り名人！",
               "bg_color": "from-indigo-100 to-purple-100",
@@ -3814,8 +3814,8 @@
               "name_zh_tw": "囊鼠",
               "name_es_es": "Tuzo",
               "name_es_mx": "Tuzo",
-              "name_fr_fr": "Pocket Gopher",
-              "name_id_id": "Pocket Gopher",
+              "name_fr_fr": "Gopher",
+              "name_id_id": "Gopher",
               "name_pt_pt": "Tuzo",
               "name_pt_br": "Tuzo"
             }

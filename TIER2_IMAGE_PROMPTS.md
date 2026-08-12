@@ -482,7 +482,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ja
 ```
 ---
 
-### 78. ホリネズミ（標準和名: キタホリネズミ / Pocket Gopher）
+### 78. ホリネズミ（標準和名: キタホリネズミ / Gopher）
 * **保存ファイル名**: `pocket-gopher.png`
 
 ```text

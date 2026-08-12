@@ -1,4 +1,4 @@
-# 🎨 Nomina! Tier 2 未作成動物画像 プロンプト＆保存ファイル名一覧（残り98種）
+# 🎨 Nomina! Tier 2 未作成動物画像 プロンプト＆保存ファイル名一覧（残り101種）
 > 保存先: `static/images/animals/` またはプロジェクトルート (推奨フォーマット: PNG / 最大800x800以下に自動軽量化されます)
 
 ---
@@ -784,4 +784,28 @@ A charming, high-resolution detailed digital illustration of a cute realistic qu
 
 ```text
 A charming, high-resolution detailed digital illustration of a cute realistic numbat (フクロアリクイ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 99. シファカ（標準和名: ベローシファカ / Verreaux's Sifaka）
+* **保存ファイル名**: `verreauxs-sifaka.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic Verreaux's sifaka (Propithecus verreauxi) dancing and leaping sideways on the ground in Madagascar dry forest, featuring silky white fur with a dark face and brown crown, long slender limbs, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 100. ヌー（標準和名: オグロヌー / Blue Wildebeest）
+* **保存ファイル名**: `wildebeest.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic blue wildebeest (Connochaetes taurinus) standing proudly in the vast African savanna grassland, featuring curved horns, dark vertical stripes on its shoulders, and a beard and mane, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 101. イロワケイルカ（標準和名: イロワケイルカ（パンダイルカ） / Commerson's Dolphin）
+* **保存ファイル名**: `commersons-dolphin.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic Commerson's dolphin (Cephalorhynchus commersonii) swimming gracefully in clear turquoise ocean water, featuring a striking panda-like black and white pattern with a black head, white body, and black flippers, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```

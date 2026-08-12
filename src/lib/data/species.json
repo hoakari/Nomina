@@ -704,6 +704,25 @@
               "name_id_id": "Musang",
               "name_pt_pt": "Doninha",
               "name_pt_br": "Doninha"
+            },
+            {
+              "id": "ferret",
+              "tier": 1,
+              "name_common": "フェレット",
+              "name_standard_ja": "フェレット（イエチチュウイタチ）",
+              "name_en": "Ferret",
+              "image": "/images/animals/ferret.webp",
+              "description_note": "体が長くてすばしっこい！好奇心旺盛で大人気のペット",
+              "bg_color": "from-amber-100 to-yellow-100",
+              "accent_color": "border-amber-400",
+              "name_zh_cn": "雪貂",
+              "name_zh_tw": "雪貂",
+              "name_es_es": "Hurón",
+              "name_es_mx": "Hurón",
+              "name_fr_fr": "Furet",
+              "name_id_id": "Musang",
+              "name_pt_pt": "Furão",
+              "name_pt_br": "Furão"
             }
           ],
           "name_pt_pt": "Mustelidae",
@@ -1368,6 +1387,25 @@
               "name_id_id": "Garangan",
               "name_pt_pt": "Mangusto",
               "name_pt_br": "Mangusto"
+            },
+            {
+              "id": "meerkat",
+              "tier": 1,
+              "name_common": "ミーアキャット",
+              "name_standard_ja": "ミーアキャット",
+              "name_en": "Meerkat",
+              "image": "/images/animals/meerkat.webp",
+              "description_note": "後ろ足でピンと立ち上がって見張りをするサバンナの人気者！",
+              "bg_color": "from-amber-100 to-yellow-100",
+              "accent_color": "border-amber-400",
+              "name_zh_cn": "细尾獴",
+              "name_zh_tw": "狐獴",
+              "name_es_es": "Suricata",
+              "name_es_mx": "Suricata",
+              "name_fr_fr": "Suricate",
+              "name_id_id": "Surikat",
+              "name_pt_pt": "Suricata",
+              "name_pt_br": "Suricato"
             }
           ],
           "name_pt_pt": "Herpestidae",
@@ -1900,6 +1938,34 @@
           ],
           "name_pt_pt": "Hominidae",
           "name_pt_br": "Hominidae"
+        },
+        {
+          "id": "indriidae",
+          "name_ja": "インドリ科",
+          "name_en": "Indriidae",
+          "species": [
+            {
+              "id": "verreauxs-sifaka",
+              "tier": 2,
+              "name_common": "ベローシファカ",
+              "name_standard_ja": "ベローシファカ",
+              "name_en": "Verreaux's Sifaka",
+              "image": "/images/animals/verreauxs-sifaka.webp",
+              "description_note": "横向きにピョンピョン跳ぶ「横跳びダンス」が得意なキツネザルの仲間",
+              "bg_color": "from-emerald-100 to-teal-100",
+              "accent_color": "border-emerald-400",
+              "name_zh_cn": "威氏狐猴",
+              "name_zh_tw": "威氏狐猴",
+              "name_es_es": "Sifaca de Verreaux",
+              "name_es_mx": "Sifaca de Verreaux",
+              "name_fr_fr": "Sifaka de Verreaux",
+              "name_id_id": "Sifaka Verreaux",
+              "name_pt_pt": "Sifaca-de-verreaux",
+              "name_pt_br": "Sifaca-de-verreaux"
+            }
+          ],
+          "name_pt_pt": "Indriidae",
+          "name_pt_br": "Indriidae"
         }
       ],
       "name_pt_pt": "Primates (Monkeys, Apes & Humans)",
@@ -2872,6 +2938,25 @@
               "name_id_id": "Short-finned Pilot Whale",
               "name_pt_pt": "Calderón",
               "name_pt_br": "Calderón"
+            },
+            {
+              "id": "commersons-dolphin",
+              "tier": 2,
+              "name_common": "イロワケイルカ",
+              "name_standard_ja": "イロワケイルカ（パンダイルカ）",
+              "name_en": "Commerson's Dolphin",
+              "image": "/images/animals/commersons-dolphin.webp",
+              "description_note": "白と黒のパンダみたいな模様がとっても可愛い小型のイルカ！",
+              "bg_color": "from-cyan-100 to-blue-100",
+              "accent_color": "border-cyan-400",
+              "name_zh_cn": "花纹海豚",
+              "name_zh_tw": "康氏海豚",
+              "name_es_es": "Tonina Fueguina",
+              "name_es_mx": "Delfín de Commerson",
+              "name_fr_fr": "Dauphin de Commerson",
+              "name_id_id": "Lumba-lumba Commerson",
+              "name_pt_pt": "Golfinho-de-commerson",
+              "name_pt_br": "Golfinho-de-commerson"
             }
           ],
           "name_pt_pt": "Delphinidae",
@@ -3061,6 +3146,25 @@
               "name_id_id": "Quokka",
               "name_pt_pt": "Quokka",
               "name_pt_br": "Quokka"
+            },
+            {
+              "id": "wallaby",
+              "tier": 1,
+              "name_common": "ワラビー",
+              "name_standard_ja": "ワラビー（ベネットワラビー）",
+              "name_en": "Wallaby",
+              "image": "/images/animals/wallaby.webp",
+              "description_note": "カンガルーより少し小ぶり！ぴょんぴょん跳ねる可愛い仲間",
+              "bg_color": "from-amber-100 to-orange-100",
+              "accent_color": "border-amber-400",
+              "name_zh_cn": "小袋鼠",
+              "name_zh_tw": "小袋鼠",
+              "name_es_es": "Ualabí",
+              "name_es_mx": "Ualabí",
+              "name_fr_fr": "Wallaby",
+              "name_id_id": "Walabi",
+              "name_pt_pt": "Wallaby",
+              "name_pt_br": "Wallaby"
             }
           ],
           "name_pt_pt": "Macropodidae",

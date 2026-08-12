@@ -5098,7 +5098,7 @@
               "tier": 2,
               "name_common": "ビルビー",
               "name_standard_ja": "ミミナガバンディクート",
-              "name_en": "Greater Bilby",
+              "name_en": "Bilby",
               "image": "/images/animals/greater-bilby.webp",
               "description_note": "ウサギのような大きな耳と長い鼻を持った大人気の有袋類",
               "bg_color": "from-slate-100 to-stone-200",
@@ -5107,8 +5107,8 @@
               "name_zh_tw": "兔耳袋狸",
               "name_es_es": "Bilby",
               "name_es_mx": "Bilby",
-              "name_fr_fr": "Greater Bilby",
-              "name_id_id": "Greater Bilby",
+              "name_fr_fr": "Bilby",
+              "name_id_id": "Bilby",
               "name_pt_pt": "Bilby",
               "name_pt_br": "Bilby"
             }

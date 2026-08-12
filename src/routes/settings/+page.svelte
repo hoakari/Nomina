@@ -128,7 +128,7 @@
   }
 
   // Tier別の累計表示種数を species.json から動的に集計
-  let tierDescriptions = $derived.by(() => {
+  let tierCounts = $derived.by(() => {
     let t1 = 0;
     let t2 = 0;
     let t3 = 0;
@@ -142,28 +142,32 @@
         }
       }
     }
-    const count1 = t1;
-    const count2 = t1 + t2;
-    const count3 = t1 + t2 + t3;
+    return {
+      1: t1,
+      2: t1 + t2,
+      3: t1 + t2 + t3
+    };
+  });
 
+  let tierDescriptions = $derived.by(() => {
     return {
       1: {
         title: "みんなが知ってる動物だけ表示",
         desc: "イヌ、ネコ、ゾウ、ライオン、パンダなど、子どもたちがよく知っている代表的な人気動物を中心に表示します。",
         icon: "🐶",
-        countText: `（全${count1}種）`
+        countText: `（全${tierCounts[1]}種）`
       },
       2: {
         title: "動物園などにいる動物まで表示",
         desc: "定番の動物に加えて、日本の動物園や水族館で見られる人気動物や珍しい仲間も表示します。",
         icon: "🦁",
-        countText: `（全${count2}種）`
+        countText: `（全${tierCounts[2]}種）`
       },
       3: {
         title: "収録している動物をすべて表示",
         desc: "図鑑に収録されているすべての哺乳類（世界中のめずらしい動物や絶滅危惧種）を表示します。",
         icon: "🌍",
-        countText: `（全${count3}種）`
+        countText: `（全${tierCounts[3]}種）`
       }
     } as Record<number, { title: string; desc: string; icon: string; countText: string }>;
   });
@@ -329,10 +333,10 @@
             class="w-full h-4 bg-amber-200 rounded-lg appearance-none cursor-pointer accent-orange-500 hover:accent-orange-600 transition-all focus:outline-none"
           />
 
-          <div class="flex justify-between text-xs font-bold text-stone-400 mt-2 px-1">
-            <span>代表種 (1)</span>
-            <span>動物園などにいる動物まで表示 (2)</span>
-            <span>全種 (3)</span>
+          <div class="flex justify-between text-xs font-bold text-stone-500 mt-2 px-1">
+            <span>代表種 (全{tierCounts[1]}種)</span>
+            <span>動物園などの人気種 (全{tierCounts[2]}種)</span>
+            <span>すべての収録種 (全{tierCounts[3]}種)</span>
           </div>
         </div>
 

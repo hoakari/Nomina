@@ -1,6 +1,17 @@
 <script lang="ts">
+  import speciesData from '$lib/data/species.json';
   import XIcon from '$lib/components/XIcon.svelte';
   let toastMessage = $state<string | null>(null);
+
+  let totalMammalsCount = $derived.by(() => {
+    let count = 0;
+    for (const cat of speciesData.categories) {
+      for (const fam of cat.families) {
+        count += fam.species.length;
+      }
+    }
+    return count;
+  });
 
   interface CategoryItem {
     id: string;
@@ -15,7 +26,7 @@
     species_count_text?: string;
   }
 
-  const mainCategories: CategoryItem[] = [
+  let mainCategories: CategoryItem[] = $derived.by(() => [
     {
       id: 'mammals',
       name_hiragana: 'ほにゅうるい',
@@ -26,7 +37,7 @@
       border_color: 'border-amber-400',
       href: '/mammals',
       is_ready: true,
-      species_count_text: '全217種 収録中！'
+      species_count_text: `全${totalMammalsCount}種 収録中！`
     },
     {
       id: 'birds',
@@ -78,7 +89,7 @@
       border_color: 'border-pink-300',
       is_ready: false
     }
-  ];
+  ]);
 
   function handleComingSoon(catName: string) {
     toastMessage = `🚧 「${catName}」は、ただいま準備中だよ！楽しみにしてね！`;

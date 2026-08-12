@@ -1712,7 +1712,7 @@
               "name_common": "アフリカゾウ",
               "name_standard_ja": "アフリカゾウ",
               "name_en": "African Elephant",
-              "image": "/images/animals/elephant.png",
+              "image": "/images/animals/african_elephant.webp",
               "description_note": "大きなお耳と立派なキバ！陸の上で世界一大きい動物",
               "bg_color": "from-stone-100 to-amber-200",
               "accent_color": "border-amber-500",

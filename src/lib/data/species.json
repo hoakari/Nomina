@@ -2772,8 +2772,8 @@
             {
               "id": "minke-whale",
               "tier": 2,
-              "name_common": "コイワシクジラ",
-              "name_standard_ja": "ミンククジラ（コイワシクジラ）",
+              "name_common": "ミンククジラ",
+              "name_standard_ja": "コイワシクジラ（ミンククジラ）",
               "name_en": "Minke Whale",
               "image": "/images/animals/minke-whale.webp",
               "description_note": "小ぶりで素早く泳ぐひげクジラの仲間",

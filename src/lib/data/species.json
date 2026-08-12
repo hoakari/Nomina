@@ -74,7 +74,7 @@
               "tier": 2,
               "name_common": "ジャッカル",
               "name_standard_ja": "セグロジャッカル",
-              "name_en": "Black-backed Jackal",
+              "name_en": "Jackal",
               "image": "/images/animals/black-backed-jackal.webp",
               "description_note": "背中が黒いもようになっているジャッカル",
               "bg_color": "from-indigo-100 to-purple-100",
@@ -1324,7 +1324,7 @@
             },
             {
               "id": "masked-palm-civet",
-              "tier": 2,
+              "tier": 1,
               "name_common": "ハクビシン",
               "name_standard_ja": "ハクビシン",
               "name_en": "Masked Palm Civet",

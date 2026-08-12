@@ -1,4 +1,4 @@
-# 🎨 Nomina! Tier 1 未作成動物画像 プロンプト＆保存ファイル名一覧（残り3種）
+# 🎨 Nomina! Tier 1 未作成動物画像 プロンプト＆保存ファイル名一覧（残り4種）
 > 保存先: `static/images/animals/` またはプロジェクトルート (推奨フォーマット: PNG / 最大800x800以下に自動軽量化されます)
 
 ---
@@ -24,4 +24,12 @@ A charming, high-resolution detailed digital illustration of a cute realistic me
 
 ```text
 A charming, high-resolution detailed digital illustration of a cute realistic red-necked wallaby (Macropus rufogriseus) standing gracefully in a lush Australian grassy field, featuring a smaller kangaroo-like appearance, soft greyish-brown fur with reddish shoulders, large attentive ears, and a long strong tail, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 04. ハクビシン（標準和名: ハクビシン / Masked Palm Civet）
+* **保存ファイル名**: `masked-palm-civet.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic masked palm civet (Paguma larvata) standing curiously on a wooden beam near a traditional Japanese suburban house garden at dusk, featuring a distinct white stripe running down its forehead and nose, a slender greyish-brown body, black paws, and a long tail, warm soft ambient light, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```

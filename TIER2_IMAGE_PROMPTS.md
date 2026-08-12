@@ -149,7 +149,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ja
 * **保存ファイル名**: `otaria.png`
 
 ```text
-A charming, high-resolution detailed digital illustration of a cute realistic south american sea lion (オタリア) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a majestic male South American sea lion (オタリア) with a very large broad head, a characteristic slightly upturned blunt snub snout, a thick bushy lion-like mane around his neck, and a heavy stocky muscular bulky body, resting proudly on a sunlit rocky shore in South America, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 
 ---

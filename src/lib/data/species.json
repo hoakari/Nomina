@@ -5020,7 +5020,7 @@
               "tier": 2,
               "name_common": "ハイラックス",
               "name_standard_ja": "ケープハイラックス",
-              "name_en": "Rock Hyrax",
+              "name_en": "Hyrax",
               "image": "/images/animals/rock-hyrax.webp",
               "description_note": "見た目はネズミやタヌキに似ているけれど、実はゾウの遠い親戚！",
               "bg_color": "from-slate-100 to-stone-200",
@@ -5029,8 +5029,8 @@
               "name_zh_tw": "蹄兔",
               "name_es_es": "Damán",
               "name_es_mx": "Damán",
-              "name_fr_fr": "Rock Hyrax",
-              "name_id_id": "Rock Hyrax",
+              "name_fr_fr": "Hyrax",
+              "name_id_id": "Hyrax",
               "name_pt_pt": "Damán",
               "name_pt_br": "Damán"
             }

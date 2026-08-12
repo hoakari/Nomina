@@ -1,4 +1,4 @@
-# 🎨 Nomina! Tier 1 未作成動物画像 プロンプト＆保存ファイル名一覧（残り7種）
+# 🎨 Nomina! Tier 1 未作成動物画像 プロンプト＆保存ファイル名一覧（残り8種）
 > 保存先: `static/images/animals/` またはプロジェクトルート (推奨フォーマット: PNG / 最大800x800以下に自動軽量化されます)
 
 ---
@@ -57,3 +57,12 @@ A charming, high-resolution detailed digital illustration of a cute realistic re
 ```text
 A charming, high-resolution detailed digital illustration of a cute realistic nutria (Myocastor coypus) standing near a calm riverbank in lush vegetation, featuring rich brown fur, distinctive bright orange front teeth, a round heavy body, and long whiskers, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
+---
+
+### 08. イルカ（標準和名: ハンドウイルカ / Bottlenose Dolphin）
+* **保存ファイル名**: `dolphin.webp`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic common bottlenose dolphin (Tursiops truncatus) leaping gracefully above clear blue ocean waters with gentle water splashes, featuring a sleek smooth grey body, curved dorsal fin, and expressive friendly face, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+

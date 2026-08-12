@@ -525,7 +525,7 @@
 
       <hr class="border-amber-200" />
 
-      <!-- 3. 外国語の設定セクション (全6言語) -->
+      <!-- 3. 外国語の設定セクション (外国語6言語・10アクセント/表記) -->
       <section class="space-y-4">
         <div>
           <h2 class="text-lg font-black text-stone-800 flex items-center gap-2">

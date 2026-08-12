@@ -1,199 +1,58 @@
 ====================================================================
-🎨 Nomina! Tier 1 未作成動物画像 プロンプト＆保存ファイル名一覧（標準和名・生物種 精密修復版）
+🎨 Nomina! Tier 1 未作成動物画像 プロンプト＆保存ファイル名一覧（残り7種）
 ====================================================================
-【特徴】
-・図鑑の「標準和名（name_standard_ja）」および学名・生物分類に100%合致した正確なプロンプトです。
+【使い方】
+・まだ画像が作成されていない「未作成の種のみ」を掲載しています。
+・下記の保存ファイル名で画像を保存し、`static/images/animals/` またはプロジェクトルートへ配置してください。
 ・全プロンプト末尾に アスペクト比1:1 (正方形) パラメータ `--ar 1:1` を記載しています。
-・保存先ディレクトリ: static/images/animals/
 ====================================================================
 
 --------------------------------------------------------------------
-【No.01】 リスザル（標準和名: コモンリスザル / 英名: Squirrel Monkey）
+【No.01】 イタチ（標準和名: ニホンイタチ / 英名: Weasel）
 --------------------------------------------------------------------
-■ 保存ファイル名: squirrel-monkey.png
-■ 対象種・分類: Common squirrel monkey (Saimiri sciureus)
-■ 日本語イメージ: 熱帯雨林の枝々を軽やかに登るつぶらな瞳のコモンリスザル
-
+■ 保存ファイル名: weasel.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a small friendly common squirrel monkey (Saimiri sciureus) climbing gracefully through green jungle branches, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a cute realistic weasel (ニホンイタチ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 
 --------------------------------------------------------------------
-【No.02】 ニホンザル（標準和名: ニホンザル / 英名: Monkey）
+【No.02】 アシカ（標準和名: カリフォルニアアシカ / 英名: Sea Lion）
 --------------------------------------------------------------------
-■ 保存ファイル名: japanese-macaque.png
-■ 対象種・分類: Japanese macaque (Macaca fuscata)
-■ 日本語イメージ: 冬の日本の山林の天然温泉のほとりで穏やかに過ごすニホンザル
-
+■ 保存ファイル名: sea_lion.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute Japanese macaque (Macaca fuscata) sitting peacefully by a natural hot spring in a quiet mountain forest, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a cute realistic sea lion (カリフォルニアアシカ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 
 --------------------------------------------------------------------
-【No.03】 チンパンジー（標準和名: チンパンジー / 英名: Chimpanzee）
+【No.03】 トド（標準和名: トド / 英名: Steller Sea Lion）
 --------------------------------------------------------------------
-■ 保存ファイル名: chimpanzee.png
-■ 対象種・分類: Chimpanzee (Pan troglodytes)
-■ 日本語イメージ: 熱帯雨林の大きな木の上で表情豊かに佇むチンパンジー
-
+■ 保存ファイル名: todo.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a clever friendly chimpanzee (Pan troglodytes) sitting curiously on a mossy jungle branch, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a cute realistic steller sea lion (トド) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 
 --------------------------------------------------------------------
-【No.04】 ヒト（標準和名: ヒト / 英名: Human）
+【No.04】 オットセイ（標準和名: キタオットセイ / 英名: Fur Seal）
 --------------------------------------------------------------------
-■ 保存ファイル名: human.png
-■ 対象種・分類: Human (Homo sapiens)
-■ 日本語イメージ: 陽光あふれる公園で笑顔で元気に過ごす子供
-
+■ 保存ファイル名: fur-seal.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a happy friendly human child smiling brightly in a sunny green park, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a cute realistic fur seal (キタオットセイ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 
 --------------------------------------------------------------------
-【No.05】 アフリカゾウ（標準和名: サバンナゾウ / 英名: African Elephant）
+【No.05】 セイウチ（標準和名: セイウチ / 英名: Walrus）
 --------------------------------------------------------------------
-■ 保存ファイル名: african_elephant.png
-■ 対象種・分類: African bush elephant (Loxodonta africana)
-■ 日本語イメージ: 大きな耳を広げ、黄金色のサバンナを力強く進むアフリカゾウ（サバンナゾウ）
-
+■ 保存ファイル名: walrus.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a grand African bush elephant (Loxodonta africana) with large fan-like ears walking proudly across a sunny golden savanna, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a cute realistic walrus (セイウチ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 
 --------------------------------------------------------------------
-【No.06】 ブタ（標準和名: ブタ / 英名: Pig）
+【No.06】 マングース（標準和名: エジプトマングース / 英名: Mongoose）
 --------------------------------------------------------------------
-■ 保存ファイル名: pig.png
-■ 対象種・分類: Domestic pig (Sus scrofa domesticus)
-■ 日本語イメージ: 緑豊かな牧場で嬉しそうに散歩するピンク色のブタ
-
+■ 保存ファイル名: mongoose.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute clean domestic pig walking happily on a green grassy farm pasture, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a cute realistic mongoose (エジプトマングース) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 
 --------------------------------------------------------------------
-【No.07】 ウシ（標準和名: ウシ / 英名: Cow）
+【No.07】 ワオキツネザル（標準和名: ワオキツネザル / 英名: Ring-tailed Lemur）
 --------------------------------------------------------------------
-■ 保存ファイル名: cow.png
-■ 対象種・分類: Domestic cattle (Bos taurus)
-■ 日本語イメージ: 青空の下、広大な牧草地にのんびり佇むホルスタイン牛
-
+■ 保存ファイル名: ring-tailed-lemur.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a gentle Holstein dairy cow standing peacefully on a green meadow pasture under a blue sky, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-
---------------------------------------------------------------------
-【No.08】 ヤギ（標準和名: ヤギ / 英名: Goat）
---------------------------------------------------------------------
-■ 保存ファイル名: goat.png
-■ 対象種・分類: Domestic goat (Capra hircus)
-■ 日本語イメージ: 綺麗な白い毛並み、立派な後ろ曲がりの角とあごヒゲをもつ、青空と緑の丘に堂々と立つ大人の雄山羊（ビリーゴート）
-
-■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a majestic adult male billy goat with clean white fur, impressive backward-curved horns, and a long chin beard, standing proudly on a sunny green grassy hill under a clear blue sky, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-
---------------------------------------------------------------------
-【No.09】 ヒツジ（標準和名: ヒツジ / 英名: Sheep）
---------------------------------------------------------------------
-■ 保存ファイル名: sheep.png
-■ 対象種・分類: Domestic sheep (Ovis aries)
-■ 日本語イメージ: 緑の丘でモコモコの毛に包まれて立つヒツジ
-
-■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a fluffy cute white domestic sheep standing on a green rolling meadow hill, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-
---------------------------------------------------------------------
-【No.10】 ザトウクジラ（標準和名: ザトウクジラ / 英名: Humpback Whale）
---------------------------------------------------------------------
-■ 保存ファイル名: humpback-whale.png
-■ 対象種・分類: Humpback whale (Megaptera novaeangliae)
-■ 日本語イメージ: 青い海面から豪快に跳ね上がり水しぶきをあげるザトウクジラ
-
-■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a majestic humpback whale (Megaptera novaeangliae) breaching out of clear ocean water with grand water splashes, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-
---------------------------------------------------------------------
-【No.11】 シロイルカ（標準和名: シロイルカ / 英名: Beluga）
---------------------------------------------------------------------
-■ 保存ファイル名: beluga.png
-■ 対象種・分類: Beluga whale (Delphinapterus leucas)
-■ 日本語イメージ: 北極の透明な海を真っ白で笑顔のように泳ぐシロイルカ（ベルーガ）
-
-■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute white beluga whale (Delphinapterus leucas) swimming gracefully through clear arctic ocean water, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-
---------------------------------------------------------------------
-【No.12】 ロバ（標準和名: ロバ / 英名: Donkey）
---------------------------------------------------------------------
-■ 保存ファイル名: donkey.png
-■ 対象種・分類: Donkey (Equus asinus)
-■ 日本語イメージ: 牧場の木製フェンスの横で優しく佇むロバ
-
-■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a friendly cute donkey standing by a wooden fence on a sunny green farm, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-
---------------------------------------------------------------------
-【No.13】 バク（標準和名: マレーバク / 英名: Tapir）
---------------------------------------------------------------------
-■ 保存ファイル名: malayan-tapir.png
-■ 対象種・分類: Malayan tapir (Tapirus indicus)
-■ 日本語イメージ: 白と黒の独特の塗り分け模様を持つマレーバクが水辺の森を歩く姿
-
-■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a distinctive Malayan tapir (Tapirus indicus) with black-and-white body markings walking in a lush rainforest near water, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-
---------------------------------------------------------------------
-【No.14】 ウサギ（標準和名: アナウサギ / ウサギ / 英名: Rabbit）
---------------------------------------------------------------------
-■ 保存ファイル名: rabbit.png
-■ 対象種・分類: European rabbit (Oryctolagus cuniculus)
-■ 日本語イメージ: クローバーが咲く野原にちょこんと座るふわふわのアナウサギ
-
-■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute fluffy European rabbit sitting peacefully in a green clover field with wild flowers, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-
---------------------------------------------------------------------
-【No.15】 ノウサギ（標準和名: ニホンノウサギ / 英名: Hare）
---------------------------------------------------------------------
-■ 保存ファイル名: hare.png
-■ 対象種・分類: Japanese hare (Lepus brachyurus)
-■ 日本語イメージ: 耳の立ったスマートな体のニホンノウサギが草地を駆ける姿
-
-■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a swift Japanese hare (Lepus brachyurus) running alertly across a green grassy meadow, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-
---------------------------------------------------------------------
-【No.16】 シマリス（標準和名: シマリス / 英名: Chipmunk）
---------------------------------------------------------------------
-■ 保存ファイル名: chipmunk.png
-■ 対象種・分類: Asian chipmunk (Tamias sibiricus)
-■ 日本語イメージ: 切り株の上で背中の縞模様を見せながら木の実を抱えるシマリス
-
-■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute Asian chipmunk (Tamias sibiricus) sitting on a tree stump holding a nut in its paws, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-
---------------------------------------------------------------------
-【No.17】 モモンガ（標準和名: ニホンモモンガ / 英名: Flying Squirrel）
---------------------------------------------------------------------
-■ 保存ファイル名: momonga.png
-■ 対象種・分類: Japanese flying squirrel (Pteromys momonga)
-■ 日本語イメージ: 日本の杉の木や松の木の枝に大きな丸い瞳でちょこんと佇むニホンモモンガ
-
-■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute Japanese flying squirrel (Pteromys momonga) sitting gracefully on a mossy cedar branch in a serene Japanese forest, big round curious eyes, soft fluffy fur, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-
---------------------------------------------------------------------
-【No.18】 ムササビ（標準和名: ムササビ / 英名: Japanese Giant Flying Squirrel）
---------------------------------------------------------------------
-■ 保存ファイル名: musasabi.png
-■ 対象種・分類: Japanese giant flying squirrel (Petaurista leucogenys)
-■ 日本語イメージ: 夜の静かな森林の木々の間を滑空膜を広げて優雅に飛ぶムササビ
-
-■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute Japanese giant flying squirrel (Petaurista leucogenys) gliding gracefully between forest tree trunks at twilight with membrane spread, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-
---------------------------------------------------------------------
-【No.19】 ビーバー（標準和名: アメリカビーバー / 英名: Beaver）
---------------------------------------------------------------------
-■ 保存ファイル名: beaver.png
-■ 対象種・分類: American beaver (Castor canadensis)
-■ 日本語イメージ: 平たい尾をもち、木で組んだダムの近くの清流に立つビーバー
-
-■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a hardworking American beaver (Castor canadensis) standing by a clean forest stream near a wooden dam, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a cute realistic ring-tailed lemur (ワオキツネザル) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 

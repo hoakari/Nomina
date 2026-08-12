@@ -441,38 +441,50 @@
          shadow-lg hover:shadow-2xl transition-all duration-300 transform active:scale-95 cursor-pointer select-none
          {isTapped ? 'animate-bounce-tap ring-4 ring-yellow-400' : ''}"
 >
-  <!-- カード右上のアクションボタンエリア (マイクボタン & 録音済み削除ボタン) -->
-  <div class="absolute top-3 right-3 z-10 flex items-center gap-1.5">
-    <!-- 録音済みバッジ & 削除ボタン -->
+  <!-- 動物画像 / イラスト -->
+  <div class="relative w-40 h-40 sm:w-48 sm:h-48 rounded-2xl overflow-hidden bg-white/70 p-2 shadow-inner border-2 border-white flex items-center justify-center">
+    <!-- 🎙️ 絵の左上の録音ボタン / 自分の声バッジエリア -->
     {#if hasRecordedAudio}
-      <div class="flex items-center gap-1 bg-amber-500 text-white text-[11px] font-black px-2 py-1 rounded-full shadow-md">
-        <span>🎙️ 録音あり</span>
+      <div class="absolute top-2 left-2 z-20 flex items-center gap-1">
+        <button
+          type="button"
+          onclick={(e) => {
+            e.stopPropagation();
+            if (allowOverwrite) {
+              isRecordingModalOpen = true;
+              startRecording();
+            }
+          }}
+          title={allowOverwrite ? "タップして自分の声を再録音する" : "自分の声で録音済み"}
+          class="flex items-center gap-1 bg-gradient-to-r from-red-500 to-rose-600 hover:from-red-600 hover:to-rose-700 text-white text-[11px] font-black px-2.5 py-1 rounded-full shadow-md border border-white/80 active:scale-95 transition-all cursor-pointer"
+        >
+          <span class="w-2 h-2 rounded-full bg-white animate-pulse"></span>
+          <span>🎙️ 自分の声</span>
+        </button>
+        
         <button
           type="button"
           onclick={(e) => { e.stopPropagation(); isDeleteModalOpen = true; }}
           title="録音した声を削除する"
-          class="ml-0.5 w-5 h-5 bg-white/20 hover:bg-red-600 text-white rounded-full flex items-center justify-center transition-colors cursor-pointer"
+          class="w-6 h-6 bg-white/90 hover:bg-red-600 hover:text-white text-slate-700 rounded-full flex items-center justify-center text-xs shadow-md border border-slate-200 transition-all cursor-pointer hover:scale-110 active:scale-90"
         >
           🗑️
         </button>
       </div>
+    {:else if shouldShowRecordBtn}
+      <div class="absolute top-2 left-2 z-20">
+        <button
+          type="button"
+          onclick={(e) => { e.stopPropagation(); isRecordingModalOpen = true; startRecording(); }}
+          title="この動物の名前を自分の声で録音する"
+          class="flex items-center gap-1 bg-gradient-to-r from-red-500 to-rose-600 hover:from-red-600 hover:to-rose-700 text-white text-xs font-black px-2.5 py-1 rounded-full shadow-lg border-2 border-white hover:scale-105 active:scale-95 transition-all cursor-pointer animate-pulse"
+        >
+          <span class="w-2 h-2 rounded-full bg-white"></span>
+          <span>録音 🎙️</span>
+        </button>
+      </div>
     {/if}
 
-    <!-- 録音マイクボタン (録音モードON ＆ 条件一致時に表示) -->
-    {#if shouldShowRecordBtn}
-      <button
-        type="button"
-        onclick={(e) => { e.stopPropagation(); isRecordingModalOpen = true; startRecording(); }}
-        title="この動物の名前を自分の声で録音する"
-        class="w-9 h-9 bg-gradient-to-br from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 text-white rounded-full shadow-md border-2 border-white flex items-center justify-center text-lg hover:scale-110 active:scale-90 transition-all cursor-pointer animate-pulse"
-      >
-        🎙️
-      </button>
-    {/if}
-  </div>
-
-  <!-- 動物画像 / イラスト -->
-  <div class="relative w-40 h-40 sm:w-48 sm:h-48 rounded-2xl overflow-hidden bg-white/70 p-2 shadow-inner border-2 border-white flex items-center justify-center">
     <!-- 画像エラー/未準備時のフォールバック表示 (足跡の仮画像「🐾」) -->
     <div class="emoji-fallback-container hidden absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-white/90 to-amber-50/80 rounded-2xl p-2">
       <span class="text-7xl drop-shadow-md animate-float">🐾</span>
@@ -501,7 +513,7 @@
 
     <!-- 再生中インジケーター -->
     {#if isSpeaking}
-      <div class="absolute inset-0 bg-yellow-400/20 backdrop-blur-[1px] flex items-center justify-center animate-pulse">
+      <div class="absolute inset-0 bg-yellow-400/20 backdrop-blur-[1px] flex items-center justify-center animate-pulse z-30">
         <span class="text-4xl animate-bounce">🔊</span>
       </div>
     {/if}
@@ -512,11 +524,6 @@
     <!-- 1. 一般呼称 (メイン) -->
     <h3 class="text-2xl sm:text-3xl font-black text-slate-800 tracking-tight drop-shadow-sm flex items-center justify-center gap-1.5">
       <span>{species.name_common}</span>
-      {#if hasRecordedAudio}
-        <span class="text-xs bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-full border border-emerald-300 font-extrabold" title="自分の声で再生されます">
-          🎙️ 自分の声
-        </span>
-      {/if}
     </h3>
 
     <!-- 2. 標準和名 -->

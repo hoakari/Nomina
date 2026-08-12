@@ -333,7 +333,7 @@
             <div>
               <div class="font-black text-stone-800 text-base">録音モード</div>
               <p class="text-xs text-stone-500 font-medium mt-0.5">
-                ONにすると、各動物カードの右上にマイクボタンを表示します。自分の声を録音して日本語音声として再生できます。
+                ONにすると、各動物イラストの左上に録音ボタンを表示します。自分の声を録音して日本語音声として再生できます。
               </p>
             </div>
             <label class="relative inline-flex items-center cursor-pointer shrink-0">

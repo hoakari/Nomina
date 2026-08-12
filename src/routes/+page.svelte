@@ -102,7 +102,7 @@
   <header class="max-w-5xl mx-auto w-full flex items-center justify-between py-4">
     <div class="flex items-center gap-3">
       <div class="w-12 h-12 bg-white rounded-2xl p-1 shadow-md border-2 border-amber-200 flex items-center justify-center shrink-0 overflow-hidden">
-        <img src="/favicon.png" alt="Nomina Icon" class="w-full h-full object-contain rounded-xl" />
+        <img src="/favicon.png" alt="Nomina Icon" loading="lazy" decoding="async" class="w-full h-full object-contain rounded-xl" />
       </div>
       <div>
         <h1 class="text-2xl sm:text-4xl font-black text-slate-800 tracking-tight">

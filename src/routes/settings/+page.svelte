@@ -442,7 +442,7 @@
                       <!-- 動物アイコン ＆ 名称 -->
                       <div class="flex items-center gap-2.5 min-w-0">
                         {#if info.image}
-                          <img src={info.image} alt={info.name_common} class="w-8 h-8 object-contain rounded-lg shrink-0 bg-stone-100 p-0.5 border border-stone-200" />
+                          <img src={info.image} alt={info.name_common} loading="lazy" decoding="async" class="w-8 h-8 object-contain rounded-lg shrink-0 bg-stone-100 p-0.5 border border-stone-200" />
                         {:else}
                           <div class="w-8 h-8 rounded-lg bg-amber-100 flex items-center justify-center text-sm shrink-0">🐾</div>
                         {/if}

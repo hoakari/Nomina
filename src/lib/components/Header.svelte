@@ -76,7 +76,7 @@
     <div class="flex items-center justify-between w-full md:w-auto gap-3 shrink-0">
       <a href="/" class="flex items-center gap-3 no-underline group" title="しゅるい選択へ">
         <div class="w-12 h-12 bg-white rounded-2xl p-1 shadow-md group-hover:scale-110 transition-transform overflow-hidden flex items-center justify-center shrink-0">
-          <img src="/favicon.png" alt="Nomina Icon" class="w-full h-full object-contain rounded-xl" />
+          <img src="/favicon.png" alt="Nomina Icon" loading="lazy" decoding="async" class="w-full h-full object-contain rounded-xl" />
         </div>
         <div>
           <h1 class="text-2xl sm:text-3xl font-black text-white drop-shadow-md tracking-wider leading-[0.85] flex flex-col justify-center">

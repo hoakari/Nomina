@@ -537,6 +537,8 @@
     <img
       src={species.image}
       alt={species.name_common}
+      loading="lazy"
+      decoding="async"
       class="w-full h-full object-contain drop-shadow-md transition-all duration-300 hover:scale-105 {isImageLoaded && !isImageError ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}"
       onload={() => {
         isImageLoaded = true;

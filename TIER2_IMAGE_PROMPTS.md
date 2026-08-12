@@ -61,7 +61,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic fe
 * **保存ファイル名**: `american-black-bear.png`
 
 ```text
-A charming, high-resolution detailed digital illustration of a cute realistic american black bear (アメリカクロクマ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a cute realistic American black bear (Ursus americanus) standing gracefully in a North American pine forest, sleek solid black fur with a tan brown muzzle, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO white chest mark, NO crescent patch, NOT Asian black bear, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 
 ---
@@ -117,7 +117,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic le
 * **保存ファイル名**: `honey-badger.png`
 
 ```text
-A charming, high-resolution detailed digital illustration of a cute realistic honey badger (ラーテル) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a brave cute realistic honey badger (Mellivora capensis) courageously standing its ground and snarling fiercely towards the camera with bared teeth, facing off against a much larger predator like a lion blurred in the African savanna background, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 
 ---
@@ -125,7 +125,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ho
 * **保存ファイル名**: `wolverine.png`
 
 ```text
-A charming, high-resolution detailed digital illustration of a cute realistic wolverine (クズリ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a fierce powerful cute realistic wolverine (Gulo gulo) standing aggressively on a snowy taiga rock, growling fiercely towards the camera with bared teeth and sharp claws exposed, showing its formidable wild nature, snowy pine forest background, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 
 ---

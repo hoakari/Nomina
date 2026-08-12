@@ -74,10 +74,10 @@ A charming, high-resolution detailed digital illustration of a gentle Holstein d
 ### 08. ヤギ（標準和名: ヤギ / Goat）
 * **保存ファイル名**: `goat.png`
 * **対象種・学名**: Domestic goat (Capra hircus)
-* **日本語イメージ**: 緑の丘の上で楽しそうに立ち上がるヤギ
+* **日本語イメージ**: 綺麗な白い毛並み、立派な後ろ曲がりの角とあごヒゲをもつ、青空と緑の丘に堂々と立つ大人の雄山羊（ビリーゴート）
 
 ```text
-A charming, high-resolution detailed digital illustration of a friendly goat standing playfully on a sunny grassy hill, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a majestic adult male billy goat with clean white fur, impressive backward-curved horns, and a long chin beard, standing proudly on a sunny green grassy hill under a clear blue sky, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 
 ---

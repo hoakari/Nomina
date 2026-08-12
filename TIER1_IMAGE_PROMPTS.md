@@ -318,10 +318,10 @@ A charming, high-resolution detailed digital illustration of a spiny echidna wal
 ---
 ### 36. コウモリ (Bat)
 * **保存ファイル名**: `bat.png`
-* **日本語イメージ**: 熱帯雨林の葉の茂る枝から逆さまにぶら下がっているフルーツコウモリ
+* **日本語イメージ**: 夕暮れ時の日本の静かな住宅街の空を、翼を広げて軽快に飛んでいるアブラコウモリ（イエコウモリ）
 
 ```text
-A charming, high-resolution detailed digital illustration of a cute fruit bat hanging upside down from a green leafy branch in a rainforest, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a cute small Japanese house bat (Pipistrellus abramus) flying gracefully with wings spread across a peaceful dusk sky over a Japanese residential town, warm sunset light, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 
 ---

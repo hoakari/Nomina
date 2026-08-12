@@ -1,8 +1,8 @@
 ====================================================================
-🎨 Nomina! Tier 1 未作成動物画像 プロンプト＆保存ファイル名一覧（残り4種）
+🎨 Nomina! Tier 1 未作成動物画像 プロンプト＆保存ファイル名一覧（残り7種）
 ====================================================================
 【使い方】
-・まだ画像が作成されていないTier 1（定番・人気動物）の「未作成の3種」を掲載しています。
+・まだ画像が作成されていないTier 1（定番・日本でおなじみ・ニュースで有名な動物）の「未作成の7種」を掲載しています。
 ・下記の保存ファイル名で画像を保存し、`static/images/animals/` またはプロジェクトルートへ配置してください。
 ・全プロンプト末尾に アスペクト比1:1 (正方形) パラメータ `--ar 1:1` を記載しています。
 ====================================================================
@@ -14,18 +14,37 @@
 A charming, high-resolution detailed digital illustration of a cute realistic domestic ferret (Mustela putorius furo) standing playfully in a warm indoor cozy environment, featuring a slender elongated body, inquisitive black eyes, short soft sable and white fur, and small rounded ears, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 
 --------------------------------------------------------------------
-【No.02】 ミーアキャット（標準和名: ミーアキャット / Meerkat）
+【No.02】 ハクビシン（標準和名: ハクビシン / Masked Palm Civet）
+■ 保存ファイル名: masked-palm-civet.png
+■ 英語プロンプト (コピー用):
+A charming, high-resolution detailed digital illustration of a cute realistic masked palm civet (Paguma larvata) standing curiously on a wooden beam near a traditional Japanese suburban house garden at dusk, featuring a distinct white stripe running down its forehead and nose, a slender greyish-brown body, black paws, and a long tail, warm soft ambient light, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+
+--------------------------------------------------------------------
+【No.03】 ミーアキャット（標準和名: ミーアキャット / Meerkat）
 ■ 保存ファイル名: meerkat.png
 ■ 英語プロンプト (コピー用):
 A charming, high-resolution detailed digital illustration of a cute realistic meerkat (Suricata suricatta) standing upright on its hind legs on a sunlit mound in the African savanna, featuring dark patches around its attentive eyes, a slender body with brown banded fur, and a thin dark-tipped tail, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 
 --------------------------------------------------------------------
-【No.03】 ワラビー（標準和名: ワラビー（ベネットワラビー） / Wallaby）
+【No.04】 キョン（標準和名: キョン / Reeves's Muntjac）
+■ 保存ファイル名: reevess-muntjac.png
+■ 英語プロンプト (コピー用):
+A charming, high-resolution detailed digital illustration of a cute realistic Reeves's muntjac (Muntiacus reevesi) standing in a lush sunlit forest, featuring a small deer-like appearance with tiny antlers and short dark facial stripes, soft reddish-brown coat, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+
+--------------------------------------------------------------------
+【No.05】 カモシカ（標準和名: ニホンカモシカ / Japanese Serow）
+■ 保存ファイル名: japanese-serow.png
+■ 英語プロンプト (コピー用):
+A charming, high-resolution detailed digital illustration of a cute realistic Japanese serow (Capricornis crispus) standing proudly on a rocky sunlit mountain slope in a Japanese cedar forest, featuring fluffy dark greyish-white fur, short backward-curving horns, and attentive dark eyes, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+
+--------------------------------------------------------------------
+【No.06】 ワラビー（標準和名: ワラビー（ベネットワラビー） / Wallaby）
 ■ 保存ファイル名: wallaby.png
 ■ 英語プロンプト (コピー用):
 A charming, high-resolution detailed digital illustration of a cute realistic red-necked wallaby (Macropus rufogriseus) standing gracefully in a lush Australian grassy field, featuring a smaller kangaroo-like appearance, soft greyish-brown fur with reddish shoulders, large attentive ears, and a long strong tail, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+
 --------------------------------------------------------------------
-【No.04】 ハクビシン（標準和名: ハクビシン / Masked Palm Civet）
-■ 保存ファイル名: masked-palm-civet.png
+【No.07】 ヌートリア（標準和名: ヌートリア / Nutria）
+■ 保存ファイル名: nutria.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute realistic masked palm civet (Paguma larvata) standing curiously on a wooden beam near a traditional Japanese suburban house garden at dusk, featuring a distinct white stripe running down its forehead and nose, a slender greyish-brown body, black paws, and a long tail, warm soft ambient light, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a cute realistic nutria (Myocastor coypus) standing near a calm riverbank in lush vegetation, featuring rich brown fur, distinctive bright orange front teeth, a round heavy body, and long whiskers, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1

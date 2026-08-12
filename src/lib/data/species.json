@@ -1485,7 +1485,7 @@
           "species": [
             {
               "id": "ring-tailed-lemur",
-              "tier": 1,
+              "tier": 2,
               "name_common": "ワオキツネザル",
               "name_standard_ja": "ワオキツネザル",
               "name_en": "Ring-tailed Lemur",
@@ -1644,7 +1644,7 @@
           "species": [
             {
               "id": "squirrel-monkey",
-              "tier": 1,
+              "tier": 2,
               "name_common": "リスザル",
               "name_standard_ja": "ボリビアリスザル",
               "name_en": "Squirrel Monkey",
@@ -2355,7 +2355,7 @@
             },
             {
               "id": "reevess-muntjac",
-              "tier": 2,
+              "tier": 1,
               "name_common": "キョン",
               "name_standard_ja": "キョン",
               "name_en": "Reeves's Muntjac",
@@ -2705,7 +2705,7 @@
             },
             {
               "id": "japanese-serow",
-              "tier": 2,
+              "tier": 1,
               "name_common": "カモシカ",
               "name_standard_ja": "ニホンカモシカ",
               "name_en": "Japanese Serow",
@@ -2969,7 +2969,7 @@
           "species": [
             {
               "id": "beluga",
-              "tier": 1,
+              "tier": 2,
               "name_common": "シロイルカ",
               "name_standard_ja": "シロイルカ（ベルーガ）",
               "name_en": "Beluga",
@@ -3957,7 +3957,7 @@
               "name_standard_ja": "カナダヤマアラシ",
               "name_en": "North American Porcupine",
               "image": "/images/animals/north-american-porcupine.webp",
-              "description_note": "木登りが得意で木の上で生活するヤマアラシ",
+              "description_note": "鋭いトゲを持ち木の上で生活する新世界ヤマアラシ",
               "bg_color": "from-sky-100 to-blue-100",
               "accent_color": "border-sky-300",
               "name_zh_cn": "北美豪猪",
@@ -4036,7 +4036,7 @@
           "species": [
             {
               "id": "nutria",
-              "tier": 2,
+              "tier": 1,
               "name_common": "ヌートリア",
               "name_standard_ja": "ヌートリア",
               "name_en": "Nutria",
@@ -4728,7 +4728,7 @@
           "species": [
             {
               "id": "dugong",
-              "tier": 1,
+              "tier": 2,
               "name_common": "ジュゴン",
               "name_standard_ja": "ジュゴン",
               "name_en": "Dugong",
@@ -4756,7 +4756,7 @@
           "species": [
             {
               "id": "manatee",
-              "tier": 1,
+              "tier": 2,
               "name_common": "マナティー",
               "name_standard_ja": "アメリカマナティー",
               "name_en": "Manatee",

@@ -33,6 +33,20 @@
   let isSpeaking = $state(false);
   let currentAccent = $state<LangAccent>('en-US');
 
+  // 画像のロード完了・エラー状態管理
+  let isImageLoaded = $state(false);
+  let isImageError = $state(false);
+
+  // species が変更された際に画像ロード状態をリセット
+  $effect(() => {
+    const _img = species.image;
+    const _id = species.id;
+    untrack(() => {
+      isImageLoaded = false;
+      isImageError = false;
+    });
+  });
+
   // 録音モード・端末内IndexedDB録音状態
   let recordMode = $state(false);
   let allowOverwrite = $state(false);
@@ -505,29 +519,32 @@
       </div>
     {/if}
 
+    <!-- 画像ロード中スケルトン・プレースホルダー -->
+    {#if !isImageLoaded && !isImageError}
+      <div class="absolute inset-0 flex flex-col items-center justify-center bg-amber-50/60 rounded-2xl animate-pulse z-10">
+        <span class="text-4xl opacity-40 animate-bounce">🐾</span>
+      </div>
+    {/if}
+
     <!-- 画像エラー/未準備時のフォールバック表示 (足跡の仮画像「🐾」) -->
-    <div class="emoji-fallback-container hidden absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-white/90 to-amber-50/80 rounded-2xl p-2">
-      <span class="text-7xl drop-shadow-md animate-float">🐾</span>
-      <span class="text-[11px] font-black text-amber-800/80 mt-1 bg-white/80 px-2.5 py-0.5 rounded-full border border-amber-200 shadow-2xs">イラスト準備中</span>
-    </div>
+    {#if isImageError}
+      <div class="emoji-fallback-container absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-white/90 to-amber-50/80 rounded-2xl p-2 z-10">
+        <span class="text-7xl drop-shadow-md animate-float">🐾</span>
+        <span class="text-[11px] font-black text-amber-800/80 mt-1 bg-white/80 px-2.5 py-0.5 rounded-full border border-amber-200 shadow-2xs">イラスト準備中</span>
+      </div>
+    {/if}
 
     <img
       src={species.image}
       alt={species.name_common}
-      class="w-full h-full object-contain drop-shadow-md transition-transform duration-300 hover:scale-105"
-      onload={(e) => {
-        const target = e.currentTarget as HTMLImageElement;
-        target.style.display = 'block';
-        const parent = target.parentElement;
-        const fallback = parent?.querySelector('.emoji-fallback-container') as HTMLElement;
-        if (fallback) fallback.classList.add('hidden');
+      class="w-full h-full object-contain drop-shadow-md transition-all duration-300 hover:scale-105 {isImageLoaded && !isImageError ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}"
+      onload={() => {
+        isImageLoaded = true;
+        isImageError = false;
       }}
-      onerror={(e) => {
-        const target = e.currentTarget as HTMLImageElement;
-        target.style.display = 'none';
-        const parent = target.parentElement;
-        const fallback = parent?.querySelector('.emoji-fallback-container') as HTMLElement;
-        if (fallback) fallback.classList.remove('hidden');
+      onerror={() => {
+        isImageLoaded = false;
+        isImageError = true;
       }}
     />
 

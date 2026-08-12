@@ -725,6 +725,23 @@
               "name_es_mx": "Lobo Marino",
               "name_fr_fr": "Otarie à fourrure",
               "name_id_id": "Anjing Laut Berbulu"
+            },
+            {
+              "id": "otaria",
+              "tier": 2,
+              "name_common": "オタリア",
+              "name_standard_ja": "オタリア",
+              "name_en": "South American Sea Lion",
+              "image": "/images/animals/otaria.png",
+              "description_note": "南アメリカの海岸にすむアシカ！オスは首の毛がふさふさだよ",
+              "bg_color": "from-cyan-100 to-blue-100",
+              "accent_color": "border-cyan-400",
+              "name_zh_cn": "南海狮",
+              "name_zh_tw": "南海獅",
+              "name_es_es": "Otaria",
+              "name_es_mx": "Lobo Marino Sudamericano",
+              "name_fr_fr": "Otarier du Sud",
+              "name_id_id": "Singa Laut Amerika Selatan"
             }
           ]
         },

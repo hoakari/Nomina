@@ -226,6 +226,11 @@
 
 <svelte:head>
   <title>設定 | Nomina!</title>
+  <meta name="description" content="表示する生きものの数（Tier）などを調整する設定ページです。" />
+  <meta property="og:title" content="設定 | Nomina!" />
+  <meta property="og:description" content="表示する生きものの数（Tier）などを調整する設定ページです。" />
+  <meta property="og:url" content="https://nomina2026.netlify.app/settings" />
+  <link rel="canonical" href="https://nomina2026.netlify.app/settings" />
 </svelte:head>
 
 <main class="min-h-screen bg-amber-50/50 p-4 sm:p-8">

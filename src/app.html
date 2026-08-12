@@ -29,6 +29,18 @@
 		<link rel="icon" type="image/png" href="/favicon.png" />
 		<link rel="apple-touch-icon" href="/favicon.png" />
 		<title>Nomina - こども多言語動物図鑑</title>
+
+		<!-- OGP / Twitter Card（サイト共通のデフォルト。個別タイトル・説明・URLは各ページのsvelte:headで上書き） -->
+		<meta property="og:site_name" content="Nomina! (ノミーナ！)" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="https://nomina2026.netlify.app/twitter_header_1500x500.png" />
+		<meta property="og:image:width" content="1500" />
+		<meta property="og:image:height" content="500" />
+		<meta property="og:image:alt" content="Nomina! こども多言語いきものずかん" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@nomina2026" />
+		<meta name="twitter:image" content="https://nomina2026.netlify.app/twitter_header_1500x500.png" />
+
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">

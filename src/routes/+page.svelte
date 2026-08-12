@@ -91,6 +91,10 @@
 <svelte:head>
   <title>Nomina（ノミーナ！）| しゅるい選択・子どもいきものずかん</title>
   <meta name="description" content="あそびたい図鑑の種類をえらんでね！哺乳類、鳥類、爬虫類、魚類など、楽しく学べる子ども英語いきもの図鑑。" />
+  <meta property="og:title" content="Nomina（ノミーナ！）| しゅるい選択・子どもいきものずかん" />
+  <meta property="og:description" content="あそびたい図鑑の種類をえらんでね！哺乳類、鳥類、爬虫類、魚類など、楽しく学べる子ども英語いきもの図鑑。" />
+  <meta property="og:url" content="https://nomina2026.netlify.app/" />
+  <link rel="canonical" href="https://nomina2026.netlify.app/" />
 </svelte:head>
 
 <div class="min-h-screen bg-gradient-to-b from-amber-50 via-orange-50/40 to-yellow-50 flex flex-col justify-between p-4 sm:p-8">

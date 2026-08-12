@@ -33,6 +33,10 @@
 <svelte:head>
   <title>ほにゅうるい（哺乳類）図鑑 | Nomina!</title>
   <meta name="description" content="ほにゅうるい（哺乳類）の生きもの図鑑。イラストをタップして名前を楽しく学べます。" />
+  <meta property="og:title" content="ほにゅうるい（哺乳類）図鑑 | Nomina!" />
+  <meta property="og:description" content="ほにゅうるい（哺乳類）の生きもの図鑑。イラストをタップして名前を楽しく学べます。" />
+  <meta property="og:url" content="https://nomina2026.netlify.app/mammals" />
+  <link rel="canonical" href="https://nomina2026.netlify.app/mammals" />
 </svelte:head>
 
 <!-- トップの種類選択へ戻るミニバー -->

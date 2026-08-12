@@ -1,4 +1,4 @@
-# 🎨 Nomina! Tier 2 未作成動物画像 プロンプト＆保存ファイル名一覧（残り127種）
+# 🎨 Nomina! Tier 2 未作成動物画像 プロンプト＆保存ファイル名一覧（残り126種）
 > 保存先: `static/images/animals/` またはプロジェクトルート (推奨フォーマット: PNG / 最大800x800以下に自動軽量化されます)
 
 ### 01. ジャッカル（標準和名: セグロジャッカル / Black-backed Jackal）
@@ -145,15 +145,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ja
 ```
 
 ---
-### 19. オタリア（標準和名: オタリア / South American Sea Lion）
-* **保存ファイル名**: `otaria.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a majestic male South American sea lion (オタリア) with a very large broad head, a characteristic slightly upturned blunt snub snout, a thick bushy lion-like mane around his neck, and a heavy stocky muscular bulky body, resting proudly on a sunlit rocky shore in South America, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
-
----
-### 20. スナドリネコ（標準和名: スナドリネコ / Fishing Cat）
+### 19. スナドリネコ（標準和名: スナドリネコ / Fishing Cat）
 * **保存ファイル名**: `fishing-cat.png`
 
 ```text
@@ -161,7 +153,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic fi
 ```
 
 ---
-### 21. サーバル（標準和名: サーバル / Serval）
+### 20. サーバル（標準和名: サーバル / Serval）
 * **保存ファイル名**: `serval.png`
 
 ```text
@@ -169,7 +161,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic se
 ```
 
 ---
-### 22. スナネコ（標準和名: スナネコ / Sand Cat）
+### 21. スナネコ（標準和名: スナネコ / Sand Cat）
 * **保存ファイル名**: `sand-cat.png`
 
 ```text
@@ -177,7 +169,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic sa
 ```
 
 ---
-### 23. クロアシネコ（標準和名: クロアシネコ / Black-footed Cat）
+### 22. クロアシネコ（標準和名: クロアシネコ / Black-footed Cat）
 * **保存ファイル名**: `black-footed-cat.png`
 
 ```text
@@ -185,7 +177,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic bl
 ```
 
 ---
-### 24. マヌルネコ（標準和名: マヌルネコ / Pallas's Cat）
+### 23. マヌルネコ（標準和名: マヌルネコ / Pallas's Cat）
 * **保存ファイル名**: `pallass-cat.png`
 
 ```text
@@ -193,7 +185,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic pa
 ```
 
 ---
-### 25. イリオモテヤマネコ（標準和名: イリオモテヤマネコ / Iriomote Cat）
+### 24. イリオモテヤマネコ（標準和名: イリオモテヤマネコ / Iriomote Cat）
 * **保存ファイル名**: `iriomote-cat.png`
 
 ```text
@@ -201,7 +193,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ir
 ```
 
 ---
-### 26. ジャガー（標準和名: ジャガー / Jaguar）
+### 25. ジャガー（標準和名: ジャガー / Jaguar）
 * **保存ファイル名**: `jaguar.png`
 
 ```text
@@ -209,7 +201,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ja
 ```
 
 ---
-### 27. ユキヒョウ（標準和名: ユキヒョウ / Snow Leopard）
+### 26. ユキヒョウ（標準和名: ユキヒョウ / Snow Leopard）
 * **保存ファイル名**: `snow-leopard.png`
 
 ```text
@@ -217,7 +209,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic sn
 ```
 
 ---
-### 28. ウンピョウ（標準和名: ウンピョウ / Clouded Leopard）
+### 27. ウンピョウ（標準和名: ウンピョウ / Clouded Leopard）
 * **保存ファイル名**: `clouded-leopard.png`
 
 ```text
@@ -225,7 +217,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic cl
 ```
 
 ---
-### 29. カラカル（標準和名: カラカル / Caracal）
+### 28. カラカル（標準和名: カラカル / Caracal）
 * **保存ファイル名**: `caracal.png`
 
 ```text
@@ -233,7 +225,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ca
 ```
 
 ---
-### 30. ピューマ（標準和名: ピューマ / Puma）
+### 29. ピューマ（標準和名: ピューマ / Puma）
 * **保存ファイル名**: `puma.png`
 
 ```text
@@ -241,7 +233,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic pu
 ```
 
 ---
-### 31. ジャガランディ（標準和名: ジャガランディ / Jaguarundi）
+### 30. ジャガランディ（標準和名: ジャガランディ / Jaguarundi）
 * **保存ファイル名**: `jaguarundi.png`
 
 ```text
@@ -249,7 +241,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ja
 ```
 
 ---
-### 32. オセロット（標準和名: オセロット / Ocelot）
+### 31. オセロット（標準和名: オセロット / Ocelot）
 * **保存ファイル名**: `ocelot.png`
 
 ```text
@@ -257,7 +249,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic oc
 ```
 
 ---
-### 33. ハイエナ（標準和名: ブチハイエナ / Spotted Hyena）
+### 32. ハイエナ（標準和名: ブチハイエナ / Spotted Hyena）
 * **保存ファイル名**: `spotted-hyena.png`
 
 ```text
@@ -265,7 +257,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic sp
 ```
 
 ---
-### 34. アードウルフ（標準和名: アードウルフ / Aardwolf）
+### 33. アードウルフ（標準和名: アードウルフ / Aardwolf）
 * **保存ファイル名**: `aardwolf.png`
 
 ```text
@@ -273,7 +265,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic aa
 ```
 
 ---
-### 35. パームシベット（標準和名: マレーパームシベット / Asian Palm Civet）
+### 34. パームシベット（標準和名: マレーパームシベット / Asian Palm Civet）
 * **保存ファイル名**: `asian-palm-civet.png`
 
 ```text
@@ -281,7 +273,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic as
 ```
 
 ---
-### 36. ハクビシン（標準和名: ハクビシン / Masked Palm Civet）
+### 35. ハクビシン（標準和名: ハクビシン / Masked Palm Civet）
 * **保存ファイル名**: `masked-palm-civet.png`
 
 ```text
@@ -289,7 +281,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ma
 ```
 
 ---
-### 37. ビントロング（標準和名: ビントロング / Binturong）
+### 36. ビントロング（標準和名: ビントロング / Binturong）
 * **保存ファイル名**: `binturong.png`
 
 ```text
@@ -297,7 +289,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic bi
 ```
 
 ---
-### 38. フォッサ（標準和名: フォッサ / Fossa）
+### 37. フォッサ（標準和名: フォッサ / Fossa）
 * **保存ファイル名**: `fossa.png`
 
 ```text
@@ -305,7 +297,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic fo
 ```
 
 ---
-### 39. オビリンサン（標準和名: オビリンサン / Banded Linsang）
+### 38. オビリンサン（標準和名: オビリンサン / Banded Linsang）
 * **保存ファイル名**: `banded-linsang.png`
 
 ```text
@@ -313,7 +305,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ba
 ```
 
 ---
-### 40. スローロリス（標準和名: スローロリス / Slow Loris）
+### 39. スローロリス（標準和名: スローロリス / Slow Loris）
 * **保存ファイル名**: `slow-loris.png`
 
 ```text
@@ -321,7 +313,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic sl
 ```
 
 ---
-### 41. アイアイ（標準和名: アイアイ / Aye-aye）
+### 40. アイアイ（標準和名: アイアイ / Aye-aye）
 * **保存ファイル名**: `aye-aye.png`
 
 ```text
@@ -329,7 +321,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ay
 ```
 
 ---
-### 42. メガネザル（標準和名: フィリピンメガネザル / Tarsier）
+### 41. メガネザル（標準和名: フィリピンメガネザル / Tarsier）
 * **保存ファイル名**: `philippine-tarsier.png`
 
 ```text
@@ -337,7 +329,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ta
 ```
 
 ---
-### 43. ゴールデンライオンタマリン（標準和名: ゴールデンライオンタマリン / Golden Lion Tamarin）
+### 42. ゴールデンライオンタマリン（標準和名: ゴールデンライオンタマリン / Golden Lion Tamarin）
 * **保存ファイル名**: `golden-lion-tamarin.png`
 
 ```text
@@ -345,7 +337,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic go
 ```
 
 ---
-### 44. ピグミーマーモセット（標準和名: ピグミーマーモセット / Pygmy Marmoset）
+### 43. ピグミーマーモセット（標準和名: ピグミーマーモセット / Pygmy Marmoset）
 * **保存ファイル名**: `pygmy-marmoset.png`
 
 ```text
@@ -353,7 +345,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic py
 ```
 
 ---
-### 45. キンシコウ（標準和名: キンシコウ / Golden Snub-nosed Monkey）
+### 44. キンシコウ（標準和名: キンシコウ / Golden Snub-nosed Monkey）
 * **保存ファイル名**: `golden-snub-nosed-monkey.png`
 
 ```text
@@ -361,7 +353,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic go
 ```
 
 ---
-### 46. マントヒヒ（標準和名: マントヒヒ / Hamadryas Baboon）
+### 45. マントヒヒ（標準和名: マントヒヒ / Hamadryas Baboon）
 * **保存ファイル名**: `hamadryas-baboon.png`
 
 ```text
@@ -369,7 +361,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ha
 ```
 
 ---
-### 47. サバンナモンキー（標準和名: サバンナモンキー（バーベットモンキー） / Vervet Monkey）
+### 46. サバンナモンキー（標準和名: サバンナモンキー（バーベットモンキー） / Vervet Monkey）
 * **保存ファイル名**: `vervet-monkey.png`
 
 ```text
@@ -377,7 +369,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ve
 ```
 
 ---
-### 48. テングザル（標準和名: テングザル / Proboscis Monkey）
+### 47. テングザル（標準和名: テングザル / Proboscis Monkey）
 * **保存ファイル名**: `proboscis-monkey.png`
 
 ```text
@@ -385,7 +377,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic pr
 ```
 
 ---
-### 49. マンドリル（標準和名: マンドリル / Mandrill）
+### 48. マンドリル（標準和名: マンドリル / Mandrill）
 * **保存ファイル名**: `mandrill.png`
 
 ```text
@@ -393,7 +385,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ma
 ```
 
 ---
-### 50. パタスザル（標準和名: パタスザル / Patas Monkey）
+### 49. パタスザル（標準和名: パタスザル / Patas Monkey）
 * **保存ファイル名**: `patas-monkey.png`
 
 ```text
@@ -401,7 +393,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic pa
 ```
 
 ---
-### 51. テナガザル（標準和名: シロテテナガザル / Lar Gibbon）
+### 50. テナガザル（標準和名: シロテテナガザル / Lar Gibbon）
 * **保存ファイル名**: `lar-gibbon.png`
 
 ```text
@@ -409,7 +401,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic la
 ```
 
 ---
-### 52. ボノボ（標準和名: ボノボ / Bonobo）
+### 51. ボノボ（標準和名: ボノボ / Bonobo）
 * **保存ファイル名**: `bonobo.png`
 
 ```text
@@ -417,7 +409,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic bo
 ```
 
 ---
-### 53. ヒトコブラクダ（標準和名: ヒトコブラクダ / Dromedary Camel）
+### 52. ヒトコブラクダ（標準和名: ヒトコブラクダ / Dromedary Camel）
 * **保存ファイル名**: `dromedary-camel.png`
 
 ```text
@@ -425,7 +417,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic dr
 ```
 
 ---
-### 54. アルパカ（標準和名: アルパカ / Alpaca）
+### 53. アルパカ（標準和名: アルパカ / Alpaca）
 * **保存ファイル名**: `alpaca.png`
 
 ```text
@@ -433,7 +425,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic al
 ```
 
 ---
-### 55. ラマ（標準和名: ラマ / Llama）
+### 54. ラマ（標準和名: ラマ / Llama）
 * **保存ファイル名**: `llama.png`
 
 ```text
@@ -441,7 +433,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ll
 ```
 
 ---
-### 56. イボイノシシ（標準和名: イボイノシシ / Warthog）
+### 55. イボイノシシ（標準和名: イボイノシシ / Warthog）
 * **保存ファイル名**: `warthog.png`
 
 ```text
@@ -449,7 +441,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic wa
 ```
 
 ---
-### 57. バビルサ（標準和名: バビルサ / Babirusa）
+### 56. バビルサ（標準和名: バビルサ / Babirusa）
 * **保存ファイル名**: `babirusa.png`
 
 ```text
@@ -457,7 +449,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ba
 ```
 
 ---
-### 58. ペッカリー（標準和名: クビワペッカリー / Collared Peccary）
+### 57. ペッカリー（標準和名: クビワペッカリー / Collared Peccary）
 * **保存ファイル名**: `collared-peccary.png`
 
 ```text
@@ -465,7 +457,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic co
 ```
 
 ---
-### 59. マメジカ（標準和名: ジャワマメジカ / Javan Mouse-deer）
+### 58. マメジカ（標準和名: ジャワマメジカ / Javan Mouse-deer）
 * **保存ファイル名**: `javan-mouse-deer.png`
 
 ```text
@@ -473,7 +465,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ja
 ```
 
 ---
-### 60. ジャコウジカ（標準和名: シベリアジャコウジカ / Siberian Musk Deer）
+### 59. ジャコウジカ（標準和名: シベリアジャコウジカ / Siberian Musk Deer）
 * **保存ファイル名**: `siberian-musk-deer.png`
 
 ```text
@@ -481,7 +473,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic si
 ```
 
 ---
-### 61. キョン（標準和名: キョン / Reeves's Muntjac）
+### 60. キョン（標準和名: キョン / Reeves's Muntjac）
 * **保存ファイル名**: `reevess-muntjac.png`
 
 ```text
@@ -489,7 +481,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic re
 ```
 
 ---
-### 62. ヘラジカ（標準和名: ヘラジカ / Moose）
+### 61. ヘラジカ（標準和名: ヘラジカ / Moose）
 * **保存ファイル名**: `moose.png`
 
 ```text
@@ -497,7 +489,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic mo
 ```
 
 ---
-### 63. オカピ（標準和名: オカピ / Okapi）
+### 62. オカピ（標準和名: オカピ / Okapi）
 * **保存ファイル名**: `okapi.png`
 
 ```text
@@ -505,7 +497,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ok
 ```
 
 ---
-### 64. プロングホーン（標準和名: プロングホーン / Pronghorn）
+### 63. プロングホーン（標準和名: プロングホーン / Pronghorn）
 * **保存ファイル名**: `pronghorn.png`
 
 ```text
@@ -513,7 +505,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic pr
 ```
 
 ---
-### 65. スイギュウ（標準和名: アジアスイギュウ / Water Buffalo）
+### 64. スイギュウ（標準和名: アジアスイギュウ / Water Buffalo）
 * **保存ファイル名**: `water-buffalo.png`
 
 ```text
@@ -521,7 +513,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic wa
 ```
 
 ---
-### 66. アメリカバイソン（標準和名: アメリカバイソン / American Bison）
+### 65. アメリカバイソン（標準和名: アメリカバイソン / American Bison）
 * **保存ファイル名**: `american-bison.png`
 
 ```text
@@ -529,7 +521,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic am
 ```
 
 ---
-### 67. トムソンガゼル（標準和名: トムソンガゼル / Thomson's Gazelle）
+### 66. トムソンガゼル（標準和名: トムソンガゼル / Thomson's Gazelle）
 * **保存ファイル名**: `thomsons-gazelle.png`
 
 ```text
@@ -537,7 +529,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic th
 ```
 
 ---
-### 68. インパラ（標準和名: インパラ / Impala）
+### 67. インパラ（標準和名: インパラ / Impala）
 * **保存ファイル名**: `impala.png`
 
 ```text
@@ -545,7 +537,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic im
 ```
 
 ---
-### 69. サイガ（標準和名: サイガ / Saiga）
+### 68. サイガ（標準和名: サイガ / Saiga）
 * **保存ファイル名**: `saiga.png`
 
 ```text
@@ -553,7 +545,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic sa
 ```
 
 ---
-### 70. ジェレヌク（標準和名: ジェレヌク / Gerenuk）
+### 69. ジェレヌク（標準和名: ジェレヌク / Gerenuk）
 * **保存ファイル名**: `gerenuk.png`
 
 ```text
@@ -561,7 +553,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ge
 ```
 
 ---
-### 71. ヌー（標準和名: オグロヌー / Wildebeest）
+### 70. ヌー（標準和名: オグロヌー / Wildebeest）
 * **保存ファイル名**: `wildebeest.png`
 
 ```text
@@ -569,7 +561,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic wi
 ```
 
 ---
-### 72. バーバリーシープ（標準和名: バーバリーシープ / Barbary Sheep）
+### 71. バーバリーシープ（標準和名: バーバリーシープ / Barbary Sheep）
 * **保存ファイル名**: `barbary-sheep.png`
 
 ```text
@@ -577,7 +569,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ba
 ```
 
 ---
-### 73. ビッグホーン（標準和名: ビッグホーン / Bighorn Sheep）
+### 72. ビッグホーン（標準和名: ビッグホーン / Bighorn Sheep）
 * **保存ファイル名**: `bighorn-sheep.png`
 
 ```text
@@ -585,7 +577,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic bi
 ```
 
 ---
-### 74. カモシカ（標準和名: ニホンカモシカ / Japanese Serow）
+### 73. カモシカ（標準和名: ニホンカモシカ / Japanese Serow）
 * **保存ファイル名**: `japanese-serow.png`
 
 ```text
@@ -593,7 +585,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ja
 ```
 
 ---
-### 75. オリックス（標準和名: アラビアオリックス / Arabian Oryx）
+### 74. オリックス（標準和名: アラビアオリックス / Arabian Oryx）
 * **保存ファイル名**: `arabian-oryx.png`
 
 ```text
@@ -601,7 +593,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ar
 ```
 
 ---
-### 76. コビトカバ（標準和名: コビトカバ / Pygmy Hippopotamus）
+### 75. コビトカバ（標準和名: コビトカバ / Pygmy Hippopotamus）
 * **保存ファイル名**: `pygmy-hippopotamus.png`
 
 ```text
@@ -609,7 +601,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic py
 ```
 
 ---
-### 77. コイワシクジラ（標準和名: ミンククジラ（コイワシクジラ） / Minke Whale）
+### 76. コイワシクジラ（標準和名: ミンククジラ（コイワシクジラ） / Minke Whale）
 * **保存ファイル名**: `minke-whale.png`
 
 ```text
@@ -617,7 +609,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic mi
 ```
 
 ---
-### 78. マイルカ（標準和名: マイルカ / Short-beaked Common Dolphin）
+### 77. マイルカ（標準和名: マイルカ / Short-beaked Common Dolphin）
 * **保存ファイル名**: `short-beaked-common-dolphin.png`
 
 ```text
@@ -625,7 +617,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic sh
 ```
 
 ---
-### 79. ゴンドウ（標準和名: コビレゴンドウ / Short-finned Pilot Whale）
+### 78. ゴンドウ（標準和名: コビレゴンドウ / Short-finned Pilot Whale）
 * **保存ファイル名**: `short-finned-pilot-whale.png`
 
 ```text
@@ -633,7 +625,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic sh
 ```
 
 ---
-### 80. イッカク（標準和名: イッカク / Narwhal）
+### 79. イッカク（標準和名: イッカク / Narwhal）
 * **保存ファイル名**: `narwhal.png`
 
 ```text
@@ -641,7 +633,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic na
 ```
 
 ---
-### 81. マッコウクジラ（標準和名: マッコウクジラ / Spermaceti Whale）
+### 80. マッコウクジラ（標準和名: マッコウクジラ / Spermaceti Whale）
 * **保存ファイル名**: `spermaceti-whale.png`
 
 ```text
@@ -649,7 +641,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic sp
 ```
 
 ---
-### 82. カワイルカ（標準和名: アマゾンカワイルカ / Amazon River Dolphin）
+### 81. カワイルカ（標準和名: アマゾンカワイルカ / Amazon River Dolphin）
 * **保存ファイル名**: `amazon-river-dolphin.png`
 
 ```text
@@ -657,7 +649,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic am
 ```
 
 ---
-### 83. スナメリ（標準和名: スナメリ / Finless Porpoise）
+### 82. スナメリ（標準和名: スナメリ / Finless Porpoise）
 * **保存ファイル名**: `finless-porpoise.png`
 
 ```text
@@ -665,7 +657,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic fi
 ```
 
 ---
-### 84. ウォンバット（標準和名: ヒメウォンバット / Wombat）
+### 83. ウォンバット（標準和名: ヒメウォンバット / Wombat）
 * **保存ファイル名**: `wombat.png`
 
 ```text
@@ -673,7 +665,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic wo
 ```
 
 ---
-### 85. フクロモモンガ（標準和名: フクロモモンガ / Sugar Glider）
+### 84. フクロモモンガ（標準和名: フクロモモンガ / Sugar Glider）
 * **保存ファイル名**: `sugar-glider.png`
 
 ```text
@@ -681,7 +673,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic su
 ```
 
 ---
-### 86. クスクス（標準和名: ブチクスクス / Spotted Cuscus）
+### 85. クスクス（標準和名: ブチクスクス / Spotted Cuscus）
 * **保存ファイル名**: `spotted-cuscus.png`
 
 ```text
@@ -689,7 +681,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic sp
 ```
 
 ---
-### 87. モウコノウマ（標準和名: モウコノウマ / Przewalski's Horse）
+### 86. モウコノウマ（標準和名: モウコノウマ / Przewalski's Horse）
 * **保存ファイル名**: `przewalskis-horse.png`
 
 ```text
@@ -697,7 +689,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic pr
 ```
 
 ---
-### 88. クロサイ（標準和名: クロサイ / Black Rhinoceros）
+### 87. クロサイ（標準和名: クロサイ / Black Rhinoceros）
 * **保存ファイル名**: `black-rhinoceros.png`
 
 ```text
@@ -705,7 +697,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic bl
 ```
 
 ---
-### 89. ユキウサギ（標準和名: エゾユキウサギ / Mountain Hare）
+### 88. ユキウサギ（標準和名: エゾユキウサギ / Mountain Hare）
 * **保存ファイル名**: `mountain-hare.png`
 
 ```text
@@ -713,7 +705,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic mo
 ```
 
 ---
-### 90. アマミノクロウサギ（標準和名: アマミノクロウサギ / Amami Rabbit）
+### 89. アマミノクロウサギ（標準和名: アマミノクロウサギ / Amami Rabbit）
 * **保存ファイル名**: `amami-rabbit.png`
 
 ```text
@@ -721,7 +713,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic am
 ```
 
 ---
-### 91. ナキウサギ（標準和名: エゾナキウサギ / Northern Pika）
+### 90. ナキウサギ（標準和名: エゾナキウサギ / Northern Pika）
 * **保存ファイル名**: `northern-pika.png`
 
 ```text
@@ -729,7 +721,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic no
 ```
 
 ---
-### 92. ヤマビーバー（標準和名: ヤマビーバー / Mountain Beaver）
+### 91. ヤマビーバー（標準和名: ヤマビーバー / Mountain Beaver）
 * **保存ファイル名**: `mountain-beaver.png`
 
 ```text
@@ -737,7 +729,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic mo
 ```
 
 ---
-### 93. ニホンリス（標準和名: ニホンリス / Japanese Squirrel）
+### 92. ニホンリス（標準和名: ニホンリス / Japanese Squirrel）
 * **保存ファイル名**: `japanese-squirrel.png`
 
 ```text
@@ -745,7 +737,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ja
 ```
 
 ---
-### 94. タイリクリス（標準和名: タイワンリス（クリハラリス） / Formosan Squirrel）
+### 93. タイリクリス（標準和名: タイワンリス（クリハラリス） / Formosan Squirrel）
 * **保存ファイル名**: `formosan-squirrel.png`
 
 ```text
@@ -753,7 +745,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic fo
 ```
 
 ---
-### 95. プレーリードッグ（標準和名: オグロプレーリードッグ / Black-tailed Prairie Dog）
+### 94. プレーリードッグ（標準和名: オグロプレーリードッグ / Black-tailed Prairie Dog）
 * **保存ファイル名**: `black-tailed-prairie-dog.png`
 
 ```text
@@ -761,7 +753,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic bl
 ```
 
 ---
-### 96. ヤマネ（標準和名: ニホンヤマネ / Japanese Dormouse）
+### 95. ヤマネ（標準和名: ニホンヤマネ / Japanese Dormouse）
 * **保存ファイル名**: `japanese-dormouse.png`
 
 ```text
@@ -769,7 +761,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ja
 ```
 
 ---
-### 97. ホリネズミ（標準和名: キタホリネズミ / Pocket Gopher）
+### 96. ホリネズミ（標準和名: キタホリネズミ / Pocket Gopher）
 * **保存ファイル名**: `pocket-gopher.png`
 
 ```text
@@ -777,7 +769,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic po
 ```
 
 ---
-### 98. カンガルーハムスター（標準和名: カンガルーハムスター / Kangaroo Mouse）
+### 97. カンガルーハムスター（標準和名: カンガルーハムスター / Kangaroo Mouse）
 * **保存ファイル名**: `kangaroo-mouse.png`
 
 ```text
@@ -785,7 +777,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ka
 ```
 
 ---
-### 99. マーラ（標準和名: パタゴニアマーラ / Patagonian Mara）
+### 98. マーラ（標準和名: パタゴニアマーラ / Patagonian Mara）
 * **保存ファイル名**: `patagonian-mara.png`
 
 ```text
@@ -793,7 +785,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic pa
 ```
 
 ---
-### 100. カナダヤマアラシ（標準和名: カナダヤマアラシ / North American Porcupine）
+### 99. カナダヤマアラシ（標準和名: カナダヤマアラシ / North American Porcupine）
 * **保存ファイル名**: `north-american-porcupine.png`
 
 ```text
@@ -801,7 +793,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic no
 ```
 
 ---
-### 101. チンチラ（標準和名: チンチラ / Chinchilla）
+### 100. チンチラ（標準和名: チンチラ / Chinchilla）
 * **保存ファイル名**: `chinchilla.png`
 
 ```text
@@ -809,7 +801,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ch
 ```
 
 ---
-### 102. デグー（標準和名: デグー / Degu）
+### 101. デグー（標準和名: デグー / Degu）
 * **保存ファイル名**: `degu.png`
 
 ```text
@@ -817,7 +809,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic de
 ```
 
 ---
-### 103. ヌートリア（標準和名: ヌートリア / Nutria）
+### 102. ヌートリア（標準和名: ヌートリア / Nutria）
 * **保存ファイル名**: `nutria.png`
 
 ```text
@@ -825,7 +817,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic nu
 ```
 
 ---
-### 104. レミング（標準和名: ノルウェーレミング（タビネズミ） / Lemming）
+### 103. レミング（標準和名: ノルウェーレミング（タビネズミ） / Lemming）
 * **保存ファイル名**: `norway-lemming.png`
 
 ```text
@@ -833,7 +825,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic le
 ```
 
 ---
-### 105. ドブネズミ（標準和名: ドブネズミ / Brown Rat）
+### 104. ドブネズミ（標準和名: ドブネズミ / Brown Rat）
 * **保存ファイル名**: `brown-rat.png`
 
 ```text
@@ -841,7 +833,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic br
 ```
 
 ---
-### 106. アマミトゲネズミ（標準和名: アマミトゲネズミ / Amami Spiny Rat）
+### 105. アマミトゲネズミ（標準和名: アマミトゲネズミ / Amami Spiny Rat）
 * **保存ファイル名**: `amami-spiny-rat.png`
 
 ```text
@@ -849,7 +841,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic am
 ```
 
 ---
-### 107. メクラネズミ（標準和名: パレスチナメクラネズミ / Blind Mole-rat）
+### 106. メクラネズミ（標準和名: パレスチナメクラネズミ / Blind Mole-rat）
 * **保存ファイル名**: `middle-east-blind-mole-rat.png`
 
 ```text
@@ -857,7 +849,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic bl
 ```
 
 ---
-### 108. ハダカデバネズミ（標準和名: ハダカデバネズミ / Naked Mole-rat）
+### 107. ハダカデバネズミ（標準和名: ハダカデバネズミ / Naked Mole-rat）
 * **保存ファイル名**: `naked-mole-rat.png`
 
 ```text
@@ -865,7 +857,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic na
 ```
 
 ---
-### 109. ホシバナモグラ（標準和名: ホシバナモグラ / Star-nosed Mole）
+### 108. ホシバナモグラ（標準和名: ホシバナモグラ / Star-nosed Mole）
 * **保存ファイル名**: `star-nosed-mole.png`
 
 ```text
@@ -873,7 +865,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic st
 ```
 
 ---
-### 110. ヒミズ（標準和名: ヒミズ / Japanese Shrew Mole）
+### 109. ヒミズ（標準和名: ヒミズ / Japanese Shrew Mole）
 * **保存ファイル名**: `japanese-shrew-mole.png`
 
 ```text
@@ -881,7 +873,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ja
 ```
 
 ---
-### 111. トガリネズミ（標準和名: トウキョウトガリネズミ / Ezo Red-toothed Shrew）
+### 110. トガリネズミ（標準和名: トウキョウトガリネズミ / Ezo Red-toothed Shrew）
 * **保存ファイル名**: `ezo-red-toothed-shrew.png`
 
 ```text
@@ -889,7 +881,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ez
 ```
 
 ---
-### 112. ミナミコアリクイ（標準和名: ミナミコアリクイ / Southern Tamandua）
+### 111. ミナミコアリクイ（標準和名: ミナミコアリクイ / Southern Tamandua）
 * **保存ファイル名**: `southern-tamandua.png`
 
 ```text
@@ -897,7 +889,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic so
 ```
 
 ---
-### 113. ヒメアリクイ（標準和名: ヒメアリクイ / Silky Anteater）
+### 112. ヒメアリクイ（標準和名: ヒメアリクイ / Silky Anteater）
 * **保存ファイル名**: `silky-anteater.png`
 
 ```text
@@ -905,7 +897,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic si
 ```
 
 ---
-### 114. シロヘラコウモリ（標準和名: シロヘラコウモリ / Honduran White Bat）
+### 113. シロヘラコウモリ（標準和名: シロヘラコウモリ / Honduran White Bat）
 * **保存ファイル名**: `honduran-white-bat.png`
 
 ```text
@@ -913,7 +905,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ho
 ```
 
 ---
-### 115. タスマニアデビル（標準和名: タスマニアデビル / Tasmanian Devil）
+### 114. タスマニアデビル（標準和名: タスマニアデビル / Tasmanian Devil）
 * **保存ファイル名**: `tasmanian-devil.png`
 
 ```text
@@ -921,7 +913,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ta
 ```
 
 ---
-### 116. フクロネコ（標準和名: キノボルフクロネコ / Quoll）
+### 115. フクロネコ（標準和名: キノボルフクロネコ / Quoll）
 * **保存ファイル名**: `quoll.png`
 
 ```text
@@ -929,7 +921,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic qu
 ```
 
 ---
-### 117. フクロアリクイ（標準和名: フクロアリクイ / Numbat）
+### 116. フクロアリクイ（標準和名: フクロアリクイ / Numbat）
 * **保存ファイル名**: `numbat.png`
 
 ```text
@@ -937,7 +929,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic nu
 ```
 
 ---
-### 118. センザンコウ（標準和名: サバンナセンザンコウ / Pangolin）
+### 117. センザンコウ（標準和名: サバンナセンザンコウ / Pangolin）
 * **保存ファイル名**: `pangolin.png`
 
 ```text
@@ -945,7 +937,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic pa
 ```
 
 ---
-### 119. オポッサム（標準和名: キタオポッサム / Opossum）
+### 118. オポッサム（標準和名: キタオポッサム / Opossum）
 * **保存ファイル名**: `virginia-opossum.png`
 
 ```text
@@ -953,7 +945,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic op
 ```
 
 ---
-### 120. ハイラックス（標準和名: ケープハイラックス / Rock Hyrax）
+### 119. ハイラックス（標準和名: ケープハイラックス / Rock Hyrax）
 * **保存ファイル名**: `rock-hyrax.png`
 
 ```text
@@ -961,7 +953,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic ro
 ```
 
 ---
-### 121. ツチブタ（標準和名: ツチブタ / Aardvark）
+### 120. ツチブタ（標準和名: ツチブタ / Aardvark）
 * **保存ファイル名**: `aardvark.png`
 
 ```text
@@ -969,7 +961,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic aa
 ```
 
 ---
-### 122. ビルビー（標準和名: ミミナガバンディクート / Greater Bilby）
+### 121. ビルビー（標準和名: ミミナガバンディクート / Greater Bilby）
 * **保存ファイル名**: `greater-bilby.png`
 
 ```text
@@ -977,7 +969,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic gr
 ```
 
 ---
-### 123. ヒヨケザル（標準和名: マレーヒヨケザル / Sunda Flying Lemur）
+### 122. ヒヨケザル（標準和名: マレーヒヨケザル / Sunda Flying Lemur）
 * **保存ファイル名**: `sunda-flying-lemur.png`
 
 ```text
@@ -985,7 +977,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic su
 ```
 
 ---
-### 124. ツパイ（標準和名: コモンツパイ / Treeshrew）
+### 123. ツパイ（標準和名: コモンツパイ / Treeshrew）
 * **保存ファイル名**: `common-treeshrew.png`
 
 ```text
@@ -993,7 +985,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic tr
 ```
 
 ---
-### 125. ハネオツパイ（標準和名: ハネオツパイ / Pen-tailed Treeshrew）
+### 124. ハネオツパイ（標準和名: ハネオツパイ / Pen-tailed Treeshrew）
 * **保存ファイル名**: `pen-tailed-treeshrew.png`
 
 ```text
@@ -1001,7 +993,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic pe
 ```
 
 ---
-### 126. テンレック（標準和名: シマテンレック / Tenrec）
+### 125. テンレック（標準和名: シマテンレック / Tenrec）
 * **保存ファイル名**: `lowland-streaked-tenrec.png`
 
 ```text
@@ -1009,7 +1001,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic te
 ```
 
 ---
-### 127. ハネジネズミ（標準和名: アカハネジネズミ / Elephant Shrew）
+### 126. ハネジネズミ（標準和名: アカハネジネズミ / Elephant Shrew）
 * **保存ファイル名**: `elephant-shrew.png`
 
 ```text

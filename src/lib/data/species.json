@@ -2274,8 +2274,8 @@
               "name_es_mx": "Chevrotain",
               "name_fr_fr": "Chevrotain aquatique",
               "name_id_id": "Pelancuk air",
-              "name_pt_pt": "Chevrotain de Agua",
-              "name_pt_br": "Chevrotain de Agua"
+              "name_pt_pt": "Trágulo-aquático",
+              "name_pt_br": "Trágulo-aquático"
             }
           ],
           "name_pt_pt": "Tragulidae",
@@ -3125,8 +3125,8 @@
               "name_es_mx": "Canguro",
               "name_fr_fr": "Kangourou roux",
               "name_id_id": "Kanguru Merah",
-              "name_pt_pt": "Canguro",
-              "name_pt_br": "Canguro"
+              "name_pt_pt": "Canguru-vermelho",
+              "name_pt_br": "Canguru-vermelho"
             },
             {
               "id": "quokka",
@@ -4245,10 +4245,10 @@
               "name_zh_tw": "盲鼠",
               "name_es_es": "Rata Topo Ciega",
               "name_es_mx": "Rata Topo Ciega",
-              "name_fr_fr": "Blind Mole-rat",
-              "name_id_id": "Blind Mole-rat",
-              "name_pt_pt": "Rata Topo Ciega",
-              "name_pt_br": "Rata Topo Ciega"
+              "name_fr_fr": "Rat-taupe aveugle",
+              "name_id_id": "Tikus tahi lalat bulus",
+              "name_pt_pt": "Rato-toupeira-cego",
+              "name_pt_br": "Rato-toupeira-cego"
             }
           ],
           "name_pt_pt": "Spalacidae",

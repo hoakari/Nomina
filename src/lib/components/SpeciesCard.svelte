@@ -578,7 +578,7 @@
     >
       <FlagIcon code={currentAccent} size="sm" />
       <span>{getForeignName(currentAccent)}</span>
-      <span class="text-[10px] {listenBadgeClass} text-white px-1.5 py-0.2 rounded-full font-bold">Listen</span>
+      <span class="text-xs {listenBadgeClass} text-white px-1.5 py-0.5 rounded-full font-bold">🔊</span>
     </button>
   </div>
 

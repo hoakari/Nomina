@@ -43,12 +43,12 @@
               "accent_color": "border-slate-400",
               "name_zh_cn": "灰狼",
               "name_zh_tw": "灰狼",
-              "name_es_es": "Lobo Gris",
-              "name_es_mx": "Lobo Gris",
-              "name_fr_fr": "Wolf",
-              "name_id_id": "Wolf",
-              "name_pt_pt": "Lobo-cinzento",
-              "name_pt_br": "Lobo-cinzento"
+              "name_es_es": "Lobo",
+              "name_es_mx": "Lobo",
+              "name_fr_fr": "Loup",
+              "name_id_id": "Serigala",
+              "name_pt_pt": "Lobo",
+              "name_pt_br": "Lobo"
             },
             {
               "id": "coyote",
@@ -280,12 +280,12 @@
               "accent_color": "border-teal-300",
               "name_zh_cn": "大熊猫",
               "name_zh_tw": "大貓熊",
-              "name_es_es": "Panda Gigante",
-              "name_es_mx": "Panda Gigante",
-              "name_fr_fr": "Panda géant",
-              "name_id_id": "Panda Raksasa",
-              "name_pt_pt": "Panda-gigante",
-              "name_pt_br": "Panda-gigante"
+              "name_es_es": "Panda",
+              "name_es_mx": "Panda",
+              "name_fr_fr": "Panda",
+              "name_id_id": "Panda",
+              "name_pt_pt": "Panda",
+              "name_pt_br": "Panda"
             },
             {
               "id": "brown-bear",
@@ -473,7 +473,7 @@
               "name_es_es": "Mapache",
               "name_es_mx": "Mapache",
               "name_fr_fr": "Raton laveur",
-              "name_id_id": "Raccoon",
+              "name_id_id": "Rakun",
               "name_pt_pt": "Guaxinim",
               "name_pt_br": "Guaxinim"
             },
@@ -520,7 +520,7 @@
               "name_es_es": "Mofeta",
               "name_es_mx": "Zorrillo",
               "name_fr_fr": "Mofette",
-              "name_id_id": "Skunk",
+              "name_id_id": "Sigung",
               "name_pt_pt": "Cangambá",
               "name_pt_br": "Gambá"
             }
@@ -549,7 +549,7 @@
               "name_es_mx": "Nutria Marina",
               "name_fr_fr": "Loutre de mer",
               "name_id_id": "Berang-berang Laut",
-              "name_pt_pt": "Nutria-marinha",
+              "name_pt_pt": "Lontra-marinha",
               "name_pt_br": "Lontra-marinha"
             },
             {
@@ -2349,7 +2349,7 @@
               "name_es_mx": "Reno",
               "name_en_gb": "Reindeer",
               "name_fr_fr": "Renne",
-              "name_id_id": "Rusa Kutub",
+              "name_id_id": "Rusa kutub",
               "name_pt_pt": "Rena",
               "name_pt_br": "Rena"
             },
@@ -2387,7 +2387,7 @@
               "name_es_es": "Alce",
               "name_es_mx": "Alce",
               "name_fr_fr": "Élan",
-              "name_id_id": "Rusa Besar",
+              "name_id_id": "Rusa besar",
               "name_pt_pt": "Alce",
               "name_pt_br": "Alce"
             }
@@ -5068,8 +5068,8 @@
               "name_zh_tw": "土豚",
               "name_es_es": "Oricteropo",
               "name_es_mx": "Cerdo Hormiguero",
-              "name_fr_fr": "Aardvark",
-              "name_id_id": "Aardvark",
+              "name_fr_fr": "Oryctérope",
+              "name_id_id": "Babi tanah",
               "name_pt_pt": "Oricteropo",
               "name_pt_br": "Oricteropo"
             }

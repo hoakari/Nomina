@@ -38,7 +38,7 @@
               "name_standard_ja": "タイリクオオカミ",
               "name_en": "Wolf",
               "image": "/images/animals/wolf.webp",
-              "description_note": "イヌのご先祖様で群れで遠吠えするよ",
+              "description_note": "イヌのご先祖にとても近い仲間で群れで遠吠えするよ",
               "bg_color": "from-slate-100 to-zinc-200",
               "accent_color": "border-slate-400",
               "name_zh_cn": "灰狼",
@@ -2113,9 +2113,9 @@
               "name_es_es": "Llama",
               "name_es_mx": "Llama",
               "name_fr_fr": "Lama",
-              "name_id_id": "Llama",
-              "name_pt_pt": "Llama",
-              "name_pt_br": "Llama"
+              "name_id_id": "Lama",
+              "name_pt_pt": "Lhama",
+              "name_pt_br": "Lhama"
             }
           ],
           "name_pt_pt": "Camelidae",
@@ -4446,7 +4446,7 @@
               "name_standard_ja": "ハイチソレノドン",
               "name_en": "Solenodon",
               "image": "/images/animals/hispaniolan-solenodon.webp",
-              "description_note": "白亜紀から姿を変えない生きている化石！唾液に強烈な毒を持つ珍しい哺乳類！",
+              "description_note": "白亜紀からほとんど姿を変えない生きている化石！唾液に強烈な毒を持つ珍しい哺乳類！",
               "bg_color": "from-teal-100 to-cyan-100",
               "accent_color": "border-teal-400",
               "name_zh_cn": "沟齿鼩",

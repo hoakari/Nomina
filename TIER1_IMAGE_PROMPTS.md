@@ -1,5 +1,6 @@
-# 🎨 Nomina! Tier 1 未作成動物画像 プロンプト＆保存ファイル名一覧（残り8種）
-> 保存先: `static/images/animals/` またはプロジェクトルート (推奨フォーマット: PNG / 最大800x800以下に自動軽量化されます)
+# 🎨 Nomina! Tier 1 未作成動物画像 プロンプト＆保存ファイル名一覧
+
+> 保存先: `static/images/animals/` またはプロジェクトルート (推奨フォーマット: WebP / PNG / 最大800x800以下に自動軽量化されます)
 
 ---
 
@@ -15,7 +16,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic do
 * **保存ファイル名**: `masked-palm-civet.png`
 
 ```text
-A charming, high-resolution detailed digital illustration of a cute realistic masked palm civet (Paguma larvata) standing curiously on a wooden beam near a traditional Japanese suburban house garden at dusk, featuring a distinct white stripe running down its forehead and nose, a slender greyish-brown body, black paws, and a long tail, warm soft ambient light, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a cute realistic masked palm civet (Paguma larvata) standing curiously on a wall along a modern Japanese city street at dusk, with soft glowing streetlights and modern urban cityscape in the background, featuring a distinct white stripe running down its forehead and nose, a slender greyish-brown body, black paws, and a long tail, warm soft ambient light, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 ---
 
@@ -43,7 +44,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic Ja
 ```
 ---
 
-### 06. ワラビー（標準和名: ワラビー（ベネットワラビー） / Wallaby）
+### 06. ワラビー（標準和名: アカクビワラビー / Wallaby）
 * **保存ファイル名**: `wallaby.png`
 
 ```text
@@ -65,4 +66,13 @@ A charming, high-resolution detailed digital illustration of a cute realistic nu
 ```text
 A charming, high-resolution detailed digital illustration of a cute realistic common bottlenose dolphin (Tursiops truncatus) leaping gracefully above clear blue ocean waters with gentle water splashes, featuring a sleek smooth grey body, curved dorsal fin, and expressive friendly face, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
+---
+
+### 09. カイウサギ（標準和名: カイウサギ（アナウサギ） / Rabbit）
+* **保存ファイル名**: `rabbit.webp`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic domestic rabbit (カイウサギ) with pure white fur and distinctive ruby-red eyes, sitting gracefully inside a cozy wooden and wire mesh school animal hutch with fresh green clover leaves, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+
 

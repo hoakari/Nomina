@@ -777,8 +777,8 @@
               "name_es_mx": "León Marino",
               "name_fr_fr": "Otarie",
               "name_id_id": "Singa Laut",
-              "name_pt_pt": "Leão Marino",
-              "name_pt_br": "Leão Marino"
+              "name_pt_pt": "Leão-marinho",
+              "name_pt_br": "Leão-marinho"
             },
             {
               "id": "todo",
@@ -1602,7 +1602,7 @@
               "name_standard_ja": "ゴールデンライオンタマリン",
               "name_en": "Golden Lion Tamarin",
               "image": "/images/animals/golden-lion-tamarin.webp",
-              "description_note": "輝く金色の毛並みとタテガミを持つ南米の小さなライオン",
+              "description_note": "金色の毛並みとりっぱなタテガミがライオンみたいな、南米にすむ小さなサル",
               "bg_color": "from-sky-100 to-blue-100",
               "accent_color": "border-sky-300",
               "name_zh_cn": "金狮面狨",
@@ -2057,8 +2057,8 @@
               "name_es_mx": "Camello",
               "name_fr_fr": "Chameau de Bactriane",
               "name_id_id": "Unta Baktria",
-              "name_pt_pt": "Camello",
-              "name_pt_br": "Camello"
+              "name_pt_pt": "Camelo",
+              "name_pt_br": "Camelo"
             },
             {
               "id": "dromedary-camel",
@@ -2076,8 +2076,8 @@
               "name_es_mx": "Dromedario",
               "name_fr_fr": "Dromadaire",
               "name_id_id": "Unta Arab",
-              "name_pt_pt": "Dromedario",
-              "name_pt_br": "Dromedario"
+              "name_pt_pt": "Dromedário",
+              "name_pt_br": "Dromedário"
             },
             {
               "id": "alpaca",
@@ -2142,8 +2142,8 @@
               "name_es_mx": "Jabalí",
               "name_fr_fr": "Sanglier",
               "name_id_id": "Babi Hutan",
-              "name_pt_pt": "Jabalí",
-              "name_pt_br": "Jabalí"
+              "name_pt_pt": "Javali",
+              "name_pt_br": "Javali"
             },
             {
               "id": "pig",
@@ -2161,8 +2161,8 @@
               "name_es_mx": "Cerdo",
               "name_fr_fr": "Cochon",
               "name_id_id": "Babi",
-              "name_pt_pt": "Cerdo",
-              "name_pt_br": "Cerdo"
+              "name_pt_pt": "Porco",
+              "name_pt_br": "Porco"
             },
             {
               "id": "warthog",
@@ -2227,8 +2227,8 @@
               "name_es_mx": "Pecarí de Collar",
               "name_fr_fr": "Pécari à collier",
               "name_id_id": "Pekari Berkerah",
-              "name_pt_pt": "Pecarí de Collar",
-              "name_pt_br": "Pecarí de Collar"
+              "name_pt_pt": "Pecari-de-coleira",
+              "name_pt_br": "Cateto"
             }
           ],
           "name_pt_pt": "Tayassuidae",
@@ -2330,8 +2330,8 @@
               "name_es_mx": "Venado",
               "name_fr_fr": "Cerf Sika",
               "name_id_id": "Rusa Sika",
-              "name_pt_pt": "Ciervo",
-              "name_pt_br": "Ciervo"
+              "name_pt_pt": "Cervo",
+              "name_pt_br": "Cervo"
             },
             {
               "id": "reindeer",
@@ -2367,8 +2367,8 @@
               "name_zh_tw": "山羌",
               "name_es_es": "Muntíac",
               "name_es_mx": "Muntíac",
-              "name_fr_fr": "Reeves's Muntjac",
-              "name_id_id": "Reeves's Muntjac",
+              "name_fr_fr": "Muntjac de Reeves",
+              "name_id_id": "Muncak Reeves",
               "name_pt_pt": "Muntíac",
               "name_pt_br": "Muntíac"
             },
@@ -3607,7 +3607,7 @@
               "name_zh_tw": "山海狸",
               "name_es_es": "Castor de Montaña",
               "name_es_mx": "Castor de Montaña",
-              "name_fr_fr": "Mountain Beaver",
+              "name_fr_fr": "Castor de montagne",
               "name_id_id": "Berang-berang gunung",
               "name_pt_pt": "Castor-de-montanha",
               "name_pt_br": "Castor-de-montanha"
@@ -4246,7 +4246,7 @@
               "name_es_es": "Rata Topo Ciega",
               "name_es_mx": "Rata Topo Ciega",
               "name_fr_fr": "Rat-taupe aveugle",
-              "name_id_id": "Tikus tahi lalat bulus",
+              "name_id_id": "Tikus tahi lalat buta",
               "name_pt_pt": "Rato-toupeira-cego",
               "name_pt_br": "Rato-toupeira-cego"
             }

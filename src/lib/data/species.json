@@ -512,7 +512,7 @@
               "name_standard_ja": "シマスカンク",
               "name_en": "Skunk",
               "image": "/images/animals/skunk.webp",
-              "description_note": "強烈なにおいっぺを出して身を守るよ",
+              "description_note": "強烈なにおいをだして敵をおどろかすよ！",
               "bg_color": "from-purple-100 to-indigo-100",
               "accent_color": "border-purple-300",
               "name_zh_cn": "臭鼬",
@@ -1611,8 +1611,8 @@
               "name_es_mx": "Tamarino León Dorado",
               "name_fr_fr": "Tamarin lion doré",
               "name_id_id": "Tamarin Singa Emas",
-              "name_pt_pt": "Tamarino Leão Dorado",
-              "name_pt_br": "Tamarino Leão Dorado"
+              "name_pt_pt": "Mico-leão-dourado",
+              "name_pt_br": "Mico-leão-dourado"
             },
             {
               "id": "pygmy-marmoset",
@@ -1630,8 +1630,8 @@
               "name_es_mx": "Tití Pigmeo",
               "name_fr_fr": "Ouistiti pygmée",
               "name_id_id": "Marmoset Kerdil",
-              "name_pt_pt": "Tití Pigmeo",
-              "name_pt_br": "Tití Pigmeo"
+              "name_pt_pt": "Sagui-pigmeu",
+              "name_pt_br": "Sagui-pigmeu"
             }
           ],
           "name_pt_pt": "Callitrichidae",
@@ -1682,12 +1682,12 @@
               "accent_color": "border-red-300",
               "name_zh_cn": "日本猕猴",
               "name_zh_tw": "日本獼猴",
-              "name_es_es": "Macaco Japonés",
+              "name_es_es": "Mono Japonés",
               "name_es_mx": "Mono Japonés",
               "name_fr_fr": "Macaque japonais",
               "name_id_id": "Monyet Jepang",
-              "name_pt_pt": "Macaco Japonés",
-              "name_pt_br": "Macaco Japonés"
+              "name_pt_pt": "Macaco-japonês",
+              "name_pt_br": "Macaco-japonês"
             },
             {
               "id": "golden-snub-nosed-monkey",
@@ -1696,7 +1696,7 @@
               "name_standard_ja": "キンシコウ",
               "name_en": "Golden Snub-nosed Monkey",
               "image": "/images/animals/golden-snub-nosed-monkey.webp",
-              "description_note": "孫悟空のモデル！青いお顔と美しい黄金の毛並みを持つ珍しいサル",
+              "description_note": "孫悟空のモデルとも言われるフワフワな毛のキレイなサル",
               "bg_color": "from-amber-100 to-yellow-100",
               "accent_color": "border-amber-400",
               "name_zh_cn": "川金丝猴",
@@ -2255,8 +2255,8 @@
               "name_es_mx": "Ciervo Ratón",
               "name_fr_fr": "Chevrotain javanais",
               "name_id_id": "Kancil",
-              "name_pt_pt": "Ciervo Ratón",
-              "name_pt_br": "Ciervo Ratón"
+              "name_pt_pt": "Trágulo-javanês",
+              "name_pt_br": "Trágulo-javanês"
             },
             {
               "id": "water-chevrotain",
@@ -2302,8 +2302,8 @@
               "name_es_mx": "Ciervo Almizclero",
               "name_fr_fr": "Porte-musc de Sibérie",
               "name_id_id": "Rusa kasturi",
-              "name_pt_pt": "Ciervo Almizclero",
-              "name_pt_br": "Ciervo Almizclero"
+              "name_pt_pt": "Veado-almizcareiro-siberiano",
+              "name_pt_br": "Veado-almizcareiro-siberiano"
             }
           ],
           "name_pt_pt": "Moschidae",
@@ -3057,7 +3057,7 @@
               "name_es_es": "Delfín Rosado",
               "name_es_mx": "Delfín del Amazonas",
               "name_fr_fr": "Boto",
-              "name_id_id": "Amazon River Dolphin",
+              "name_id_id": "Lumba-lumba sungai Amazon",
               "name_pt_pt": "Boto-cor-de-rosa",
               "name_pt_br": "Boto-cor-de-rosa"
             }
@@ -3246,7 +3246,7 @@
               "name_es_es": "Petauro del Azúcar",
               "name_es_mx": "Petauro del Azúcar",
               "name_fr_fr": "Phalanger volant",
-              "name_id_id": "Sugar Glider",
+              "name_id_id": "Posum layang",
               "name_pt_pt": "Petauro-do-açúcar",
               "name_pt_br": "Petauro-do-açúcar"
             }
@@ -3608,7 +3608,7 @@
               "name_es_es": "Castor de Montaña",
               "name_es_mx": "Castor de Montaña",
               "name_fr_fr": "Mountain Beaver",
-              "name_id_id": "Mountain Beaver",
+              "name_id_id": "Berang-berang gunung",
               "name_pt_pt": "Castor-de-montanha",
               "name_pt_br": "Castor-de-montanha"
             }
@@ -3812,12 +3812,12 @@
               "accent_color": "border-indigo-300",
               "name_zh_cn": "囊鼠",
               "name_zh_tw": "囊鼠",
-              "name_es_es": "Tuzo",
-              "name_es_mx": "Tuzo",
+              "name_es_es": "Tuza",
+              "name_es_mx": "Tuza",
               "name_fr_fr": "Gopher",
               "name_id_id": "Gopher",
-              "name_pt_pt": "Tuzo",
-              "name_pt_br": "Tuzo"
+              "name_pt_pt": "Geomídeo",
+              "name_pt_br": "Geomídeo"
             }
           ],
           "name_pt_pt": "Geomyidae",
@@ -4078,8 +4078,8 @@
               "name_es_mx": "Jerbo Pigmeo",
               "name_fr_fr": "Gerboise pygmée",
               "name_id_id": "Jerboa kerdil",
-              "name_pt_pt": "Jerbo Pigmeo",
-              "name_pt_br": "Jerbo Pigmeo"
+              "name_pt_pt": "Jerboa-pigmeu",
+              "name_pt_br": "Jerboa-pigmeu"
             }
           ],
           "name_pt_pt": "Dipodidae",
@@ -4151,10 +4151,10 @@
               "name_zh_tw": "冠鼠",
               "name_es_es": "Rata de Melena",
               "name_es_mx": "Rata de Melena",
-              "name_fr_fr": "Maned Rat",
-              "name_id_id": "Maned Rat",
-              "name_pt_pt": "Rata de Melena",
-              "name_pt_br": "Rata de Melena"
+              "name_fr_fr": "Rat crêté",
+              "name_id_id": "Tikus surai",
+              "name_pt_pt": "Rato-de-crista",
+              "name_pt_br": "Rato-de-crista"
             }
           ],
           "name_pt_pt": "Lophiomyidae",
@@ -4200,7 +4200,7 @@
               "name_es_mx": "Rata Alcantarilla",
               "name_fr_fr": "Surmulot",
               "name_id_id": "Tikus Got",
-              "name_pt_pt": "Rana-marrom",
+              "name_pt_pt": "Rato-marrom",
               "name_pt_br": "Rato-castanho"
             },
             {
@@ -4218,7 +4218,7 @@
               "name_es_es": "Rata Espinosa de Amami",
               "name_es_mx": "Rata Espinosa de Amami",
               "name_fr_fr": "Amami Spiny Rat",
-              "name_id_id": "Amami Spiny Rat",
+              "name_id_id": "Tikus duri Amami",
               "name_pt_pt": "Rato-espinhoso-de-amami",
               "name_pt_br": "Rato-espinhoso-de-amami"
             }
@@ -4380,8 +4380,8 @@
               "name_es_mx": "Topo Japonés",
               "name_fr_fr": "Taupe-musaraigne du Japon",
               "name_id_id": "Tikus Mondok Jepang",
-              "name_pt_pt": "Topo Japonés",
-              "name_pt_br": "Topo Japonés"
+              "name_pt_pt": "Toupeira-japonesa",
+              "name_pt_br": "Toupeira-japonesa"
             }
           ],
           "name_pt_pt": "Talpidae",
@@ -4408,8 +4408,8 @@
               "name_es_mx": "Musaraña",
               "name_fr_fr": "Musaraigne de Schrenck",
               "name_id_id": "Curut Ezo",
-              "name_pt_pt": "Musaraña",
-              "name_pt_br": "Musaraña"
+              "name_pt_pt": "Musaranho-de-ezo",
+              "name_pt_br": "Musaranho-de-ezo"
             },
             {
               "id": "hero-shrew",
@@ -4992,8 +4992,8 @@
               "name_es_mx": "Tlacuache de Agua",
               "name_fr_fr": "Yapok",
               "name_id_id": "Oposum air",
-              "name_pt_pt": "Zarigüeya de Agua",
-              "name_pt_br": "Zarigüeya de Agua"
+              "name_pt_pt": "Yapok",
+              "name_pt_br": "Yapok"
             }
           ],
           "name_pt_pt": "Didelphidae",
@@ -5147,7 +5147,7 @@
               "name_es_es": "Lémur Volador",
               "name_es_mx": "Lémur Volador",
               "name_fr_fr": "Sunda Flying Lemur",
-              "name_id_id": "Sunda Flying Lemur",
+              "name_id_id": "Kubung Sunda",
               "name_pt_pt": "Lémure-voador",
               "name_pt_br": "Lémure-voador"
             }
@@ -5292,7 +5292,7 @@
               "name_es_es": "Musaraña Elefante",
               "name_es_mx": "Musaraña Elefante",
               "name_fr_fr": "Elephant Shrew",
-              "name_id_id": "Elephant Shrew",
+              "name_id_id": "Curut gajah",
               "name_pt_pt": "Musaranho-elefante",
               "name_pt_br": "Musaranho-elefante"
             }
@@ -5323,7 +5323,7 @@
               "name_standard_ja": "チロエオポッサム（コロコロ）",
               "name_en": "Monito del Monte",
               "image": "/images/animals/monito-del-monte.webp",
-              "description_note": "南米にすむのにオーストラリアの有袋類のご先祖様！冬眠する珍しい仲間（1目1科1属1種）",
+              "description_note": "オーストラリアの有袋類に一番近い南米の珍しい仲間",
               "bg_color": "from-indigo-100 to-purple-100",
               "accent_color": "border-indigo-300",
               "name_zh_cn": "智利小负鼠",
@@ -5367,12 +5367,12 @@
               "accent_color": "border-teal-400",
               "name_zh_cn": "鼩负鼠",
               "name_zh_tw": "鼩負鼠",
-              "name_es_es": "Zarigüeya Shrew",
-              "name_es_mx": "Zarigüeya Ratón",
+              "name_es_es": "Zarigüeya Musaraña",
+              "name_es_mx": "Zarigüeya Musaraña",
               "name_fr_fr": "Opossum-musaraigne",
               "name_id_id": "Oposum tikus",
-              "name_pt_pt": "Zarigüeya Shrew",
-              "name_pt_br": "Zarigüeya Shrew"
+              "name_pt_pt": "Gambá-musaranho",
+              "name_pt_br": "Gambá-musaranho"
             }
           ],
           "name_pt_pt": "Caenolestidae",

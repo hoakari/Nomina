@@ -1,62 +1,6 @@
-# 🎨 Nomina! Tier 2 未作成動物画像 プロンプト＆保存ファイル名一覧（残り96種）
+# 🎨 Nomina! Tier 2 未作成動物画像 プロンプト＆保存ファイル名一覧（残り88種）
 > 保存先: `static/images/animals/` またはプロジェクトルート (推奨フォーマット: PNG / 最大800x800以下に自動軽量化されます)
 
-
-### 18. ビントロング（標準和名: ビントロング / Binturong）
-* **保存ファイル名**: `binturong.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic binturong (ビントロング) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 19. フォッサ（標準和名: フォッサ / Fossa）
-* **保存ファイル名**: `fossa.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic fossa (フォッサ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 20. オビリンサン（標準和名: オビリンサン / Banded Linsang）
-* **保存ファイル名**: `banded-linsang.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic banded linsang (オビリンサン) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 21. スローロリス（標準和名: スローロリス / Slow Loris）
-* **保存ファイル名**: `slow-loris.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic slow loris (スローロリス) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 22. アイアイ（標準和名: アイアイ / Aye-aye）
-* **保存ファイル名**: `aye-aye.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic aye-aye (アイアイ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 23. メガネザル（標準和名: フィリピンメガネザル / Tarsier）
-* **保存ファイル名**: `philippine-tarsier.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic tarsier (フィリピンメガネザル) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 24. ゴールデンライオンタマリン（標準和名: ゴールデンライオンタマリン / Golden Lion Tamarin）
-* **保存ファイル名**: `golden-lion-tamarin.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic golden lion tamarin (ゴールデンライオンタマリン) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
 
 ### 25. ピグミーマーモセット（標準和名: ピグミーマーモセット / Pygmy Marmoset）
 * **保存ファイル名**: `pygmy-marmoset.png`
@@ -79,14 +23,6 @@ A charming, high-resolution detailed digital illustration of a cute realistic go
 
 ```text
 A charming, high-resolution detailed digital illustration of a cute realistic hamadryas baboon (マントヒヒ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 28. サバンナモンキー（標準和名: サバンナモンキー（バーベットモンキー） / Vervet Monkey）
-* **保存ファイル名**: `vervet-monkey.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic vervet monkey (サバンナモンキー（バーベットモンキー）) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 ---
 

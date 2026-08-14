@@ -1416,7 +1416,7 @@
               "name_pt_pt": "Lobo-terra",
               "name_pt_br": "Lobo-terra",
               "name_hiragana": "あーどうるふ",
-              "name_kanji": "アードウルフ"
+              "name_kanji": "土豚"
             }
           ],
           "name_pt_pt": "Hyaenidae",
@@ -1640,7 +1640,7 @@
               "name_pt_pt": "Lémure-de-cauda-anelada",
               "name_pt_br": "Lêmure-de-cauda-anelada",
               "name_hiragana": "わおきつねざる",
-              "name_kanji": "ワオキツネザル"
+              "name_kanji": "輪尾狐猿"
             }
           ],
           "name_pt_pt": "Lemuridae",
@@ -1730,7 +1730,7 @@
               "name_pt_pt": "Tarsio",
               "name_pt_br": "Tarsio",
               "name_hiragana": "めがねざる",
-              "name_kanji": "メガネザル"
+              "name_kanji": "眼鏡猿"
             }
           ],
           "name_pt_pt": "Tarsiidae",
@@ -1811,7 +1811,7 @@
               "name_pt_pt": "Macaco-esquilo",
               "name_pt_br": "Macaco-esquilo",
               "name_hiragana": "りすざる",
-              "name_kanji": "リスザル"
+              "name_kanji": "栗鼠猿"
             }
           ],
           "name_pt_pt": "Cebidae",
@@ -1853,8 +1853,8 @@
               "description_note": "孫悟空のモデルとも言われるフワフワな毛のキレイなサル",
               "bg_color": "from-amber-100 to-yellow-100",
               "accent_color": "border-amber-400",
-              "name_zh_cn": "川金丝猴",
-              "name_zh_tw": "川金絲猴",
+              "name_zh_cn": "金丝猴",
+              "name_zh_tw": "金絲猴",
               "name_es_es": "Mono Dorado",
               "name_es_mx": "Mono Dorado",
               "name_fr_fr": "Rhinopithèque de Roxellana",
@@ -1862,7 +1862,7 @@
               "name_pt_pt": "Macaco-dourado",
               "name_pt_br": "Macaco-dourado",
               "name_hiragana": "きんしこう",
-              "name_kanji": "キンシコウ"
+              "name_kanji": "金糸猴"
             },
             {
               "id": "hamadryas-baboon",
@@ -1883,7 +1883,7 @@
               "name_pt_pt": "Babuíno-sagrado",
               "name_pt_br": "Babuíno-sagrado",
               "name_hiragana": "まんとひひ",
-              "name_kanji": "マントヒヒ"
+              "name_kanji": "マント狒狒"
             },
             {
               "id": "vervet-monkey",
@@ -1925,7 +1925,7 @@
               "name_pt_pt": "Macaco-narigudo",
               "name_pt_br": "Macaco-narigudo",
               "name_hiragana": "てんぐざる",
-              "name_kanji": "テングザル"
+              "name_kanji": "天狗猿"
             },
             {
               "id": "mandrill",
@@ -1997,7 +1997,7 @@
               "name_pt_pt": "Gibón",
               "name_pt_br": "Gibón",
               "name_hiragana": "てながざる",
-              "name_kanji": "テナガザル"
+              "name_kanji": "手長猿"
             }
           ],
           "name_pt_pt": "Hylobatidae",
@@ -2111,7 +2111,7 @@
               "name_pt_pt": "Humano",
               "name_pt_br": "Humano",
               "name_hiragana": "ひと",
-              "name_kanji": "ヒト"
+              "name_kanji": "人（人間）"
             }
           ],
           "name_pt_pt": "Hominidae",
@@ -2379,7 +2379,7 @@
               "name_pt_pt": "Facóquero",
               "name_pt_br": "Facóquero",
               "name_hiragana": "いぼいのしし",
-              "name_kanji": "イボイノシシ"
+              "name_kanji": "疣猪"
             },
             {
               "id": "babirusa",
@@ -2460,7 +2460,7 @@
               "name_pt_pt": "Trágulo-javanês",
               "name_pt_br": "Trágulo-javanês",
               "name_hiragana": "まめじか",
-              "name_kanji": "マメジカ"
+              "name_kanji": "豆鹿"
             },
             {
               "id": "water-chevrotain",
@@ -2481,7 +2481,7 @@
               "name_pt_pt": "Trágulo-aquático",
               "name_pt_br": "Trágulo-aquático",
               "name_hiragana": "みずまめじか",
-              "name_kanji": "ミズマメジカ"
+              "name_kanji": "水豆鹿"
             }
           ],
           "name_pt_pt": "Tragulidae",
@@ -2511,7 +2511,7 @@
               "name_pt_pt": "Veado-almizcareiro-siberiano",
               "name_pt_br": "Veado-almizcareiro-siberiano",
               "name_hiragana": "じゃこうじか",
-              "name_kanji": "ジャコウジカ"
+              "name_kanji": "麝香鹿"
             }
           ],
           "name_pt_pt": "Moschidae",
@@ -3112,7 +3112,7 @@
               "name_pt_pt": "Baleia-minke",
               "name_pt_br": "Baleia-minke",
               "name_hiragana": "みんくくじら",
-              "name_kanji": "ミンククジラ"
+              "name_kanji": "小鰮鯨"
             }
           ],
           "name_pt_pt": "Balaenopteridae",
@@ -3189,7 +3189,7 @@
             {
               "id": "short-finned-pilot-whale",
               "tier": 2,
-              "name_common": "ゴンドウ",
+              "name_common": "ゴンドウクジラ",
               "name_standard_ja": "コビレゴンドウ",
               "name_en": "Short-finned Pilot Whale",
               "image": "/images/animals/short-finned-pilot-whale.webp",
@@ -3205,7 +3205,7 @@
               "name_pt_pt": "Baleia-piloto",
               "name_pt_br": "Baleia-piloto",
               "name_hiragana": "ごんどう",
-              "name_kanji": "ゴンドウ"
+              "name_kanji": "巨頭鯨"
             },
             {
               "id": "commersons-dolphin",
@@ -3817,7 +3817,7 @@
               "name_pt_pt": "Lebre",
               "name_pt_br": "Lebre",
               "name_hiragana": "のうさぎ",
-              "name_kanji": "ノウサギ"
+              "name_kanji": "野兎"
             },
             {
               "id": "mountain-hare",
@@ -3838,7 +3838,7 @@
               "name_pt_pt": "Lebre-variável",
               "name_pt_br": "Lebre-variável",
               "name_hiragana": "ゆきうさぎ",
-              "name_kanji": "ユキウサギ"
+              "name_kanji": "雪兎"
             },
             {
               "id": "amami-rabbit",
@@ -4155,7 +4155,7 @@
               "name_pt_pt": "Geomídeo",
               "name_pt_br": "Geomídeo",
               "name_hiragana": "ほりねずみ",
-              "name_kanji": "ホリネズミ"
+              "name_kanji": "掘鼠"
             }
           ],
           "name_pt_pt": "Geomyidae",
@@ -4221,7 +4221,7 @@
               "id": "guinea-pig",
               "tier": 1,
               "name_common": "モルモット",
-              "name_standard_ja": "モルモット",
+              "name_standard_ja": "テンジクネズミ",
               "name_en": "Guinea Pig",
               "image": "/images/animals/guinea-pig.webp",
               "description_note": "ぷくぷく丸い体！ふれあい動物園でおなじみの人気者",
@@ -4236,7 +4236,7 @@
               "name_pt_pt": "Cobaias",
               "name_pt_br": "Porquinho-da-índia",
               "name_hiragana": "もるもっと",
-              "name_kanji": "モルモット"
+              "name_kanji": "天竺鼠"
             },
             {
               "id": "patagonian-mara",
@@ -4488,7 +4488,7 @@
               "name_pt_pt": "Lemming",
               "name_pt_br": "Lemming",
               "name_hiragana": "れみんぐ",
-              "name_kanji": "レミング"
+              "name_kanji": "旅鼠"
             }
           ],
           "name_pt_pt": "Cricetidae",
@@ -4590,7 +4590,7 @@
               "name_pt_pt": "Rato-espinhoso-de-amami",
               "name_pt_br": "Rato-espinhoso-de-amami",
               "name_hiragana": "あまみとげねずみ",
-              "name_kanji": "アマミトゲネズミ"
+              "name_kanji": "奄美棘鼠"
             }
           ],
           "name_pt_pt": "Muridae",
@@ -4650,7 +4650,7 @@
               "name_pt_pt": "Rato-toupeira-pelado",
               "name_pt_br": "Rato-toupeira-pelado",
               "name_hiragana": "はだかでばねずみ",
-              "name_kanji": "ハダカデバネズミ"
+              "name_kanji": "裸出歯鼠"
             }
           ],
           "name_pt_pt": "Heterocephalidae",
@@ -4742,7 +4742,7 @@
               "name_pt_pt": "Toupeira-nariz-de-estrela",
               "name_pt_br": "Toupeira-nariz-de-estrela",
               "name_hiragana": "ほしばなもぐら",
-              "name_kanji": "ホシバナモグラ"
+              "name_kanji": "星花土竜"
             },
             {
               "id": "japanese-shrew-mole",
@@ -4763,7 +4763,7 @@
               "name_pt_pt": "Toupeira-japonesa",
               "name_pt_br": "Toupeira-japonesa",
               "name_hiragana": "ひみず",
-              "name_kanji": "ヒミズ"
+              "name_kanji": "日不見"
             }
           ],
           "name_pt_pt": "Talpidae",
@@ -4793,7 +4793,7 @@
               "name_pt_pt": "Musaranho-de-ezo",
               "name_pt_br": "Musaranho-de-ezo",
               "name_hiragana": "とがりねずみ",
-              "name_kanji": "トガリネズミ"
+              "name_kanji": "尖鼠"
             },
             {
               "id": "hero-shrew",
@@ -4814,7 +4814,7 @@
               "name_pt_pt": "Musaranho-armado",
               "name_pt_br": "Musaranho-armado",
               "name_hiragana": "よろいじねずみ",
-              "name_kanji": "ヨロイジネズミ"
+              "name_kanji": "鎧地鼠"
             }
           ],
           "name_pt_pt": "Soricidae",
@@ -4936,7 +4936,7 @@
               "name_pt_pt": "Tamanduá-mirim",
               "name_pt_br": "Tamanduá-mirim",
               "name_hiragana": "みなみこありくい",
-              "name_kanji": "ミナミコアリクイ"
+              "name_kanji": "南小蟻食"
             }
           ],
           "name_pt_pt": "Myrmecophagidae",
@@ -4966,7 +4966,7 @@
               "name_pt_pt": "Tamanduaí",
               "name_pt_br": "Tamanduaí",
               "name_hiragana": "ひめありくい",
-              "name_kanji": "ヒメアリクイ"
+              "name_kanji": "姫蟻食"
             }
           ],
           "name_pt_pt": "Cyclopedidae",
@@ -5108,7 +5108,7 @@
               "name_pt_pt": "Morcego-branco",
               "name_pt_br": "Morcego-branco",
               "name_hiragana": "しろへらこうもり",
-              "name_kanji": "シロヘラコウモリ"
+              "name_kanji": "白箆蝙蝠"
             }
           ],
           "name_pt_pt": "Phyllostomidae",
@@ -5312,7 +5312,7 @@
               "name_pt_pt": "Numbat",
               "name_pt_br": "Numbat",
               "name_hiragana": "ふくろありくい",
-              "name_kanji": "フクロアリクイ"
+              "name_kanji": "袋蟻食"
             }
           ],
           "name_pt_pt": "Myrmecobiidae",
@@ -5497,7 +5497,7 @@
               "name_pt_pt": "Oricteropo",
               "name_pt_br": "Oricteropo",
               "name_hiragana": "つちぶた",
-              "name_kanji": "ツチブタ"
+              "name_kanji": "土豚"
             }
           ],
           "name_pt_pt": "Orycteropodidae",
@@ -5579,7 +5579,7 @@
               "name_pt_pt": "Lémure-voador",
               "name_pt_br": "Lémure-voador",
               "name_hiragana": "ひよけざる",
-              "name_kanji": "ヒヨケザル"
+              "name_kanji": "日避猿"
             }
           ],
           "name_pt_pt": "Cynocephalidae",
@@ -5732,7 +5732,7 @@
               "name_pt_pt": "Musaranho-elefante",
               "name_pt_br": "Musaranho-elefante",
               "name_hiragana": "はねじねずみ",
-              "name_kanji": "ハネジネズミ"
+              "name_kanji": "跳地鼠"
             }
           ],
           "name_pt_pt": "Macroscelididae",
@@ -5855,7 +5855,7 @@
               "name_pt_pt": "Toupeira-marsupial",
               "name_pt_br": "Toupeira-marsupial",
               "name_hiragana": "ふくろもぐら",
-              "name_kanji": "フクロモグラ"
+              "name_kanji": "袋土竜"
             }
           ],
           "name_pt_pt": "Notoryctidae",

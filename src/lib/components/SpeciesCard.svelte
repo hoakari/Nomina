@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount, onDestroy, untrack } from 'svelte';
-  import { getLangAccent, getRecordMode, getAllowOverwrite, type LangAccent } from '$lib/utils/cookies';
+  import { getLangAccent, getRecordMode, getAllowOverwrite, getDisplayMode, type LangAccent, type DisplayMode } from '$lib/utils/cookies';
   import { getAudioRecord, saveAudioRecord, deleteAudioRecord } from '$lib/utils/audioDb';
   import { trimSilenceFromAudioBlob } from '$lib/utils/audioTrimmer';
   import FlagIcon from '$lib/components/FlagIcon.svelte';
@@ -9,6 +9,8 @@
     id: string;
     tier: number;
     name_common: string;
+    name_hiragana?: string;
+    name_kanji?: string;
     name_standard_ja: string;
     name_en: string;
     name_en_gb?: string;
@@ -32,6 +34,13 @@
   let isTapped = $state(false);
   let isSpeaking = $state(false);
   let currentAccent = $state<LangAccent>('en-US');
+  let displayMode = $state<DisplayMode>('katakana');
+
+  const displayName = $derived.by(() => {
+    if (displayMode === 'hiragana') return species.name_hiragana || species.name_common;
+    if (displayMode === 'kanji') return species.name_kanji || species.name_common;
+    return species.name_common;
+  });
 
   // 画像のロード完了・エラー状態管理
   let isImageLoaded = $state(false);
@@ -70,6 +79,7 @@
 
   onMount(() => {
     currentAccent = getLangAccent();
+    displayMode = getDisplayMode();
     recordMode = getRecordMode();
     allowOverwrite = getAllowOverwrite();
 
@@ -562,7 +572,7 @@
   <div class="mt-4 text-center w-full space-y-1.5">
     <!-- 1. 一般呼称 (メイン) -->
     <h3 class="text-2xl sm:text-3xl font-black text-slate-800 tracking-tight drop-shadow-sm flex items-center justify-center gap-1.5">
-      <span>{species.name_common}</span>
+      <span>{displayName}</span>
     </h3>
 
     <!-- 2. 標準和名 -->

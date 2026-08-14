@@ -7,7 +7,8 @@
     getVisibleTier, setVisibleTier, 
     getLangAccent, setLangAccent, type LangAccent,
     getRecordMode, setRecordMode,
-    getAllowOverwrite, setAllowOverwrite
+    getAllowOverwrite, setAllowOverwrite,
+    getDisplayMode, setDisplayMode, type DisplayMode
   } from '$lib/utils/cookies';
   import { clearAllAudioRecords, getAllAudioRecordsList, deleteAudioRecord, type AudioRecordItem } from '$lib/utils/audioDb';
 
@@ -15,6 +16,7 @@
   let langAccent = $state<LangAccent>('en-US');
   let recordMode = $state(false);
   let allowOverwrite = $state(false);
+  let displayMode = $state<DisplayMode>('katakana');
   let recordedCount = $state(0);
   let isClearAllModalOpen = $state(false);
 
@@ -33,6 +35,7 @@
     langAccent = getLangAccent();
     recordMode = getRecordMode();
     allowOverwrite = getAllowOverwrite();
+    displayMode = getDisplayMode();
     await refreshRecordedList();
     isInitialized = true;
   });
@@ -44,6 +47,7 @@
       setLangAccent(langAccent);
       setRecordMode(recordMode);
       setAllowOverwrite(allowOverwrite);
+      setDisplayMode(displayMode);
     }
   });
 
@@ -107,6 +111,7 @@
     setLangAccent(langAccent);
     setRecordMode(recordMode);
     setAllowOverwrite(allowOverwrite);
+    setDisplayMode(displayMode);
 
     // トースト表示
     toastText = '設定を保存しました！';
@@ -525,7 +530,65 @@
 
       <hr class="border-amber-200" />
 
-      <!-- 3. 外国語の設定セクション (外国語6言語・10アクセント/表記) -->
+      <!-- 3. 表示モードの設定セクション -->
+      <section class="space-y-4">
+        <div>
+          <h2 class="text-lg font-black text-stone-800 flex items-center gap-2">
+            <span>🔤</span>
+            <span>表示モード</span>
+          </h2>
+          <p class="text-xs text-stone-500 font-bold mt-1">
+            図鑑に表示する生きものの名前の表記形式（メイン表記）を選択できます
+          </p>
+        </div>
+
+        <div class="bg-amber-50/80 rounded-2xl p-5 border-2 border-amber-200 space-y-4">
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <label class="flex items-center gap-3 p-4 bg-white rounded-2xl border-2 border-amber-200 hover:border-amber-400 cursor-pointer transition-all shadow-2xs font-bold text-stone-800 hover:bg-amber-50/50">
+              <input
+                type="radio"
+                name="displayMode"
+                value="katakana"
+                bind:group={displayMode}
+                class="w-5 h-5 text-orange-500 focus:ring-orange-400 cursor-pointer accent-orange-500"
+              />
+              <span class="text-sm font-black">カタカナ表記</span>
+            </label>
+
+            <label class="flex items-center gap-3 p-4 bg-white rounded-2xl border-2 border-amber-200 hover:border-amber-400 cursor-pointer transition-all shadow-2xs font-bold text-stone-800 hover:bg-amber-50/50">
+              <input
+                type="radio"
+                name="displayMode"
+                value="hiragana"
+                bind:group={displayMode}
+                class="w-5 h-5 text-orange-500 focus:ring-orange-400 cursor-pointer accent-orange-500"
+              />
+              <span class="text-sm font-black">ひらがな表記</span>
+            </label>
+
+            <label class="flex items-center gap-3 p-4 bg-white rounded-2xl border-2 border-amber-200 hover:border-amber-400 cursor-pointer transition-all shadow-2xs font-bold text-stone-800 hover:bg-amber-50/50">
+              <input
+                type="radio"
+                name="displayMode"
+                value="kanji"
+                bind:group={displayMode}
+                class="w-5 h-5 text-orange-500 focus:ring-orange-400 cursor-pointer accent-orange-500"
+              />
+              <span class="text-sm font-black">漢字表記</span>
+            </label>
+          </div>
+
+          {#if displayMode === 'kanji'}
+            <div class="p-4 bg-gradient-to-br from-amber-100/90 to-orange-100/90 border-2 border-amber-300 rounded-2xl text-xs text-stone-800 font-medium leading-relaxed shadow-2xs animate-fadeIn">
+              この図鑑の漢字表記は、国語辞典や百科事典などで確認できる、日本語として使われてきた表記のみを掲載しています。中国語をそのまま持ち込んだだけの表記や、典拠のない当て字は含めていません。ふさわしい漢字が見つからない生きものは、カタカナ表記のままご紹介しています。
+            </div>
+          {/if}
+        </div>
+      </section>
+
+      <hr class="border-amber-200" />
+
+      <!-- 4. 外国語の設定セクション (外国語6言語・10アクセント/表記) -->
       <section class="space-y-4">
         <div>
           <h2 class="text-lg font-black text-stone-800 flex items-center gap-2">

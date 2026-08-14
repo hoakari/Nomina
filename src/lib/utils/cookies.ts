@@ -127,3 +127,40 @@ export function setAllowOverwrite(enabled: boolean, days = 365): void {
 
   document.cookie = `allow_overwrite=${enabled ? 'true' : 'false'};${expires};path=/;SameSite=Lax`;
 }
+
+export type DisplayMode = 'katakana' | 'hiragana' | 'kanji';
+
+/**
+ * 表示モード (display_mode) の取得
+ * デフォルト: 'katakana'
+ */
+export function getDisplayMode(): DisplayMode {
+  if (typeof document === 'undefined') return 'katakana';
+
+  const name = 'display_mode=';
+  const decodedCookie = decodeURIComponent(document.cookie);
+  const ca = decodedCookie.split(';');
+
+  for (let i = 0; i < ca.length; i++) {
+    let c = ca[i].trim();
+    if (c.indexOf(name) === 0) {
+      const val = c.substring(name.length, c.length) as DisplayMode;
+      if (['katakana', 'hiragana', 'kanji'].includes(val)) {
+        return val;
+      }
+    }
+  }
+
+  return 'katakana'; // デフォルト値: カタカナ表記
+}
+
+export function setDisplayMode(mode: DisplayMode, days = 365): void {
+  if (typeof document === 'undefined') return;
+
+  const date = new Date();
+  date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+  const expires = `expires=${date.toUTCString()}`;
+
+  document.cookie = `display_mode=${mode};${expires};path=/;SameSite=Lax`;
+}
+

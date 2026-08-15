@@ -37,7 +37,6 @@ A charming, high-resolution detailed digital illustration of a cute realistic la
 --------------------------------------------------------------------
 ■ 保存ファイル名: bonobo.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute realistic bonobo (ボノボ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 --------------------------------------------------------------------
 ■ 保存ファイル名: dromedary-camel.png
 ■ 英語プロンプト (コピー用):
@@ -57,7 +56,6 @@ A charming, high-resolution detailed digital illustration of a cute realistic wa
 --------------------------------------------------------------------
 ■ 保存ファイル名: babirusa.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute realistic babirusa (バビルサ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 --------------------------------------------------------------------
 ■ 保存ファイル名: collared-peccary.png
 ■ 英語プロンプト (コピー用):
@@ -81,7 +79,6 @@ A charming, high-resolution detailed digital illustration of a cute realistic mo
 --------------------------------------------------------------------
 ■ 保存ファイル名: okapi.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute realistic okapi (オカピ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 --------------------------------------------------------------------
 ■ 保存ファイル名: pronghorn.png
 ■ 英語プロンプト (コピー用):
@@ -105,7 +102,6 @@ A charming, high-resolution detailed digital illustration of a cute realistic im
 --------------------------------------------------------------------
 ■ 保存ファイル名: saiga.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute realistic saiga (サイガ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 --------------------------------------------------------------------
 ■ 保存ファイル名: gerenuk.png
 ■ 英語プロンプト (コピー用):
@@ -125,7 +121,6 @@ A charming, high-resolution detailed digital illustration of a cute realistic bi
 --------------------------------------------------------------------
 ■ 保存ファイル名: japanese-serow.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute realistic japanese serow (ニホンカモシカ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 --------------------------------------------------------------------
 ■ 保存ファイル名: arabian-oryx.png
 ■ 英語プロンプト (コピー用):
@@ -149,7 +144,6 @@ A charming, high-resolution detailed digital illustration of a cute realistic sh
 --------------------------------------------------------------------
 ■ 保存ファイル名: narwhal.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute realistic narwhal (イッカク) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 --------------------------------------------------------------------
 ■ 保存ファイル名: spermaceti-whale.png
 ■ 英語プロンプト (コピー用):
@@ -229,7 +223,6 @@ A charming, high-resolution detailed digital illustration of a cute realistic pa
 --------------------------------------------------------------------
 ■ 保存ファイル名: north-american-porcupine.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute realistic north american porcupine (カナダヤマアラシ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 --------------------------------------------------------------------
 ■ 保存ファイル名: chinchilla.png
 ■ 英語プロンプト (コピー用):
@@ -265,7 +258,6 @@ A charming, high-resolution detailed digital illustration of a cute realistic na
 --------------------------------------------------------------------
 ■ 保存ファイル名: star-nosed-mole.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute realistic star-nosed mole (ホシバナモグラ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 --------------------------------------------------------------------
 ■ 保存ファイル名: japanese-shrew-mole.png
 ■ 英語プロンプト (コピー用):
@@ -285,7 +277,6 @@ A charming, high-resolution detailed digital illustration of a cute realistic si
 --------------------------------------------------------------------
 ■ 保存ファイル名: honduran-white-bat.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute realistic honduran white bat (シロヘラコウモリ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 --------------------------------------------------------------------
 ■ 保存ファイル名: tasmanian-devil.png
 ■ 英語プロンプト (コピー用):
@@ -309,6 +300,4 @@ A charming, high-resolution detailed digital illustration of a cute realistic Ve
 A charming, high-resolution detailed digital illustration of a cute realistic blue wildebeest (Connochaetes taurinus) standing proudly in the vast African savanna grassland, featuring curved horns, dark vertical stripes on its shoulders, and a beard and mane, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 
 --------------------------------------------------------------------
-■ 保存ファイル名: commersons-dolphin.png
 ■ 英語プロンプト (コピー用):
-A charming, high-resolution detailed digital illustration of a cute realistic Commerson's dolphin (Cephalorhynchus commersonii) swimming gracefully in clear turquoise ocean water, featuring a striking panda-like black and white pattern with a black head, white body, and black flippers, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1

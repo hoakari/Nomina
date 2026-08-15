@@ -1,16 +1,40 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
+  import { onMount, untrack } from 'svelte';
+  import { page } from '$app/state';
+  import { goto } from '$app/navigation';
   import Header from '$lib/components/Header.svelte';
   import SpeciesCard from '$lib/components/SpeciesCard.svelte';
   import speciesData from '$lib/data/species.json';
   import { getVisibleTier } from '$lib/utils/cookies';
 
-  let activeTab = $state('caniformia');
+  // 初期タブをURLの ?tab=... またはデフォルト 'caniformia' に設定
+  let activeTab = $state(page.url.searchParams.get('tab') || 'caniformia');
   let visibleTier = $state(1);
+
+  // URLの ?tab=... の変更（ブラウザの戻る/進む操作など）に連動して activeTab を更新
+  $effect(() => {
+    const urlTab = page.url.searchParams.get('tab');
+    if (urlTab && urlTab !== activeTab) {
+      untrack(() => {
+        const isValid = speciesData.categories.some(c => c.id === urlTab);
+        if (isValid) {
+          activeTab = urlTab;
+        }
+      });
+    }
+  });
 
   onMount(() => {
     visibleTier = getVisibleTier();
   });
+
+  // タブ切替時に URL のクエリパラメータ (?tab=...) を更新
+  function handleTabChange(newTab: string) {
+    activeTab = newTab;
+    const url = new URL(page.url);
+    url.searchParams.set('tab', newTab);
+    goto(url.toString(), { replaceState: true, keepFocus: true, noScroll: true });
+  }
 
   // 選択されたカテゴリ＆Tierに応じたフィルタリング済みデータ
   let currentCategory = $derived.by(() => {
@@ -52,7 +76,7 @@
 </div>
 
 <!-- ヘッダー (亜目タブ切替) -->
-<Header bind:activeTab visibleTier={visibleTier} />
+<Header bind:activeTab visibleTier={visibleTier} onTabChange={handleTabChange} />
 
 <!-- メインコンテンツエリア -->
 {#key activeTab}

@@ -80,6 +80,16 @@
       is_ready: false
     },
     {
+      id: 'insects',
+      name_hiragana: 'こんちゅう',
+      name_kanji: '昆虫',
+      icon: '🐞',
+      desc: 'カブトムシ、クワガタ、チョウ、テントウムシなど、かっこいい・かわいい仲間！',
+      bg_gradient: 'from-amber-50 via-yellow-100 to-lime-50 hover:from-amber-100 hover:to-yellow-150',
+      border_color: 'border-yellow-300',
+      is_ready: false
+    },
+    {
       id: 'foods',
       name_hiragana: 'やさい・くだもの',
       name_kanji: '農作物',
@@ -101,9 +111,9 @@
 
 <svelte:head>
   <title>Nomina（ノミーナ！）| しゅるい選択・子どもいきものずかん</title>
-  <meta name="description" content="あそびたい図鑑の種類をえらんでね！哺乳類、鳥類、爬虫類、魚類など、楽しく学べる子ども英語いきもの図鑑。" />
+  <meta name="description" content="あそびたい図鑑の種類をえらんでね！哺乳類、鳥類、爬虫類、両生類、魚類、昆虫など、楽しく学べる子ども英語いきもの図鑑。" />
   <meta property="og:title" content="Nomina（ノミーナ！）| しゅるい選択・子どもいきものずかん" />
-  <meta property="og:description" content="あそびたい図鑑の種類をえらんでね！哺乳類、鳥類、爬虫類、魚類など、楽しく学べる子ども英語いきもの図鑑。" />
+  <meta property="og:description" content="あそびたい図鑑の種類をえらんでね！哺乳類、鳥類、爬虫類、両生類、魚類、昆虫など、楽しく学べる子ども英語いきもの図鑑。" />
   <meta property="og:url" content="https://nomina2026.netlify.app/" />
   <link rel="canonical" href="https://nomina2026.netlify.app/" />
 </svelte:head>

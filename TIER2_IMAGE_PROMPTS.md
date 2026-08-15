@@ -498,11 +498,11 @@ A charming, high-resolution detailed digital illustration of a cute realistic ta
 ```
 ---
 
-### 97. フクロネコ（標準和名: キノボルフクロネコ / Quoll）
+### 97. フクロネコ（標準和名: フクロネコ / Quoll）
 * **保存ファイル名**: `quoll.png`
 
 ```text
-A charming, high-resolution detailed digital illustration of a cute realistic quoll (キノボルフクロネコ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a cute realistic quoll (フクロネコ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 ---
 

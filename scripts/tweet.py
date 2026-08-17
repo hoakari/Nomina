@@ -27,23 +27,33 @@ def get_twitter_clients():
     api_v1 = None
     client_v2 = None
 
+    print("--- 🔑 認証情報のチェック ---")
+    print(f"API_KEY: {'あり' if API_KEY else 'なし'}")
+    print(f"API_KEY_SECRET: {'あり' if API_KEY_SECRET else 'なし'}")
+    print(f"ACCESS_TOKEN: {'あり' if ACCESS_TOKEN else 'なし'}")
+    print(f"ACCESS_TOKEN_SECRET: {'あり' if ACCESS_TOKEN_SECRET else 'なし'}")
+    print("--------------------------------")
+
     if API_KEY and API_KEY_SECRET and ACCESS_TOKEN and ACCESS_TOKEN_SECRET:
-        print("🔑 OAuth 1.0a 認証キーを使用して接続します。")
-        auth = tweepy.OAuth1UserHandler(
-            API_KEY, API_KEY_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
-        )
-        api_v1 = tweepy.API(auth)
-        client_v2 = tweepy.Client(
-            consumer_key=API_KEY,
-            consumer_secret=API_KEY_SECRET,
-            access_token=ACCESS_TOKEN,
-            access_token_secret=ACCESS_TOKEN_SECRET,
-        )
+        print("✅ OAuth 1.0a 認証情報がすべて揃っています。")
+        try:
+            auth = tweepy.OAuth1UserHandler(
+                API_KEY, API_KEY_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
+            )
+            api_v1 = tweepy.API(auth)
+            client_v2 = tweepy.Client(
+                consumer_key=API_KEY,
+                consumer_secret=API_KEY_SECRET,
+                access_token=ACCESS_TOKEN,
+                access_token_secret=ACCESS_TOKEN_SECRET,
+            )
+        except Exception as e:
+            print(f"⚠️ OAuth 1.0a 初期化エラー: {e}")
     elif ACCESS_TOKEN:
-        print("🔑 OAuth 2.0 アクセストークンを使用して接続します。")
+        print("⚠️ OAuth 1.0a 認証情報が一部不足しているため、OAuth 2.0 で接続します。")
         client_v2 = tweepy.Client(access_token=ACCESS_TOKEN)
     else:
-        print("❌ エラー: .env / Secrets に有効な認証キーが設定されていません。")
+        print("❌ エラー: 有効な認証キーが設定されていません。")
         sys.exit(1)
 
     return api_v1, client_v2
@@ -86,14 +96,14 @@ def post_tweet(text: str, image_path: str = None, dry_run: bool = False, confirm
                 traceback.print_exc()
                 raise e
         else:
-            print("⚠️ 注意: OAuth 1.0a キーが揃っていないため画像なしで投稿を試みます。")
+            print("⚠️ 注意: OAuth 1.0a キーが不足しているため画像なしで投稿を試みます。")
 
     print(f"🚀 ツイート送信中...")
     
     # Try v1.1 API update_status first if api_v1 is available (Free Tier compatible)
     if api_v1:
         try:
-            print("📡 v1.1 API で投稿中...")
+            print("📡 v1.1 API (update_status) で投稿中...")
             if media_ids:
                 status = api_v1.update_status(status=text, media_ids=media_ids)
             else:
@@ -106,7 +116,7 @@ def post_tweet(text: str, image_path: str = None, dry_run: bool = False, confirm
 
     # Fallback to v2 API create_tweet
     try:
-        print("📡 v2 API で投稿中...")
+        print("📡 v2 API (create_tweet) で投稿中...")
         if media_ids:
             response = client_v2.create_tweet(text=text, media_ids=media_ids)
         else:

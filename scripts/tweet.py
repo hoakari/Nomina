@@ -19,9 +19,6 @@ API_KEY = os.getenv("X_API_KEY")
 API_KEY_SECRET = os.getenv("X_API_KEY_SECRET")
 ACCESS_TOKEN = os.getenv("X_ACCESS_TOKEN")
 ACCESS_TOKEN_SECRET = os.getenv("X_ACCESS_TOKEN_SECRET")
-REFRESH_TOKEN = os.getenv("X_REFRESH_TOKEN")
-CLIENT_ID = os.getenv("X_CLIENT_ID")
-CLIENT_SECRET = os.getenv("X_CLIENT_SECRET")
 
 def get_twitter_clients():
     api_v1 = None
@@ -34,25 +31,21 @@ def get_twitter_clients():
     print(f"ACCESS_TOKEN_SECRET: {'あり' if ACCESS_TOKEN_SECRET else 'なし'}")
     print("--------------------------------")
 
-    # API v1.1 for media upload (OAuth 1.0a)
     if API_KEY and API_KEY_SECRET and ACCESS_TOKEN and ACCESS_TOKEN_SECRET:
-        print("✅ OAuth 1.0a (画像アップロード用) を初期化します。")
+        print("✅ OAuth 1.0a クライアントを初期化します。")
         auth = tweepy.OAuth1UserHandler(
             API_KEY, API_KEY_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
         )
         api_v1 = tweepy.API(auth)
-
-    # API v2 for create_tweet (OAuth 2.0 access token for Free Tier compatibility)
-    if ACCESS_TOKEN:
-        print("✅ OAuth 2.0 (v2ツイート投稿用) を初期化します。")
-        client_v2 = tweepy.Client(access_token=ACCESS_TOKEN)
-    elif API_KEY and API_KEY_SECRET:
         client_v2 = tweepy.Client(
             consumer_key=API_KEY,
             consumer_secret=API_KEY_SECRET,
             access_token=ACCESS_TOKEN,
             access_token_secret=ACCESS_TOKEN_SECRET,
         )
+    elif ACCESS_TOKEN:
+        print("⚠️ OAuth 2.0 クライアントを初期化します。")
+        client_v2 = tweepy.Client(access_token=ACCESS_TOKEN)
     else:
         print("❌ エラー: 有効な認証キーが設定されていません。")
         sys.exit(1)

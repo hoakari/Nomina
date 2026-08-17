@@ -125,11 +125,10 @@ def post_tweet_with_playwright(animal_id: str = None, dry_run: bool = False, hea
         try:
             print("🔑 X (Twitter) ログイン画面にアクセス中...")
             page.goto("https://x.com/login", wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(5000)
+            page.wait_for_timeout(4000)
 
             # 1. ユーザー名入力
             print("👤 ユーザー名を入力中...")
-            # selector fallback for username input
             username_selectors = [
                 'input[autocomplete="username"]',
                 'input[name="text"]',
@@ -146,7 +145,6 @@ def post_tweet_with_playwright(animal_id: str = None, dry_run: bool = False, hea
                     pass
 
             if not username_input:
-                # wait for any of them
                 username_input = page.wait_for_selector('input[name="text"], input[autocomplete="username"], input', timeout=30000)
 
             username_input.fill(X_USERNAME)
@@ -169,13 +167,38 @@ def post_tweet_with_playwright(animal_id: str = None, dry_run: bool = False, hea
             page.keyboard.press("Enter")
             page.wait_for_timeout(6000)
 
-            print("✅ ログイン完了。ツイート作成画面へ遷移中...")
-            page.goto("https://x.com/compose/post", wait_until="domcontentloaded", timeout=60000)
+            print("✅ ログイン完了。ホーム画面・投稿エリアへ移動中...")
+            # 投稿ダイアログを開く
+            page.goto("https://x.com/home", wait_until="domcontentloaded", timeout=60000)
             page.wait_for_timeout(4000)
+
+            # 「投稿する」ボタンがある場合はクリック
+            post_nav_btn = page.locator('a[data-testid="SideNav_NewTweet_Button"], button[data-testid="SideNav_NewTweet_Button"]').first
+            if post_nav_btn.is_visible():
+                print("🔘 『ポストする』ボタンをクリックして投稿ダイアログを開きます...")
+                post_nav_btn.click()
+                page.wait_for_timeout(3000)
 
             # 4. ツイート本文の入力
             print("✍️ ツイート本文を入力中...")
-            tweet_box = page.wait_for_selector('div[data-testid="tweetTextarea_0"]', timeout=20000)
+            tweet_box_selectors = [
+                'div[role="textbox"]',
+                'div[data-testid="tweetTextarea_0"]',
+                'div[contenteditable="true"]'
+            ]
+            
+            tweet_box = None
+            for sel in tweet_box_selectors:
+                try:
+                    if page.locator(sel).first.is_visible():
+                        tweet_box = page.locator(sel).first
+                        break
+                except Exception:
+                    pass
+
+            if not tweet_box:
+                tweet_box = page.wait_for_selector('div[role="textbox"], div[data-testid="tweetTextarea_0"]', timeout=20000)
+
             tweet_box.click()
             page.keyboard.insert_text(text)
             page.wait_for_timeout(2000)
@@ -183,17 +206,33 @@ def post_tweet_with_playwright(animal_id: str = None, dry_run: bool = False, hea
             # 5. 画像の添付
             if img_path and os.path.exists(img_path):
                 print(f"📷 画像を添付中: {img_path}")
-                file_input = page.locator('input[data-testid="fileInput"]')
+                file_input = page.locator('input[data-testid="fileInput"]').first
                 file_input.set_input_files(img_path)
                 page.wait_for_timeout(4000)
 
             # 6. 「ポストする」ボタンのクリック
-            print("🚀 『ポストする』ボタンをクリック中...")
-            post_button = page.wait_for_selector('button[data-testid="tweetButton"]', timeout=15000)
-            post_button.click()
+            print("🚀 『ポストする』送信ボタンをクリック中...")
+            send_button_selectors = [
+                'button[data-testid="tweetButton"]',
+                'button[data-testid="tweetButtonInline"]'
+            ]
+            
+            send_button = None
+            for sel in send_button_selectors:
+                try:
+                    if page.locator(sel).first.is_visible():
+                        send_button = page.locator(sel).first
+                        break
+                except Exception:
+                    pass
+
+            if not send_button:
+                send_button = page.wait_for_selector('button[data-testid="tweetButton"], button[data-testid="tweetButtonInline"]', timeout=15000)
+
+            send_button.click()
             page.wait_for_timeout(6000)
 
-            print("🎉 Playwright による全自動投稿が正常に完了しました！")
+            print("🎉 Playwright による全自動投稿が正常に完了いたしました！")
 
         except Exception as e:
             print(f"❌ 投稿処理中にエラーが発生しました: {e}")

@@ -1,4 +1,4 @@
-# 🎨 Nomina! Tier 2 未作成動物画像 プロンプト＆保存ファイル名一覧（残り88種）
+# 🎨 Nomina! Tier 2 未作成動物画像 プロンプト＆保存ファイル名一覧（残り61種）
 > 保存先: `static/images/animals/` またはプロジェクトルート (推奨フォーマット: PNG / 最大800x800以下に自動軽量化されます)
 
 
@@ -175,14 +175,6 @@ A charming, high-resolution detailed digital illustration of a cute realistic im
 
 ```text
 A charming, high-resolution detailed digital illustration of a cute realistic gerenuk (ジェレヌク) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 52. ヌー（標準和名: オグロヌー / Wildebeest）
-* **保存ファイル名**: `wildebeest.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic wildebeest (オグロヌー) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 ---
 
@@ -495,37 +487,5 @@ A charming, high-resolution detailed digital illustration of a cute realistic si
 
 ```text
 A charming, high-resolution detailed digital illustration of a cute realistic tasmanian devil (タスマニアデビル) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 97. フクロネコ（標準和名: フクロネコ / Quoll）
-* **保存ファイル名**: `quoll.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic quoll (フクロネコ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 98. フクロアリクイ（標準和名: フクロアリクイ / Numbat）
-* **保存ファイル名**: `numbat.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic numbat (フクロアリクイ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 99. シファカ（標準和名: ベローシファカ / Verreaux's Sifaka）
-* **保存ファイル名**: `verreauxs-sifaka.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic Verreaux's sifaka (Propithecus verreauxi) dancing and leaping sideways on the ground in Madagascar dry forest, featuring silky white fur with a dark face and brown crown, long slender limbs, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 100. ヌー（標準和名: オグロヌー / Blue Wildebeest）
-* **保存ファイル名**: `wildebeest.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic blue wildebeest (Connochaetes taurinus) standing proudly in the vast African savanna grassland, featuring curved horns, dark vertical stripes on its shoulders, and a beard and mane, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 ---

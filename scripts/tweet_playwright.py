@@ -106,68 +106,76 @@ def post_tweet_with_playwright(animal_id: str = None, dry_run: bool = False, hea
 
     print("🌐 Playwright でブラウザを起動しています...")
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=headless)
-        context = browser.new_context(viewport={"width": 1280, "height": 800})
+        browser = p.chromium.launch(
+            headless=headless,
+            args=["--disable-blink-features=AutomationControlled", "--no-sandbox"]
+        )
+        context = browser.new_context(
+            viewport={"width": 1280, "height": 800},
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+        )
         page = context.new_page()
 
         try:
             print("🔑 X (Twitter) ログイン画面にアクセス中...")
-            page.goto("https://x.com/i/flow/login", wait_until="networkidle")
+            page.goto("https://x.com/i/flow/login", wait_until="domcontentloaded", timeout=60000)
             page.wait_for_timeout(3000)
 
             # 1. ユーザー名入力
-            username_input = page.wait_for_selector('input[autocomplete="username"], input[name="text"]', timeout=15000)
+            print("👤 ユーザー名を入力中...")
+            username_input = page.wait_for_selector('input[autocomplete="username"], input[name="text"]', timeout=20000)
             username_input.fill(X_USERNAME)
             page.keyboard.press("Enter")
-            page.wait_for_timeout(2000)
+            page.wait_for_timeout(3000)
 
             # 電話番号/メール確認が求められた場合
             if page.locator('input[data-testid="ocfEnterTextTextInput"]').is_visible():
-                print("📧 追加のメールアドレス認証が要求されました。入力中...")
+                print("📧 追加の確認情報（メールアドレス）が要求されました。入力中...")
                 if X_EMAIL:
                     page.locator('input[data-testid="ocfEnterTextTextInput"]').fill(X_EMAIL)
                     page.keyboard.press("Enter")
-                    page.wait_for_timeout(2000)
-                else:
-                    print("⚠️ X_EMAIL が設定されていません。")
+                    page.wait_for_timeout(3000)
 
             # 2. パスワード入力
             print("🔐 パスワードを入力中...")
-            password_input = page.wait_for_selector('input[name="password"]', timeout=15000)
+            password_input = page.wait_for_selector('input[name="password"]', timeout=20000)
             password_input.fill(X_PASSWORD)
             page.keyboard.press("Enter")
-            page.wait_for_timeout(5000)
+            page.wait_for_timeout(6000)
 
-            print("ログイン完了。ツイート作成画面へ遷移中...")
-            page.goto("https://x.com/compose/post", wait_until="networkidle")
+            print("✅ ログイン完了。ツイート作成画面へ遷移中...")
+            page.goto("https://x.com/compose/post", wait_until="domcontentloaded", timeout=60000)
             page.wait_for_timeout(3000)
 
             # 3. ツイート本文の入力
             print("✍️ ツイート本文を入力中...")
-            tweet_box = page.wait_for_selector('div[data-testid="tweetTextarea_0"]', timeout=15000)
+            tweet_box = page.wait_for_selector('div[data-testid="tweetTextarea_0"]', timeout=20000)
             tweet_box.click()
             page.keyboard.insert_text(text)
-            page.wait_for_timeout(1000)
+            page.wait_for_timeout(2000)
 
             # 4. 画像の添付
             if img_path and os.path.exists(img_path):
                 print(f"📷 画像を添付中: {img_path}")
                 file_input = page.locator('input[data-testid="fileInput"]')
                 file_input.set_input_files(img_path)
-                page.wait_for_timeout(3000)
+                page.wait_for_timeout(4000)
 
             # 5. 「ポストする」ボタンのクリック
             print("🚀 『ポストする』ボタンをクリック中...")
-            post_button = page.wait_for_selector('button[data-testid="tweetButton"]', timeout=10000)
+            post_button = page.wait_for_selector('button[data-testid="tweetButton"]', timeout=15000)
             post_button.click()
-            page.wait_for_timeout(5000)
+            page.wait_for_timeout(6000)
 
             print("🎉 Playwright による全自動投稿が正常に完了しました！")
 
         except Exception as e:
             print(f"❌ 投稿処理中にエラーが発生しました: {e}")
-            page.screenshot(path="error_screenshot.png")
-            print("📸 エラー時のスクリーンショットを error_screenshot.png に保存しました。")
+            try:
+                page.screenshot(path="error_screenshot.png")
+                print("📸 エラー時のスクリーンショットを error_screenshot.png に保存しました。")
+            except Exception:
+                pass
             sys.exit(1)
         finally:
             browser.close()

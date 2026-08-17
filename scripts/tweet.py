@@ -84,13 +84,29 @@ def post_tweet(text: str, image_path: str = None, dry_run: bool = False, confirm
             except Exception as e:
                 print(f"❌ 画像アップロード失敗詳細: {e}")
                 traceback.print_exc()
-                # If image upload fails, try text only post or raise
                 raise e
         else:
             print("⚠️ 注意: OAuth 1.0a キーが揃っていないため画像なしで投稿を試みます。")
 
     print(f"🚀 ツイート送信中...")
+    
+    # Try v1.1 API update_status first if api_v1 is available (Free Tier compatible)
+    if api_v1:
+        try:
+            print("📡 v1.1 API で投稿中...")
+            if media_ids:
+                status = api_v1.update_status(status=text, media_ids=media_ids)
+            else:
+                status = api_v1.update_status(status=text)
+            print(f"🎉 ツイート成功！ (Tweet ID: {status.id})")
+            print(f"🔗 https://x.com/user/status/{status.id}")
+            return status
+        except Exception as e1:
+            print(f"⚠️ v1.1 API 投稿失敗 ({e1})、v2 API に切り替えます...")
+
+    # Fallback to v2 API create_tweet
     try:
+        print("📡 v2 API で投稿中...")
         if media_ids:
             response = client_v2.create_tweet(text=text, media_ids=media_ids)
         else:

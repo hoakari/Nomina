@@ -1,5 +1,6 @@
 import os
 import sys
+import traceback
 import argparse
 from dotenv import load_dotenv
 import tweepy
@@ -27,6 +28,7 @@ def get_twitter_clients():
     client_v2 = None
 
     if API_KEY and API_KEY_SECRET and ACCESS_TOKEN and ACCESS_TOKEN_SECRET:
+        print("🔑 OAuth 1.0a 認証キーを使用して接続します。")
         auth = tweepy.OAuth1UserHandler(
             API_KEY, API_KEY_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
         )
@@ -38,9 +40,10 @@ def get_twitter_clients():
             access_token_secret=ACCESS_TOKEN_SECRET,
         )
     elif ACCESS_TOKEN:
+        print("🔑 OAuth 2.0 アクセストークンを使用して接続します。")
         client_v2 = tweepy.Client(access_token=ACCESS_TOKEN)
     else:
-        print("❌ エラー: .env にアクセストークンが設定されていません。")
+        print("❌ エラー: .env / Secrets に有効な認証キーが設定されていません。")
         sys.exit(1)
 
     return api_v1, client_v2
@@ -79,9 +82,12 @@ def post_tweet(text: str, image_path: str = None, dry_run: bool = False, confirm
                 media_ids.append(media.media_id)
                 print(f"✅ 画像アップロード完了 (Media ID: {media.media_id})")
             except Exception as e:
-                print(f"⚠️ 画像アップロード失敗: {e}")
+                print(f"❌ 画像アップロード失敗詳細: {e}")
+                traceback.print_exc()
+                # If image upload fails, try text only post or raise
+                raise e
         else:
-            print("⚠️ 注意: OAuth 1.0a が未設定のため画像なしで投稿します。")
+            print("⚠️ 注意: OAuth 1.0a キーが揃っていないため画像なしで投稿を試みます。")
 
     print(f"🚀 ツイート送信中...")
     try:
@@ -95,7 +101,8 @@ def post_tweet(text: str, image_path: str = None, dry_run: bool = False, confirm
         print(f"🔗 https://x.com/user/status/{tweet_id}")
         return response.data
     except Exception as e:
-        print(f"❌ ツイート投稿エラー: {e}")
+        print(f"❌ ツイート投稿失敗詳細: {e}")
+        traceback.print_exc()
         sys.exit(1)
 
 if __name__ == "__main__":

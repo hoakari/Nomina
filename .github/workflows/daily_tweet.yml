@@ -34,3 +34,10 @@ jobs:
           APP_URL: ${{ secrets.APP_URL }}
         run: |
           python scripts/tweet_playwright.py
+
+      - name: Upload screenshot on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: error-screenshot
+          path: error_screenshot.png

@@ -34,24 +34,25 @@ def get_twitter_clients():
     print(f"ACCESS_TOKEN_SECRET: {'あり' if ACCESS_TOKEN_SECRET else 'なし'}")
     print("--------------------------------")
 
+    # API v1.1 for media upload (OAuth 1.0a)
     if API_KEY and API_KEY_SECRET and ACCESS_TOKEN and ACCESS_TOKEN_SECRET:
-        print("✅ OAuth 1.0a 認証情報がすべて揃っています。")
-        try:
-            auth = tweepy.OAuth1UserHandler(
-                API_KEY, API_KEY_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
-            )
-            api_v1 = tweepy.API(auth)
-            client_v2 = tweepy.Client(
-                consumer_key=API_KEY,
-                consumer_secret=API_KEY_SECRET,
-                access_token=ACCESS_TOKEN,
-                access_token_secret=ACCESS_TOKEN_SECRET,
-            )
-        except Exception as e:
-            print(f"⚠️ OAuth 1.0a 初期化エラー: {e}")
-    elif ACCESS_TOKEN:
-        print("⚠️ OAuth 1.0a 認証情報が一部不足しているため、OAuth 2.0 で接続します。")
+        print("✅ OAuth 1.0a (画像アップロード用) を初期化します。")
+        auth = tweepy.OAuth1UserHandler(
+            API_KEY, API_KEY_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
+        )
+        api_v1 = tweepy.API(auth)
+
+    # API v2 for create_tweet (OAuth 2.0 access token for Free Tier compatibility)
+    if ACCESS_TOKEN:
+        print("✅ OAuth 2.0 (v2ツイート投稿用) を初期化します。")
         client_v2 = tweepy.Client(access_token=ACCESS_TOKEN)
+    elif API_KEY and API_KEY_SECRET:
+        client_v2 = tweepy.Client(
+            consumer_key=API_KEY,
+            consumer_secret=API_KEY_SECRET,
+            access_token=ACCESS_TOKEN,
+            access_token_secret=ACCESS_TOKEN_SECRET,
+        )
     else:
         print("❌ エラー: 有効な認証キーが設定されていません。")
         sys.exit(1)
@@ -98,25 +99,8 @@ def post_tweet(text: str, image_path: str = None, dry_run: bool = False, confirm
         else:
             print("⚠️ 注意: OAuth 1.0a キーが不足しているため画像なしで投稿を試みます。")
 
-    print(f"🚀 ツイート送信中...")
-    
-    # Try v1.1 API update_status first if api_v1 is available (Free Tier compatible)
-    if api_v1:
-        try:
-            print("📡 v1.1 API (update_status) で投稿中...")
-            if media_ids:
-                status = api_v1.update_status(status=text, media_ids=media_ids)
-            else:
-                status = api_v1.update_status(status=text)
-            print(f"🎉 ツイート成功！ (Tweet ID: {status.id})")
-            print(f"🔗 https://x.com/user/status/{status.id}")
-            return status
-        except Exception as e1:
-            print(f"⚠️ v1.1 API 投稿失敗 ({e1})、v2 API に切り替えます...")
-
-    # Fallback to v2 API create_tweet
+    print(f"🚀 v2 API でツイート送信中...")
     try:
-        print("📡 v2 API (create_tweet) で投稿中...")
         if media_ids:
             response = client_v2.create_tweet(text=text, media_ids=media_ids)
         else:

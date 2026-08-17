@@ -5,7 +5,7 @@ import time
 import random
 import argparse
 from dotenv import load_dotenv
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
 # Safe encoding for Windows console
 if sys.platform == "win32":
@@ -165,12 +165,35 @@ def post_tweet_with_playwright(animal_id: str = None, dry_run: bool = False, hea
             password_input = page.wait_for_selector('input[name="password"]', timeout=20000)
             password_input.fill(X_PASSWORD)
             page.keyboard.press("Enter")
-            page.wait_for_timeout(6000)
 
-            print("✅ ログイン完了。ホーム画面・投稿エリアへ移動中...")
-            # 投稿ダイアログを開く
-            page.goto("https://x.com/home", wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(4000)
+            # ログイン後のリダイレクトはX側の非同期flowで進むため、
+            # ここでpage.goto()を挟んで割り込むとセッション確立前に遷移してしまい
+            # 未ログイン状態のまま/homeへ飛ばされることがある。
+            # 認証済みユーザーにしか出ない要素が現れるのを待ってログイン成立を確認する。
+            print("⏳ ログイン成立を確認中...")
+            try:
+                page.wait_for_selector(
+                    'a[data-testid="AppTabBar_Home_Link"], '
+                    'div[data-testid="SideNav_AccountSwitcher_Button"], '
+                    'a[data-testid="SideNav_NewTweet_Button"]',
+                    timeout=30000
+                )
+                print("✅ ログイン完了を確認しました。")
+            except PlaywrightTimeoutError:
+                raise RuntimeError(
+                    f"ログイン成立を確認できませんでした（現在のURL: {page.url}）。"
+                    "追加確認画面が求められている、2段階認証が有効、"
+                    "またはX側がこの環境からのログインをブロックしている可能性があります。"
+                )
+
+            # 投稿エリアへ（ログイン後まだ/homeに居ない場合のみ移動）
+            if "/home" not in page.url:
+                page.goto("https://x.com/home", wait_until="domcontentloaded", timeout=60000)
+                page.wait_for_timeout(3000)
+
+            # 未ログイン状態のトップページに戻されていないか最終確認
+            if page.locator('a[href="/login"]').first.is_visible():
+                raise RuntimeError(f"ログインに失敗しました（未ログイン状態のページが表示されています。URL: {page.url}）。")
 
             # 「投稿する」ボタンがある場合はクリック
             post_nav_btn = page.locator('a[data-testid="SideNav_NewTweet_Button"], button[data-testid="SideNav_NewTweet_Button"]').first

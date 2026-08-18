@@ -57,7 +57,7 @@
   });
 
   // 録音モード・端末内IndexedDB録音状態
-  let recordMode = $state(false);
+  let recordMode = $state(true);
   let allowOverwrite = $state(false);
   let hasRecordedAudio = $state(false);
   let recordedAudioUrl = $state<string | null>(null);

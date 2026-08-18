@@ -72,7 +72,7 @@ export function setLangAccent(accent: LangAccent, days = 365): void {
  * 録音モード (Record Mode) の取得
  */
 export function getRecordMode(): boolean {
-  if (typeof document === 'undefined') return false;
+  if (typeof document === 'undefined') return true;
 
   const name = 'record_mode=';
   const decodedCookie = decodeURIComponent(document.cookie);
@@ -85,7 +85,7 @@ export function getRecordMode(): boolean {
     }
   }
 
-  return false;
+  return true;
 }
 
 export function setRecordMode(enabled: boolean, days = 365): void {

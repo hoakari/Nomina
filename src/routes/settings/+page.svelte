@@ -14,7 +14,7 @@
 
   let visibleTier = $state(1);
   let langAccent = $state<LangAccent>('en-US');
-  let recordMode = $state(false);
+  let recordMode = $state(true);
   let allowOverwrite = $state(false);
   let displayMode = $state<DisplayMode>('katakana');
   let recordedCount = $state(0);

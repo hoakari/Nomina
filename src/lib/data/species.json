@@ -4602,13 +4602,13 @@
           "name_en": "Spalacidae",
           "species": [
             {
-              "id": "middle-east-blind-mole-rat",
+              "id": "lesser-blind-mole-rat",
               "tier": 2,
               "name_common": "メクラネズミ",
-              "name_standard_ja": "パレスチナメクラネズミ",
-              "name_en": "Blind Mole-rat",
-              "image": "/images/animals/middle-east-blind-mole-rat.webp",
-              "description_note": "目が皮膚でおおわれている！地下で暮らすネズミの仲間！",
+              "name_standard_ja": "シロハラヒメメクラネズミ",
+              "name_en": "Lesser Blind Mole-rat",
+              "image": "/images/animals/lesser-blind-mole-rat.webp",
+              "description_note": "目や耳が皮膚におおわれ、白いお腹と大きな前歯で穴をほる地中の珍獣！",
               "bg_color": "from-teal-100 to-cyan-100",
               "accent_color": "border-teal-400",
               "name_zh_cn": "盲鼠",
@@ -4620,7 +4620,7 @@
               "name_pt_pt": "Rato-toupeira-cego",
               "name_pt_br": "Rato-toupeira-cego",
               "name_hiragana": "めくらねずみ",
-              "name_kanji": "メクラネズミ"
+              "name_kanji": "盲鼠"
             }
           ],
           "name_pt_pt": "Spalacidae",

@@ -369,7 +369,7 @@ A charming, high-resolution detailed digital illustration of a cute realistic am
 * **保存ファイル名**: `middle-east-blind-mole-rat.png`
 
 ```text
-A charming, high-resolution detailed digital illustration of a cute realistic blind mole-rat (パレスチナメクラネズミ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+A charming, high-resolution detailed digital illustration of a cute realistic Middle East blind mole-rat (Spalax ehrenbergi, パレスチナメクラネズミ) standing near a soft dirt burrow in its natural environment. Distinctive features: a cylindrical sausage-shaped body with short velvety gray-brown fur, completely eyeless facial features with skin seamlessly covering the eye region (no visible eyes or eyelids), smooth head with no external ear pinnae, and prominent large front incisor teeth protruding from the mouth used for digging. Warm soft natural sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 ---
 ### 89. ハダカデバネズミ（標準和名: ハダカデバネズミ / Naked Mole-rat）

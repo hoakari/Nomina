@@ -1,5 +1,134 @@
-# 🎨 Nomina! Tier 2 未作成動物画像 プロンプト＆保存ファイル名一覧（残り47種）
+# 🎨 Nomina! Tier 2 未作成動物画像 プロンプト＆保存ファイル名一覧（残り43種）
 > 保存先: `static/images/animals/` またはプロジェクトルート (推奨フォーマット: PNG / 最大800x800以下に自動軽量化されます)
+
+### 7. スナドリネコ（標準和名: スナドリネコ / Fishing Cat）
+* **保存ファイル名**: `fishing-cat.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic fishing cat (スナドリネコ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 8. サーバル（標準和名: サーバル / Serval）
+* **保存ファイル名**: `serval.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic serval (サーバル) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 9. スナネコ（標準和名: スナネコ / Sand Cat）
+* **保存ファイル名**: `sand-cat.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic sand cat (スナネコ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 10. クロアシネコ（標準和名: クロアシネコ / Black-footed Cat）
+* **保存ファイル名**: `black-footed-cat.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic black-footed cat (クロアシネコ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 11. マヌルネコ（標準和名: マヌルネコ / Pallas's Cat）
+* **保存ファイル名**: `pallass-cat.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic pallas's cat (マヌルネコ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 12. イリオモテヤマネコ（標準和名: イリオモテヤマネコ / Iriomote Cat）
+* **保存ファイル名**: `iriomote-cat.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic iriomote cat (イリオモテヤマネコ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 13. ジャガー（標準和名: ジャガー / Jaguar）
+* **保存ファイル名**: `jaguar.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic jaguar (ジャガー) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 14. ユキヒョウ（標準和名: ユキヒョウ / Snow Leopard）
+* **保存ファイル名**: `snow-leopard.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic snow leopard (ユキヒョウ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 15. ウンピョウ（標準和名: ウンピョウ / Clouded Leopard）
+* **保存ファイル名**: `clouded-leopard.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic clouded leopard (ウンピョウ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 16. カラカル（標準和名: カラカル / Caracal）
+* **保存ファイル名**: `caracal.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic caracal (カラカル) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 17. ピューマ（標準和名: ピューマ / Puma）
+* **保存ファイル名**: `puma.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic puma (ピューマ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 18. ジャガランディ（標準和名: ジャガランディ / Jaguarundi）
+* **保存ファイル名**: `jaguarundi.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic jaguarundi (ジャガランディ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 19. オセロット（標準和名: オセロット / Ocelot）
+* **保存ファイル名**: `ocelot.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic ocelot (オセロット) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 21. ハイエナ（標準和名: ブチハイエナ / Spotted Hyena）
+* **保存ファイル名**: `spotted-hyena.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic spotted hyena (ブチハイエナ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 22. アードウルフ（標準和名: アードウルフ / Aardwolf）
+* **保存ファイル名**: `aardwolf.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic aardwolf (アードウルフ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
+### 23. パームシベット（標準和名: マレーパームシベット / Asian Palm Civet）
+* **保存ファイル名**: `asian-palm-civet.png`
+
+```text
+A charming, high-resolution detailed digital illustration of a cute realistic asian palm civet (マレーパームシベット) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
+```
+---
+
 ### 51. ジェレヌク（標準和名: ジェレヌク / Gerenuk）
 * **保存ファイル名**: `gerenuk.png`
 

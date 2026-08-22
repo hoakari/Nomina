@@ -1,154 +1,10 @@
 # 🎨 Nomina! Tier 2 未作成動物画像 プロンプト＆保存ファイル名一覧（残り47種）
 > 保存先: `static/images/animals/` またはプロジェクトルート (推奨フォーマット: PNG / 最大800x800以下に自動軽量化されます)
-### 31. パタスザル（標準和名: パタスザル / Patas Monkey）
-* **保存ファイル名**: `patas-monkey.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic patas monkey (パタスザル) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 32. テナガザル（標準和名: シロテテナガザル / Lar Gibbon）
-* **保存ファイル名**: `lar-gibbon.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic lar gibbon (シロテテナガザル) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 34. ヒトコブラクダ（標準和名: ヒトコブラクダ / Dromedary Camel）
-* **保存ファイル名**: `dromedary-camel.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic dromedary camel (ヒトコブラクダ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 36. ラマ（標準和名: ラマ / Llama）
-* **保存ファイル名**: `llama.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic llama (ラマ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 37. イボイノシシ（標準和名: イボイノシシ / Warthog）
-* **保存ファイル名**: `warthog.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic warthog (イボイノシシ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 39. ペッカリー（標準和名: クビワペッカリー / Collared Peccary）
-* **保存ファイル名**: `collared-peccary.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic collared peccary (クビワペッカリー) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 40. マメジカ（標準和名: ジャワマメジカ / Javan Mouse-deer）
-* **保存ファイル名**: `javan-mouse-deer.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic javan mouse-deer (ジャワマメジカ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 41. ジャコウジカ（標準和名: シベリアジャコウジカ / Siberian Musk Deer）
-* **保存ファイル名**: `siberian-musk-deer.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic siberian musk deer (シベリアジャコウジカ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 45. プロングホーン（標準和名: プロングホーン / Pronghorn）
-* **保存ファイル名**: `pronghorn.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic pronghorn (プロングホーン) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 46. スイギュウ（標準和名: アジアスイギュウ / Water Buffalo）
-* **保存ファイル名**: `water-buffalo.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic water buffalo (アジアスイギュウ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 47. アメリカバイソン（標準和名: アメリカバイソン / American Bison）
-* **保存ファイル名**: `american-bison.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic american bison (アメリカバイソン) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 48. トムソンガゼル（標準和名: トムソンガゼル / Thomson's Gazelle）
-* **保存ファイル名**: `thomsons-gazelle.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic thomson's gazelle (トムソンガゼル) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 49. インパラ（標準和名: インパラ / Impala）
-* **保存ファイル名**: `impala.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic impala (インパラ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
 ### 51. ジェレヌク（標準和名: ジェレヌク / Gerenuk）
 * **保存ファイル名**: `gerenuk.png`
 
 ```text
 A charming, high-resolution detailed digital illustration of a cute realistic gerenuk (ジェレヌク) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 53. バーバリーシープ（標準和名: バーバリーシープ / Barbary Sheep）
-* **保存ファイル名**: `barbary-sheep.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic barbary sheep (バーバリーシープ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 54. ビッグホーン（標準和名: ビッグホーン / Bighorn Sheep）
-* **保存ファイル名**: `bighorn-sheep.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic bighorn sheep (ビッグホーン) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 56. オリックス（標準和名: アラビアオリックス / Arabian Oryx）
-* **保存ファイル名**: `arabian-oryx.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic arabian oryx (アラビアオリックス) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 57. コビトカバ（標準和名: コビトカバ / Pygmy Hippopotamus）
-* **保存ファイル名**: `pygmy-hippopotamus.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic pygmy hippopotamus (コビトカバ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 58. ミンククジラ（標準和名: コイワシクジラ（ミンククジラ） / Minke Whale）
-* **保存ファイル名**: `minke-whale.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic minke whale (Balaenoptera acutorostrata) swimming gracefully in clear blue ocean water, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 ---
 
@@ -189,14 +45,6 @@ A charming, high-resolution detailed digital illustration of a cute realistic fi
 
 ```text
 A charming, high-resolution detailed digital illustration of a cute realistic wombat (ヒメウォンバット) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 66. フクロモモンガ（標準和名: フクロモモンガ / Sugar Glider）
-* **保存ファイル名**: `sugar-glider.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic sugar glider (フクロモモンガ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 ---
 
@@ -365,13 +213,5 @@ A charming, high-resolution detailed digital illustration of a cute realistic ez
 
 ```text
 A charming, high-resolution detailed digital illustration of a cute realistic silky anteater (ヒメアリクイ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 96. タスマニアデビル（標準和名: タスマニアデビル / Tasmanian Devil）
-* **保存ファイル名**: `tasmanian-devil.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic tasmanian devil (タスマニアデビル) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
 ```
 ---

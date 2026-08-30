@@ -2990,6 +2990,27 @@
               "name_pt_br": "Órix-árabe",
               "name_hiragana": "おりっくす",
               "name_kanji": "オリックス"
+            },
+            {
+              "id": "alpine-ibex",
+              "tier": 3,
+              "name_common": "アイベックス",
+              "name_standard_ja": "アイベックス（アルプスアイベックス）",
+              "name_en": "Ibex",
+              "image": "/images/mammals/alpine-ibex.webp",
+              "description_note": "険しい崖をヒヅメで登る！後ろに反った大きな角が自慢",
+              "bg_color": "from-sky-100 to-indigo-100",
+              "accent_color": "border-sky-300",
+              "name_zh_cn": "羱羊",
+              "name_zh_tw": "羱羊",
+              "name_es_es": "Íbice",
+              "name_es_mx": "Íbice",
+              "name_fr_fr": "Bouquetin",
+              "name_id_id": "Ibex",
+              "name_pt_pt": "Íbex",
+              "name_pt_br": "Íbex",
+              "name_hiragana": "あいべっくす",
+              "name_kanji": "アイベックス"
             }
           ],
           "name_pt_pt": "Bovidae",

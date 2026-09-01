@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "id": "squamata",
+      "name_short": "トカゲ・ヘビ",
+      "name_kids": "トカゲやヘビのなかま",
+      "name_ja": "有鱗目",
+      "name_en": "Squamata",
+      "families": [
+        {
+          "id": "chamaeleonidae",
+          "name_ja": "カメレオン科",
+          "name_en": "Chamaeleonidae",
+          "species": [
+            {
+              "id": "veiled-chameleon",
+              "tier": 1,
+              "name_common": "カメレオン",
+              "name_standard_ja": "エボシカメレオン",
+              "name_en": "Chameleon",
+              "image": "/images/reptiles/chameleon.webp",
+              "description_note": "体の色を変えたり長い舌をのばして虫をつかまえるよ！",
+              "bg_color": "from-emerald-100 to-teal-100",
+              "accent_color": "border-emerald-400",
+              "name_zh_cn": "变色龙",
+              "name_zh_tw": "變色龍",
+              "name_es_es": "Camaleón",
+              "name_es_mx": "Camaleón",
+              "name_fr_fr": "Caméléon",
+              "name_id_id": "Bunglon",
+              "name_pt_pt": "Camaleão",
+              "name_pt_br": "Camaleão",
+              "name_hiragana": "かめれおん",
+              "name_kanji": "カメレオン"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   import { goto } from '$app/navigation';
   import Header from '$lib/components/Header.svelte';
   import SpeciesCard from '$lib/components/SpeciesCard.svelte';
-  import speciesData from '$lib/data/species.json';
+  import speciesData from '$lib/data/species_mammals.json';
   import { getVisibleTier } from '$lib/utils/cookies';
 
   // 初期タブをURLの ?tab=... またはデフォルト 'caniformia' に設定

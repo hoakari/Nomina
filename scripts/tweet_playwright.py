@@ -21,7 +21,8 @@ X_PASSWORD = os.getenv("X_PASSWORD")
 X_EMAIL = os.getenv("X_EMAIL")
 APP_URL = os.getenv("APP_URL", "https://nomina-app.netlify.app")
 
-SPECIES_JSON_PATH = os.path.join(os.path.dirname(__file__), "..", "src", "lib", "data", "species.json")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "src", "lib", "data")
+SPECIES_JSON_PATH = os.path.join(DATA_DIR, "species_mammals.json")
 STATIC_DIR = os.path.join(os.path.dirname(__file__), "..", "static")
 
 HASHTAG_POOL = [
@@ -34,14 +35,20 @@ HASHTAG_POOL = [
 ]
 
 def load_species():
-    with open(SPECIES_JSON_PATH, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    
+    import glob
     species_list = []
-    for cat in data.get("categories", []):
-        for fam in cat.get("families", []):
-            for sp in fam.get("species", []):
-                species_list.append(sp)
+    # species_*.json をすべて探索して読み込み
+    species_files = glob.glob(os.path.join(DATA_DIR, "species_*.json"))
+    if not species_files and os.path.exists(SPECIES_JSON_PATH):
+        species_files = [SPECIES_JSON_PATH]
+
+    for filepath in species_files:
+        with open(filepath, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        for cat in data.get("categories", []):
+            for fam in cat.get("families", []):
+                for sp in fam.get("species", []):
+                    species_list.append(sp)
     return species_list
 
 def generate_tweet_content(animal_id: str = None):

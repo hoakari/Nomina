@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "id": "anura",
+      "name_short": "カエル",
+      "name_kids": "カエルのなかま",
+      "name_ja": "無尾目",
+      "name_en": "Anura (Frogs and Toads)",
+      "families": [
+        {
+          "id": "hylidae",
+          "name_ja": "アマガエル科",
+          "name_en": "Hylidae",
+          "species": [
+            {
+              "id": "japanese-tree-frog",
+              "tier": 1,
+              "name_common": "アマガエル",
+              "name_standard_ja": "ニホンアマガエル",
+              "name_en": "Japanese Tree Frog",
+              "image": "/images/amphibians/japanese-tree-frog.webp",
+              "description_note": "雨が降るとゲコゲコ鳴く、緑色のちいさなカエル！",
+              "bg_color": "from-lime-100 to-green-100",
+              "accent_color": "border-lime-400",
+              "name_zh_cn": "日本雨蛙",
+              "name_zh_tw": "日本雨蛙",
+              "name_es_es": "Ranita de Japón",
+              "name_es_mx": "Ranita de Japón",
+              "name_fr_fr": "Rainette du Japon",
+              "name_id_id": "Katak pohon jepang",
+              "name_pt_pt": "Rã-arborícola-japonesa",
+              "name_pt_br": "Rã-arborícola-japonesa",
+              "name_hiragana": "あまがえる",
+              "name_kanji": "雨蛙"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

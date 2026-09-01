@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "id": "coleoptera",
+      "name_short": "カブト・クワガタ",
+      "name_kids": "カブトムシやクワガタのなかま",
+      "name_ja": "甲虫目",
+      "name_en": "Coleoptera (Beetles)",
+      "families": [
+        {
+          "id": "scarabaeidae",
+          "name_ja": "コガネムシ科",
+          "name_en": "Scarabaeidae",
+          "species": [
+            {
+              "id": "japanese-rhinoceros-beetle",
+              "tier": 1,
+              "name_common": "カブトムシ",
+              "name_standard_ja": "ヤマトカブトムシ",
+              "name_en": "Rhinoceros Beetle",
+              "image": "/images/insects/rhinoceros-beetle.webp",
+              "description_note": "大きなツノを持った、夏の森の大人気ヒーロー！",
+              "bg_color": "from-amber-100 to-yellow-100",
+              "accent_color": "border-amber-500",
+              "name_zh_cn": "独角仙",
+              "name_zh_tw": "獨角仙",
+              "name_es_es": "Escarabajo rinoceronte",
+              "name_es_mx": "Escarabajo rinoceronte",
+              "name_fr_fr": "Scarabée rhinocéros",
+              "name_id_id": "Kumbang badak",
+              "name_pt_pt": "Besouro-rinoceronte",
+              "name_pt_br": "Besouro-rinoceronte",
+              "name_hiragana": "かぶとむし",
+              "name_kanji": "甲虫"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

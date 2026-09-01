@@ -1,6 +1,6 @@
 <script lang="ts">
   import { untrack } from 'svelte';
-  import speciesData from '$lib/data/species.json';
+  import speciesData from '$lib/data/species_mammals.json';
   import XIcon from '$lib/components/XIcon.svelte';
 
   let { activeTab = $bindable("caniformia"), visibleTier = 1, onTabChange } = $props<{

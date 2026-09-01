@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import FlagIcon from '$lib/components/FlagIcon.svelte';
   import XIcon from '$lib/components/XIcon.svelte';
-  import speciesData from '$lib/data/species.json';
+  import mammalsData from '$lib/data/species_mammals.json';
   import { 
     getVisibleTier, setVisibleTier, 
     getLangAccent, setLangAccent, type LangAccent,
@@ -58,7 +58,7 @@
 
   // 動物IDから名前・画像情報を検索
   function getSpeciesInfo(id: string) {
-    for (const cat of speciesData.categories) {
+    for (const cat of mammalsData.categories) {
       for (const fam of cat.families) {
         for (const sp of fam.species) {
           if (sp.id === id) return sp;
@@ -132,12 +132,12 @@
     }, 2500);
   }
 
-  // Tier別の累計表示種数を species.json から動的に集計
+  // Tier別の累計表示種数を species_mammals.json から動的に集計
   let tierCounts = $derived.by(() => {
     let t1 = 0;
     let t2 = 0;
     let t3 = 0;
-    for (const cat of speciesData.categories) {
+    for (const cat of mammalsData.categories) {
       for (const fam of cat.families) {
         for (const sp of fam.species) {
           const tier = sp.tier || 1;

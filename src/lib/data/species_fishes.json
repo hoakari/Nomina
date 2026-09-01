@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "id": "perciformes",
+      "name_short": "スズキ・タイ",
+      "name_kids": "スズキやクマノミのなかま",
+      "name_ja": "スズキ目",
+      "name_en": "Perciformes",
+      "families": [
+        {
+          "id": "pomacentridae",
+          "name_ja": "スズメダイ科",
+          "name_en": "Pomacentridae",
+          "species": [
+            {
+              "id": "clown-anemonefish",
+              "tier": 1,
+              "name_common": "クマノミ",
+              "name_standard_ja": "カクレクマノミ",
+              "name_en": "Clownfish",
+              "image": "/images/fishes/clownfish.webp",
+              "description_note": "オレンジと白のしましまがかわいい！イソギンチャクと仲良し！",
+              "bg_color": "from-orange-100 to-amber-100",
+              "accent_color": "border-orange-400",
+              "name_zh_cn": "小丑鱼",
+              "name_zh_tw": "小丑魚",
+              "name_es_es": "Pez payaso",
+              "name_es_mx": "Pez payaso",
+              "name_fr_fr": "Poisson-clown",
+              "name_id_id": "Ikan badut",
+              "name_pt_pt": "Peixe-palhaço",
+              "name_pt_br": "Peixe-palhaço",
+              "name_hiragana": "くまのみ",
+              "name_kanji": "隈魚"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

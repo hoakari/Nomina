@@ -1,11 +1,11 @@
 <script lang="ts">
-  import speciesData from '$lib/data/species.json';
+  import mammalsData from '$lib/data/species_mammals.json';
   import XIcon from '$lib/components/XIcon.svelte';
   let toastMessage = $state<string | null>(null);
 
   let totalMammalsCount = $derived.by(() => {
     let count = 0;
-    for (const cat of speciesData.categories) {
+    for (const cat of mammalsData.categories) {
       for (const fam of cat.families) {
         count += fam.species.length;
       }
@@ -90,7 +90,7 @@
       is_ready: false
     },
     {
-      id: 'foods',
+      id: 'vegetables',
       name_hiragana: 'やさい・くだもの',
       name_kanji: '農作物',
       icon: '🍎',

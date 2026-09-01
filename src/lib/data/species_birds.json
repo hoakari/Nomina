@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "id": "falconiformes",
+      "name_short": "タカ・ハヤブサ",
+      "name_kids": "タカやハヤブサのなかま",
+      "name_ja": "ハヤブサ目",
+      "name_en": "Falconiformes",
+      "families": [
+        {
+          "id": "falconidae",
+          "name_ja": "ハヤブサ科",
+          "name_en": "Falconidae",
+          "species": [
+            {
+              "id": "peregrine-falcon",
+              "tier": 1,
+              "name_common": "ハヤブサ",
+              "name_standard_ja": "ハヤブサ",
+              "name_en": "Peregrine Falcon",
+              "image": "/images/birds/peregrine-falcon.webp",
+              "description_note": "世界一速いスピードで空から急降下するかっこいい鳥！",
+              "bg_color": "from-sky-100 to-indigo-100",
+              "accent_color": "border-sky-400",
+              "name_zh_cn": "游隼",
+              "name_zh_tw": "遊隼",
+              "name_es_es": "Halcón peregrino",
+              "name_es_mx": "Halcón peregrino",
+              "name_fr_fr": "Faucon pèlerin",
+              "name_id_id": "Alap-alap kawah",
+              "name_pt_pt": "Falcão-peregrino",
+              "name_pt_br": "Falcão-peregrino",
+              "name_hiragana": "はやぶさ",
+              "name_kanji": "隼"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,16 +1,473 @@
 {
   "categories": [
     {
-      "id": "fruits",
-      "name_short": "くだもの",
-      "name_kids": "くだもののなかま",
-      "name_ja": "果実類",
-      "name_en": "Fruits",
+      "id": "solanaceae",
+      "name_short": "ナス",
+      "name_kids": "ナス・トマトのなかま",
+      "name_ja": "ナス科",
+      "name_en": "Solanaceae (Nightshades)",
       "families": [
         {
-          "id": "rosaceae",
-          "name_ja": "バラ科",
-          "name_en": "Rosaceae",
+          "id": "solanum",
+          "name_ja": "ナス属",
+          "name_en": "Solanum",
+          "species": [
+            {
+              "id": "tomato",
+              "tier": 1,
+              "name_common": "トマト",
+              "name_standard_ja": "トマト",
+              "name_en": "Tomato",
+              "image": "/images/vegetables/tomato.webp",
+              "description_note": "赤くて甘酸っぱくてジューシー！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-red-100 to-rose-100",
+              "accent_color": "border-red-400",
+              "name_zh_cn": "西红柿",
+              "name_zh_tw": "番茄",
+              "name_es_es": "Tomate",
+              "name_es_mx": "Jitomate",
+              "name_fr_fr": "Tomate",
+              "name_id_id": "Tomat",
+              "name_pt_pt": "Tomate",
+              "name_pt_br": "Tomate",
+              "name_hiragana": "とまと",
+              "name_kanji": "蕃茄"
+            },
+            {
+              "id": "eggplant",
+              "tier": 1,
+              "name_common": "ナス",
+              "name_standard_ja": "ナス（茄子）",
+              "name_en": "Eggplant",
+              "image": "/images/vegetables/eggplant.webp",
+              "description_note": "ツヤツヤ紫色の夏野菜！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-purple-100 to-indigo-100",
+              "accent_color": "border-purple-400",
+              "name_zh_cn": "茄子",
+              "name_zh_tw": "茄子",
+              "name_es_es": "Berenjena",
+              "name_es_mx": "Berenjena",
+              "name_fr_fr": "Aubergine",
+              "name_id_id": "Terong",
+              "name_pt_pt": "Beringela",
+              "name_pt_br": "Berinjela",
+              "name_hiragana": "なす",
+              "name_kanji": "茄子"
+            },
+            {
+              "id": "potato",
+              "tier": 1,
+              "name_common": "ジャガイモ",
+              "name_standard_ja": "ジャガイモ（馬鈴薯）",
+              "name_en": "Potato",
+              "image": "/images/vegetables/potato.webp",
+              "description_note": "地下にできるホクホクのお芋！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-amber-100 to-yellow-100",
+              "accent_color": "border-amber-400",
+              "name_zh_cn": "马铃薯",
+              "name_zh_tw": "馬鈴薯",
+              "name_es_es": "Patata",
+              "name_es_mx": "Papa",
+              "name_fr_fr": "Pomme de terre",
+              "name_id_id": "Kentang",
+              "name_pt_pt": "Batata",
+              "name_pt_br": "Batata",
+              "name_hiragana": "じゃがいも",
+              "name_kanji": "馬鈴薯"
+            }
+          ]
+        },
+        {
+          "id": "capsicum",
+          "name_ja": "トウガラシ属",
+          "name_en": "Capsicum",
+          "species": [
+            {
+              "id": "bell-pepper",
+              "tier": 1,
+              "name_common": "ピーマン",
+              "name_standard_ja": "ピーマン",
+              "name_en": "Bell Pepper",
+              "image": "/images/vegetables/bell-pepper.webp",
+              "description_note": "ビタミンCたっぷりな緑や赤の野菜！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-emerald-100 to-green-100",
+              "accent_color": "border-emerald-400",
+              "name_zh_cn": "青椒",
+              "name_zh_tw": "青椒",
+              "name_es_es": "Pimiento",
+              "name_es_mx": "Pimiento morrón",
+              "name_fr_fr": "Poivron",
+              "name_id_id": "Paprika",
+              "name_pt_pt": "Pimento",
+              "name_pt_br": "Pimentão",
+              "name_hiragana": "ぴーまん",
+              "name_kanji": "甘唐辛子"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brassicaceae",
+      "name_short": "アブラナ",
+      "name_kids": "キャベツ・大根のなかま",
+      "name_ja": "アブラナ科",
+      "name_en": "Brassicaceae (Mustard family)",
+      "families": [
+        {
+          "id": "brassica",
+          "name_ja": "アブラナ属",
+          "name_en": "Brassica",
+          "species": [
+            {
+              "id": "cabbage",
+              "tier": 1,
+              "name_common": "キャベツ",
+              "name_standard_ja": "タマナ（キャベツ）",
+              "name_en": "Cabbage",
+              "image": "/images/vegetables/cabbage.webp",
+              "description_note": "葉っぱが何重にも丸まった野菜！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-lime-100 to-emerald-100",
+              "accent_color": "border-lime-400",
+              "name_zh_cn": "卷心菜",
+              "name_zh_tw": "高麗菜",
+              "name_es_es": "Col",
+              "name_es_mx": "Col",
+              "name_fr_fr": "Chou",
+              "name_id_id": "Kubis",
+              "name_pt_pt": "Couve",
+              "name_pt_br": "Repolho",
+              "name_hiragana": "きゃべつ",
+              "name_kanji": "甘藍"
+            },
+            {
+              "id": "napa-cabbage",
+              "tier": 1,
+              "name_common": "ハクサイ",
+              "name_standard_ja": "ハクサイ（白菜）",
+              "name_en": "Napa Cabbage",
+              "image": "/images/vegetables/napa-cabbage.webp",
+              "description_note": "冬のお鍋に欠かせないみずみずしい葉野菜！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-yellow-50 to-lime-100",
+              "accent_color": "border-lime-300",
+              "name_zh_cn": "大白菜",
+              "name_zh_tw": "大白菜",
+              "name_es_es": "Col china",
+              "name_es_mx": "Col china",
+              "name_fr_fr": "Chou chinois",
+              "name_id_id": "Sawi putih",
+              "name_pt_pt": "Couve-chinesa",
+              "name_pt_br": "Acelga-chinesa",
+              "name_hiragana": "はくさい",
+              "name_kanji": "白菜"
+            },
+            {
+              "id": "broccoli",
+              "tier": 1,
+              "name_common": "ブロッコリー",
+              "name_standard_ja": "メハナヤサイ（ブロッコリー）",
+              "name_en": "Broccoli",
+              "image": "/images/vegetables/broccoli.webp",
+              "description_note": "小さなつぼみがたくさん集まった緑の野菜！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-emerald-100 to-green-200",
+              "accent_color": "border-emerald-500",
+              "name_zh_cn": "西兰花",
+              "name_zh_tw": "青花菜",
+              "name_es_es": "Brócoli",
+              "name_es_mx": "Brócoli",
+              "name_fr_fr": "Brocoli",
+              "name_id_id": "Brokoli",
+              "name_pt_pt": "Brócolos",
+              "name_pt_br": "Brócolis",
+              "name_hiragana": "ぶろっこりー",
+              "name_kanji": "芽花椰菜"
+            }
+          ]
+        },
+        {
+          "id": "raphanus",
+          "name_ja": "ダイコン属",
+          "name_en": "Raphanus",
+          "species": [
+            {
+              "id": "daikon",
+              "tier": 1,
+              "name_common": "ダイコン",
+              "name_standard_ja": "ダイコン（大根）",
+              "name_en": "Daikon Radish",
+              "image": "/images/vegetables/daikon.webp",
+              "description_note": "白くて長くてみずみずしい根菜！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-slate-50 to-zinc-100",
+              "accent_color": "border-slate-300",
+              "name_zh_cn": "白萝卜",
+              "name_zh_tw": "白蘿蔔",
+              "name_es_es": "Rábano japonés",
+              "name_es_mx": "Rábano japonés",
+              "name_fr_fr": "Radis blanc",
+              "name_id_id": "Lobak putih",
+              "name_pt_pt": "Rábano japonês",
+              "name_pt_br": "Nabo japonês",
+              "name_hiragana": "だいこん",
+              "name_kanji": "大根"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cucurbitaceae",
+      "name_short": "ウリ",
+      "name_kids": "キュウリ・スイカのなかま",
+      "name_ja": "ウリ科",
+      "name_en": "Cucurbitaceae (Gourd family)",
+      "families": [
+        {
+          "id": "cucumis",
+          "name_ja": "キュウリ属",
+          "name_en": "Cucumis",
+          "species": [
+            {
+              "id": "cucumber",
+              "tier": 1,
+              "name_common": "キュウリ",
+              "name_standard_ja": "キュウリ（胡瓜）",
+              "name_en": "Cucumber",
+              "image": "/images/vegetables/cucumber.webp",
+              "description_note": "水分たっぷりでシャキシャキ美味しい夏野菜！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-emerald-100 to-teal-100",
+              "accent_color": "border-emerald-400",
+              "name_zh_cn": "黄瓜",
+              "name_zh_tw": "小黃瓜",
+              "name_es_es": "Pepino",
+              "name_es_mx": "Pepino",
+              "name_fr_fr": "Concombre",
+              "name_id_id": "Timun",
+              "name_pt_pt": "Pepino",
+              "name_pt_br": "Pepino",
+              "name_hiragana": "きゅうり",
+              "name_kanji": "胡瓜"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amaryllidaceae",
+      "name_short": "ヒガンバナ・ネギ",
+      "name_kids": "タマネギ・ネギのなかま",
+      "name_ja": "ヒガンバナ科（ネギ科）",
+      "name_en": "Amaryllidaceae (Alliums)",
+      "families": [
+        {
+          "id": "allium",
+          "name_ja": "ネギ属",
+          "name_en": "Allium",
+          "species": [
+            {
+              "id": "onion",
+              "tier": 1,
+              "name_common": "タマネギ",
+              "name_standard_ja": "タマネギ（玉葱）",
+              "name_en": "Onion",
+              "image": "/images/vegetables/onion.webp",
+              "description_note": "熱を通すとあまくて美味しい万能野菜！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-amber-100 to-orange-100",
+              "accent_color": "border-amber-400",
+              "name_zh_cn": "洋葱",
+              "name_zh_tw": "洋蔥",
+              "name_es_es": "Cebolla",
+              "name_es_mx": "Cebolla",
+              "name_fr_fr": "Oignon",
+              "name_id_id": "Bawang bombay",
+              "name_pt_pt": "Cebola",
+              "name_pt_br": "Cebola",
+              "name_hiragana": "たまねぎ",
+              "name_kanji": "玉葱"
+            },
+            {
+              "id": "scallion",
+              "tier": 1,
+              "name_common": "ネギ",
+              "name_standard_ja": "ネギ（葱）",
+              "name_en": "Green Onion",
+              "image": "/images/vegetables/scallion.webp",
+              "description_note": "料理の薬味や鍋で大活躍する細長い野菜！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-emerald-50 to-green-100",
+              "accent_color": "border-green-400",
+              "name_zh_cn": "葱",
+              "name_zh_tw": "蔥",
+              "name_es_es": "Cebolleta",
+              "name_es_mx": "Cebollín",
+              "name_fr_fr": "Ciboule",
+              "name_id_id": "Daun bawang",
+              "name_pt_pt": "Cebolinho",
+              "name_pt_br": "Cebolinha",
+              "name_hiragana": "ねぎ",
+              "name_kanji": "葱"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apiaceae",
+      "name_short": "セリ",
+      "name_kids": "ニンジンのなかま",
+      "name_ja": "セリ科",
+      "name_en": "Apiaceae (Carrot family)",
+      "families": [
+        {
+          "id": "daucus",
+          "name_ja": "ニンジン属",
+          "name_en": "Daucus",
+          "species": [
+            {
+              "id": "carrot",
+              "tier": 1,
+              "name_common": "ニンジン",
+              "name_standard_ja": "ニンジン（人参）",
+              "name_en": "Carrot",
+              "image": "/images/vegetables/carrot.webp",
+              "description_note": "オレンジ色でカロテンたっぷりな根菜！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-orange-100 to-amber-200",
+              "accent_color": "border-orange-400",
+              "name_zh_cn": "胡萝卜",
+              "name_zh_tw": "胡蘿蔔",
+              "name_es_es": "Zanahoria",
+              "name_es_mx": "Zanahoria",
+              "name_fr_fr": "Carotte",
+              "name_id_id": "Wortel",
+              "name_pt_pt": "Cenoura",
+              "name_pt_br": "Cenoura",
+              "name_hiragana": "にんじん",
+              "name_kanji": "人参"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amaranthaceae",
+      "name_short": "ヒユ",
+      "name_kids": "ホウレンソウのなかま",
+      "name_ja": "ヒユ科（旧アカザ科）",
+      "name_en": "Amaranthaceae",
+      "families": [
+        {
+          "id": "spinacia",
+          "name_ja": "ホウレンソウ属",
+          "name_en": "Spinacia",
+          "species": [
+            {
+              "id": "spinach",
+              "tier": 1,
+              "name_common": "ホウレンソウ",
+              "name_standard_ja": "ホウレンソウ（菠薐草）",
+              "name_en": "Spinach",
+              "image": "/images/vegetables/spinach.webp",
+              "description_note": "鉄分やビタミンが豊富なおひたしの王様！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-green-100 to-emerald-200",
+              "accent_color": "border-green-500",
+              "name_zh_cn": "菠菜",
+              "name_zh_tw": "菠菜",
+              "name_es_es": "Espinaca",
+              "name_es_mx": "Espinaca",
+              "name_fr_fr": "Épinard",
+              "name_id_id": "Bayam",
+              "name_pt_pt": "Espinafre",
+              "name_pt_br": "Espinafre",
+              "name_hiragana": "ほうれんそう",
+              "name_kanji": "菠薐草"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asteraceae",
+      "name_short": "キク",
+      "name_kids": "レタスのなかま",
+      "name_ja": "キク科",
+      "name_en": "Asteraceae (Daisy family)",
+      "families": [
+        {
+          "id": "lactuca",
+          "name_ja": "アキノノゲシ属",
+          "name_en": "Lactuca",
+          "species": [
+            {
+              "id": "lettuce",
+              "tier": 1,
+              "name_common": "レタス",
+              "name_standard_ja": "チシャ（レタス）",
+              "name_en": "Lettuce",
+              "image": "/images/vegetables/lettuce.webp",
+              "description_note": "サラダでおなじみのシャキシャキした葉野菜！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-lime-50 to-emerald-100",
+              "accent_color": "border-lime-300",
+              "name_zh_cn": "生菜",
+              "name_zh_tw": "萵苣",
+              "name_es_es": "Lechuga",
+              "name_es_mx": "Lechuga",
+              "name_fr_fr": "Laitue",
+              "name_id_id": "Selada",
+              "name_pt_pt": "Alface",
+              "name_pt_br": "Alface",
+              "name_hiragana": "れたす",
+              "name_kanji": "萵苣"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "araceae",
+      "name_short": "サトイモ",
+      "name_kids": "サトイモのなかま",
+      "name_ja": "サトイモ科",
+      "name_en": "Araceae (Arum family)",
+      "families": [
+        {
+          "id": "colocasia",
+          "name_ja": "サトイモ属",
+          "name_en": "Colocasia",
+          "species": [
+            {
+              "id": "taro",
+              "tier": 1,
+              "name_common": "サトイモ",
+              "name_standard_ja": "サトイモ（里芋）",
+              "name_en": "Taro",
+              "image": "/images/vegetables/taro.webp",
+              "description_note": "ねっとりホクホクした煮物にぴったりの芋！国の「指定野菜」の一つだよ！",
+              "bg_color": "from-stone-100 to-amber-100",
+              "accent_color": "border-stone-400",
+              "name_zh_cn": "芋头",
+              "name_zh_tw": "芋頭",
+              "name_es_es": "Taro",
+              "name_es_mx": "Taro",
+              "name_fr_fr": "Taro",
+              "name_id_id": "Talas",
+              "name_pt_pt": "Taro",
+              "name_pt_br": "Taioba",
+              "name_hiragana": "さといも",
+              "name_kanji": "里芋"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rosaceae",
+      "name_short": "バラ",
+      "name_kids": "リンゴ・イチゴのなかま",
+      "name_ja": "バラ科",
+      "name_en": "Rosaceae (Rose family)",
+      "families": [
+        {
+          "id": "malus",
+          "name_ja": "リンゴ属",
+          "name_en": "Malus",
           "species": [
             {
               "id": "apple",
@@ -32,6 +489,164 @@
               "name_pt_br": "Maçã",
               "name_hiragana": "りんご",
               "name_kanji": "林檎"
+            }
+          ]
+        },
+        {
+          "id": "fragaria",
+          "name_ja": "イチゴ属",
+          "name_en": "Fragaria",
+          "species": [
+            {
+              "id": "strawberry",
+              "tier": 1,
+              "name_common": "イチゴ",
+              "name_standard_ja": "イチゴ（苺）",
+              "name_en": "Strawberry",
+              "image": "/images/vegetables/strawberry.webp",
+              "description_note": "甘酸っぱくて大人気！周りのつぶつぶが本当の果実なんだよ！",
+              "bg_color": "from-pink-100 to-rose-100",
+              "accent_color": "border-pink-400",
+              "name_zh_cn": "草莓",
+              "name_zh_tw": "草莓",
+              "name_es_es": "Fresa",
+              "name_es_mx": "Fresa",
+              "name_fr_fr": "Fraise",
+              "name_id_id": "Stroberi",
+              "name_pt_pt": "Morango",
+              "name_pt_br": "Morango",
+              "name_hiragana": "いちご",
+              "name_kanji": "苺"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saprotrophic_fungi",
+      "name_short": "腐朽菌",
+      "name_kids": "木をたべるキノコ",
+      "name_ja": "木材腐朽菌（栽培キノコ）",
+      "name_en": "Wood-decay Fungi (Cultivated Mushrooms)",
+      "families": [
+        {
+          "id": "omphalotaceae",
+          "name_ja": "ホウライタケ科",
+          "name_en": "Omphalotaceae",
+          "species": [
+            {
+              "id": "shiitake",
+              "tier": 1,
+              "name_common": "シイタケ",
+              "name_standard_ja": "シイタケ（椎茸）",
+              "name_en": "Shiitake Mushroom",
+              "image": "/images/vegetables/shiitake.webp",
+              "description_note": "木やおがくずを栄養にして育つ、うまみたっぷりのキノコ！",
+              "bg_color": "from-amber-100 to-stone-200",
+              "accent_color": "border-amber-500",
+              "name_zh_cn": "香菇",
+              "name_zh_tw": "香菇",
+              "name_es_es": "Shiitake",
+              "name_es_mx": "Seta shiitake",
+              "name_fr_fr": "Shiitaké",
+              "name_id_id": "Jamur shiitake",
+              "name_pt_pt": "Cogumelo shiitake",
+              "name_pt_br": "Cogumelo shiitake",
+              "name_hiragana": "しいたけ",
+              "name_kanji": "椎茸"
+            }
+          ]
+        },
+        {
+          "id": "pleurotaceae",
+          "name_ja": "ヒラタケ科",
+          "name_en": "Pleurotaceae",
+          "species": [
+            {
+              "id": "king-oyster-mushroom",
+              "tier": 1,
+              "name_common": "エリンギ",
+              "name_standard_ja": "エリンギ",
+              "name_en": "King Oyster Mushroom",
+              "image": "/images/vegetables/king-oyster-mushroom.webp",
+              "description_note": "菌床で栽培される、コリコリ食感が美味しい人気のキノコ！",
+              "bg_color": "from-stone-100 to-amber-100",
+              "accent_color": "border-stone-400",
+              "name_zh_cn": "杏鲍菇",
+              "name_zh_tw": "杏鮑菇",
+              "name_es_es": "Seta de cardo",
+              "name_es_mx": "Hongo rey ostra",
+              "name_fr_fr": "Pleurote du panicaut",
+              "name_id_id": "Jamur tiram raja",
+              "name_pt_pt": "Pleurotus eryngii",
+              "name_pt_br": "Cogumelo eryngii",
+              "name_hiragana": "えりんぎ",
+              "name_kanji": "エリンギ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mycorrhizal_fungi",
+      "name_short": "菌根菌",
+      "name_kids": "木となかよしのキノコ",
+      "name_ja": "菌根菌（共生キノコ）",
+      "name_en": "Mycorrhizal Fungi (Symbiotic Mushrooms)",
+      "families": [
+        {
+          "id": "tricholomataceae",
+          "name_ja": "キシメジ科",
+          "name_en": "Tricholomataceae",
+          "species": [
+            {
+              "id": "matsutake",
+              "tier": 1,
+              "name_common": "マツタケ",
+              "name_standard_ja": "マツタケ（松茸）",
+              "name_en": "Matsutake Mushroom",
+              "image": "/images/vegetables/matsutake.webp",
+              "description_note": "生きたアカマツの根と共生して育つ、良い香りの高級キノコ！",
+              "bg_color": "from-yellow-100 to-amber-100",
+              "accent_color": "border-amber-600",
+              "name_zh_cn": "松茸",
+              "name_zh_tw": "松茸",
+              "name_es_es": "Matsutake",
+              "name_es_mx": "Hongo matsutake",
+              "name_fr_fr": "Matsutaké",
+              "name_id_id": "Jamur matsutake",
+              "name_pt_pt": "Cogumelo matsutake",
+              "name_pt_br": "Cogumelo matsutake",
+              "name_hiragana": "まつたけ",
+              "name_kanji": "松茸"
+            }
+          ]
+        },
+        {
+          "id": "tuberaceae",
+          "name_ja": "セイヨウショウロ科",
+          "name_en": "Tuberaceae",
+          "species": [
+            {
+              "id": "black-truffle",
+              "tier": 1,
+              "name_common": "トリュフ",
+              "name_standard_ja": "クロトリュフ（黒西洋松露）",
+              "name_en": "Black Truffle",
+              "image": "/images/vegetables/black-truffle.webp",
+              "description_note": "樹木の根と共生して土の中で育つ、世界三大珍味の最高級キノコ！",
+              "bg_color": "from-zinc-200 to-stone-300",
+              "accent_color": "border-zinc-500",
+              "name_zh_cn": "黑松露",
+              "name_zh_tw": "黑松露",
+              "name_es_es": "Trufa negra",
+              "name_es_mx": "Trufa negra",
+              "name_fr_fr": "Truffe noire",
+              "name_id_id": "Truffle hitam",
+              "name_pt_pt": "Trufa negra",
+              "name_pt_br": "Trufa negra",
+              "name_hiragana": "とりゅふ",
+              "name_kanji": "西洋松露"
             }
           ]
         }

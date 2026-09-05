@@ -1,37 +1,5 @@
-# 🎨 Nomina! Tier 2 未作成動物画像 プロンプト＆保存ファイル名一覧（残り20種）
+# 🎨 Nomina! Tier 2 未作成動物画像 プロンプト＆保存ファイル名一覧（残り16種）
 > 保存先: `static/images/mammals/` またはプロジェクトルート (推奨フォーマット: PNG / 最大800x800以下に自動軽量化されます)
-
-### 65. ウォンバット（標準和名: ヒメウォンバット / Wombat）
-* **保存ファイル名**: `wombat.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic wombat (ヒメウォンバット) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 67. クスクス（標準和名: ブチクスクス / Spotted Cuscus）
-* **保存ファイル名**: `spotted-cuscus.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic spotted cuscus (ブチクスクス) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 68. モウコノウマ（標準和名: モウコノウマ / Przewalski's Horse）
-* **保存ファイル名**: `przewalskis-horse.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic przewalski's horse (モウコノウマ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
-
-### 70. ユキウサギ（標準和名: エゾユキウサギ / Mountain Hare）
-* **保存ファイル名**: `mountain-hare.png`
-
-```text
-A charming, high-resolution detailed digital illustration of a cute realistic mountain hare (エゾユキウサギ) standing gracefully in its natural environment, warm soft sunlight, realistic and warm children's encyclopedia illustration style, NOT cartoonish, NO text, NO letters, NO signs, NO watermark, square aspect ratio, --ar 1:1
-```
----
 
 ### 72. ナキウサギ（標準和名: エゾナキウサギ / Northern Pika）
 * **保存ファイル名**: `northern-pika.png`
